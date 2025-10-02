@@ -36,7 +36,7 @@ var links = []string{
 }
 
 var dirLinks = []string{
-    "https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix",
+	"https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix",
 	"https://raw.githubusercontent.com/darkvpnapp/CloudflarePlus/refs/heads/main/proxy",
 	"https://raw.githubusercontent.com/arshiacomplus/robinhood-v1-v2-v3ray/refs/heads/main/conf.txt",
 	"https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/shadowsocks.txt",
