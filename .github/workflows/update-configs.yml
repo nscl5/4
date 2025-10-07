@@ -1,7 +1,7 @@
 name: Update Configs
 permissions: write-all
 on:
-  push:
+#  push:
 #    branches:
 #      - main
   schedule:
