@@ -1,0 +1,15 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+v2go-scanner-*
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
