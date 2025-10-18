@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://44aa0da4-7ea3-4ad8-baeb-c63ff1311e66@91.98.22.20:22933?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Channel : @Mrsoulb 🏴🏳
 vless://44aa0da4-7ea3-4ad8-baeb-c63ff1311e66@91.98.22.20:22933?encryption=none&security=none&type=tcp&headerType=http&host=speedtest.net#@Daily_Configs
 vless://44a6fabd-afbc-4150-a696-58eac865c578@91.99.92.127:8880?security=reality&encryption=none&pbk=pNtsKb6dyTS0BnkfswffcWGi-oGDxJVPWZLkeDyLGwg&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&spx=/cdn/image.jpg&type=tcp&sni=cp.cloudflare.com&sid=66d4e033f43b27#🇩🇪 | @External_Net
 vless://44a6fabd-afbc-4150-a696-58eac865c578@91.99.92.127:8880?security=reality&encryption=none&pbk=pNtsKb6dyTS0BnkfswffcWGi-oGDxJVPWZLkeDyLGwg&headerType=&fp=chrome&type=tcp&sni=cp.cloudflare.com&sid=66d4e033f43b27#JOIN ➪@FILTERK0SH【🇩🇪】
@@ -501,4 +502,3 @@ vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path=V2rayBaaz&s
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path==zani.yaemiko.ggff.net/?Join---v2ray_configs_pools---Join---v2ray_configs_pools?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈❤️‍🔥🧑‍💻
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path==zani.yaemiko.ggff.net/?Join---v2ray_configs_pools---Join---v2ray_configs_pools---Join---v2ray_configs_pools---Join---v2ray_configs_pools?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools 🧡
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path==zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path==zani.yaemiko.ggff.net/?Join---@v2ray_configs_pools---Join---@v2ray_configs_pools?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
