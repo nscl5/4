@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://ddd218af-f7e4-42ab-8f7e-e9eed53bd7d6@hetzner1.legacystore.top:2053?security=reality&encryption=none&pbk=BYvlcW26K2NRpxeqc1bnCU00ksoLiSNxK64lZ7DZLBw&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=f36a8eb73bf631fc#✅ @v2ray_configs_pools (تلگرام)
 vless://ddd218af-f7e4-42ab-8f7e-e9eed53bd7d6@hetzner1.legacystore.top:2053?security=reality&encryption=none&pbk=BYvlcW26K2NRpxeqc1bnCU00ksoLiSNxK64lZ7DZLBw&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=f36a8eb73bf631fc#telegram 🎪 v2ray_configs_pools
 vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=/&security=none&encryption=none&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=/&security=none&encryption=none&type=ws#🇳🇱@FreakConfig
@@ -502,3 +501,4 @@ vless://c4ac8a93-2c54-462d-962c-46aa4332f5e8@141.227.160.19:443?mode=gun&securit
 vless://c4ac8a93-2c54-462d-962c-46aa4332f5e8@141.227.160.19:443?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@TEHRANARGO
 vless://c4587bda-09fc-4b3b-8221-4450fccc33d1@malaysia.com:443?path=/?ed=2560&security=tls&encryption=none&host=yx.yushan.dpdns.org&fp=chrome&type=ws&sni=yx.yushan.dpdns.org#Channel-@vmesskhodam
 vless://c4587bda-09fc-4b3b-8221-4450fccc33d1@malaysia.com:443?path=/?ed=2560&security=tls&encryption=none&host=yx.yushan.dpdns.org&fp=chrome&type=ws&sni=yx.yushan.dpdns.org#@vmesskhodam
+vless://c4587bda-09fc-4b3b-8221-4450fccc33d1@malaysia.com:443?path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=yx.yushan.dpdns.org&fp=chrome&type=ws&sni=yx.yushan.dpdns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

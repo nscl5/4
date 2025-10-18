@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.12:443?path=/?ed=2048@v2ray_configs_pools&security=tls&encryption=none&type=ws#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?path=/&security=tls&encryption=none&type=ws#🇩🇪𝐣𝐨𝐢𝐍-@𝐅𝐑𝐄𝐄𝐕𝟐𝐑𝐍𝐆
 vless://7842e196-3660-4786-bfc8-ec4c3f59bb75@157.230.111.95:443?mode=auto&path=/58s4&security=reality&encryption=none&pbk=u6lurjoPxT7Qw6yQrSqsQSh9EVIltoDZgVusMTW6V14&fp=chrome&spx=/&type=xhttp&sni=store.steampowered.com#@Selinc
 vless://77f806f0-8f87-4c01-8e07-c88d52092e92@cs2.film2serial.cloud:443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&serviceName=6k9LhPdmkFyy7eL4dZlhBC&sni=cs2.film2serial.cloud#🇩🇪 Germany / gRPC / HELIX
@@ -502,3 +501,4 @@ vless://5c9b6087-f955-4506-9c1d-67a5aae44bc9@NL-RAIV2MMR-TELEGRAM-JOIN.up.railwa
 vless://5c929ec5-5b1e-447a-950c-354c5d1ba1de@informed-location.seotoolsforyou.co.uk:80?path=/??ed/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net/&security=none&encryption=none&type=ws#🇩🇪 | @External_Net
 vless://5c929ec5-5b1e-447a-950c-354c5d1ba1de@informed-location.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://5c645f38-87ac-4bbf-8594-aef06d82019d@www.speedtest.net:8443?path=/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=www.speedtest24.ir&fp=chrome&type=ws&sni=www.speedtest24.ir#🇩🇪@Alfred_Config
+vless://5c3afc1e-4efc-43fd-a4a6-07a14998efe0@fear.anabelrz.xyz:30634?security=reality&encryption=none&pbk=jh2QjXeD_8SQGE0y5JEm8KqJKz0lZed79F5ugrdynCg&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=844c6e33#@HiByeVPNNBot 👈🌿💎

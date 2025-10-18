@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937918607957654.paris-drc-tusacaf.info:8880?mode=gun&security=none&encryption=none&type=grpc#IR-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937544595891094.madrid-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#https://t.me/Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937544595891094.madrid-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#MCI-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638937544595891094.madrid-prx-dnraacl.info:8880?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
@@ -502,3 +501,4 @@ vless://de4a2fba-d7f9-4688-bd71-4944cae5ee40@134.199.203.248:2053?type=xhttp&pat
 vless://de332b56-8cae-4cf7-92a1-19e9f5647ce0@141.227.172.235:57249?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#All--@IRAN_V2RAY1
 vless://de07386a-4a4f-466a-be58-44b37b4e1a98@172.66.40.99:443?path=/admin&security=tls&encryption=none&host=2free2.aparatir.xyz&type=ws&sni=2free2.aparatir.xyz#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://dddebcc3-6890-4c81-8efd-6322a723e45b@87.120.216.14:10726?security=reality&encryption=none&pbk=FZO4_5WCCIZCWdvaGFNYdfvS0E2_-8T5HjHYSq0Rygo&headerType=none&fp=chrome&spx=/&type=tcp&sni=amazon.com&sid=7b#@Daily_Configs
+vless://ddd218af-f7e4-42ab-8f7e-e9eed53bd7d6@hetzner1.legacystore.top:2053?security=reality&encryption=none&pbk=BYvlcW26K2NRpxeqc1bnCU00ksoLiSNxK64lZ7DZLBw&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=f36a8eb73bf631fc#✅ @v2ray_configs_pools (تلگرام)

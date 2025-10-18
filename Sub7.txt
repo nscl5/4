@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://a71937d5-5b83-49d2-99a9-eee2c7ddab73@91.99.179.41:42671?type=tcp&encryption=none&security=none#📢+سرورای+بیشتر+هر+روز+تو+کانال++👉+@Fast78_Channel
 vless://a71937d5-5b83-49d2-99a9-eee2c7ddab73@91.99.179.41:42671?type=tcp&encryption=none&security=none#📢+سرورای+بیشتر+هر+رو
 vless://a71937d5-5b83-49d2-99a9-eee2c7ddab73@91.99.179.41:42671?security=&encryption=none&headerType=&type=tcp#📢+سرورای+بیشتر+هر+روز+تو+کانال++👉+@Fast78_Channel
 vless://a71937d5-5b83-49d2-99a9-eee2c7ddab73@91.99.179.41:42671?security=&encryption=none&headerType=&type=tcp#📢+سرورای+بیشتر+هر+ر
@@ -502,3 +501,4 @@ vless://9368b093-d790-4096-9d8a-1265e82f9e2f@172.66.47.15:443?encryption=none&se
 vless://936698ea-58bf-4b19-8cd5-ffd73cc44c91@csgo-news.film2serial.cloud:443?flow=&type=grpc&mode=gun&serviceName=6k9LhPdmkFyy7eL4dZlhBC&security=tls&fp=chrome&sni=csgo-news.film2serial.cloud&alpn=h2&allowInsecure=false#Helix-Free | 300GB | @Helix_Servers
 vless://936698ea-58bf-4b19-8cd5-ffd73cc44c91@csgo-news.film2serial.cloud:443?flow=&type=grpc&mode=gun&serviceName=6k9LhPdmkFyy7eL4dZlhBC&security=tls&fp=chrome&sni=csgo-news.film2serial.cloud&alpn=h2&allowInsecure=false#Helix
 vless://935c990a-9bcc-484b-86a2-2a402f9ad1d4@grumpy-building.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://935c990a-9bcc-484b-86a2-2a402f9ad1d4@grumpy-building.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=/#@AYMH19 کانال تلگرام
