@@ -21,30 +21,40 @@ const (
 )
 
 var fixedText = `#profile-title: base64:RnJlZWRvbSB0byBEcmVhbQ==
-#profile-update-interval: 6
+#profile-update-interval: 8
 #support-url: https://github.com/NiREvil/vless
 #profile-web-page-url: https://github.com/NiREvil/vless
+
 `
 
 var protocols = []string{"vmess", "vless", "trojan", "ss", "ssr", "hy2", "tuic", "warp://"}
 
 var links = []string{
+	"https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/10.txt",
+  "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
+	"https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt",
 	"https://v2.alicivil.workers.dev",
+	"https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_en",
 	"https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/ss.txt",
 	"https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/submerge/US.txt",
 	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
 }
 
 var dirLinks = []string{
-	"https://raw.githubusercontent.com/DiDiten/HiN-VPN/main/subscription/normal/mix",
+	"https://raw.githubusercontent.com/Farid-Karimi/Config-Collector/refs/heads/main/mixed_iran.txt",
+	"https://raw.githubusercontent.com/LalatinaHub/Mineral/refs/heads/master/result/nodes",
+	"https://raw.githubusercontent.com/Firmfox/Proxify/refs/heads/main/v2ray_configs/mixed/subscription-1.txt",
+	"https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/10.txt",
+	"https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt",
+	"https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
+	"https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt",
+	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/ss.txt",
 	"https://raw.githubusercontent.com/darkvpnapp/CloudflarePlus/refs/heads/main/proxy",
-	"https://raw.githubusercontent.com/arshiacomplus/robinhood-v1-v2-v3ray/refs/heads/main/conf.txt",
 	"https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/shadowsocks.txt",
 	"https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/custom/mahsa.txt",
 	"https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/output/US.txt",
 	"https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/output/US.txt",
-	"https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
-	"https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt",
+  "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
 	"https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
 }
@@ -330,6 +340,7 @@ func splitIntoFiles(base64Folder string, configs []string) error {
 #profile-update-interval: 6
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
+
 `, encodedTitle)
 
 		// Calculate slice bounds (using reversed configs)
