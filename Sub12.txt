@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80?mode=gun&security=none&encryption=none&type=grpc#-12
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#@V2rayNGVPN+<=+کانفیگ+رایگان
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80?mode=gun&security=&encryption=none&type=grpc#📢+سرورای+بیشتر+هر+روز+تو+کانال++👉+@Fast78_Channel
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80?mode=gun&security=&encryption=none&type=grpc#🇺🇲@FreakConfig
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80?flow=&type=grpc&mode=gun&serviceName=&security=none#@meli_proxyy
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.20:80/?type=grpc&encryption=none&flow=#t.me/entryNET/config=1846412108243050
@@ -502,3 +499,6 @@ vless://2d0c13f6-5b99-4ed8-9f88-3a6972f85e9f@141.227.168.52:33288?mode=gun&secur
 vless://2d0c13f6-5b99-4ed8-9f88-3a6972f85e9f@141.227.168.52:33288?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@TEHRANARGO
 vless://2cf5523e-c4e2-4e97-be1f-b9b7d356c140@172.67.188.18:80?path=/aioproxybot/8.215.59.6-443&security=none&encryption=none&host=aio.loophole.Biz.iD&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://2cf5523e-c4e2-4e97-be1f-b9b7d356c140@172.67.188.18:80?path=/aioproxybot/8.215.59.6-443&security=none&encryption=none&host=aio.loophole.Biz.iD&type=ws#All-@IRAN_V2RAY1
+vless://2cf5523e-c4e2-4e97-be1f-b9b7d356c140@172.67.188.18:80?path=/aioproxybot/8.215.59.6-443&security=none&encryption=none&host=aio.loophole.Biz.iD&type=ws#
+vless://2cf21f7f-9f29-44b0-893d-08a6e2e09704@109.123.229.205:443?security=reality&encryption=none&pbk=ci7VwV3lQURNI2oRR3GDdkBbHXh0zbSeqciL7tiKO10&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=dash.cloudflare.com#@meli_proxyy
+vless://2cf21f7f-9f29-44b0-893d-08a6e2e09704@109.123.229.205:443?security=reality&encryption=none&pbk=ci7VwV3lQURNI2oRR3GDdkBbHXh0zbSeqciL7tiKO10&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=dash.cloudflare.com#@V2rayNGVPN+<=+کانفیگ+رایگان
