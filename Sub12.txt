@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://401374e6-df77-41fb-f638-dad8184f175b@172.67.68.36:443/?type=grpc&encryption=none&flow=&security=tls&sni=pqh23v2.hiddendom.shop#telegram 🎯 v2ray_configs_pools
-vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.203.139:443?mode=gun&security=tls&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#All-@IRAN_V2RAY1
-vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.203.139:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#All-@IRAN_V2RAY1
-vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.203.139:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#All--@IRAN_V2RAY1
 vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.203.139:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh23v5.hiddendom.shop#@IRAN_V2RAY1--All
 vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.202.193:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh36v4.hiddendom.shop#All-@IRAN_V2RAY1
 vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.202.193:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh36v4.hiddendom.shop#All--@IRAN_V2RAY1
@@ -502,3 +498,7 @@ vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws?ed
 vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&type=ws#@HiByeVPNN👈⚡❤️‍🔥
 vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws&security=tls&encryption=none&type=ws#🇹🇷 @FREEV2RNG
 vless://2b1ac6e5-d70b-49f9-c0c7-f9d27454505e@tgju.org:80?type=ws&encryption=none&path=/olem/ws?ed=1024&host=de.channel.digicyber.click&security=none#@melov2ray🇩🇪
+vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all85-vip.f-sub.com:2434?security=reality&encryption=none&pbk=yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA&headerType=none&fp=chrome&type=tcp&sni=www.chess.com#@Hddify
+vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all85-vip.f-sub.com:1517?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@MTMVPN 22
+vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all71-vip.f-sub.com:4928?security=none&encryption=none&host=varzesh3.com/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@meli_proxyy
+vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all71-vip.f-sub.com:4928?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@meli_proxyy

@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@46.62.160.173:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌺 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@209.97.184.36:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram ⚡️ v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@188.245.185.225:443?security=reality&encryption=none&type=xhttp#telegram 🌟 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@188.245.185.225:443?security=reality&encryption=none&type=xhttp#telegram 🌈 v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@173.208.51.18:443?security=reality&encryption=none&type=xhttp#telegram 🚀 v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@173.208.51.18:443?security=reality&encryption=none&type=xhttp#telegram ⚡️ v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@157.180.88.25:443?security=reality&encryption=none&type=xhttp#telegram 🌈 v2ray_configs_pools
@@ -502,3 +498,7 @@ vless://800ac47d-a3ef-4beb-960c-3d8604d97692@172.66.40.99:443?path=/containers/d
 vless://800ac47d-a3ef-4beb-960c-3d8604d97692@172.66.40.99:443?path=/containers/de&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=aq2.aqaabas.uk&fp=chrome&type=ws&sni=aq2.aqaabas.uk@V2rayNGVPN <= کانفیگ رایگان
 vless://800ac47d-a3ef-4beb-960c-3d8604d97692@172.66.40.99:443?path=/containers/de&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=aq2.aqaabas.uk&fp=chrome&type=ws&sni=aq2.aqaabas.uk#@V2rayNGVPN <= کانفیگ رایگان
 vless://80074d6b-23c5-465e-a348-dcf0378fd1f2@fin01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#🇩🇪@AZARBAYJAB1
+vless://80074d6b-23c5-465e-a348-dcf0378fd1f2@fin01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#@vpnserverrr
+vless://80074d6b-23c5-465e-a348-dcf0378fd1f2@fin01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#@sunflowerplato🌻
+vless://80032848-69d9-4faa-8162-5a6b46b5828f@194.4.49.222:443?path=/cnqazsws?ed=2048HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot&security=tls&encryption=none&type=ws#@HiByeVPNNBot 👈🌿💎
+vless://80032848-69d9-4faa-8162-5a6b46b5828f@194.4.49.222:443?path=/cnqazsws&security=tls&encryption=none&fp=chrome&type=ws#@HiByeVPNN👈⚡❤️‍🔥
