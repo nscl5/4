@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://e71e9e5c-f27f-4b20-fbbe-acb7b6a62d23@numberland.ir:2052?flow=&type=ws&host=vmessorg.joinbede.ir&path=/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480&security=none#@vmessorg
-vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@fin-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31@V2rayNGVPN <= کانفیگ رایگان
-vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@fin-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#limo
-vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@fin-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#@meli_proxyy
-vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@fin-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#@V2rayNGVPN <= کانفیگ رایگان
-vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@fin-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31
 vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@aut-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31limo
 vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@aut-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31@V2rayNGVPN <= کانفیگ رایگان
 vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@aut-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#limo
@@ -502,3 +496,9 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-d
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-dnraacr.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-dnraacr.info:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#@V2rayNGVPN <= کانفیگ رایگان
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-dnraacr.info:8880?mode=gun&security=&encryption=none&type=grpc#🇫🇷@FreakConfig
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-dnraacr.info:8880?mode=gun&security=&encryption=none&type=grpc#🇨🇵@FreakConfig
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949521660379297.copenhagen-prx-dnraacr.info:8880?mode=gun&security=&encryption=none&authority=/?&type=grpc#🇫🇷@FreakConfig
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638949279865777517.brussels-prx-dnraacr.info:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510378508794.mashhad-drc-tusacaf.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510129819770.dezful-drc-tusaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510129819770.dezful-drc-tusaas.info:8880?mode=gun&security=&encryption=none&type=grpc#🇬🇧@FreakConfig

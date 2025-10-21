@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://88e35bbb-8cd2-c309-a1e9-551fb1c17a7f@dir.lightnright.com:8883?security=tls&alpn=http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=jnir-x.pichondan.com#Channel : @Mrsoulb 🏴🏳
-vless://88da5abf-08f2-44fe-951e-358e96bc86ba@SVNTEAM.MiSVN.iR:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=tgju.org&fp=chrome&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&sid=e54b5ad736ae4c38#SVNTEAN🇩🇪TCP-45
-vless://88a9a235-d071-4eda-9f47-b1e85019cfb1@172.67.168.193:443?path=/Free-VPN-CF-Geo-Project/CZ1&security=tls&encryption=none&host=joss.gpj2.dpdns.org&fp=chrome&type=ws&sni=joss.gpj2.dpdns.org#@meli_proxyy
-vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&headerType=none&type=tcp#🇮🇷 @EXPRESSVPN_420
-vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&headerType=none&type=tcp#@Selinc
 vless://888a20e2-fc3f-4f52-973c-36a6386225b8@189.44.242.222:29500?security=none&encryption=none&headerType=none&type=tcp#wi-fi-@iran_v2ray1
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=6389113402676776517.VtNeT.infO#@IRAN_V2RAY1
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=6389113402676776513.VtNeT.infO#@vmesskhodam
@@ -502,3 +496,9 @@ vless://73bed74f-7ed0-4e40-ab97-66920f95c266@151.101.3.8:80?path=/-LiV2ry@LIGHTN
 vless://73bed74f-7ed0-4e40-ab97-66920f95c266@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp# telegram @mtmvpn
 vless://73bed74f-7ed0-4e40-ab97-66920f95c266@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp# r♡ya@V2rayBaaz
 vless://7369d8e8-12b5-4da3-9c77-f874d9abb632@germany.aparat-movies-download.ir:82?security=&encryption=none&headerType=none&type=tcp#Channel-@vmesskhodam
+vless://7318ab2b-ae6e-469d-be65-de95190f274a@axe.soyet2j.ir:2053?path=/homepage?ed=2560&security=tls&encryption=none&host=mojito.soyet2j.ir&type=ws&sni=mojito.soyet2j.ir#@i10VPN 🚀| با ما متصل بمون⚡
+vless://7310ccbb-3940-4264-88cc-b3da92877395@tito.floorshoping22.com:2087?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=tito.floorshoping22.com#@Daily_Configs
+vless://7310ccbb-3940-4264-88cc-b3da92877395@65.109.216.38:2087?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&sni=tito.floorshoping22.com#@Daily_Configs
+vless://72c17850-c1a8-4915-a437-45de2645a6e1@51.89.230.180:25365?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@bored_vpn
+vless://72c17850-c1a8-4915-a437-45de2645a6e1@51.89.230.180:25365?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@TEHRANARGO
+vless://72c0e2d6-638b-4a01-936e-50a40637f1cc@sss46544.tas-bazi.com:443?mode=stream-one&path=/xhttp&security=none&encryption=none&type=xhttp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
