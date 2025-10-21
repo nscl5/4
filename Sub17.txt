@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+vless://8ac2177a-f28f-4af3-b200-2ccc13587cdf@172.64.34.232:443/?type=ws&encryption=none&host=6bqv96.losanglesapps.com&path=%2Fwss&security=tls&sni=6bqv96.losanglesapps.com&alpn=http%2F1.1#%40Hope_Net-join-us-on-Telegram
 vless://b9c49aa8-9e33-46e1-83c2-825deaeb8640@172.66.47.181:2053/?type=ws&encryption=none&host=mahdiserver-3h9.pages.dev&security=tls&sni=mahdiseRvEr-3H9.paGeS.deV&alpn=h2%2Chttp%2F1.1&fp=chrome#%40Hope_Net-join-us-on-Telegram
 trojan://dba20dcb635e430fa4d3bfc303a149d2@190.93.246.247:443/?type=ws&host=jobscareerforlawyers.com&path=%2F6b777a91&security=tls&sni=jobscareerforlawyers.com#%40Hope_Net-join-us-on-Telegram
 vless://403c49c4-3fee-4cac-9f45-a3b3b272d47a@190.93.245.137:443/?type=ws&encryption=none&host=WWW.pegAh-Esfahan.De.&path=TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config&security=tls&sni=WWW.pegAh-Esfahan.De.&alpn=h2%2Chttp%2F1.1&fp=chrome#%40Hope_Net-join-us-on-Telegram
@@ -502,4 +503,3 @@ vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@172.67.75.172:80/?type=ws&encryptio
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.26.15.85:80/?type=ws&encryption=none&host=a.xn--i-sx6a60i.us.kg.&path=%2F%3Fed%3D2560%2Ftelegram%40ShadowProxyy6%2F%3Fed%3D2560#%40Hope_Net-join-us-on-Telegram
 vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@104.26.4.57:2087/?type=ws&encryption=none&host=5-55sfjslf.ifenxiang.cfd&path=%2F%3Fed%3D2560&security=tls&sni=5-55sfjslf.ifenxiang.cfd&fp=random#%40Hope_Net-join-us-on-Telegram
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.26.14.85:80/?type=ws&encryption=none&host=a.xn--i-sx6a60i.us.kg.&path=%2FMTMVPN-MTMVPN-MTMVPN-MTMVPN%3Fed%3D2560#%40Hope_Net-join-us-on-Telegram
-trojan://fivh9CYhgT@104.21.32.1:443/?type=httpupgrade&host=esna.twn24.ir&path=%2F16338%2Fmehdi&security=tls&sni=esna.twn24.ir#%40Hope_Net-join-us-on-Telegram

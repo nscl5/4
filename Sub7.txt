@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+trojan://slch2024@216.205.52.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ocost-dy.wmlefl.cc#%F0%9F%8F%81RELAY-216.205.52.195-0589
 vmess://eyJhZGQiOiJjc2dvLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiY2RuLW5vZGUtb3NzLTk5LnBhb2Z1LmRlIiwiaWQiOiI0NTdmNjRkNS1jYzY4LTQ5MTEtODJlZS02MzZlYmI1NjhhNDYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiLwn4+BUkVMQVktMTk1Ljg1LjU5LjE2MS0wMzUwIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJmYXN0Y3VwLm5ldCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiY2RuLW5vZGUtb3NzLTk5LnBhb2Z1LmRlIiwiaWQiOiI0NTdmNjRkNS1jYzY4LTQ5MTEtODJlZS02MzZlYmI1NjhhNDYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwIiwicHMiOiLwn4+BUkVMQVktMTk1Ljg1LjU5LjE1Ny0wMzM5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJwdWJnLmFjIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJjZG4tbm9kZS1vc3MtOTkucGFvZnUuZGUiLCJpZCI6IjQ1N2Y2NGQ1LWNjNjgtNDkxMS04MmVlLTYzNmViYjU2OGE0NiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IvCfj4FSRUxBWS0xOTUuODUuNTkuMjQ2LTAzMzYiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0
@@ -502,4 +503,3 @@ trojan://dns68@199.68.156.69:443/?type=ws&host=trojan.putata.us.kg&path=%2F%3Fed
 trojan://bpb-trojan@198.41.202.75:443/?type=tcp&security=tls&sni=adagio.us.kg#%40Hope_Net-join-us-on-Telegram
 trojan://bpb-trojan@172.67.180.238:443/?type=ws&host=403b3611-99bc-43b7-8...&security=tls&sni=403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@162.159.152.240:443/?type=ws&encryption=none&host=1-79u.pages.dev&path=%3Fed%3D2851&security=tls&sni=1-79u.pages.dev#%40Hope_Net-join-us-on-Telegram
-vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@185.176.24.106:443/?type=ws&encryption=none&host=cfed.tgzdyz2.top&path=t...&security=tls&sni=cfed.tgzdyz2.top

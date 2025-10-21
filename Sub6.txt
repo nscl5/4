@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@188.42.88.170:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@45.159.216.110:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@69.84.182.43:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@188.42.88.93:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
@@ -502,4 +503,3 @@ trojan://slch2024@212.183.88.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%8
 trojan://slch2024@213.182.199.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ocost-dy.wmlefl.cc#%F0%9F%8F%81RELAY-213.182.199.195-0593
 trojan://slch2024@213.241.198.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ocost-dy.wmlefl.cc#%F0%9F%8F%81RELAY-213.241.198.195-0591
 trojan://slch2024@216.24.57.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ocost-dy.wmlefl.cc#%F0%9F%87%BA%F0%9F%87%B8US-216.24.57.195-0590
-trojan://slch2024@216.205.52.195:2096/?type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&security=tls&sni=ocost-dy.wmlefl.cc#%F0%9F%8F%81RELAY-216.205.52.195-0589

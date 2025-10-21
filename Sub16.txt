@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+trojan://71086710-33eb-11ed-adce-1239d0255272@sg1-trojan.bonds.id:443/?type=tcp&security=tls#%F0%9F%87%B8%F0%9F%87%ACSG-103.253.24.212-5587
 ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@142.202.48.52:7307#%F0%9F%87%BA%F0%9F%87%B8US-142.202.48.52-5321
 vmess://eyJhZGQiOiIxMDQuMjEuOTYuMSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmMTA1OThlMi1jNjA2LTQ5NDUtYmZkZS1lNTczMDc1NmEyZGQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IvCfj4FSRUxBWS0xMDQuMjEuOTYuMS01MTc4Iiwic2N5IjoiYXV0byIsInNuaSI6InVzMDEuc2gtY2xvdWRmbGFyZS5zYnMiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ
 vmess://eyJhZGQiOiJhcGkuanF1ZXJ5LmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiYXBpLmpxdWVyeS5jb20iLCJpZCI6ImRlOTRjYzBhLTA1OTItNDk2OS1iMWZjLTk3ZWE4ZjBlYTBiMyIsIm5ldCI6IndzIiwicGF0aCI6Ii91cy5ra3AubWUuZXUub3JnL2FhIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+PgVJFTEFZLTEwNC4xOC4xNTYuMTE5LTUxNzYiLCJzY3kiOiJhdXRvIiwic25pIjoiYWRtaW4ua2FzcmF4LmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0
@@ -502,4 +503,3 @@ vless://c6a8fa8a-9fa0-4866-a786-5d11199d0c1d@146.75.82.133:80/?type=xhttp&encryp
 vless://8e72da07-0429-432e-8f0a-e9a3d4fc538f@151.101.130.133:80/?type=ws&encryption=none&host=JOin.ELiV2-R-A-Y.io#%40Hope_Net-join-us-on-Telegram
 vmess://eyJhZGQiOiIxMDQuMTcuMTU2LjIyNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiaW40Lndpc2gubWwiLCJpZCI6ImMyODZkYWEyLTU5ZGUtNDU1Yy04ZGU4LWVjMDMyYjZjZTJlOCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjA1MiIsInBzIjoiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0
 trojan://29e0206a-2cef-4c8d-aa4b-dd7a43748167@151.101.2.133:443/?type=ws&host=fonmelo.com&security=tls&sni=zmaoz.faculty.ucdavis.edu.#%40Hope_Net-join-us-on-Telegram
-vless://8ac2177a-f28f-4af3-b200-2ccc13587cdf@172.64.34.232:443/?type=ws&encryption=none&host=6bqv96.losanglesapps.com&path=%2Fwss&security=tls&sni=6bqv96.losanglesapps.com&alpn=http%2F1.1#%40Hope_Net-join-us-on-Telegram

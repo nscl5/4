@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+trojan://Watashi_VPN@104.27.7.142:2053/?type=ws&host=t-watashi-r-jacket-o-people-jan.watashi-java.ir&path=%2F%3FTM%40AZARBAYJAB1%2BTM%40AZARBAYJAB1%2B%40AZARBAYJAB1&security=tls&sni=t-watashi-r-jacket-o-people-jan.watashi-java.ir&fp=chrome#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
 vmess://eyJhZGQiOiIxNzIuNjcuMjQ0LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ3dkZWYuc2JzIiwiaWQiOiJiYzg2NDA3OC1kY2YzLTRiZjQtOGRiZi1jYTlmMjAwYjU2YmUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+RifCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbPCfk6Hwn4eo8J+HpkNhbmFkYSIsInNjeSI6ImF1dG8iLCJzbmkiOiJnd2RlZi5zYnMiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ
 vless://bb49b8f7-25ab-4d5e-95ed-2b1c8239247c@104.18.68.168:2053/?type=ws&encryption=none&host=Telegram-iD-TEHRANARGO.pages.dev&path=%2FTEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20TEL%2C%40TEHRANARGO%20%3Fed%3D2560&security=tls&sni=Telegram-iD-TehranArgo.pages.dev&alpn=h3%2Ch2%2Chttp%2F1.1&fp=random#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A8%F0%9F%87%A6Canada
 vless://9e6be4b8-2724-405b-83e7-5de5d220e79c@199.232.170.133:443/?type=ws&encryption=none&host=UNLIMITEDDEV.zr.ir&path=%40UnlimitedDev----%40UnlimitedDev-----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev----%40UnlimitedDev%3Fed%3D8880&security=tls&sni=live.wkrq.com&fp=chrome#%F0%9F%91%89%F0%9F%86%94%20%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%B7France
@@ -502,4 +503,3 @@ trojan://Aimer@172.82.16.99:443/?type=tcp&security=tls&sni=epmd.ambercc.filegear
 trojan://Aimer@46.254.93.251:2087/?type=tcp&security=tls&sni=epmd.ambercc.filegear-sg.me#%F0%9F%8F%81RELAY-46.254.93.251-1006
 trojan://Aimer@192.9.139.160:443/?type=tcp&security=tls&sni=epmd.ambercc.filegear-sg.me#%F0%9F%87%BA%F0%9F%87%B8US-192.9.139.160-1004
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.28:38388#%F0%9F%87%BB%F0%9F%87%B3VN-103.186.154.28-0267
-trojan://Aimer@188.164.159.55:2096/?type=tcp&security=tls&sni=epcco.ambercc.filegear-sg.me#%40Hope_Net-join-us-on-Telegram

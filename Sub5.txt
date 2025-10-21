@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@198.41.211.11:443/?type=ws&encryption=none&host=lg.kpcloud.eu.org&path=%2F%3Fed%3D2048&security=tls&sni=lg.kpcloud.eu.org#%40Hope_Net-join-us-on-Telegram
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@190.93.247.169:443/?type=ws&encryption=none&host=lg.ylks01.eu.org&path=%2Fblue&security=tls&sni=lg.ylks01.eu.org#%40Hope_Net-join-us-on-Telegram
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@190.93.244.72:443/?type=ws&encryption=none&host=cg.ylks.xyz&path=%2Fblue&security=tls&sni=cg.ylks.xyz#%40Hope_Net-join-us-on-Telegram
 vless://a13df940-020c-465f-bc89-ee5279b5cd6a@190.93.246.220:443/?type=ws&encryption=none&host=lg.kpcloud.eu.org&path=%2F%3Fed%3D2048&security=tls&sni=lg.kpcloud.eu.org#%40Hope_Net-join-us-on-Telegram
@@ -502,4 +503,3 @@ vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@45.159.218.122:80/?type=ws&encrypti
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@45.159.217.35:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@45.159.219.20:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@45.159.216.117:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram
-vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@188.42.88.170:80/?type=ws&encryption=none&path=%2F#%40Hope_Net-join-us-on-Telegram

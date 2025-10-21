@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@45.131.211.224:2053/?type=ws&encryption=none&host=dl1-fr-cdn.easy-upload.org&path=%2F&security=tls&sni=dl1-fr-cdn.easy-upload.org#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%AB%F0%9F%87%B7
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@190.93.246.237:443/?type=ws&encryption=none&path=%2F&security=tls&sni=dl1-de-cdn.easy-upload.org#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%A9%F0%9F%87%AA
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@188.114.98.117:443/?type=ws&encryption=none&path=%2F&security=tls&sni=dl1-de-cdn.easy-upload.org#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%A9%F0%9F%87%AA
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@173.245.49.94:443/?type=ws&encryption=none&path=%2F&security=tls&sni=dl1-de-cdn.easy-upload.org#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%A9%F0%9F%87%AA
@@ -502,4 +503,3 @@ trojan://blue2024@141.101.113.195:443/?type=tcp&security=tls&sni=hb.lii2010.us.k
 trojan://blue2024@www.udemy.com:443/?type=tcp&security=tls&sni=hb.lii2010.us.kg&allowInsecure=1#%40Hope_Net-join-us-on-Telegram
 trojan://NISHIKUITAN111@104.19.208.2:443/?type=tcp&security=tls&allowInsecure=1#%40Hope_Net-join-us-on-Telegram
 trojan://blue2024@104.25.80.32:443/?type=tcp&security=tls&sni=hb.lii2010.us.kg&allowInsecure=1#%40Hope_Net-join-us-on-Telegram
-trojan://blue2024@sullivan.ns.cloudflare.com:443/?type=tcp&security=tls&sni=tb.promote.icu&allowInsecure=1#%40Hope_Net-join-us-on-Telegram

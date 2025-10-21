@@ -3,6 +3,7 @@
 #support-url: https://github.com/NiREvil
 #profile-web-page-url: https://github.com/NiREvil/vless
 
+trojan://Maradona_vpn@maradona_vpn.history-paint.art:443/?type=grpc&serviceName=grpc20337&security=tls&sni=teo.history-paint.art&alpn=h2&fp=chrome#%E2%9D%94%20XX%20%7C%20%F0%9F%94%92%20TROJAN%20%7C%20%40maradona_vpn%20%5B9%5D
 trojan://maradona_vpn@maradona_vpn10.history-paint.art:443/?type=ws&host=teo.history-paint.art&path=%2Fwss24142%3Fed%3D2048&security=tls&sni=teo.history-paint.art&alpn=http%2F1.1&fp=chrome#%E2%9D%94%20XX%20%7C%20%F0%9F%94%92%20TROJAN%20%7C%20%40maradona_vpn%20%5B8%5D
 trojan://maradona_vpn@maradona_vpn14.history-paint.art:443/?type=ws&host=teo.history-paint.art&path=%2Fwss24142%3Fed%3D2048&security=tls&sni=teo.history-paint.art&alpn=http%2F1.1&fp=chrome#%E2%9D%94%20XX%20%7C%20%F0%9F%94%92%20TROJAN%20%7C%20%40maradona_vpn%20%5B7%5D
 vless://00134d22-e7bc-4690-860a-05d2be0f6f06@91.99.91.136:443/?type=xhttp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40manstervpn%20%5B65%5D
@@ -502,4 +503,3 @@ vless://2928d83a-ca75-4d52-b437-fa78c7601378@104.20.18.39:443/?type=ws&encryptio
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@212.183.88.154:80/?type=ws&encryption=none&host=late-tooth.granzinhannah.workers.dev&path=%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed#%40Hope_Net-join-us-on-Telegram
 trojan://tg-dns68@162.159.153.1:443/?type=ws&host=vip.putata.eu.org&path=%2F%3Fed%3D2560&security=tls&sni=vip.putata.eu.org#%40Hope_Net-join-us-on-Telegram
 vless://f0d584bc-342f-4443-ba24-79e4d0e504b1@212.183.88.112:2052/?type=ws&encryption=none&host=late-tooth.granzinhannah.workers.dev&path=%2F%25...
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.110.1.35:5004#%40Hope_Net
