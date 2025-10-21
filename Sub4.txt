@@ -2,16 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?mode=gun&security=&encryption=none&type=grpc#🇨🇵@FreakConfig
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851068158.hamedan-drc-tusabl.info:8880?mode=gun&security=none&encryption=none&type=grpc#mtnirancell ✨️ azadiiivpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851068158.hamedan-drc-tusabl.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851068158.hamedan-drc-tusabl.info:8880?encryption=none&security=none&type=grpc#@Daily_Configs
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946555860213179.lisbon-prx-dnraacq.info:8880?mode=gun&security=none&encryption=none&type=grpc#mtnirancell ✨️ azadiiivpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946555860213179.lisbon-prx-dnraacq.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946555860213179.lisbon-prx-dnraacq.info:8880?mode=gun&security=&encryption=none&type=grpc#🇨🇵@FreakConfig
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946555860201969.lisbon-prx-dnraacq.info:8880?mode=gun&security=none&encryption=none&type=grpc#mtnirancell ✨️ azadiiivpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946072491006050.hamedan-drc-tusacaf.info:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946072491006050.hamedan-drc-tusacaf.info:8880?mode=gun&security=&encryption=none&type=grpc#🇫🇷@FreakConfig
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946072491006050.hamedan-drc-tusacaf.info:8880?mode=gun&security=&encryption=none&type=grpc#🇨🇵@FreakConfig
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638945271259127439.yasuj-prx-dnraacp.info:8880?encryption=none&type=grpc&mode=gun#AKLISvpn 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638945203009151794.gorgan-drc-tusacaf.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
@@ -502,3 +492,13 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.96:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.96:8880?encryption=none&security=none&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&type=grpc#@v2ray_configs_pool
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.96:8880?encryption=none&security=none&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1&type=grpc#@freenettir
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.93:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1%2&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?security=&encryption=none&type=grpc&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇹🇷]t.me/Raiv2mmr
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?security=&encryption=none&type=grpc#📢+سرورای+بیشتر+هر+روز+تو+کانال++👉+@Fast78_Channel
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc@V2rayNGVPN <= کانفیگ رایگان
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#🇹🇷@vpnserverrr کانال تلگرامی
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#@v2raymtm
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#@i10VPN 🚀| با ما متصل بمون⚡
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.92:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNGVPN <= کانفیگ رایگان
