@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://197082ac-e606-4746-ac66-2a2a7614b839@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#tm⚡|@lightning6
-vless://19282dc7-eed7-5656-b489-93b5ddf266c9@151.101.65.6:80?path=/&security=none&encryption=none&host=Join-shokhmiplus.ir&type=ws#Channel id: @Adamak_vpn
-vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#⚜️Telegram: @IP_CF 🇬🇧
-vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=none&encryption=none&headerType=none&type=tcp#@vmesskhodam
-vless://19029831-477f-498e-a280-bd5291e955fb@5.231.29.29:443?security=reality&encryption=none&pbk=E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg&headerType=none&fp=chrome&spx=/v2ray_configs_pools---v2ray_configs_pools&type=tcp&flow=xtls-rprx-vision&sni=www.tgju.org&sid=f7f1058c#✅ @v2ray_configs_pools (تلگرام)
 vless://18fdfef1-981b-44a6-aff7-5fccedd2c49e@srcvpn.fast.hosting-ip.com:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 Telegram @SRCVPN
 vless://18fdfef1-981b-44a6-aff7-5fccedd2c49e@G0dv2ray.fast.hosting-ip.com:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 @G0dv2ray
 vless://18fdfef1-981b-44a6-aff7-5fccedd2c49e@151.101.3.8:80?security=none&encryption=none&headerType=none&type=tcp@V2rayNGVPN+<=+کانفیگ+رایگان
@@ -502,3 +496,9 @@ vless://07af5265-c931-4b5a-a3e1-25de5c5b1fbf@T.irimcs.org:2053?type=grpc&service
 vless://07a3df8f-2a2c-42f8-ad92-65889d90f3bf@104.21.25.95:443?path=/5UW2C42lpZ7Dj4VDwVOkZfoq&security=tls&alpn=http/1.1&encryption=none&host=rrrfgt6.890604.filegear-sg.me&fp=chrome&type=ws&sni=rrRFgt6.890604.fiLeGEAR-Sg.ME#@Mrconfig_Channel 🩵
 vless://074edad7-1576-45d1-bbea-b28faa463eab@95.134.130.176:80?path=/&security=none&encryption=none&host=fast.com&type=ws#🇹🇷@FreakConfig
 vless://073b2f7b-edc1-4b7e-a537-ac267406bd21@mariz.kuckenpq.ir:8880?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#🇬🇧 ایرانسل • رایتل|vip
+vless://073b2f7b-edc1-4b7e-a537-ac267406bd21@NLpizza.kuckenpq.ir:32135?mode=gun&security=reality&encryption=none&pbk=0nV4IrMDDWiuFhntmuTBnQT3Q2uPagsRV1p4KXRnzCk&fp=chrome&type=grpc&serviceName=32135vless&sni=journalofbigdata.springeropen.com&sid=085753500f657097#🇳🇱 𝐑𝐄𝐀𝐋𝐈𝐓𝐘
+vless://073b2f7b-edc1-4b7e-a537-ac267406bd21@104.18.26.90:8080?path=/&security=none&encryption=none&host=cloud.kuckenpq.ir&type=httpupgrade#@pardazeshvpn
+vless://06ff78d1-762f-47a6-81c7-9ebb1a24192f@nlmarz.dorodorodaram.xyz:9191?security=none&type=tcp&headerType=http&path=/&host=speedtest.net#🇳🇱 vless - هلند - tcp تانل 7860131882_a7b1
+vless://06ff78d1-762f-47a6-81c7-9ebb1a24192f@m2.mixproject.ir:442?security=tls&type=httpupgrade&headerType=&path=/inboundsCWNeRzWFjgWHWZFw?ed=2560&host=&sni=name.giftsata.ir&fp=chrome&alpn=h3,h2,http/1.1#🇳🇱 MTN - هلند - ضد فیلتر  7860131882_a7b1
+vless://06ff78d1-762f-47a6-81c7-9ebb1a24192f@45.159.148.180:2053?security=none&type=ws&headerType=&path=/path&host=google.com#🇳🇱 vless + تانل 2
+vless://06be7b9f-5e99-47d2-82e8-667cedecc829@190.93.244.170:2082?path=/@v2ngnet-@-v2ngnet@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet?ed=2048&security=&encryption=none&host=v2ngnet.nanvrfood.ir&type=httpupgrade#🇩🇪 @v2ngnet
