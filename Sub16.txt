@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://12345678-1234-1234-1234-123456789123@140.99.233.54:2096?path=/snippets&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@vpnserverrr
 vless://121610b9-74a8-4988-ace2-bafb3013fde1@www.speedtest.net:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
 vless://121610b9-74a8-4988-ace2-bafb3013fde1@tgju.org:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
 vless://121610b9-74a8-4988-ace2-bafb3013fde1@chat.deepseek.com:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
@@ -45,6 +44,7 @@ vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?security=tls&encrypt
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#Channel : @Mrsoulb 🏴🏳
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#@Hddify
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#🇩🇪Telegram:@tik7net_vpn
+vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#Telegram:@tik7net_vpn🇩🇪
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#@meli_proxyy
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#@V2rayNGVPN+<=+کانفیگ+رایگان
 vless://103104c5-a3f5-4c48-8d8f-a72a56959799@104.17.1.5:443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=ZYzzZoAO.putata.eU.Org#@V2rayNGVPN <= کانفیگ رایگان
@@ -155,7 +155,6 @@ vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?security=reality&
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#All--@V2rayAlpha--17
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#@V2rayNGVPN <= کانفیگ رایگان
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?encryption=none&security=reality&sni=store.steampowered.com&fp=chrome&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&type=tcp&headerType=none#@Daily_Configs
-vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.98.87.4:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#🇩🇪[Telegram:@tik7net_vpn]
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.98.87.4:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#🇩🇪@FreakConfig
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.98.87.4:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#All--@V2rayAlpha--32
 vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.98.87.4:443?security=reality&encryption=none&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com#All--@V2rayAlpha--18
@@ -502,3 +501,4 @@ trojan://tunnel-astrovpn_official-tr@tr-1.stunnel.cc:8441?security=tls&sni=zula.
 trojan://tunnel-astrovpn_official-nl@nl-1.stunnel.cc:8441?security=tls&sni=zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=nl-1.stunnel.cc#AstroVPN_Official 🇳🇱
 trojan://tunnel-astrovpn_official-gb@gb-1.stunnel.cc:8441?security=tls&sni=zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=gb-1.stunnel.cc#AstroVPN_Official 🇬🇧
 trojan://tunnel-astrovpn_official-ee@ee-1.stunnel.cc:8441?security=tls&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=ee-1.stunnel.cc#[TrojanVPN] v2ray_configs_pools_official-🇪🇪
+trojan://tunnel-astrovpn_official-de@de-1.stunnel.cc:8441?security=tls&sni=zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.monster.JoinTelegram-------------AstroVPN_Official----------Join.ir&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=de-1.stunnel.cc#AstroVPN_Official 🇩🇪
