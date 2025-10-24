@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.94:8880?flow=&type=grpc&mode=gun&serviceName=&security=none#@meli_proxyy
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.94:8880?flow=&type=grpc&mode=gun&serviceName=&security=none#
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.94:8880?encryption=none&type=grpc&mode=gun&authority=/sinavm&security=none#🇫🇷🇫🇷@SiNAVM کانال تلگرامی
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.94:8880?encryption=none&security=none&type=grpc#@Daily_Configs
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.155:8880?security=&type=grpc&encryption=none#t.me/entryNET/config=1846839298010222
@@ -502,3 +500,5 @@ vless://cf77abe4-0f53-4771-ac7e-f323b68721f7@home.traumhaus.bio:25819?security=r
 vless://cf5a73e1-e1ba-4a21-aadd-2ed60eae1b52@axe.djjw8292n.ir:2053?path=/homepage?ed=2560&security=tls&encryption=none&host=mojito.djjw8292n.ir&type=ws&sni=mojito.djjw8292n.ir#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?type=grpc&encryption=none&serviceName=ahwaz.infinitespd.com&authority=&mode=multi&security=tls&fp=chrome&alpn=h2,h3&allowInsecure=1&sni=ahwaz.infinitespd.com#MININIGHT
 vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?mode=multi&security=tls&encryption=none&fp=chrome&type=grpc&serviceName=ahwaz.infinitespd.com&sni=ahwaz.infinitespd.com#MININIGHT🌙
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443?security=tls&encryption=none&type=ws&host=fraud.chase&path=/?ed&sni=www.Arizona.edu&fp=chrome#Awlix_ir
+vless://cef2f251-99a7-4471-ac2d-1a3f69785565@190.93.244.170:2082?path=/@v2ngnet-@-v2ngnet@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet?ed=2048&security=&encryption=none&host=v2ngnet.byte-server.ir.&type=httpupgrade#🇩🇪 @v2ngnet
