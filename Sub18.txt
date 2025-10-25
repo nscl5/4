@@ -2,15 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#WiFi--@V2rayAlpha--6
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#All-@IRAN_V2RAY1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#@AZARBAYJAB1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJdUs1NU1OQWZlaWxzbWQzell4RkNM@81.90.31.219:443?note=@freeOnlineVPN#🇷🇺 - RU - @freeOnlineVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJdUs1NU1OQWZlaWxzbWQzell4RkNM@81.90.31.219:443#@v2ray_configs_pool
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJdUs1NU1OQWZlaWxzbWQzell4RkNM@81.90.31.219:443#@AblNet7 🇮🇷 نت ملی 🇮🇶
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJTGlId1VHN0VRclBpN2JFVUxMMFUw@45.95.232.236:4248?note=@freeOnlineVPN#🇨🇭 - CH - @freeOnlineVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJTGlId1VHN0VRclBpN2JFVUxMMFUw@45.95.232.236:4248?note=--Telegram--@NetifyVPN--#🇨🇭[Telegram:NetifyVpn]
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJRDFnMG5RZmxtVlFQWnFta0V0RkNl@77.83.246.74:443#@AblNet7 🇮🇷 نت ملی 🇵🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIbVpmZEduZjJMQmRraWRpdks0VjM5@81.90.31.219:443#@AblNet7 🇮🇷 نت ملی 🇮🇶
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIVzVCclA0OFFVNFE5VlBkSldzLVB3@84.234.31.193:1080#🇩🇪 - @FREEV2RNG 14
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHemRmNWpqUzY5V2lvMzAyYmprZUV6@62.133.63.21:65262#𝗝𝗼𝗶𝗻 ➠ @V2rayNG_CaFe | کانال ما 🫆
@@ -449,8 +440,6 @@ hy2://30c075af-9555-4671-b70e-43e3cfb2e707@31.57.241.25:7009/?insecure=1&sni=d.e
 hy2://308d37dc-cfe1-4d81-a095-d576f90cf581@85.237.206.207:29854/?insecure=1&sni=www.bing.com#Channel id: @ShadowProxy66🇹🇼
 hy2://250ff1f0-5b79-4d9e-a677-2bb7e6a7ee13@sfjxjp.sufujia.top:57300/?insecure=1&sni=sfjxjp.sufujia.top#Channel id: @ShadowProxy66🇩🇪
 hy2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.71.37:30300/?insecure=1&sni=www.bing.com#Channel id: @ShadowProxy66🇨🇦
-vless://764a13da-76a5-4bc0-a2c9-e2a02f62408f@[2a01:4f8:1c1b:7df::1]:443?encryption=none&security=reality&sni=gsmarena.com&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&fp=chrome&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&sid=32d7a82d&spx=%2F&type=grpc#@Everyday_VPN | 01 🇩🇪⚡️
-vless://11111111-2222-1111-1111-111111111111@Everyday-VPN.Telegram-Channel:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=#سرورها به ترتیب خلوت بودن از بالا به پایین مرتب شده اند:
 vless://Anty_Vpn-Anty_Vpn-Anty_Vpn@cvvmtfin.fekoli.com:2095?security=reality&encryption=none&pbk=277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M&headerType=&fp=chrome&spx=%2F&type=tcp&sni=yahoo.com&sid=f2#%E2%9D%94%20XX%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40xsv2ray%20%5B7%5D
 vless://77e6e498-98e4-4a0b-93cb-8e2c117c0ad3@81.12.96.39:22631?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40xsv2ray%20%5B6%5D
 vless://34a4cfb4-8b42-42ba-b087-6a338c2b3b4a@fast-01.saitsazs.ir:80?mode=auto&path=%2Fpath&security=none&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A+1000000%2C+%22scMaxConcurrentPosts%22%3A+100%2C+%22scMinPostsIntervalMs%22%3A+30%2C+%22xPaddingBytes%22%3A+%22100-1000%22%2C+%22noGRPCHeader%22%3A+false%7D&host=Demon02.global.ssl.fastly.net&type=xhttp#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40xsv2ray%20%5B5%5D
@@ -502,3 +491,14 @@ vless://835607d0-6d60-444e-bc0b-ebc9cd9594ad@143.244.207.133:46217?security=real
 vless://29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2@104.31.16.58:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=w1.sylar8.eu.org&type=ws&sni=w1.sylar8.eu.org#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vipv2rey%20%5B38%5D
 vless://dab8ab46-5071-4d95-ac9b-bb469d6599fc@128.140.35.236:50713?security=reality&encryption=none&pbk=03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY&headerType=&fp=firefox&spx=%2F&type=tcp&sni=nobitex.ir&sid=88417bc4#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vipnetmeli%20%5B3%5D
 vless://c9e4f683-ee36-47cf-9c30-f751f1c118b5@194.113.106.139:24984?security=reality&encryption=none&pbk=bM_ol-LozWiGNhEGFm8xkaf4TiaOBzrG8R3kybOn2no&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=zula.ir&sid=5292cb10#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vipnetmeli%20%5B2%5D
+vless://5da27733-3527-479e-bb81-4c5a9c75d83f@viphamester.wolfmoon.ir:443?mode=multi&security=tls&encryption=none&alpn=h2%2Chttp%2F1.1&authority=&type=grpc&serviceName=okala.com&sni=viphamester.wolfmoon.ir#%E2%9D%94%20XX%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vipnetmeli%20%5B1%5D
+vless://Parsashonam-Bot-7@104.17.147.22:8080?type=ws&path=%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam%3Fed%3D2056&host=Fi.Parsashonam.CfD.&security=none#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vip_vpn_2022%20%5B8%5D
+vless://b79ee06f-d158-48c3-b32d-7ecb90f5f317@91.99.232.132:39954?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vip_vpn_2022%20%5B7%5D
+vless://e9cae639-8a68-4038-9145-458df42ba577@vipvpn2022.esnpenel.com:2020?type=tcp&path=%2F&host=myket.ir&headerType=http&security=none#%E2%9D%94%20XX%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vip_vpn_2022%20%5B6%5D
+vless://0c94ca98-3643-4cb4-de75-6167815af665@hilnu.com:8443?mode=multi&security=tls&encryption=none&fp=firefox&type=grpc&serviceName=Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER&sni=admin.kanal-tel-nufilter.store#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%92%20VLESS%20%7C%20%40vboxpanel%20%5B7%5D
+vless://0f6ef451-4fe5-490b-9264-6d63b21fb771@vaynora.imlast.com:443?type=tcp&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vaynora%20%5B4%5D
+vless://83d8f105-1c48-4bde-baf5-4aa8900c81fe@vaynora.imlast.com:443?type=tcp&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vaynora%20%5B3%5D
+vless://37c92a49-20a4-4d21-80ba-498700270d99@vaynora.imlast.com:443?type=tcp&security=none#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40vaynora%20%5B2%5D
+vless://d3153cb1-c5e5-480e-9929-d5c608cf0535@www.parsvds.ir:8080?path=%2Ftelegram%3DV_2RAYNGVPN&security=none&encryption=none&host=FySuMyYk3.aMirsiTesos.sItE.&type=ws#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40v_2rayngvpn%20%5B7%5D
+vless://55737b22-c50a-491a-8cd3-69f84e67e3f7@www.zula.ir:80?path=%2Ftelegram%3DV_2RAYNGVPN&security=none&encryption=none&host=FySuMyYk3.aMirsiTesos.sItE.&type=httpupgrade#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40v_2rayngvpn%20%5B6%5D
+vless://91440b27-a0e5-4107-9aee-478361210fcd@www.speedtest.net:80?path=%2Ftelegram%3DV_2RAYNGVPN&security=none&encryption=none&host=FySuMyYk3.aMirsiTesos.sItE.&type=httpupgrade#%F0%9F%9A%A9%20CF%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40v_2rayngvpn%20%5B5%5D
