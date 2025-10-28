@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://8ceac519-7b18-47a5-b53e-d37ba318b0aa@172.66.47.185:443?security=tls&encryption=none&type=ws&host=c1c569fc.irani-eub.pages.dev&path=/Telegram@V2ray_Alpha/?ed=2048&sni=c1c569fc.irani-eub.pages.dev&fp=chrome#Awlix_ir
-vless://8ceac519-7b18-47a5-b53e-d37ba318b0aa@172.66.47.185:443?security=tls&encryption=none&type=ws&host=c1c569fc.irani-eub.pages.dev&path=/?ed=2048&sni=c1c569fc.irani-eub.pages.dev&fp=chrome#Awlix_ir
-vless://8cc2efa1-92c4-4b48-b549-6668c8f35b1a@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#tm⚡|@lightning6
-vless://8c9a7ef4-b692-41ee-90ca-669b04990ac5@fr.pixvpn.app:8443?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome&type=grpc&serviceName=grpc-jd&sni=jd.com&sid=41a4cee2c50c4fc3#@i10VPN 🚀| با ما متصل بمون⚡
-vless://8c9a7ef4-b692-41ee-90ca-669b04990ac5@at.pixvpn.app:8443?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome&type=grpc&serviceName=grpc-jd&sni=jd.com&sid=41a4cee2c50c4fc3#@i10VPN 🚀| با ما متصل بمون⚡
-vless://8c374da3-b3cb-4460-9098-0837973e228f@45.89.107.232:443?path=/mfgdwhws&security=tls&encryption=none&type=ws#@v2ray_configs_pools
 vless://8c2aef39-f7c4-4596-b13f-6524b023d43a@172.66.40.99:80?path=/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&security=none&encryption=none&host=f.zedmodeon.ip-ddns.com&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://8bf5c07a-acd3-4360-b940-62d6b77699af@51.75.162.3:443?security=reality&encryption=none&pbk=aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens&headerType=none&fp=chrome&type=tcp&sni=tgju.org&sid=370dd394052f2386#🇬🇧 UK-1- ⚡ | @EXPRESSVPN_420
 vless://8bf5c07a-acd3-4360-b940-62d6b77699af@104.16.53.11:8080?path=/&security=none&encryption=none&host=xonlineshoappdownloadus01.okatestoka.ir&type=httpupgrade#🇺🇸 US-1- 🗽 | @EXPRESSVPN_420
@@ -502,3 +496,9 @@ vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@lt.monkeyisland.life:443?security=r
 vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@gr.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gr.monkeyisland.life&sid=08aa0813199a4c38#@meli_proxyy
 vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@de.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de.monkeyisland.life&sid=08aa0813199a4c38#t.me/entryNET/config=1847136884450977
 vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@de.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de.monkeyisland.life&sid=08aa0813199a4c38#@meli_proxyy
+vless://74c0af7c-8482-4b4e-b067-ea456a80cdb7@de.monkeyisland.life:443?security=reality&encryption=none&pbk=NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=de.monkeyisland.life&sid=08aa0813199a4c38#@V2rayNGVPN <= کانفیگ رایگان
+vless://748bd938-7eaf-4f1c-ac99-ce770c3aad93@m40a.vip784.com:33801?security=none&encryption=none&host=Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&headerType=http&type=tcp#@i10VPN 🚀| با ما متصل بمون⚡
+vless://748bd938-7eaf-4f1c-ac99-ce770c3aad93@m40a.vip784.com:33801?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇬🇧 | @External_Net
+vless://748bd938-7eaf-4f1c-ac99-ce770c3aad93@m40a.vip784.com:33801?security=none&encryption=none&headerType=http&type=tcp#@EXPRESSVPN_420
+vless://7489c971-5f82-48ff-96e5-b80fd581318f@46.62.214.228:443?path=/&security=tls&encryption=none&type=ws&sni=cyrus.v2bazzar.ir#All---@IRAN_V2RAY1
+vless://7489c971-5f82-48ff-96e5-b80fd581318f@46.62.214.228:443?path=/&security=tls&encryption=none&host=cyrus.v2bazzar.ir&type=ws&sni=cyrus.v2bazzar.ir#All---@IRAN_V2RAY1
