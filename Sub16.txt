@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://12345678-1234-1234-1234-123456789123@45.80.108.54:2096?path=/snippets&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@vpnserverrr
-vless://12345678-1234-1234-1234-123456789123@45.40.149.52:2096?path=/snippets&security=tls&encryption=none&host=saas.git.cloudns.org&type=ws&sni=saas.git.cloudns.org#@i10VPN 🚀| با ما متصل بمون⚡
-vless://12345678-1234-1234-1234-123456789123@198.71.233.50:2096?path=/snippets&security=tls&encryption=none&host=saas.sosocn.abrdns.com&type=ws&sni=saas.sosocn.abrdns.com#@i10VPN 🚀| با ما متصل بمون⚡
-vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=512&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#MCI-@V2rayAlpha--9
-vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=512&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@IRAN_V2RAY1
-vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=2048HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@HiByeVPNNBot 👈🌿💎
 vless://12345678-1234-1234-1234-123456789123@185.158.133.50:2096?path=/snippets&security=tls&encryption=none&host=saas.sosocn.abrdns.com&type=ws&sni=saas.sosocn.abrdns.com#@i10VPN 🚀| با ما متصل بمون⚡
 vless://12345678-1234-1234-1234-123456789123@185.156.19.61:2096?path=/snippets&security=tls&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@V2rayNGVPN <= کانفیگ رایگان
 vless://12345678-1234-1234-1234-123456789123@154.197.64.61:2096?path=/snippets&security=tls&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@V2rayNGVPN <= کانفیگ رایگان
@@ -502,3 +496,9 @@ trojan://telegram-id-privatevpns@51.21.59.141:22222?security=tls&sni=trojan.burg
 trojan://telegram-id-privatevpns@15.236.72.198:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#t.me/entryNET/config=1847075864109602
 trojan://telegram-id-privatevpns@13.42.217.95:22222?security=tls&sni=trojan.burgerip.co.uk&alpn=http/1.1&type=tcp#@awlix_ir
 trojan://telegram-id-directvpn@51.45.22.229:22223?security=tls&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#@Daily_Configs
+trojan://telegram-id-directvpn@3.69.107.50:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#t.me/entryNET/config=1847121162794900
+trojan://slch2024@209.94.90.195:2096?path=Telegram&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#WiFi-@V2rayAlpha--6
+trojan://slch2024@209.94.90.195:2096?path=Telegram&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#WiFi-@IRAN_V2RAY1
+trojan://slch2024@199.34.230.87:2096?path=Telegram@V2rayAlpha&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#All-@V2rayAlpha--42
+trojan://slch2024@194.59.5.195:2096?path=Telegram&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#All-@V2rayAlpha--4
+trojan://slch2024@192.169.223.87:2096?path=Telegram@V2rayAlpha&security=tls&host=ocost-dy.wmlefl.cc&type=ws&sni=ocost-dy.wmlefl.cc#All-@V2rayAlpha--13

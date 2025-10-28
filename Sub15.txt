@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://26b63e3a-60f9-4630-b180-fde6c4339602@140.248.128.69:443/?type=ws&host=Channel-VPNCUSTOMIZE.ir&path=/Channel----VPNCUSTOMIZE?ed=2048&security=tls&sni=Channel-VPNCUSTOMIZE&allowInsecure=1#All %V2RayFa
-vless://26ad6098-1015-4cd5-bac0-a3fbcc3cb729@www.zula.ir:8880?path=/Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048&security=none&alpn=h3,h2,http/1.1&encryption=none&host=join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.&fp=chrome&type=ws#MTN & MCI @V2RayFa
-vless://26ad6098-1015-4cd5-bac0-a3fbcc3cb729@151.101.64.155:80?path=/Telegram----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048&security=none&encryption=none&host=JOINBEDE-VPNCUSTOMIZE.IR&type=ws#All %V2RayFa
-vless://26976c41-2403-4414-908c-671bd8f1825f@V2ngFast.huqpmfood.ir:4455?encryption=none&type=xhttp&mode=auto&path=/@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 @V2ngNet
-vless://26874748-86d4-4c3e-a3c6-2c56618cf801@www.speedtest.net:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
-vless://26874748-86d4-4c3e-a3c6-2c56618cf801@tgju.org:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
 vless://26874748-86d4-4c3e-a3c6-2c56618cf801@chat.deepseek.com:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
 vless://261e2282-9ccc-4e48-aed2-fa1244b6fdf5@85.17.142.172:1504?security=reality&encryption=none&pbk=gVZhQqdCjhe1A2HtU2yMre0dFQXX6hOOLY2vhmJhXQs&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&spx=/&type=tcp&sni=journalofbigdata.springeropen.com#🇳🇱 | @External_Net
 vless://261e2282-9ccc-4e48-aed2-fa1244b6fdf5@85.17.142.172:1504?security=reality&encryption=none&pbk=gVZhQqdCjhe1A2HtU2yMre0dFQXX6hOOLY2vhmJhXQs&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&spx=/&type=tcp&sni=journalofbigdata.springeropen.com#t.me/entryNET/config=1847126188009459
@@ -502,3 +496,9 @@ vless://12345678-1234-1234-1234-123456789123@88.216.69.54:2096?path=/snippets&se
 vless://12345678-1234-1234-1234-123456789123@88.216.69.54:2096?path=/snippets#&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@Selinc
 vless://12345678-1234-1234-1234-123456789123@88.216.69.54:2096?path=/snippets#&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@HiByeVPNN👈⚡❤️‍🔥
 vless://12345678-1234-1234-1234-123456789123@77.105.163.54:2096?path=/snippets&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@vpnserverrr
+vless://12345678-1234-1234-1234-123456789123@45.80.108.54:2096?path=/snippets&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@vpnserverrr
+vless://12345678-1234-1234-1234-123456789123@45.40.149.52:2096?path=/snippets&security=tls&encryption=none&host=saas.git.cloudns.org&type=ws&sni=saas.git.cloudns.org#@i10VPN 🚀| با ما متصل بمون⚡
+vless://12345678-1234-1234-1234-123456789123@198.71.233.50:2096?path=/snippets&security=tls&encryption=none&host=saas.sosocn.abrdns.com&type=ws&sni=saas.sosocn.abrdns.com#@i10VPN 🚀| با ما متصل بمون⚡
+vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=512&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#MCI-@V2rayAlpha--9
+vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=512&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@IRAN_V2RAY1
+vless://12345678-1234-1234-1234-123456789123@185.251.80.54:2096?path=/snippets#/?ed=2048HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot--HiByeVPNNBot&security=tls&encryption=none&host=sni.aizrf.com&type=ws&sni=sni.aizrf.com#@HiByeVPNNBot 👈🌿💎
