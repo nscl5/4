@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://cf4b927c-25f6-4915-89e1-99d6866ff768@88.198.160.200:42671?security=none&encryption=none&host=JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&headerType=none&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
 vless://cf4b927c-25f6-4915-89e1-99d6866ff768@88.198.160.200:42671?security=none&encryption=none&headerType=none&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
 vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?type=grpc&encryption=none&serviceName=ahwaz.infinitespd.com&authority=&mode=multi&security=tls&fp=chrome&alpn=h2,h3&allowInsecure=1&sni=ahwaz.infinitespd.com#MININIGHT
 vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?mode=multi&security=tls&encryption=none&fp=chrome&type=grpc&serviceName=ahwaz.infinitespd.com&sni=ahwaz.infinitespd.com#MININIGHT🌙
@@ -501,4 +502,3 @@ vless://b4dc1d03-cb51-47c9-9447-1692744c8234@canada.huqpmfood.ir:1331?encryption
 vless://b4ce592d-4db0-4f08-894a-26c559fd0663@cdn19.zarghamportal.ir:80?path=/@iSpeedTopVPN?ed=2060&security=&encryption=none&host=moslehcdn.zarghamportal.ir&type=httpupgrade#Channel:-@iSpeedTopVPN  🇹🇷
 vless://b4b8aa1f-77d2-4851-a5a4-f78886f3e997@deu246.bypassall.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://b4b8aa1f-77d2-4851-a5a4-f78886f3e997@deu246.bypassall.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&host=/?---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com#🇩🇪 | @External_Net
-vless://b4b8aa1f-77d2-4851-a5a4-f78886f3e997@deu246.bypassall.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

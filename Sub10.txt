@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://80032848-69d9-4faa-8162-5a6b46b5828f@194.4.49.222:443?path=/cnqazsws&security=tls&encryption=none&fp=chrome&type=ws#@HiByeVPNN👈⚡❤️‍🔥
 vless://7fc5337c-2639-42d3-b6ad-ff44277098d8@104.16.246.132:8443?path=/socks://test:test@162.55.92.106:1080&security=tls&encryption=none&host=anime.11160321.xyz&fp=chrome&type=ws&sni=anime.11160321.xyz#All--@V2rayAlpha--38
 vless://7fc5337c-2639-42d3-b6ad-ff44277098d8@104.16.246.132:8443?path=/socks://test:test@162.55.92.106:1080&security=tls&encryption=none&host=anime.11160321.xyz&fp=chrome&type=ws&sni=anime.11160321.xyz#@Daily_Configs
 vless://7fa08b3d-86d8-4b14-92b3-4c56a83f027d@viop.fast.hosting-ip.com:80?mode=auto&path=/Amirrezagol?ed=2560&security=none&encryption=none&host=amirrezagol.global.ssl.fastly.net&type=xhttp#@Mrconfig_Channel 🩵
@@ -501,4 +502,3 @@ vless://64d6d0d4-3706-4837-b154-cda2816adcc5@crazy-identity.oneeat.co:80?path=/&
 vless://64d6d0d4-3706-4837-b154-cda2816adcc5@crazy-identity.oneeat.co:80?path=/&security=none&encryption=none&type=ws#IR-@IRAN_V2RAY1
 vless://64d6d0d4-3706-4837-b154-cda2816adcc5@crazy-identity.oneeat.co:80?path=/&security=none&encryption=none&host=crazy-identity.oneeat.co&type=ws#MCI-@V2ray_Alpha--11
 vless://64d6d0d4-3706-4837-b154-cda2816adcc5@crazy-identity.oneeat.co:80?path=/&security=none&encryption=none&host=crazy-identity.oneeat.co&type=ws#ALL@azadiiivpn 🤍
-vless://64d6d0d4-3706-4837-b154-cda2816adcc5@172.66.156.81:80?path=/&security=none&encryption=none&host=crazy-identity.oneeat.co&type=ws#MCI-@IRAN_V2RAY1

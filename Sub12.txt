@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://4c266f5d-5836-4417-d5ab-f253ca9de933@chat.openai.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
 vless://4c266f5d-5836-4417-d5ab-f253ca9de933@cafearz.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
 vless://4c12cf11-2091-434f-b323-5ac31100dc5b@www.speedtest.net:8880?path=/Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048&security=none&alpn=h3,h2,http/1.1&encryption=none&host=VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.&fp=chrome&type=ws#MTN & MCI @V2RayFa
 vless://4c12cf11-2091-434f-b323-5ac31100dc5b@VPNCUSTOMIZE.fastly80-3.hosting-ip.com:80?path=/Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE&security=none&alpn=h3,h2,http/1.1&encryption=none&host=Telegram-VPNCUSTOMIZE-VPNCUSTOMIZE.ir&fp=chrome&type=ws#MTN & MCI @V2RayFa
@@ -501,4 +502,3 @@ vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.104:443?path=/?ed=#TELEG
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.104:443?path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#@MARAMBASHI 🇮🇹
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.31.239:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--15
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.30.243:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--11
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.30.243:443?path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#@meli_proxyy

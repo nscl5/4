@@ -47,6 +47,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.22:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷@FreakConfig
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=none&encryption=none&type=grpc#IR-@V2ray_Alpha--15
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--17
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?encryption=none&security=none&type=grpc#@Daily_Configs
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.185:8880?mode=gun&security=none&encryption=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.185:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
@@ -501,4 +502,3 @@ vless://cf92f705-4866-46b5-a167-cea8a9eb37dc@172.66.40.99:8080?path=/@V2RAYFAST_
 vless://cf67d1b3-5104-411f-b212-dbe9bac73fbc@141.11.250.222:24820?security=&encryption=none=@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub---@confiig_hub&headerType=none&type=tcp#@confiig_hub
 vless://cf5b8e88-04b9-46f6-ab20-2aaf6d524a3e@axe.soyet2j.ir:2087?path=/index.html?ed=2560&security=tls&encryption=none&host=latte.gejeh683bm.ir&type=ws&sni=latte.gejeh683bm.ir.#limo
 vless://cf5a73e1-e1ba-4a21-aadd-2ed60eae1b52@axe.djjw8292n.ir:2053?path=/homepage?ed=2560&security=tls&encryption=none&host=mojito.djjw8292n.ir&type=ws&sni=mojito.djjw8292n.ir#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://cf4b927c-25f6-4915-89e1-99d6866ff768@88.198.160.200:42671?security=none&encryption=none&host=JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&headerType=none&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
