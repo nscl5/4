@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://dea991b4-696f-4e9e-9761-1e1b31bb02de@172.64.146.66:443?encryption=none&security=tls&sni=2.294294.xyz&fp=chrome&type=ws&host=2.294294.xyz&path=/snippets#@Daily_Configs
 vless://de9e93dc-9ce2-4c8f-839c-f6f3a58a10bb@99.199.73.47:6068?security=none&encryption=none&host=bmw.com&headerType=http&fp=chrome&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://de94335a-a85c-473d-8ad5-1743261fc7f7@92.51.36.219:8443?path=/?proxyip=proxyip.fxxk.dedyn.io&security=tls&encryption=none&host=wxf838.sbs&type=ws&sni=wxf838.sbs#telegram 🌈 v2ray_configs_pools
 vless://de80fd2a-afe3-4cd6-8222-c05c271cc05e@194.182.79.240:14338?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@mehrosaboran
@@ -502,3 +501,4 @@ vless://c8b7f8ad-4895-4aaa-9327-3b3076f169c5@172.66.40.99:8080?path=/telegram-CO
 vless://c8951426-a5a8-5fcb-884f-0a253f771dfd@172.67.171.39:80?path=/vless&security=none&encryption=none&host=Fr1.vless.site.&type=ws#@V2rayNG3
 vless://c8666450-7041-40b2-aa74-d53bd901029e@116.203.87.49:36128?mode=gun&security=none&encryption=none&type=grpc&serviceName=--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--skypro_vpn--#@Skypro_vpn کانال تلگرامی ما 🤍⚡🚀
 vless://c852469b-3623-46a4-bddc-35aa9af89954@104.21.65.149:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@bored_vpn
+vless://c852469b-3623-46a4-bddc-35aa9af89954@104.21.65.149:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@TEHRANARGO

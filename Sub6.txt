@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.128:8880?mode=gun&security=&encryption=none&type=grpc#All-@V2ray_Alpha--12
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.128:8880?mode=gun&security=&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.128:8880?encryption=none&type=grpc&mode=gun&security=none#🇫🇷@𝗦𝗶𝗡𝗔𝗩𝗠 کانال تلگرامی
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.119:8880?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
@@ -502,3 +501,4 @@ vless://debf2a42-1ff4-4ea6-92a4-f6ac49595cc7@abzartun2.divartehran.online:23737?
 vless://deaea616-5b0e-40a4-ad13-b2ae569a06b4@www.speedtest.net:2053?mode=gun&security=tls&alpn=h2,http/1.1&encryption=none&fp=chrome&type=grpc&sni=us1.projecthope.ir#@NoForcedHeaven🇺🇸
 vless://deaea616-5b0e-40a4-ad13-b2ae569a06b4@us1.projecthope.ir:2053?mode=gun&security=tls&alpn=h2,http/1.1&encryption=none&fp=chrome&type=grpc&sni=us1.projecthope.ir#@NoForcedHeaven🇺🇸
 vless://dead1bb8-e95a-4517-8ed2-e0694de80ba6@138.197.215.108:443?security=reality&encryption=none&pbk=YyHLH09FoCQ7NvAPFcjXfjIiKU7wRTi-Ri8ahnqaoGU&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.icloud.com&sid=5175dd3850#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://dea991b4-696f-4e9e-9761-1e1b31bb02de@172.64.146.66:443?encryption=none&security=tls&sni=2.294294.xyz&fp=chrome&type=ws&host=2.294294.xyz&path=/snippets#@Daily_Configs

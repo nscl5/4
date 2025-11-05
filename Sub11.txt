@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://7556317c-dff6-46e8-ad29-b408f2a6456e@5.10.214.253:2096?encryption=none&security=tls&sni=vless.muzheng.top&fp=chrome&type=ws&path=/#@Daily_Configs
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@45.192.224.253:2096?security=tls&encryption=none&type=ws&sni=vless.muzheng.top#Channel : @Mrsoulb 🏴🏳
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@45.192.224.253:2096?path=/Telegram🇨🇳@WangCai2/?ed=2560&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#🇺🇸@FreakConfig
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@45.192.224.253:2096?path=/Telegram🇨🇳@WangCai2/?ed=2560&security=tls&encryption=none&host=vless.muzheng.top&type=ws&sni=vless.muzheng.top#🇺🇲@FreakConfig
@@ -502,3 +501,4 @@ vless://60ba0849-348a-4fe2-9b32-a6800232a357@www.speedtest.net:80?type=ws&path=/
 vless://608a6bd2-8d2b-434b-ace6-02ad4c6ed970@srcvpn.fast.hosting-ip.com:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 Telegram @SRCVPN
 vless://608a6bd2-8d2b-434b-ace6-02ad4c6ed970@G0dv2ray.fast.hosting-ip.com:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 @G0dv2ray
 vless://608a6bd2-8d2b-434b-ace6-02ad4c6ed970@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 Telegram @SRCVPN ²
+vless://608a6bd2-8d2b-434b-ace6-02ad4c6ed970@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪 @G0dv2ray
