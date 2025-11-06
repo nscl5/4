@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://38a2c051-ba6a-4457-b793-21b21886cbc9@dl5.ndkwiut2718.ir:8443/?type=httpupgrade&encryption=none&host=dl5.ndkwiut2718.ir&path=/&security=tls&sni=dl5.ndkwiut2718.ir&fp=chrome#[🇦🇪AE-CDN] (📶∞⏳∞)
 vless://38a2c051-ba6a-4457-b793-21b21886cbc9@dl1.ndkwiut2718.ir:8443/?type=tcp&encryption=none&security=tls&sni=dl1.ndkwiut2718.ir&fp=chrome#[🇩🇪DE-CDN] @Geek_Spot
 vless://38a2070d-a256-48f3-891b-c9b68b01c8f7@198.41.198.76:443?security=tls&encryption=none&type=ws&host=jd.wxgqlfx.top&path=/?ed=2048&sni=jd.wxgqlfx.top&fp=chrome#mci-mtn🇬🇧[Awlix_ir]
 vless://387d6d9a-5594-4b2a-a60d-5b2cb1f57638@185.126.255.180:443?security=reality&encryption=none&pbk=AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.speedtest.net#🇺🇦 | @External_Net
@@ -501,4 +502,3 @@ vless://27b6c98d-f6e3-47de-8f12-dc3e25f8dad3@www.speedtest.net:2082?path=/@spike
 vless://27b61a3e-ef8c-4bc8-923f-f4ac433d1056@157.230.16.250:50395?type=kcp&headerType=none&seed=K1nVjOzkLe&security=none#کانال ما @MrConfig_Channel🎴
 vless://27ab1462-5fa9-47f0-c7fe-f8e83f4be942@65.109.208.107:2083?encryption=none&security=reality&sni=khamenei.ir&fp=chrome&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&sid=54602915a7&spx=/&type=grpc&authority=&serviceName=melov2ray&mode=gun#@melov2ray🇫🇮
 vless://2766f617-351d-4af6-99b6-b57942642a75@172.66.40.99:8880?encryption=none&type=ws&host=websocket.network.www.speedtest.net.kkoccashor.vegaskala.com.&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#qvdyfs4z
-vless://275d87d1-221a-4e47-96b1-9a6f76a7daba@151.101.2.133:80?mode=auto&path=/?ed=2048--Telegram@V2ray_Alpha&security=none&encryption=none&host=kavianvpsnour.global.ssl.fastly.net&type=xhttp#@V2rayNG3

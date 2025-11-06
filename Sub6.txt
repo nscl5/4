@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=none&encryption=none&type=grpc#WiFi-@V2rayAlpha--12
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&security=&encryption=none&type=grpc#@v2ray_configs_pools
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.248:8880?mode=gun&security=none&encryption=none&type=grpc#➪+@FILTERK0SH++منبع+کانفیگ+رایگان
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.248:8880?mode=gun&security=none&encryption=none&type=grpc#@vmesskhodam
@@ -501,4 +502,3 @@ vless://d8b86bc9-822a-4030-d898-c923a30fa39c@www.speedtest.net:8080?type=ws&host
 vless://d8b86bc9-822a-4030-d898-c923a30fa39c@numberland.ir:8080?type=ws&host=bia-to-unlimiteddev.unlimiteddev-service.ir&path=/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480#@unlimiteddev-link1
 vless://d8a042b0-a7e5-4cac-96d3-0dc60361545e@www.speedtest.net:2087?type=ws&encryption=none&path=/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android&host=code.yas-nowin.ir&security=tls&fp=chrome&alpn=http/1.1&sni=code.yas-nowin.ir#🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠همه اپراتورها
 vless://d88937d0-ce43-4bf8-9df6-d632810ba9ff@104.26.5.134:443?path=/&security=tls&encryption=none&type=ws&sni=007.xingfu.qzz.io#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://d88937d0-ce43-4bf8-9df6-d632810ba9ff@104.26.5.134:443?path=/&security=tls&encryption=none&host=007.xingfu.qzz.io&fp=chrome&type=ws&sni=007.xingfu.qzz.io#@vmesskhodam
