@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?mode=gun&security=none&encryption=none&type=grpc#r♡ya 🇫🇷
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?mode=gun&security=none&encryption=none&type=grpc#mtmvpn 🇫🇷
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc&note=@freeOnlineVPN#🇫🇷 - FR - @freeOnlineVPN
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880/?type=grpc&encryption=none#@networld_vpn
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.192:8880?mode=gun&security=none&encryption=none&type=grpc#MTMVPN 31
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.192:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2ray_Alpha-35
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.192:8880/?type=grpc&encryption=none#@networld_vpn
@@ -502,3 +498,7 @@ vless://d7ed8991-e019-47c1-b578-93a8d8443830@188.245.200.119:443?mode=auto&path=
 vless://d7dbeb1e-268c-465c-8f59-489f14703efd@5.182.36.251:16331?security=reality&encryption=none&pbk=wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=910aab#All--@V2rayAlpha--23
 vless://d7dbeb1e-268c-465c-8f59-489f14703efd@5.182.36.251:16331?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk&sid=910aab&type=tcp&headerType=none#@Daily_Configs
 vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=/?TELEGRAMV2rayBaaz?ed=512&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#@Hddify
+vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=//ws?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#@HiByeVPNN👈🌿💎
+vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=//ws?ed=2048?ed=2048HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#@HiByeVPNNBot👈🌿💎
+vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=//ws?ed=2048&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#https://t.me/Selinc
+vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?path=/&security=tls&encryption=none&host=totoo.pages.dev&fp=chrome&type=ws&sni=totoo.pages.dev#@sunflowerplato🌻
