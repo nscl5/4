@@ -2,12 +2,12 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://267613d7-f53f-4005-b642-d6f1f687b7cf@104.16.34.128:443?path=%2FdQMN2VQLkaE52qWD%3Fed%3D2560&security=tls&encryption=none&host=ensHOLP-91s.pageS.DEv&fp=randomized&type=ws&sni=ensHOLP-91s.pageS.DEv#@meli_proxyy
-vless://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@104.18.26.90:2096?path=%2F&security=tls&encryption=none&host=JuOf8QfKy3.VpBeThOrVp002.InFo&type=ws&sni=JuOf8QfKy3.VpBeThOrVp002.InFo#@meli_proxyy
-vless://9368b093-d790-4096-9d8a-1265e82f9e2f@172.66.47.15:443?path=%2FTelegram%40proxy_mtm%2F%3Fed%3D2560&security=tls&encryption=none&host=GgGgr.PaGES.dEV&fp=chrome&type=ws&sni=GgGgr.PaGES.dEV#@meli_proxyy
-vless://ffcf7ec1-3e09-4821-b3d9-b426a107b73b@172.67.157.220:443?path=%2FO9jlBCbIm3xr1D40NK&security=tls&alpn=http%2F1.1&encryption=none&host=xxcsdert6.777159.xyz&fp=chrome&type=ws&sni=XXCsDERT6.777159.XyZ#@meli_proxyy
-vless://0fbecce1-acf9-4b6e-a0f7-f48be9d2b7d0@www.speedtest.net:443?path=%2Flinkws%3Fed%3D2560&security=tls&encryption=none&host=MAxNETvipAp-cloUD252.nEtKh3.site&type=ws&sni=MAxNETvipAp-cloUD252.nEtKh3.site#@meli_proxyy
-vless://a9c9c197-c626-4667-f219-1575f26715ac@www.speedtest.net:80?encryption=none&security=none&type=ws&host=fin.channel.digicyber.click&path=%2Folem%2Fws%3Fed%3D1024#%40Daily_Configs
-vless://a9c9c197-c626-4667-f219-1575f26715ac@tgju.org:80?encryption=none&security=none&type=ws&host=fin.channel.digicyber.click&path=%2Folem%2Fws%3Fed%3D1024#%40Daily_Configs
-vless://90d7db9b-972b-4073-8738-12cf42124260@104.19.247.78:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn.pages.dev&fp=chrome&type=ws&sni=kawaiifreevpn.pages.dev#%F0%9F%87%AE%F0%9F%87%B3telegram%20%E2%9E%A0%20%40v2rayNG_Matsuri
-vless://b4a29ec1-5569-4ff3-aca2-8183e26fbfe2@104.18.26.90:2096?path=%2Frsjcbpws&security=tls&encryption=none&host=638874929583359846.zagreb-prx-dnraaad.info&type=ws&sni=638874929583359846.zagreb-prx-dnraaad.info#@meli_proxyy
+vless://48bbb385-8877-4b2d-8f42-d81df401725d@www.speedtest.net:443?security=tls&sni=rAyAn-cOnFiG-it-1.pArIsA.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-it-1.pArIsA.DpDnS.OrG&encryption=none#@Rayan_Config%205.5
+vless://48bbb385-8877-4b2d-8f42-d81df401725d@change.org:443?security=tls&sni=rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg&encryption=none#@Rayan_Config%205.55
+vless://48bbb385-8877-4b2d-8f42-d81df401725d@5.253.43.181:443?security=tls&sni=zula.ir&allowInsecure=1&fp=chrome&type=ws&path=/ws&encryption=none#Rayan%20-%20RVP%20-%20IT%20-%20I%20-%20%F0%9F%9F%A3%20t.me/Rayan_Config
+vless://4710b85a-66e6-411b-b492-0e0f7366ad21@www.visa.com.br:443?security=tls&sni=rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg&encryption=none#@Rayan_Config%203.33
+vless://4710b85a-66e6-411b-b492-0e0f7366ad21@digitalocean.com:443?security=tls&sni=rAyAn-cOnFiG-fr-2.pArIsA.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-2.pArIsA.DpDnS.OrG&encryption=none#@Rayan_Config%203.3
+vless://17108cd5-ddcf-4b6e-bb43-36a711a01366@sourceforge.net:443?security=tls&sni=rAyAn-cOnFiG-HK-1.pArIsA.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-HK-1.pArIsA.DpDnS.OrG&encryption=none#@Rayan_Config%204.4
+vless://17108cd5-ddcf-4b6e-bb43-36a711a01366@medium.com:443?security=tls&sni=rAyAn-cOnFiG-HK-1.pArSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-HK-1.pArSa.dPdNs.oRg&encryption=none#@Rayan_Config%204.44
+vless://17108cd5-ddcf-4b6e-bb43-36a711a01366@74.119.193.40:443?security=tls&sni=zula.ir&allowInsecure=1&fp=chrome&type=ws&path=/ws&encryption=none#Rayan%20-%20RVP%20-%20HK%20-%20I%20-%20%F0%9F%9F%A3%20t.me/Rayan_Config
+vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@adf.ly:443?security=tls&sni=rAyAn-007.pArViN.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/?ed%3D2560&host=rayan-007.parvin.dpdns.org&encryption=none#%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D8%B3%D8%B1%DB%8C%D8%B9%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D8%B4%D8%AE%D8%B5%DB%8C%20:%20https://telegraph.rayan.dpdns.org/persian
