@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.220:8880?encryption=none&type=grpc&mode=gun&authority=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#🇮🇸 @EVAY_VPN
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.216:8880?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&type=grpc&encryption=none&flow=#🇮🇸[Telegram:NetifyVPN]
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.216:8880?mode=gun&security=none&encryption=none&type=grpc&path=/@V2ray_confing33/#@V2ray_confing33
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.216:8880?mode=gun&security=none&encryption=none&type=grpc#🏴‍☠️@FreakConfig
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.216:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--25
@@ -500,5 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.14.244.44:8880?mode=gun&security
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.120.178.9:8880?mode=gun&security=none&encryption=none&type=grpc#JOIN ➪@FILTERK0SH
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.120.178.9:8880?mode=gun&security=&encryption=none&type=grpc#MCI-@V2rayAlpha--12
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.99:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--6
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.98:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--7
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&type=grpc#azadiiivpn 🎀

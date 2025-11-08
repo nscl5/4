@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://fd7eb872-66bd-4bf7-be5b-8f349e7c5f16@172.234.239.252:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🌈 v2ray_configs_pools
+vless://fd7eb872-66bd-4bf7-be5b-8f349e7c5f16@172.234.239.252:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram ☂️ v2ray_configs_pools
 vless://fd314a22-2bbd-49c0-bc39-5b923b02b4bd@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#tm⚡|@lightning6
 vless://fce4538c-7441-4373-9391-682ccff13088@104.26.15.69:8880?path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast?ed=2048&security=&encryption=none&host=v2ngfast.byte-server.ir.&type=httpupgrade#🇩🇪 @V2ngFast
 vless://fc980bbf-02ca-4f82-a098-c2101338eaa1@www.wappalyzer.com:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@bored_vpn
@@ -500,5 +502,3 @@ vless://e497da22-d020-40fb-a1fa-bc294066a2d2@104.20.129.2:80?security=&type=ws&p
 vless://e490690c-388b-4d0e-90de-dd6f8e7619a3@v26.gaterserver.ir:1370?security=reality&encryption=none&pbk=_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw&headerType=none&fp=chrome&type=tcp&sni=refersion.com&sid=e1afb93bfe75a34b#@v2ray_configs_pools
 vless://e490536d-c19a-4d38-ae62-cec388de4034@tgju.org:80?path=/?ed=2048&security=none&encryption=none&host=tAlENteD-clOthinG.ONEeaT.Co&type=ws#telegram 🎯 v2ray_configs_pools
 vless://e4824193-4f54-453b-d037-88368e85ef0e@public18v7.fastipsport.com:8880?mode=gun&security=none&encryption=none&type=grpc#MCI-@V2rayAlpha--9
-vless://e4824193-4f54-453b-d037-88368e85ef0e@public15v7.fastipsport.com:8880?security=&encryption=none&type=grpc#JOIN ➪@FILTERK0SH
-vless://e4824193-4f54-453b-d037-88368e85ef0e@public15v7.fastipsport.com:8880?mode=gun&security=none&encryption=none&type=grpc#✅ @v2ray_configs_pools (تلگرام)
