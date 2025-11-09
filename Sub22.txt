@@ -2,4 +2,4 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0RkdFMXN5N3I4YUx6OGVzZGpYQ1hm@81.19.141.45:443#%2525F0%25259F%252587%2525AC%2525F0%25259F%252587%2525A7telegram%252520%2525E2%25259E%2525A0%252520%252540v2rayNG_Matsuri%252520%25253E%25253E%252540v2rayNG_Matsuri%253A%253ADE%3A%3ADE
+vless://b4a29ec1-5569-4ff3-aca2-8183e26fbfe2@104.18.26.90:2096?path=%2Frsjcbpws&security=tls&encryption=none&host=638874929583359846.zagreb-prx-dnraaad.info&type=ws&sni=638874929583359846.zagreb-prx-dnraaad.info#@meli_proxyy
