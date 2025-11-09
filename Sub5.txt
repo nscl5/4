@@ -2,15 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.130.190:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--14
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.130.190:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@37.27.93.66:8880?mode=gun&security=none&encryption=none&type=grpc#Channel id: @Adamak_vpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@37.27.4.12:8880?mode=gun&security=none&encryption=none&type=grpc#@Adamak_vpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@37.27.250.184:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@37.27.249.94:8880?security=&type=grpc&encryption=none#@awlix_ir
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.11.74:8880?mode=gun&security=&encryption=none&type=grpc&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇫🇷]t.me/Raiv2mmr
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.96:8880?mode=gun&security=none&encryption=none&type=grpc#limo
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.96:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.94:8880?mode=gun&security=none&encryption=none&type=grpc#MCi--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.94:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--16
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.94:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--22
@@ -502,3 +493,12 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.182.224:8880?mode=gun&secur
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.67:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.67:8880?mode=gun&security=none&encryption=none&type=grpc#@Daily_Configs
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.67:8880?mode=gun&security=&encryption=none&type=grpc#📢+سرورای+بیشتر+هر+روز+تو+کانال++👉+@Fast78_Channel
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.67:8880?encryption=none&security=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.3:8880?mode=gun&security=none&encryption=none&type=grpc#limo
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.3:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.3:8880?mode=gun&security=none&alpn=http/1.1&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&fp=chrome&type=grpc&sni=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)#🇬🇧TM (@AZARBAYJAB1) GPRS
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.3:8880?encryption=none&security=none&type=grpc#t.me/v2Line | Free | 2840 | United Kingdom
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?mode=gun&security=none&encryption=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#@MARAMBASHI 🧡
