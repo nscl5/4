@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=&encryption=none&type=grpc#All-@V2ray_Alpha--21
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=&encryption=none&type=grpc#@V2rayNG3
@@ -93,7 +92,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--19
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@188.245.114.143:8880?security=&type=grpc&encryption=none#@awlix_ir
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.8.105.254:8880?mode=gun&security=&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.72:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-26
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.72:8880?mode=gun&security=none&encryption=none&type=grpc#ALL@azadiiivpn ✨️
@@ -264,6 +262,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&security=none&encryption=none&authority=/@Evay_vpn----@Rk_VPS----@Rk_VPS----@Rk_VPS----@Rk_VPS----@Rk_VPS----@Rk_VPS&type=grpc#All🇩🇪@Rk_VPS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?mode=gun&security=&encryption=none&type=grpc#@V2ray_confing33
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?encryption=none&type=grpc&mode=gun&security=none#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.64.49:8880?encryption=none&type=grpc&mode=gun&authority=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#🇫🇷 @Evay_vpn
@@ -351,7 +350,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.161:8880?mode=gun&secur
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.161:8880?mode=gun&security=none&encryption=none&type=grpc#limo
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.161:8880?mode=gun&security=none&encryption=none&type=grpc#MTMVPN 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.161:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.161:8880?mode=gun&security=&encryption=none&type=grpc&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇫🇷]t.me/Raiv2mmr
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?mode=gun&security=none&encryption=none&type=grpc&path=/@V2ray_confing33/#@V2ray_confing33
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?mode=gun&security=none&encryption=none&type=grpc#✅ @vistav2ray  👈👈کانال ما
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?mode=gun&security=none&encryption=none&type=grpc#limo
@@ -492,7 +490,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&fp=chrome&type=grpc#@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#@MARAMBASHI 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=---_&type=grpc#🇫🇮@FreakConfig
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=---_&type=grpc#@meli_proxyy
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=---_&type=grpc#@V2RAYROZ
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=---B_T&fp=chrome&type=grpc#[🇫🇮]
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&authority=---B_T&fp=chrome&type=grpc#@meli_proxyy
@@ -502,3 +499,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--31
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#🇫🇮@FreakConfig
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#@meli_proxyy
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.201:8880?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#@V2RAYROZ
