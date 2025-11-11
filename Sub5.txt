@@ -2,14 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.218:8880?encryption=none&security=none&type=grpc#@Daily_Configs
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-28
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#All-@IRAN_V2RAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#All-@V2ray_Alpha--17
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#MCi--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#Join To:@IRAN_V2RAY1 {VIP}
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--27
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.16:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--19
@@ -502,3 +494,11 @@ vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?path=/&s
 vless://ddab5550-3938-4aba-943c-f23a08d07dc5@check-host.net:443?path=/ws&security=tls&encryption=none&host=rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG&fp=chrome&type=ws&sni=rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG#🇵🇱[Telegram:@tik7net_vpn]
 vless://ddab5550-3938-4aba-943c-f23a08d07dc5@check-host.net:443?path=/ws&security=tls&encryption=none&host=rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG&fp=chrome&type=ws&sni=rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG#🇵🇱@FreakConfig
 vless://ddab5550-3938-4aba-943c-f23a08d07dc5@alhilal.com:443?path=/ws&security=tls&encryption=none&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&fp=chrome&type=ws&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg#@meli_proxyy
+vless://ddab5550-3938-4aba-943c-f23a08d07dc5@alhilal.com:443?path=/ws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&fp=chrome&type=ws&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg#@meli_proxyy
+vless://ddab5550-3938-4aba-943c-f23a08d07dc5@alhilal.com:443?path=/ws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&fp=chrome&type=ws&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg#@MARAMBASHI 🇧🇷
+vless://dd75ec90-541f-4150-8784-6095381c9894@141.227.160.163:44606?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@HiByeVPNN👈⚡❤️‍🔥
+vless://dd69027c-57af-ab02-c4fc-a7dcfda001e9@ukraine.marzxo.biz:8091?security=reality&encryption=none&pbk=Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com&sid=828348fc6d8e49cf#@meli_proxyy
+vless://dd69027c-57af-ab02-c4fc-a7dcfda001e9@bulgaria.marzxo.biz:8095?security=reality&encryption=none&pbk=Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com&sid=828348fc6d8e49cf#@meli_proxyy
+vless://dd61727c-5bad-471d-a75b-037596847dcb@www.speedtest.net:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@bored_vpn
+vless://dd61727c-5bad-471d-a75b-037596847dcb@test2.amin8263.ir:2095?type=ws&encryption=none&path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048/@XpnTeam?ed=2048&host=test3.amin8263.ir&security=none#🇩🇪 | XpnTeam - Telegrams-xjivzsbz
+vless://dd61727c-5bad-471d-a75b-037596847dcb@test2.amin8263.ir:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@bored_vpn
