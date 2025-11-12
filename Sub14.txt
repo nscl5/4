@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://256b56b5-9079-4266-8777-c39fdcd87cd9@www.speedtest.net:443?path=/@V2ray_confing33/&security=tls&alpn=h2,http/1.1&encryption=none&fp=chrome&type=ws&sni=amir-ebr.pages.dev#@V2ray_confing33
-vless://256b56b5-9079-4266-8777-c39fdcd87cd9@www.speedtest.net:443?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=amir-ebr.pages.dev&type=ws&sni=amIR-ebR.pAGeS.Dev#@MARAMBASHI 🧡
 vless://256b56b5-9079-4266-8777-c39fdcd87cd9@www.speedtest.net:443?path=/2IBbZjAugSH41qc5?ed&security=tls&encryption=none&host=amir-ebr.pages.dev&type=ws&sni=amIR-ebR.pAGeS.Dev#@Hddify
 vless://256b56b5-9079-4266-8777-c39fdcd87cd9@www.speedtest.net:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&fp=chrome&type=ws&sni=amir-ebr.pages.dev#Channel : @Mrsoulb 🏴🏳
 vless://2569eda8-7022-46f2-8099-4e239cae9a7c@172.66.40.99:8880?type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#V2rayArgon 👈چنل ما
@@ -502,3 +500,5 @@ vless://0f7e89d6-9f35-4e94-ba4b-509a724dc177@91.99.219.10:443?mode=auto&path=/ds
 vless://0f7e89d6-9f35-4e94-ba4b-509a724dc177@91.99.219.10:443?mode=auto&path=/ds&security=&encryption=none&type=xhttp#@v2ray_configs_pools
 vless://0f52d2a3-151e-49ec-b816-afbfd269d521@nl2.asc-sam.ir:443?security=tls&alpn=h3,h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp#@NoForcedHeaven🇳🇱
 vless://0f4865d9-9405-4703-a282-46e326e6d9e7@bewildered-poem.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#✅@v2ray_configs_pools
+vless://0f4865d9-9405-4703-a282-46e326e6d9e7@bewildered-poem.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#@v2ray_configs_pools❤️‍🔥⚡
+vless://0f4865d9-9405-4703-a282-46e326e6d9e7@bewildered-poem.seotoolsforyou.co.uk:80?path=/&security=&encryption=none&type=ws#JOIN ➪@FILTERK0SH
