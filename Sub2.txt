@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://fa856c4c-b4c3-46e5-93ad-7b1bcf205fa3@gerpanel7.hipay.su:443?security=reality&encryption=none&pbk=BkLraNl-jKNmC6kV302GBsr81RB4vP_ZKoAlFpqYTys&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ger7.hipay.su&sid=8eb16bc6b2f0589c#@MARAMBASHI 🧡
+vless://fa72a38c-56bf-4f3b-9735-e96e9840ae54@65.109.118.175:443?security=tls&alpn=h3,h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=app.chandplus.com#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://fa-7549225089-1761680237482111@62.3.12.10:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN❤️‍🔥💎✨
 vless://fa-7549225089-1761680237482111@62.3.12.10:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN
 vless://fa-7549225089-1761680237482111@212.8.226.141:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN❤️‍🔥💎✨
@@ -500,5 +502,3 @@ vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh30v8.waipdirect.shop:8880?securi
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh30v8.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh30v2.vetmainconf.shop:8880?security=&encryption=none&type=grpc#JOIN ➪@FILTERK0SH
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh29v4.vetmainconf.shop:8880?security=&encryption=none&type=grpc#telegram ☂️ v2ray_configs_pools
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh29v4.vetmainconf.shop:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh29v4.vetmainconf.shop:8880?mode=gun&security=none&encryption=none&type=grpc#ALL@azadiiivpn 🎀

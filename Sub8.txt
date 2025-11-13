@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://SVNTEAM1@SvnFree.GiSvn.ir:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#🇩🇪TCP-51
+vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-43
 vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-41
 vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-39
 vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-37
@@ -500,5 +502,3 @@ vless://8918d0d6-b266-4f71-9aaf-4160265537e6@speedtest.net:80?mode=auto&path=/?@
 vless://88f30f27-b786-4e09-9be4-9dfdc0f93cba@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=eMPatHic-Bird.oneEat.Co&type=ws#telegram 🎪 v2ray_configs_pools
 vless://88f30f27-b786-4e09-9be4-9dfdc0f93cba@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=eMPatHic-Bird.oneEat.Co&type=ws#telegram 🌟 v2ray_configs_pools
 vless://88f30f27-b786-4e09-9be4-9dfdc0f93cba@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=eMPatHic-Bird.oneEat.Co&type=ws#telegram ⚡️ v2ray_configs_pools
-vless://88da5abf-08f2-44fe-951e-358e96bc86ba@SVNTEAM.MiSVN.iR:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=tgju.org&fp=chrome&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&sid=e54b5ad736ae4c38#SVNTEAN🇩🇪TCP-45
-vless://88c30a4c-bc85-42d5-a5ac-38252612fd0e@broodmother.fonixapp.org:36827?security=reality&encryption=none&pbk=n3DJmBTvXThSytT0NeVD64myEx7cniyCvI1T2yzZ8nc&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=lowes.com&sid=95#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
