@@ -61,6 +61,8 @@ var dirLinks = []string{
 	"https://raw.githubusercontent.com/C4ssif3r/V2ray-sub/main/all.txt",
 	"https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
 	"https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",
+	"https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
+	"https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vmess.txt",
 }
 
 type Result struct {
