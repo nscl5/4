@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go.svg) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/Danialsamadi/v2go) ![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg) [![GitHub stars](https://badgen.net/github/stars/Danialsamadi/v2go)](https://github.com/Danialsamadi/v2go/stargazers) [![Last commit](https://badgen.net/github/last-commit/Danialsamadi/v2go)](https://github.com/Danialsamadi/v2go/commits/main)
 
 # High-Performance V2Ray Config Aggregator (Go Edition) 🚀
 
