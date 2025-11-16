@@ -2,15 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@185.143.232.224:80?path=/news&security=&encryption=none&host=bama.ir.usa.cdnir.org&type=ws#🇺🇸@FreakConfig
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@185.143.232.224:80?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&path=/news&security=none&encryption=none&host=bama.ir.german.cdnir.org&type=ws#🇦🇹[Telegram:NetifyVPN]
-vless://53fcd5fb-b997-41f6-8cc1-3eb6d34c5d52@v2ngnet.xero-network.ir:4455?encryption=none&type=xhttp&mode=auto&path=/@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-@v2ngnet-&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇬🇧 @V2ngNet
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@156.238.18.163:2095?path=/Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH&security=&encryption=none&host=redw.pooriam.ir&type=ws#🇺🇸🇦🇪🇩🇪@FILTERK0SH+|+All
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.21.56.44:80?path=/telegram@V2ray_Alpha/?ed=2048&security=none&alpn=h2,http/1.1&encryption=none&host=redw.pooriam.ir&fp=chrome&type=ws#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.21.56.44:443?path=/telegram@v2ray_alpha?ed=2560&security=tls&encryption=none&host=redw.pooriam.ir&type=ws&sni=REDw.pOOriam.Ir#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.21.112.1:443?path=/Telegram@V2ray_Alpha/?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=psycho.suex12.ir&fp=chrome&type=ws&sni=pSYcho.sUeX12.IR#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.148.22:80?path=/telegram@v2ray_alpha/?ed=2560&security=none&encryption=none&host=redw.pooriam.ir&type=ws#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=/Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#@V2rayNG3
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩اشتراک رایگان کانال LUNAVO💥
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&type=ws&sni=638988506154316713.civic-amshw.info#Channel : @Mrsoulb 🏴🏳
@@ -502,3 +493,12 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?encrypti
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.45:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&mode=gun&security=none&encryption=none&type=grpc#🇺🇸[Telegram:NetifyVPN]
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#azadiiivpn ⁷🎀
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#Telegram: @vpnbaz
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--21
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--17
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇸@FreakConfig
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇲@FreakConfig
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.33:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.252:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
