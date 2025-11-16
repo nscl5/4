@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.21.112.1:443?path=/Telegram@V2ray_Alpha/?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=psycho.suex12.ir&fp=chrome&type=ws&sni=pSYcho.sUeX12.IR#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.148.22:80?path=/telegram@v2ray_alpha/?ed=2560&security=none&encryption=none&host=redw.pooriam.ir&type=ws#@V2rayNG3
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=/Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#@V2rayNG3
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩اشتراک رایگان کانال LUNAVO💥
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&type=ws&sni=638988506154316713.civic-amshw.info#Channel : @Mrsoulb 🏴🏳
@@ -502,3 +499,6 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=n
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--17
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇸@FreakConfig
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇲@FreakConfig
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.33:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
+vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.252:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
