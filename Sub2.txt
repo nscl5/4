@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://f99cc0f1-d1a3-45f9-a13b-b33c8d3e0f10@greenwolf.fonixapp.org:30268?security=reality&encryption=none&pbk=GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=indeed.com&sid=50bcccfb#telegram @mtmvpn
-vless://f97211b0-1564-4f3b-a88b-f39d536a01a1@arcwarden.fonixapp.org:29993?security=reality&encryption=none&pbk=uI8gEGoSUu0Dbs8ng8wHZZaiyGPopE4eLBfoEOZybW8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=merriam-webster.com&sid=a2#🇩🇪@FreakConfig
 vless://f97211b0-1564-4f3b-a88b-f39d536a01a1@arcwarden.fonixapp.org:29993?security=reality&encryption=none&pbk=uI8gEGoSUu0Dbs8ng8wHZZaiyGPopE4eLBfoEOZybW8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=merriam-webster.com&sid=a2#@sunflowerplato🌻
 vless://f97211b0-1564-4f3b-a88b-f39d536a01a1@arcwarden.fonixapp.org:29993?encryption=none&flow=xtls-rprx-vision&security=reality&sni=merriam-webster.com&fp=chrome&pbk=uI8gEGoSUu0Dbs8ng8wHZZaiyGPopE4eLBfoEOZybW8&sid=a2&spx=/&type=tcp&headerType=none#@Daily_Configs
 vless://f941f129-16b3-4763-91be-8389dc3ad91a@tgju.org:80?path=/?ed=2048&security=none&encryption=none&host=AdveNTurOuS-MilK.ONEEat.cO&type=ws#telegram ⚡️ v2ray_configs_pools
@@ -502,3 +500,5 @@ vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@104.19.144.33:443?path=/?Join---MAR
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@104.19.144.33:2096?path=/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=E4aRpUi7Xe.GiTi4.OrG&fp=chrome&type=ws&sni=E4aRpUi7Xe.GiTi4.OrG#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@104.19.144.33:2096?path=/&security=tls&encryption=none&host=E4aRpUi7Xe.GiTi4.OrG&fp=chrome&type=ws&sni=E4aRpUi7Xe.GiTi4.OrG#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=/Etb1L6YUdZFZuTOr?ed=2560&security=none&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#Channel-@vmesskhodam
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@172.67.65.158:8880?path=/Etb1L6YUdZFZuTOr?ed=2560&security=&encryption=none&host=VngSuPpLY.IP-Ddns.com&type=ws#Channel-@vmesskhodam
+vless://e9979910-79d1-4621-a93c-b2a579c44ba7@104.24.171.107:443?path=/eJ5JZ3A1HxfU0bPO?ed=2560/?v2ray_configs_pools_BIA_CHANEL@v2ray_configs_pools&security=tls&encryption=none&host=vngsupply.ip-ddns.com&type=ws&sni=vNgSUppLy.IP-dDnS.COm#@v2ray_configs_pools👈⚡❤️‍🔥
