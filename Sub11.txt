@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.21.112.1:443?path=/Telegram@V2ray_Alpha/?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=psycho.suex12.ir&fp=chrome&type=ws&sni=pSYcho.sUeX12.IR#@V2rayNG3
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.148.22:80?path=/telegram@v2ray_alpha/?ed=2560&security=none&encryption=none&host=redw.pooriam.ir&type=ws#@V2rayNG3
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=/Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=redfree8.pooriashop.ir&type=ws#@V2rayNG3
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩اشتراک رایگان کانال LUNAVO💥
 vless://53f40fb5-1217-4dd7-8b8d-2cb0f5e9c3e5@134.112.26.0:80?mode=auto&path=/@LUNAVO_VPN&security=none&encryption=none&host=fast.com&type=xhttp#🇮🇩
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&type=ws&sni=638988506154316713.civic-amshw.info#Channel : @Mrsoulb 🏴🏳
@@ -112,7 +115,6 @@ vless://4e93f605-91e5-47e0-b82b-a894e57a29b4@172.66.156.81:80?encryption=none&ty
 vless://4e93f605-91e5-47e0-b82b-a894e57a29b4@172.66.156.81:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.store.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#🇺🇸 Telegram @SRCVPN
 vless://4e93f605-91e5-47e0-b82b-a894e57a29b4@172.66.156.81:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.store.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#🇺🇸 @G0dv2ray
 vless://4e808598-62dd-4e13-9b1e-db1a93715ad2@92.223.124.62:80?security=none&type=httpupgrade&host=qk.ir&path=/makesxnswithmtnandmci/wild/?ed=2048#t.me/entryNET/config=1848905411963882
-vless://4e2b9dcb-f0d6-4eb8-e9f6-04c1f2fbf2e7@www.speedtest.net:2082?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082&security=none&encryption=none&host=novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=ws#@spikevpn👈 جوین بده💯⚡
 vless://4e21e86a-46f1-4272-bdb3-bac8bc6839ab@Loadbalance.systemgamingirani.ir:443?security=reality&encryption=none&pbk=v3_phZMVMpR1IKmwS3HEBQGE5Yh8rFyZJOplk71hWkg&headerType=none&fp=chrome&spx=/&type=tcp&sni=tgju.org&sid=b7859e878ab2fb#Channel-@vmesskhodam
 vless://4e21e86a-46f1-4272-bdb3-bac8bc6839ab@Loadbalance.systemgamingirani.ir:443?security=reality&encryption=none&pbk=v3_phZMVMpR1IKmwS3HEBQGE5Yh8rFyZJOplk71hWkg&headerType=none&fp=chrome&spx=/&type=tcp&sni=tgju.org&sid=b7859e878ab2fb#@v2ray_configs_pools
 vless://4e029b68-9832-464e-cac4-b98e28cbb0c9@151.101.3.8:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#🇩🇪 | XpnTeam - Telegrams-tsplbyis
@@ -500,5 +502,3 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=n
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--17
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇸@FreakConfig
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?mode=gun&security=&encryption=none&type=grpc#🇺🇲@FreakConfig
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.33:80?mode=gun&security=none&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇺🇲TM (@AZARBAYJAB1) gprs
