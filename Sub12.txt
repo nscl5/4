@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.171:80?mode=gun&security=none&encryption=none&type=grpc#@Hddify
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.171:80?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&type=grpc#🇺🇲TM 💕@AZARBAYJAB1 💕 GPRS
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.159:80?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&type=grpc#🇺🇲TM 💕@AZARBAYJAB1 💕 GPRS
-vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.125:80?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&type=grpc#🇺🇲TM 💕@AZARBAYJAB1 💕 GPRS
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.118:80?mode=gun&security=none&encryption=none&authority=/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&type=grpc#@HiByeVPNN❤️‍🔥🔥✨
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.118:80?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&type=grpc#🇺🇲TM 💕@AZARBAYJAB1 💕 GPRS
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.108:80?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 telegram@ISVvpn
@@ -502,3 +498,7 @@ vless://2a2d5f5d-6acb-438f-ba25-f3cbc6614b63@51.38.232.101:80?path=/vless/&secur
 vless://2a2d5f5d-6acb-438f-ba25-f3cbc6614b63@51.38.232.101:80?path=/vless/&security=none&encryption=none&fp=chrome&type=ws#Bya To:@IRAN_V2RAY1
 vless://2a2d5f5d-6acb-438f-ba25-f3cbc6614b63@51.38.232.101:80?path=/vless/&security=&encryption=none&host=t.me/v2line&type=ws#@V2ray_confing33
 vless://2a109d65-a6db-42cc-ae72-2db2548e5047@fast7.hvitrin.ir:48769?security=reality&encryption=none&pbk=7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E&headerType=none&fp=chrome&spx=/&type=tcp&sni=miro.com&sid=177f438f#@v2rayfast_7❤️‍🔥
+vless://29b6687e-0544-4749-b1b3-ad2e29e81cf6@65.109.184.82:8443?security=none&encryption=none&headerType=none&type=tcp#🚀@tik7net_vpn کانال تلگرام🇫🇮
+vless://29b6687e-0544-4749-b1b3-ad2e29e81cf6@65.109.184.82:8443?path=/telegram_?ed=2560&security=none&encryption=none&host=65.109.184.82&type=ws#@meli_proxyy
+vless://29b6687e-0544-4749-b1b3-ad2e29e81cf6@65.109.184.82:7443?security=none&encryption=none&headerType=none&type=tcp#@meli_proxyy
+vless://29b6687e-0544-4749-b1b3-ad2e29e81cf6@65.109.184.82:7443?security=none&encryption=none&headerType=none&type=tcp#@VPNSupportGroup
