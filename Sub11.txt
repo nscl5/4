@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://53027f0f-2581-469a-a802-825d46f37cda@104.18.124.198:443?path=/cassiusvpn.pages.dev/?ed=2560&security=tls&encryption=none&host=a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org&fp=chrome&type=ws&sni=a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org#@V2rayNG3
 vless://52adc6ba-b1c7-4541-a594-08fc698be640@grounded-brother.seotoolsforyou.co.uk:80?path=/&security=none&encryption=none&type=ws#✅ @v2ray_configs_pools (تلگرام)
 vless://52aae58a-1d54-45a4-9d05-c36d16a6dd12@143.14.189.181:443?security=reality&encryption=none&pbk=Q0aLm5f1x8Sh0jWnBWneusXUWeKTw9d8AcP4oEIkgwc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=icloud.com&sid=86#@sunflowerplato🌻
 vless://52a1f20b-e3e2-4280-a953-1c7e940408b6@103.231.75.17:443?path=/lfcinsws?--TELEGRAM-v2ray_configs_pools----TELEGRAM-v2ray_configs_pools&security=tls&encryption=none&type=ws#telegram 🎯 v2ray_configs_pools
@@ -501,4 +502,3 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.249:80?mode=gun&security=
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.23:80?mode=gun&security=none&encryption=none&type=grpc#@V2ray_confing33
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.23:80?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.23:80?mode=gun&security=none&encryption=none&type=grpc#@Selinc
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.23:80?mode=gun&security=&encryption=none&authority=?ed=2048Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12&type=grpc#🇺🇸@FreakConfig
