@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=staging-esc.predict.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
+vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=sport.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
+vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=sphere.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=service.amigo.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=pulse.mp.rzd.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://00f02ab2-6f2d-449f-a089-d182a2fac59a@81.161.98.228:1443?encryption=none&security=tls&sni=pogoda.mail.ru&allowInsecure=1&type=ws&host=cdn.filterai.ru&path=/websocketpl&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
@@ -499,6 +502,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218:52571?note=--Telegram--@NetifyVPN--#🇳🇱[Telegram:NetifyVpn]
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218:52571#🇳🇱@FreakConfig
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218:52571#[🇳🇱]
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218:52571#@meli_proxyy
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTUzJRdmJDOW5xTHAyc1hYWm8wQlZ5NHNsY0VyUnVDdA==@103.35.189.136:443#WiFi-@V2rayAlpha--6
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTUzJRdmJDOW5xTHAyc1hYWm8wQlZ5NHNsY0VyUnVDdA==@103.35.189.136:443#@meli_proxyy
