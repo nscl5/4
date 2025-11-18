@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://SVNTEAM4@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-25
+vless://SVNTEAM4@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-26
+vless://SVNTEAM3@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-23
+vless://SVNTEAM3@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-21
 vless://SVNTEAM3@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-24
 vless://SVNTEAM3@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-22
 vless://SVNTEAM1@SvnFree.GiSvn.ir:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#🇩🇪TCP-51
@@ -498,7 +502,3 @@ vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&securi
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=kivi.apps724.site#Channel : @Mrsoulb 🏴🏳
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=6389113402676776513.VtNeT.infO#@vmesskhodam
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#🇩🇪@FreakConfig
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#🇩🇪
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#telegram @mtmvpn
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#@meli_proxyy
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#@VPNSupportGroup
