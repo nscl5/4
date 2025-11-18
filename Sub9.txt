@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#🇩🇪
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#telegram @mtmvpn
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#@meli_proxyy
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#@VPNSupportGroup
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=nargil.mrconfigur.site&type=ws&sni=nargil.mrconfigur.site#@Selinc
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=holo.mrconfigur.site&type=ws&sni=holo.mrconfigur.site#🇩🇪@FreakConfig
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&host=holo.mrconfigur.site&type=ws&sni=holo.mrconfigur.site#telegram @mtmvpn
@@ -502,3 +498,7 @@ vless://6c11247b-6078-461a-93d5-22e4df284e6d@104.21.36.57:443?path=/wsv/6c11247b
 vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linksg64.eovay.com:31064?security=reality&encryption=none&pbk=zwgm4-BssFEzGy7VSQmcd3LhJZzT36XNlNVrnQqDLBM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.lamer.com.sg&sid=d3875950#telegram @MTMVP
 vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linksg64.eovay.com:31064?security=reality&encryption=none&pbk=zwgm4-BssFEzGy7VSQmcd3LhJZzT36XNlNVrnQqDLBM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.lamer.com.sg&sid=d3875950#All--@V2rayAlpha-37
 vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linksg64.eovay.com:31064?security=reality&encryption=none&pbk=zwgm4-BssFEzGy7VSQmcd3LhJZzT36XNlNVrnQqDLBM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.lamer.com.sg&sid=d3875950#@Selinc
+vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linksg64.eovay.com:31064?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=www.lamer.com.sg&pbk=zwgm4-BssFEzGy7VSQmcd3LhJZzT36XNlNVrnQqDLBM&sid=d3875950&spx=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn#🇸🇬 @EVAY_VPN
+vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linkkr22.eovay.com:50022?security=reality&encryption=none&pbk=9o3SRBZXuCmIzT62VDD49t1iizy80sU_Sx05HQO_bh4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=c46b996f#r♡ya
+vless://6c0472bc-82df-449e-90bd-2f91c6a46402@aws-linkjp44.eovay.com:40044?security=reality&encryption=none&pbk=9o3SRBZXuCmIzT62VDD49t1iizy80sU_Sx05HQO_bh4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gghouse.co.jp&sid=c46b996f#r♡ya
+vless://6c0472bc-82df-449e-90bd-2f91c6a46402@16.52.46.21:53311?security=reality&encryption=none&pbk=tLnFOIMwZis9u0x01CjvgG8tf4SqAALfOhPFKP-lRmk&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=f4d55d8e#🇨🇦 | @External_Net
