@@ -2,6 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://a9c9c197-c626-4667-f219-1575f26715ac@tgju.org:80?encryption=none&security=none&type=ws&host=fin.channel.digicyber.click&path=%2Folem%2Fws%3Fed%3D1024#%40Daily_Configs
-vless://90d7db9b-972b-4073-8738-12cf42124260@104.19.247.78:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn.pages.dev&fp=chrome&type=ws&sni=kawaiifreevpn.pages.dev#%F0%9F%87%AE%F0%9F%87%B3telegram%20%E2%9E%A0%20%40v2rayNG_Matsuri
-vless://b4a29ec1-5569-4ff3-aca2-8183e26fbfe2@104.18.26.90:2096?path=%2Frsjcbpws&security=tls&encryption=none&host=638874929583359846.zagreb-prx-dnraaad.info&type=ws&sni=638874929583359846.zagreb-prx-dnraaad.info#@meli_proxyy
+trojan://BxceQaOe@116.49.237.130:4094?allowInsecure=1&sni=t.me%2Fripaojiedian#_CN_%E4%B8%AD%E5%9B%BD
+trojan://BxceQaOe@116.49.237.130:518?allowInsecure=1&sni=t.me%252Fripaojiedian#_CN_%E4%B8%AD%E5%9B%BD
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVVPCsl8yfDAuNk1CL3N8MTglfEdQVHxZVC1DTnxUS3xORnxYfEtlZXBIaXN0b3J5IiwiYWRkIjoib25lY2F0LXVzLjAzZXpoZzBxc2EuZG93bmxvYWQiLCJwb3J0IjoiMjUwMjQiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjk3NDkyOTgtNjgyMS0zMzU4LWI2ZDMtMWQxOGQ4NjQyY2JhIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Im9uZWNhdC11cy4wM2V6aGcwcXNhLmRvd25sb2FkIiwidGxzIjoiIn0=
