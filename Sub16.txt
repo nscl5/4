@@ -2,20 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://trojan@22b.net:2087?path=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&security=tls&type=ws&sni=store.timimi.dpdns.org#Telegram:@AZARBAYJAB1
-trojan://trojan@109.234.211.66:2087?path=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&security=tls&type=ws&sni=store.timimi.dpdns.org#🔥Join Telegram:@AZARBAYJAB1🟣
-trojan://tpCznR-P5=jZUb#c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام-🇬🇧
-trojan://telegram-id-privatevpns@3.122.75.63:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#t.me/entryNET/config=1849219355882011
-trojan://telegram-id-directvpn@3.21.216.163:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Dublin🅿️ping:111ms
-trojan://telegram-id-directvpn@3.127.33.50:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#t.me/entryNET/config=1849237600712964
-trojan://telegram-id-directvpn@18.193.212.16:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt am Main🅿️ping:11ms
-trojan://telegram-id-directvpn@15.236.59.28:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#t.me/entryNET/config=1849158957260758
-trojan://rpq9Od8Bj7@91.107.179.207:1223?security=reality&pbk=VtJ9rMo1lo9v2jHH1d8A83uErJDBE4T6Cyd1sLfPxzo&headerType=none&fp=chrome&type=tcp&sni=refersion.com&sid=4b2cd56a#All-@V2rayAlpha--9
-trojan://rpq9Od8Bj7@91.107.179.207:1223?security=reality&pbk=VtJ9rMo1lo9v2jHH1d8A83uErJDBE4T6Cyd1sLfPxzo&headerType=none&fp=chrome&type=tcp&sni=refersion.com&sid=4b2cd56a#@meli_proxyy
-trojan://rpq9Od8Bj7@91.107.179.207:1223?security=reality&pbk=VtJ9rMo1lo9v2jHH1d8A83uErJDBE4T6Cyd1sLfPxzo&headerType=none&fp=chrome&spx=/&type=tcp&sni=refersion.com&sid=4b2cd56a#@V2RAYROZ
-trojan://redfree8@104.17.148.22:80?path=/trLwW5jwrnymnOdqki?ed=2560&security=none&host=redfree8-p1.pooriashop.ir&type=ws#@V2rayNG3
-trojan://on4fCamU2E@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn 〰〰〰〰〰〰〰〰〰〰 ‼️نکته: اندرویدی ها فرگمنت رو خاموش کنید ✅  𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @ISVvpn
-trojan://on4fCamU2E@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn
 trojan://mXP68BRNvU@66.59.208.7:17136?security=none&headerType=&type=tcp#⚜️Telegram: @IP_CF
 trojan://hZ7JkYVAfB@141.227.138.29:1935?security=tls&alpn=h3,h2,http/1.1&headerType=none&type=tcp&sni=x1ch-ovh.devefun.net#@V2rayNG3
 trojan://hNv80y7CWu@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn
@@ -502,3 +488,17 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.19
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#All-@V2rayAlpha--1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@meli_proxyy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@Selinc
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@MARAMBASHI 🩵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@MARAMBASHI 💋
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@IRAN_V2RAY1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTks3Q3Z1dldUcEYyWlkzZDl5Z3Qx@109.122.197.192:443#@HiByeVPNNBot✨❤️‍🔥💥
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#WiFi-@V2rayAlpha--0
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKQzFCREVYT2RZbmM3N2NIMGl1UUFP@81.90.31.219:443#Channel id: @ShadowProxy66🇷🇺
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJS003T284TXFFNWdhYmE3bWlmZ3l4@89.185.84.185:443#@HiByeVPNNBot🔥⚡❤️‍🔥
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJMEpqUWJCby85N1ZzYnNBZEllT29NKzRydWNjUGpQSnh1eXZIQkNCak9jPQ==@3.73.78.182:2087#@daredevill_404
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIZkFpeXJkRmJLSnVLSVFrR2p2SnJERmVmbUg4WURTQw==@45.83.131.43:443#WiFi-@V2ray_Alpha--6
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIZkFpeXJkRmJLSnVLSVFrR2p2SnJERmVmbUg4WURTQw==@45.83.131.43:443#WiFi-@V2rayAlpha--1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIYU5xdzlwSUU0amN4OThzZzdVUWdIZUdOVE00UjJwaw==@194.246.114.101:443#🇲🇩1@vpnserverrr
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHaFlFdWZucTlNOXl2Z0FjMXlsdmZx@165.22.61.177:18336#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHOEs2c3MwQXZldVdsV3pXODBYNU5M@45.95.232.236:4248?note=--Telegram--@NetifyVPN--#🇨🇭[Telegram:NetifyVpn]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHOEs2c3MwQXZldVdsV3pXODBYNU5M@45.95.232.236:4248#✅ @vistav2ray  👈👈کانال ما
