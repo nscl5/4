@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.155:8880?mode=gun&security=&encryption=none&type=grpc#WiFi-@V2rayAlpha--12
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.155:8880?mode=gun&security=&encryption=none&type=grpc#All-@V2ray_Alpha--6
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.155:8880?mode=gun&security=&encryption=none&type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.155:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#@Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.66:8880?encryption=none&type=grpc&mode=gun&authority=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#🇺🇸 @Evay_vpn
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.155:8880?mode=gun&security=none&encryption=none&authority=Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&type=grpc#@IRAN_V2RAAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?mode=gun&security=none&encryption=none&type=grpc#🇩🇪@vpnserverrr کانال تلگرامی
@@ -502,3 +498,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.75:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.129:8880?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.106:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.106:8880?mode=gun&security=&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#🇹🇷TM (@AZARBAYJAB1) gprs
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#https://t.me/Selinc
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#Channel : @vpnserverrr
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
