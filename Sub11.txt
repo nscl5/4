@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://61545806-60b6-4b38-9d2f-884081a5a913@ns.cloudflare.com:2086?path=/shop&security=none&encryption=none&host=cdn2.epiconline.ir&type=ws#Join Sho:@IRAN_V2RAY1[🇫🇮]
-vless://61545806-60b6-4b38-9d2f-884081a5a913@85.90.207.47:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1 [🇦🇲]
-vless://61545806-60b6-4b38-9d2f-884081a5a913@46.246.96.224:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1[🇸🇪]
 vless://61545806-60b6-4b38-9d2f-884081a5a913@45.140.169.69:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1 [🇷🇺]
 vless://61545806-60b6-4b38-9d2f-884081a5a913@188.132.141.112:410?security=none&encryption=none&headerType=http&type=tcp#👉🆔@v2ray_configs_pool📡🇹🇷®️Turkey©️Istanbul🅿️ping:58.2ms
 vless://61545806-60b6-4b38-9d2f-884081a5a913@188.132.141.112:410?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1[🇹🇷]
@@ -502,3 +499,6 @@ vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@51.44.209.50:443?security=reality&e
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@44.203.10.181:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🍊 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@35.78.197.133:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🎯 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@35.78.189.21:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🌟 v2ray_configs_pools
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@34.232.95.155:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🎪 v2ray_configs_pools
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.99.60.123:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🎪 v2ray_configs_pools
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.98.127.219:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#telegram 🌺 v2ray_configs_pools

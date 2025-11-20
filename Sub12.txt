@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@34.232.95.155:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🎪 v2ray_configs_pools
-vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.99.60.123:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🎪 v2ray_configs_pools
-vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.98.127.219:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#telegram 🌺 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.97.115.40:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🍊 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.78.250.204:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🍀 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@3.36.16.188:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=chatgpt.com&sid=f5#🇰🇷[Telegram:@tik7net_vpn] -KR
@@ -502,3 +499,6 @@ vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.8.211.24:443?path=/?ed=2048&secu
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.8.211.24:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@IRAN_V2RAY1
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.5.178:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--14
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.209.226:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--13
+vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.16:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--17
+vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.104:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--12
+vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.31.239:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--15

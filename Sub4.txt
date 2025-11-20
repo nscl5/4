@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--5
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&type=grpc#@Daily@sunflowerplato🌻
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇮🇸@FreakConfig
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇮🇸
@@ -502,3 +499,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.119:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.119:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.99:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.99:8880?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--16
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-24
