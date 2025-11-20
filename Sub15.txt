@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://14e53524-5562-47a6-901f-327f0b2645c0@speedtest.net:80?mode=auto&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&extra={"scMaxEachPostBytes": 1000000, "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&host=nlipcf001.global.ssl.fastly.net&type=xhttp#@meli_proxyy
 vless://14e53524-5562-47a6-901f-327f0b2645c0@speedtest.net:80?mode=auto&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&extra={"scMaxEachPostBytes": 1000000, "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&host=nlipcf001.global.ssl.fastly.net&type=xhttp#@MARAMBASHI 💙
 vless://14e53524-5562-47a6-901f-327f0b2645c0@speedtest.net:80?mode=auto&path=/&security=none&encryption=none&extra={"scMaxEachPostBytes": 1000000, "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&host=nlipcf001.global.ssl.fastly.net&type=xhttp#🇳🇱@FreakConfig
 vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24471?type=ws&path=/&host=&security=none#s565-229065
@@ -502,3 +501,4 @@ trojan://on4fCamU2E@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn
 trojan://mXP68BRNvU@66.59.208.7:17136?security=none&headerType=&type=tcp#⚜️Telegram: @IP_CF
 trojan://hZ7JkYVAfB@141.227.138.29:1935?security=tls&alpn=h3,h2,http/1.1&headerType=none&type=tcp&sni=x1ch-ovh.devefun.net#@V2rayNG3
 trojan://hNv80y7CWu@91.107.252.182:26805?type=tcp&security=none#telegram-@ISVvpn
+trojan://fi1DPGOQ0I34PYZfaYyTvQ@91.107.172.48:443?security=tls&headerType=none&type=tcp&sni=www.twitch.tv#@IRAN_V2RAY1

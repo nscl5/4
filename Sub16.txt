@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://fi1DPGOQ0I34PYZfaYyTvQ@91.107.172.48:443?security=tls&headerType=none&type=tcp&sni=www.twitch.tv#@IRAN_V2RAY1
 trojan://fi1DPGOQ0I34PYZfaYyTvQ@91.107.172.48:443?security=tls&headerType=none&type=tcp&sni=de.v2bazzar.ir#@IRAN_V2RAY1
 trojan://fg20mtCFHy@ukcsz.southbyte.xyz:5705?security=tls&headerType=none&type=tcp#🏴‍☠️@FreakConfig
 trojan://fg20mtCFHy@ukcsz.southbyte.xyz:5705?security=tls&headerType=none&type=tcp#🇬🇧@FreakConfig
@@ -502,3 +501,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEMkU2bEl0aVJYbVlFUkN5dlBkZ0h6@192.121.113.60
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDREFHRVlBQjFndmNJckZaWWhVYkVN@62.133.63.222:48981#🇹🇷22@vpnserverrr
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDREFHRVlBQjFndmNJckZaWWhVYkVN@62.133.63.222:48981#@HiByeVPNN👈🌿💎
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@85.210.120.237:443#v2raynplus |🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@16.24.166.103:443#@V2rayNG3
