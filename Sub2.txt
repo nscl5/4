@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://fa72a38c-56bf-4f3b-9735-e96e9840ae54@65.109.118.175:443?security=tls&alpn=h3,h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=app.chandplus.com#@v2ray_configs_pools👈⚡❤️‍🔥
+vless://fa-7549225089-1761680237482111@62.3.12.10:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN❤️‍🔥💎✨
+vless://fa-7549225089-1761680237482111@62.3.12.10:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN
 vless://fa-7549225089-1761680237482111@212.8.226.141:443?security=reality&encryption=none&pbk=2rjzbqQ49m-jpfzhiuBNb8Izwwjw0dIg5JAKdv-B2kE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=d1d42381ba35#@HiByeVPNN❤️‍🔥💎✨
 vless://f9e51ceb-3528-4cf7-a1fc-e9bbc06ad477@www.speedtest.net:2086?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2086&security=none&encryption=none&host=cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=httpupgrade#@spikevpn👈 جوین بده💯⚡
 vless://f9ab068c-c4ce-4d34-8bee-1d8304014665@am255.amin5646.ir:2082?type=xhttp&encryption=none&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&host=am290.amin5646.ir&mode=auto&security=none#Telegram : @BinexTiFy 🇩🇪
@@ -499,6 +502,3 @@ vless://ea44a25b-a856-442a-b754-6079d14f5f66@fl.tondni.ir:8880?security=none&enc
 vless://ea44a25b-a856-442a-b754-6079d14f5f66@fl.tondni.ir:8880?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&security=none&encryption=none&type=httpupgrade#🇫🇮[Telegram:NetifyVPN]
 vless://ea44a25b-a856-442a-b754-6079d14f5f66@fl.tondni.ir:8880?flow=&type=httpupgrade&host=&path=/&security=none#@meli_proxyy
 vless://ea286109-d20f-415e-849e-4af20ab04b65@147135001195.sec22org.com:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&type=tcp#@V2rayNG3
-vless://ea286109-d20f-415e-849e-4af20ab04b65@147135001195.sec22org.com:443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&type=tcp#@V2rayNG3
-vless://ea286109-d20f-415e-849e-4af20ab04b65@147.135.1.195:443?security=tls&encryption=none&headerType=none&type=tcp&sni=147135001195.sec22org.com#@V2rayNG3
-vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.152.98:443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=147135001195.sec22org.com#v2raynplus |🇺🇸
