@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://0a44145f-59dc-4e5b-a233-677b97f5114c@51.81.36.78:443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&type=tcp&sni=147135011033.sec21org.com#@V2rayNG3
-vless://0a3086ff-f4e4-4ab6-b2dd-ae9cb091bc10@V2ngFast.huqpmfood.ir:1146?encryption=none&type=xhttp&mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
-vless://0a079dd2-86dc-4209-b2b2-0069c5d6f1de@norman.ns.cloudflare.com:443?path=/kbsozzws&security=tls&encryption=none&host=638990351278603478.civic-amshz.info&type=ws&sni=638990351278603478.civic-amshz.info#🏴‍☠️@FreakConfig
-vless://0a079dd2-86dc-4209-b2b2-0069c5d6f1de@norman.ns.cloudflare.com:443?path=/kbsozzws&security=tls&encryption=none&host=638990351278603478.civic-amshz.info&type=ws&sni=638990351278603478.civic-amshz.info#All-@V2ray_Alpha--20
 vless://0a079dd2-86dc-4209-b2b2-0069c5d6f1de@norman.ns.cloudflare.com:443?path=/kbsozzws&security=tls&encryption=none&host=638990351278603478.civic-amshz.info&type=ws&sni=638990351278603478.civic-amshz.info#ALL@azadiiivpn
 vless://0a079dd2-86dc-4209-b2b2-0069c5d6f1de@norman.ns.cloudflare.com:443?path=/kbsozzws&security=tls&encryption=none&host=638990351278603478.civic-amshz.info&type=ws&sni=638990351278603478.civic-amshz.info#@meli_proxyy
 vless://094fdaf8-929b-4b8c-81f3-ab61e6c8adff@87.120.219.226:443?security=reality&encryption=none&pbk=vHASs15JlekbgEeXan1f4ke79n7wm7cmCpWMe5xrCXY&headerType=none&fp=chrome&spx=/OVHzyUtRI3Amt5s&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=f4d5cc5b38#@vpnserverrr کانال تلگرام |🇬🇧
@@ -502,3 +498,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#All--@Iran_V2ray1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#@V2rayNG3
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#@IRAN_V2RAY1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.60:8080#🇨🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.60:8080#v2raynplus |🇨🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.60:8080#@V2rayNG3
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.240:8080#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
