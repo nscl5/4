@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#https://t.me/Selinc
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#Channel : @vpnserverrr
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=&encryption=none&type=grpc#https://t.me/Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.104:8880?mode=gun&security=&encryption=none&type=grpc#@Selinc
@@ -498,7 +502,3 @@ vless://cf34ebf8-7196-40cb-9421-08ba6f15e4cf@wWw.sPEedTesT.NeT:8880?path=/&secur
 vless://cf34ebf8-7196-40cb-9421-08ba6f15e4cf@99daf9c34096e446.reality99.shop:1060?security=reality&encryption=none&pbk=JrryesJRjtAofgcYkevE5eYpnIWpI2hkHGFxnnHGZk8&headerType=none&fp=chrome&type=tcp&sni=refersion.com#Gift1000GB 🇩🇪 Server3
 vless://cf34ebf8-7196-40cb-9421-08ba6f15e4cf@60.reality99.shop:1060?security=reality&encryption=none&pbk=JrryesJRjtAofgcYkevE5eYpnIWpI2hkHGFxnnHGZk8&headerType=none&fp=chrome&type=tcp&sni=refersion.com#Gift1000GB 🇫🇮 Server4
 vless://cf34ebf8-7196-40cb-9421-08ba6f15e4cf@60.apollo99.shop:3060?security=&encryption=none&headerType=none&type=tcp#Gift1000GB 🇩🇪 Server2
-vless://cf34ebf8-7196-40cb-9421-08ba6f15e4cf@60.99vps.org:2060?security=&encryption=none&host=speedtest.net&headerType=http&type=tcp#Gift1000GB 🇩🇪 Server1
-vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?type=grpc&encryption=none&serviceName=ahwaz.infinitespd.com&authority=&mode=multi&security=tls&fp=chrome&alpn=h2,h3&allowInsecure=1&sni=ahwaz.infinitespd.com#MININIGHT
-vless://cf024442-3f26-4224-8422-f4043ae0006f@MINIPROXY.NET:8443?mode=multi&security=tls&encryption=none&fp=chrome&type=grpc&serviceName=ahwaz.infinitespd.com&sni=ahwaz.infinitespd.com#MININIGHT🌙
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@151.101.3.10:80?path=/?ed=2048&security=none&encryption=none&host=uni.fi&type=ws#@V2rayNG3
