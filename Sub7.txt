@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@www.speedtest.net:2096?path=/tjkqcpws&security=tls&encryption=none&host=638879176706477448.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706477448.amsterdam-prx-dnraaal.info#telegram 🌺 v2ray_configs_pools
-vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@www.speedtest.net:2096?path=/tjkqcpws&security=tls&encryption=none&host=638879176706477448.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706477448.amsterdam-prx-dnraaal.info#@v2ray_configs_pools❤️‍🔥⚡
-vless://b976b2aa-945e-43e5-bc58-36d77d3a9124@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?encryption=none&security=tls&sni=638899136128777258.amsterdam-prx-dnraaal.info&type=ws&alpn=&host=638899136128777258.amsterdam-prx-dnraaal.info&path=/tjkqcpws#telegram 🎪 v2ray_configs_pools
 vless://b972aed8-3acc-4659-bc62-d0bee92f40b8@84.32.10.159:41213?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://b969fc8e-f24c-4655-9301-eb9c140726db@v2ngfaet.xero-network.ir:1146?encryption=none&type=xhttp&mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&fp=chrome&sni=stackoverflow.com&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
 vless://b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b@154.31.113.124:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tesla.com&fp=chrome&pbk=vNWTKraW-w1e5fUKLJhjDpslQX7OFnRbavF2VHowNhk&sid=cb37b04594&type=tcp&headerType=none#🔷🆔@v2ray_configs_pool🔷
@@ -502,3 +499,6 @@ vless://Warpi-Free-Vpn-In-GooglePlay@95.217.233.18:443?security=&encryption=none
 vless://Warpi-Free-Vpn-In-GooglePlay@91.99.216.175:443?security=none&encryption=none&headerType=none&type=tcp&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://Warpi-Free-Vpn-In-GooglePlay@91.99.216.175:443?security=none&encryption=none&headerType=none&type=tcp#✅ @prrofile_purple (تلگرام)
 vless://Warpi-Free-Vpn-In-GooglePlay@91.99.216.175:443?security=none&encryption=none&headerType=none&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
+vless://Warpi-Free-Vpn-In-GooglePlay@91.99.216.175:443?security=&encryption=none&headerType=none&type=tcp&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
+vless://Warpi-Free-Vpn-In-GooglePlay@91.98.153.140:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪@FreakConfig
+vless://Warpi-Free-Vpn-In-GooglePlay@91.98.153.140:443?security=none&encryption=none&headerType=none&type=tcp#✅ @vistav2ray  👈👈کانال ما
