@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&host=smart.topfornnow.org&fp=chrome&type=ws&sni=smart.topfornnow.org#@Hddify
+vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=smart.topfornnow.org#@sunflowerplato
+vless://33039dbe-8889-42f1-9aeb-ecfbfa2a1640@104.18.32.69:2095?path=/?ed=2560&security=none&encryption=none&host=21tg.459tj345.workers.dev&type=ws#@V2rayNG3
 vless://33039dbe-8889-42f1-9aeb-ecfbfa2a1640@104.18.32.69:2086?path=/?ed=2560&security=none&encryption=none&host=21tg.459tj345.workers.dev&type=ws#@V2rayNG3
 vless://33039dbe-8889-42f1-9aeb-ecfbfa2a1640@104.18.32.69:2052?path=/?ed=2560&security=none&encryption=none&host=21tg.459tj345.workers.dev&type=ws#@V2rayNG3
 vless://32f42029-f458-4f61-875c-8f38007681a3@157.180.29.25:10138?type=ws&encryption=none&path=/@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL&host=&security=none#⚡ @Fast78_Channel | Best Free Configs
@@ -499,6 +502,3 @@ vless://1eff6d61-2f9f-4689-82a9-4232a8f48949@47.79.32.82:42037?encryption=none&f
 vless://1efab776-c694-4652-f89e-45ffffe49ef6@chat.openai.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
 vless://1efab776-c694-4652-f89e-45ffffe49ef6@cafearz.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
 vless://1ef05b86-7cff-463d-87f7-13951706d72b@89.106.69.139:5100?security=none&encryption=none&host=cafeariel.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@MARAMBASHI 💋
-vless://1ef05b86-7cff-463d-87f7-13951706d72b@89.106.69.139:5100?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#🇩🇪@FreakConfig
-vless://1ef05b86-7cff-463d-87f7-13951706d72b@89.106.69.139:5100?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#@meli_proxyy
-vless://1ee20827-64ca-437d-8553-f825dbb99045@ger1.speedtesty.xyz:1517?security=reality&encryption=none&pbk=__83iJmmdWNWSf7k7G29Q05AZ5tZW77XWQgstVhU-kg&headerType=none&fp=chrome&type=tcp&sni=update.microsoft.com&sid=a1b2c3d4&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇳🇱]t.me/Raiv2mmr
