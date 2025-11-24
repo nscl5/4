@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638961293929373584.rasht-drc-tusaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638960638051874642.london-blkaft-aaap.info:8880?mode=gun&security=none&encryption=none&type=grpc#🇫🇷 telegram@ISVvpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638959783653647289.lahijan-blkaft-aaao.info:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--31
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638959700852259960.esfahan-blkaft-aaao.info:8880?mode=gun&security=none&encryption=none&type=grpc#WiFi-@V2rayAlpha--25
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638959700852258728.esfahan-blkaft-aaao.info:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--27
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638959700852258728.esfahan-blkaft-aaao.info:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
@@ -502,3 +499,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@157.180.20.123:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.254:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--38
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.254:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.250:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.249:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇧 telegram@ISVvpn
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇧[ @EXPRESSVPN_420
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#Join To : @IRAN_V2RAY1
