@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.254:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.250:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.249:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇧 telegram@ISVvpn
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#🇬🇧[ @EXPRESSVPN_420
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#Join To : @IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.248:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
@@ -502,3 +498,7 @@ vless://c9ef82df-f2a3-4bf5-b456-2e6937eab8a6@www.speedtest.net:2082?path=/?ed=88
 vless://c9ef82df-f2a3-4bf5-b456-2e6937eab8a6@www.speedtest.net:2082?path=/?ed=8880&security=none&encryption=none&host=4.9.1canva.cOm.eA.coM.cloudFlare.com.0.google.Com.kaktusatom.iR.&type=httpupgrade#@V2rayNG3
 vless://c9eacb56-b957-45ca-d797-6b89db6b67ff@am8.amin-1.ir:2082?type=xhttp&encryption=none&path=/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android&host=am8.amin-1.ir&mode=auto&security=none#🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠همه اپراتورها
 vless://c9d87264-842b-468c-ed87-0e3d81185af3@151.101.3.8:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#🇩🇪 | XpnTeam - Telegrams-yogokdfs
+vless://c9d87264-842b-468c-ed87-0e3d81185af3@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=&encryption=none&host=Mahsazxshop.org&type=xhttp#@mehrosaboran
+vless://c9d87264-842b-468c-ed87-0e3d81185af3@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=&encryption=none&host=Mahsazxshop.org&type=xhttp#@confiig_hub
+vless://c9d87264-842b-468c-ed87-0e3d81185af3@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=&encryption=none&host=Mahsazxshop.org&type=xhttp#@TEHRANARGO
+vless://c9b0100b-01b9-4167-b9e2-a0a8cad1e32b@m23a.vip784.com:33801?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇵🇱 | @External_Net
