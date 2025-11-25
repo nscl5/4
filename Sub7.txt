@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://b59a95d8-4f76-458f-b014-84610f7159f5@91.132.160.165:443?security=reality&encryption=none&pbk=YtCLxL-1VuXCKyMp2cnmEtxZH3cEtpZRtVLE3V__sjU&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&sni=google.com&sid=1f8ebe6e774e89#@MARAMBASHI 💜
-vless://b5991ab6-76c0-45c5-ab96-886e5430b90a@join.FilTerK0sH.fastly80-3.hosting-ip.com:80?type=grpc&serviceName=Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH?ed=8880&path=/telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE?ed=2048&host=Join-VPNCUSTOMIZE-VPNCUSTOMIZE.ir&type=ws#🇩🇪@FILTERK0SH+|+All
 vless://b5991ab6-76c0-45c5-ab96-886e5430b90a@join.FilTerK0sH.fastly80-3.hosting-ip.com:80?type=grpc&serviceName=Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH-Telegram-FILTERK0SH?ed=8880&path=/telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE?ed=2048&host=Join-VPNCUSTOMIZE-VPNCUSTOMIZE.ir&type=ws#All🇩🇪 | @FILTERK0SH
 vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@101reel.com:443/?type=ws&encryption=none&host=barayeiranmahsang.sabzipolobamahi.dpdns.org&path=/?ed=2560&security=tls&sni=barayeiranmahsang.sabzipolobamahi.dpdns.org&fp=chrome#[🇦🇿 CDN] @Geek_Spot
 vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@101reel.com:443/?type=ws&encryption=none&host=barayeiranmahsang.sabzipolobamahi.dpdns.org&path=/?ed=2560&security=tls&sni=barayeiranmahsang.sabzipolobamahi.dpdns.org&fp=chrome#@Geek_Spot
@@ -502,3 +500,5 @@ vless://ViP_Fragmemt_V2ray@nl.2.tryfreenet24.xyz:8023?mode=auto&path=/@U3er1&sec
 vless://Telegram_daredevill_404@91.98.229.73:2957?mode=auto&path=/@daredevill_404&security=&encryption=none&type=xhttp#@daredevill_404
 vless://TelegramChannel:daredevill_404@91.98.229.73:2957?type=xhttp&encryption=none&path=/@daredevill_404&host=&mode=auto&security=none#@daredevill_404
 vless://TelegramChannel:daredevill_404@91.98.229.73:20569?mode=auto&path=/@daredevill_404&security=&encryption=none&type=xhttp#@daredevill_404
+vless://TelegramChannel:daredevill_404@91.107.187.5:20569?mode=auto&path=/@daredevill_404&security=&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=xhttp#@TEHRANARGO
+vless://TelegramChannel:daredevill_404@91.107.187.5:20569?mode=auto&path=/@daredevill_404&security=&encryption=none&type=xhttp#@daredevill_404

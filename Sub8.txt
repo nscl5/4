@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://TelegramChannel:daredevill_404@91.107.187.5:20569?mode=auto&path=/@daredevill_404&security=&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=xhttp#@TEHRANARGO
-vless://TelegramChannel:daredevill_404@91.107.187.5:20569?mode=auto&path=/@daredevill_404&security=&encryption=none&type=xhttp#@daredevill_404
 vless://TelegramChannel:daredevill_404@91.107.184.214:20569?type=xhttp&encryption=none&path=/@daredevill_404&host=&mode=auto&security=none#@daredevill_404
 vless://TelegramChannel:daredevill_404@91.107.184.214:20569?mode=auto&path=/@daredevill_404&security=none&encryption=none&type=xhttp#telegram @mtmvpn
 vless://TelegramChannel:daredevill_404@91.107.144.36:20569?type=xhttp&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&path=/@daredevill_404&host=&mode=auto&security=none#@TEHRANARGO
@@ -502,3 +500,5 @@ vless://9902fc94-31f9-4afe-b37a-82f5790b3d2a@dabF5Ca6.dE1-1nD.PaGeS.dEv:443?path
 vless://98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd@104.16.46.27:80?encryption=none&security=none&type=ws&host=cold-snowflake-4912-ppal03.rarenok889.workers.dev&path=/?ed=2560#🖖🏻Ch: @pPal03🖖🏻جوین بدید🖖🏻
 vless://98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd@103.21.244.254:80?encryption=none&security=none&type=ws&host=cold-snowflake-4912-ppal03.rarenok889.workers.dev&path=/?ed=2560#🖖🏻Ch: @pPal03🖖🏻جوین بدید🖖🏻
 vless://98f670fb-8a5a-4935-b4c8-9569ec19658a@cosmin.ns.cloudflare.com:443?path=/ufoxglws&security=tls&encryption=none&host=638991681638525311.jetta-amsia.info&type=ws&sni=638991681638525311.jetta-amsia.info#🏴‍☠️@FreakConfig
+vless://98f670fb-8a5a-4935-b4c8-9569ec19658a@cosmin.ns.cloudflare.com:443?path=/ufoxglws&security=tls&encryption=none&host=638991681638525311.jetta-amsia.info&type=ws&sni=638991681638525311.jetta-amsia.info#All-@V2ray_Alpha--21
+vless://98f670fb-8a5a-4935-b4c8-9569ec19658a@cosmin.ns.cloudflare.com:443?path=/ufoxglws&security=tls&encryption=none&host=638991681638525311.jetta-amsia.info&type=ws&sni=638991681638525311.jetta-amsia.info#@meli_proxyy
