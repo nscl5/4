@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://1cb3b1fe-b79c-49a2-a4bf-c24bc882925e@dontgetbanned.itskills180d.top:8443?path=/&security=tls&encryption=none&fp=chrome&type=ws&sni=dontgetbanned.itskills180d.top#@sunflowerplato🌻
-vless://1ca86bf5-dafc-4c7f-9396-4dc7acca9d31@188.227.84.160:8443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#https://t.me/v2raynplus |🇳🇱
 vless://1c9054be-74c1-472e-948a-f915de932c8e@91.99.191.47:80?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#@MARAMBASHI 💋
 vless://1c9054be-74c1-472e-948a-f915de932c8e@91.99.191.47:80?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#@MARAMBASHI 🇧🇷
 vless://1c9054be-74c1-472e-948a-f915de932c8e@91.99.191.47:80?security=none&encryption=none&headerType=none&type=tcp#All-@V2ray_Alpha--32
@@ -502,3 +500,5 @@ vless://03a8d504-d0a9-4418-aec4-59048b6016d4@185.113.10.197:46841?security=none&
 vless://03a8d504-d0a9-4418-aec4-59048b6016d4@185.113.10.197:46841?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
 vless://0395a16c-cb48-4614-bf19-7bf9ac7aed41@115.190.19.83:29185?security=reality&encryption=none&pbk=Ox0EsEq7UYtFUy24Wg3_84XvN4gl3HhH21eX0nPj4x4&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=689a9a#🇨🇳[openproxylist.com] vless-CN
 vless://038a42d5-05b0-4d12-af99-37643ac347a1@betty.ns.cloudflare.com:443?path=/fhujaiws&security=tls&encryption=none&type=ws&sni=638991995737742135.swift-amsib.info#Channel : @Mrsoulb 🏴🏳
+vless://03852aa6-db01-4137-972d-14ebfb202f09@95.164.6.214:443?path=/kcknkyws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&type=ws#@HiByeVPNN👈⚡❤️‍🔥
+vless://03633612-cb32-46cc-8f93-7103d1511ade@www.speedtest.net:2095?path=/?ed=2048&security=none&encryption=none&host=mahxmc.mahxraytm.com&type=httpupgrade#🩵+@Azarakhsh_Proxy+🩷

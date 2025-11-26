@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://52adc6ba-b1c7-4541-a594-08fc698be640@GrOUNdED-brotHER.SeoToolSFOryOu.co.uK:80?path=/&security=&encryption=none&type=ws#https://t.me/v2raynplus |🇩🇪3
-vless://52aae58a-1d54-45a4-9d05-c36d16a6dd12@143.14.189.181:443?security=reality&encryption=none&pbk=Q0aLm5f1x8Sh0jWnBWneusXUWeKTw9d8AcP4oEIkgwc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=icloud.com&sid=86#@sunflowerplato🌻
 vless://52a2e2f6-100c-4bcd-8ae8-d3b62aa9a98e@drow-ranger.fonixapp.org:22189?security=reality&encryption=none&pbk=lPSI3kHNhurG5ak6LTNc6NAJmSOvdt8EWjLHdsJXLCE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=f2951ff6a7#🏴‍☠️@FreakConfig
 vless://52a2e2f6-100c-4bcd-8ae8-d3b62aa9a98e@drow-ranger.fonixapp.org:22189?security=reality&encryption=none&pbk=lPSI3kHNhurG5ak6LTNc6NAJmSOvdt8EWjLHdsJXLCE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=f2951ff6a7#🇩🇪@FreakConfig
 vless://52a2e2f6-100c-4bcd-8ae8-d3b62aa9a98e@drow-ranger.fonixapp.org:22189?security=reality&encryption=none&pbk=lPSI3kHNhurG5ak6LTNc6NAJmSOvdt8EWjLHdsJXLCE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=f2951ff6a7#All-@V2ray_Alpha--38
@@ -502,3 +500,5 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v5.ipforvetra.shop:80?mode=gun
 vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v5.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc#@Selinc
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh27v6.hiddendom.shop#telegram 🚀 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🚀 v2ray_configs_pools
+vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🍊 v2ray_configs_pools
+vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram ⚡️ v2ray_configs_pools
