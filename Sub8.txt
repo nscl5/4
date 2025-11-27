@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@V2RAYROZ
-vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@SkyPro_Vpn 🎖️🚀 عضو شو
-vless://a47595a8-1add-401a-8189-e6799f8d8628@zcreat.ethervpn.fun:8443?path=/websocketpl?ed=2047&security=tls&encryption=none&host=zcreat.ethervpn.fun&fp=chrome&type=ws&sni=zcreat.ethervpn.fun#🇷🇺@FreakConfig
-vless://a47595a8-1add-401a-8189-e6799f8d8628@zcreat.ethervpn.fun:8443?path=/websocketpl?ed=2047&security=tls&encryption=none&host=zcreat.ethervpn.fun&fp=chrome&type=ws&sni=zcreat.ethervpn.fun#@Selinc
 vless://a47595a8-1add-401a-8189-e6799f8d8628@zcreat.ethervpn.fun:8443?path=/websocketpl?ed=2047&security=tls&alpn=h2,http/1.1&encryption=none&host=zcreat.ethervpn.fun&fp=chrome&type=ws&sni=zcreat.ethervpn.fun#🇷🇺@FreakConfig
 vless://a47595a8-1add-401a-8189-e6799f8d8628@zcreat.ethervpn.fun:8443?path=/websocketpl?ed=2047&security=tls&alpn=h2,http/1.1&encryption=none&host=zcreat.ethervpn.fun&fp=chrome&type=ws&sni=zcreat.ethervpn.fun#All-@V2ray_Alpha--40
 vless://a47595a8-1add-401a-8189-e6799f8d8628@zcreat.ethervpn.fun:8443?path=/websocketpl?ed=2047&security=tls&alpn=h2,http/1.1&encryption=none&host=zcreat.ethervpn.fun&fp=chrome&type=ws&sni=zcreat.ethervpn.fun#@V2RAYROZ
@@ -502,3 +498,7 @@ vless://9e003436-1354-4510-8dd6-5834dc1e7829@5.75.201.11:55778?encryption=none&s
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@46.62.160.173:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌺 v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@209.97.184.36:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram ⚡️ v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@188.245.185.225:443?security=reality&encryption=none&type=xhttp#telegram 🌟 v2ray_configs_pools
+vless://9e003436-1354-4510-8dd6-5834dc1e7829@188.245.185.225:443?security=reality&encryption=none&type=xhttp#telegram 🌈 v2ray_configs_pools
+vless://9e003436-1354-4510-8dd6-5834dc1e7829@173.208.51.18:443?security=reality&encryption=none&type=xhttp#telegram 🚀 v2ray_configs_pools
+vless://9e003436-1354-4510-8dd6-5834dc1e7829@173.208.51.18:443?security=reality&encryption=none&type=xhttp#telegram ⚡️ v2ray_configs_pools
+vless://9e003436-1354-4510-8dd6-5834dc1e7829@157.180.88.25:443?security=reality&encryption=none&type=xhttp#telegram 🌈 v2ray_configs_pools

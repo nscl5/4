@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.198.191:443?security=none&encryption=none&host=zula.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@CaV2ray ⚡️
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.198.191:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#@CaV2ray ⚡️
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.195.240:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#@CaV2ray ⚡️
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.195.240:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#@CaV2ray ⚡️
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.190.38:51615?security=none&encryption=none&host=zula.ir/?TELEGRAM_JOKERRVPN&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.190.38:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#@vpn_meliii
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.181.193:51615?security=none&encryption=none&host=zula.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@CaV2ray ⚡️
@@ -502,3 +498,7 @@ vless://1ae17c7d-6074-41e2-894b-478c9fcf5715@104.16.54.161:80?encryption=none&se
 vless://1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37@185.174.136.244:8080?security=reality&encryption=none&pbk=iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&sni=yandex.com&sid=27cfa05000c23cc4#🇷🇺 | @External_Net
 vless://1ab44c12-1462-422e-aeab-aaa025636f61@217.198.12.224:443?security=reality&encryption=none&pbk=cBJsDdArckzyAvjzcqF_cK9Rpts2Lxq1oqj-b9_HeQ8&headerType=none&fp=chrome&spx=/y3vtypp2mJH2n5t&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=46fe77b51a66#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://1ab44c12-1462-422e-aeab-aaa025636f61@103.249.133.69:443?security=reality&encryption=none&pbk=eAKw1k-H2cuw0AsjNH-3RG2RBHOZCPz8qQp-i5W-Zkk&headerType=none&fp=chrome&spx=/BjbMH0KJ2gNtut1&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=f73895c725c3#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=freefree1213.global.ssl.fastly.net&type=xhttp#👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:57ms
+vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=freefree1213.global.ssl.fastly.net&type=xhttp#All-@V2rayAlpha--8
+vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=freefree1213.global.ssl.fastly.net&type=xhttp#@meli_proxyy
+vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=freefree1213.global.ssl.fastly.net&type=xhttp#@V2RAYROZ
