@@ -2,6 +2,12 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://a500d71d-975f-4ce4-ad3b-4a8094b4aaca@172.66.40.99:8880?encryption=none&type=ws&host=websocket.network.www.speedtest.net.kkoccashor.vegaskala.com&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#V2rayArgon 👈چنل ما
+vless://a4cb890e-8251-488e-9439-3403c9a58e55@free-server.techsonic.cloud:443?security=tls&alpn=h3,h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=android.googleapis.com#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://a4b17aa4-8723-4f12-945d-9e3bdf926bf7@104.26.6.89:443?path=/hajmi?ed&security=tls&alpn=http/1.1&encryption=none&host=nb-fi.77777788.xyz&fp=chrome&type=ws&sni=77777788.xyz#🌐𝐣𝐨𝐢𝐍-@𝐅𝐑𝐄𝐄𝐕𝟐𝐑𝐍𝐆
+vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#🇩🇪@FreakConfig
+vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@one_shop_official
 vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@meli_proxyy
 vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@V2RAYROZ
 vless://a4b15589-4376-45f1-a94b-ad804fa209e4@DEADSEECtelegram.slimshopboyss.ir:8080?mode=auto&path=/?ed=2048&security=none&encryption=none&host=shop.slimshopboyss.ir&type=xhttp#@SkyPro_Vpn 🎖️🚀 عضو شو
@@ -496,9 +502,3 @@ vless://9e003436-1354-4510-8dd6-5834dc1e7829@91.107.171.123:443?security=reality
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@91.107.147.174:55778?security=reality&encryption=none&headerType=&type=tcp#telegram 🌈 v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@65.109.214.242:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌟 v2ray_configs_pools
 vless://9e003436-1354-4510-8dd6-5834dc1e7829@65.109.212.37:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌟 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@65.109.212.245:443?security=reality&encryption=none&type=xhttp#telegram 🌟 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@65.109.212.245:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🍀 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@65.109.191.204:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌈 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@5.75.201.11:55778?encryption=none&security=reality&sni=&type=tcp&alpn=&host=&path=#telegram 🚀 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@46.62.160.173:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram 🌺 v2ray_configs_pools
-vless://9e003436-1354-4510-8dd6-5834dc1e7829@209.97.184.36:443?encryption=none&security=reality&sni=&type=xhttp&alpn=&host=&path=#telegram ⚡️ v2ray_configs_pools
