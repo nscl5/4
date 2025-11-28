@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://2d25edaa-c0fc-4d84-bd60-60c4df335ab3@141.227.130.86:53024?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@TEHRANARGO
+vless://2d2587d8-5090-4587-9ac0-d6e4c243e397@157.180.81.19:8080?encryption=none&type=grpc&mode=gun&serviceName=@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#1🇫🇮 | @Evay_vpn
 vless://2d13884e-5731-47f7-bb32-0c2ba0656d84@172.66.40.99:8080?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46170-1
 vless://2d0da9ec-c284-4136-80c9-cfb421c7e4fc@172.232.190.207:443?type=xhttp&path=/&host=&mode=stream-one&security=none#telegram 🍀 v2ray_configs_pools
 vless://2cf5523e-c4e2-4e97-be1f-b9b7d356c140@172.67.188.18:80?path=/aioproxybot/8.215.59.6-443&security=none&encryption=none&host=aio.loophole.Biz.iD&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
@@ -500,5 +502,3 @@ vless://18881ae6-1e7d-48db-9c2f-27da9a58d63e@65.109.179.90:443?security=tls&encr
 vless://18881ae6-1e7d-48db-9c2f-27da9a58d63e@65.109.179.90:443?security=tls&encryption=none&headerType=none&type=tcp#🇫🇮AZARBAYJAB1
 vless://18722220-9249-0051-5849-e8a8f1f76424@104.17.134.62:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=grpc&sni=hvxoo.metahkh.com#@V2rayNG3
 vless://1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4@104.24.189.102:80?encryption=none&security=none&type=ws&host=winter-bush-f08c-ppal03.himigaw787.workers.dev&path=/?ed=2560#❄️Tel: @pPal03❄️Join❄️
-vless://1853d1d2-1ccf-48e6-ae05-0c0bb285a8c4@104.16.19.242:80?encryption=none&security=none&type=ws&host=winter-bush-f08c-ppal03.himigaw787.workers.dev&path=/?ed=2560#❄️Tel: @pPal03❄️Join❄️
-vless://1848ccc2-09f0-4367-aa90-8b174de73614@51.68.198.51:8080?path=/YUYETrenyklxeoyemeWFCrneerV&security=none&encryption=none&type=ws#@sunflowerplato🌻
