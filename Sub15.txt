@@ -2,12 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.8.211.24:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@IRAN_V2RAY1
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.5.178:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--14
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.209.226:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--13
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.16:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--17
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.131.208.104:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--12
-vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.31.239:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--15
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@45.12.30.243:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--11
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@195.245.221.246:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--19
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@194.53.53.16:443?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&host=harmony-427.pages.dev&fp=chrome&type=ws&sni=HarmonY-427.pages.DEV#All-@V2rayAlpha--18
@@ -502,3 +496,9 @@ vless://2e17c09d-57f8-42fc-be07-744dd30ae8b0@fz.piko-network.top:443?security=no
 vless://2e03cdd6-64e9-4aa6-bc00-ea522f845808@m10a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@Selinc
 vless://2dfa740c-8069-4993-8b96-c3e5dc540593@us2.ultima.foundation:22230/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deepl.com&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=#🎵68@oneclickvpnkeys
 vless://2dfa740c-8069-4993-8b96-c3e5dc540593@ru2.ultima.foundation:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=a9725715bf4c62ff#🎵33@oneclickvpnkeys
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@ru-cdn.ultima.foundation:1443?security=reality&encryption=none&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=io.ozone.ru#@Daily_Configs
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@ru-cdn.ultima.foundation:1443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=io.ozone.ru&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=#🎵47@oneclickvpnkeys
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@ru-cdn-cloud-2.ultima.foundation:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=a9725715bf4c62ff#🎵41@oneclickvpnkeys
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@ru-cdn-cloud-2.ultima.foundation:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=a9725715bf4c62ff#🌏70@oneclickvpnkeys
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@de2.ultima.foundation:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=a9725715bf4c62ff#🎵8@oneclickvpnkeys
+vless://2dfa740c-8069-4993-8b96-c3e5dc540593@de-cdn.ultima.foundation:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=web.max.ru&fp=chrome&security=reality&pbk=FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI&sid=#⚱️47@oneclickvpnkeys
