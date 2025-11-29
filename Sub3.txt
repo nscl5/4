@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=dl1-de-cdn.easy-upload.org#🇩🇪 DE - Telegram : @FergalVpnMod
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=dl1-de-cdn.easy-upload.org#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@www.speedtest.net:443?path=/&security=tls&encryption=none&host=dl1-uk-cdn.easy-upload.org&type=ws&sni=dl1-uk-cdn.easy-upload.org#🇬🇧 UK - Telegram : @FergalVpnMod
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@www.speedtest.net:443?path=/&security=tls&encryption=none&host=dl1-uk-cdn.easy-upload.org&type=ws&sni=dl1-uk-cdn.easy-upload.org#🇬🇧 UK - Telegram
@@ -501,4 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.156:8880?mode=gun&security
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.156:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Selinc
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.156:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.149:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.149:8880?mode=gun&security=none&encryption=none&authority=?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&fp=chrome&type=grpc#@HiByeVPNN👈⚡❤️‍🔥
