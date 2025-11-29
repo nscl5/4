@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.119:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2ray_Alpha-33
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.76:8880?mode=gun&security=none&alpn=http/1.1&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&fp=chrome&type=grpc&sni=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)#🇬🇧TM (@AZARBAYJAB1) GPRS
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.76:8880?mode=gun&security=&encryption=none&type=grpc#WiFi-@V2rayAlpha--15
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.43:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.43:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--19
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.43:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--16
@@ -502,3 +499,6 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.119:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.99:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.99:8880?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇹🇷TM-(AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--16
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-24
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&security=none&encryption=none&type=grpc#@Selinc
