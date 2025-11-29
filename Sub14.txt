@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://4751adcd-064b-493e-979b-b1c56c133cb4@188.114.98.6:80?encryption=none&security=none&type=ws&host=steep-water-754d-ppal0333333333333333.finisal307.workers.dev&path=/?ed=2560#🤡Ch: @pPal03🤡جوین بدید🤡
 vless://4751adcd-064b-493e-979b-b1c56c133cb4@103.21.244.122:80?encryption=none&security=none&type=ws&host=steep-water-754d-ppal0333333333333333.finisal307.workers.dev&path=/?ed=2560#🤡Ch: @pPal03🤡جوین بدید🤡
 vless://47134234-9a13-4a90-a75a-826f922497f6@138.199.159.218:443?path=/linkws?ed=2560&security=none&encryption=none&host=138.199.159.218&type=ws#@Hddify
 vless://47134234-9a13-4a90-a75a-826f922497f6@138.199.159.218:443?path=/linkws?ed&security=none&encryption=none&host=138.199.159.218&type=ws#@Selinc
@@ -502,3 +501,4 @@ vless://3bdf1812-863a-4056-a548-952a384b88df@ziro1.zarashop0.ir:2087?mode=gun&se
 vless://3bdf1812-863a-4056-a548-952a384b88df@ziro1.zarashop0.ir:2087?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&sni=ziro1.zarashop0.ir#r♡ya
 vless://3bdf1812-863a-4056-a548-952a384b88df@ziro1.zarashop0.ir:2087?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&sni=ziro1.zarashop0.ir#@meli_proxyy
 vless://3bdf1812-863a-4056-a548-952a384b88df@ziro1.zarashop0.ir:2087?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&sni=ziro1.zarashop0.ir#@internet_sefid
+vless://3bdf1812-863a-4056-a548-952a384b88df@ziro1.zarashop0.ir:2087?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&sni=ziro1.zarashop0.ir#@V2rayNGVPN <= کانفیگ رایگان

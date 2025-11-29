@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://ff14e39f-46f2-49d2-b74a-f22bc830ae2c@95.134.130.146:1331?encryption=none&type=xhttp&mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&fp=chrome&sni=stackoverflow.com&pbk=m8Tuf48MMB9ILy--1nfwGRPJOEbgHOdylaLS_JQ66DM&sid=89345bea5809f46d#🇹🇷 All Operator @MaSTeRSeRVeR1
 vless://ff07526f-7fab-431c-cf38-ab96eeb568f9@def.irimcs.org:2053?type=grpc&serviceName=@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns&security=reality&pbk=penvJFtaVngcSYXhoZk1hf_AwOJRI8LtJEis-FmwpDA&fp=chrome&sni=greenpepper.ir&sid=fa&spx=/#@Catvpns-🇩🇪--Channel
 vless://fef15ae1-cdc9-42ec-9c76-ea083550fd45@erfwp.fast.hosting-ip.com:80?mode=auto&path=/erfwp?ed=2048&security=none&encryption=none&host=erfwp.com&type=xhttp#✅ @v2ray_configs_pools (تلگرام)
 vless://fee15267-4f05-4f6c-a346-e7fe02be0614@www.speedtest.net:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#🇺🇸 Telegram @SRCVPN
@@ -502,3 +501,4 @@ vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@89.116.250.203:2053?path=/&security
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@45.80.111.238:2053?path=/&security=tls&encryption=none&host=dl1-uk-cdn.easy-upload.org&type=ws&sni=dl1-uk-cdn.easy-upload.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@45.80.111.238:2053?path=/&security=tls&encryption=none&host=dl1-uk-cdn.easy-upload.org&type=ws&sni=dl1-uk-cdn.easy-upload.org#https://t.me/v2raynplus |
 vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@45.8.211.142:2053?path=/&security=tls&encryption=none&host=dl1-fr-cdn.easy-upload.org&type=ws&sni=dl1-fr-cdn.easy-upload.org#https://t.me/v2raynplus |
+vless://ee2bb495-2632-445b-b1f8-3c476a50b78b@45.131.208.95:2053?path=/&security=tls&encryption=none&host=dl1-fr-cdn.easy-upload.org&type=ws&sni=dl1-fr-cdn.easy-upload.org#https://t.me/v2raynplus |

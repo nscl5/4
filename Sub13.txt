@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#✅ @v2ray_configs_pools (تلگرام)
 vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#Channel-@vmesskhodan
 vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#@v2rayngzendegimamad🕊️
@@ -502,3 +501,4 @@ vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@167.71.93.149:59483?encryption=none
 vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@104.131.95.183:59483?encryption=none&security=none&type=grpc#telegram 🍊 v2ray_configs_pools
 vless://47994c30-bd6e-4045-9e1c-1841a4acab30@85.9.214.105:80?type=tcp&path=/&host=zula.ir&headerType=http&security=none#telegram 🎯 v2ray_configs_pools
 vless://476cfee9-8f71-4be5-8abd-895940387612@46.8.229.110:41763?security=reality&encryption=none&pbk=UhHrvN4lnQCpAXXyyEXuYErEegcSpwY-rLTh9dW0rwI&headerType=none&fp=chrome&spx=/&type=tcp&sni=anten.ir&sid=06bbb1eda3f81c5e#🇳🇱@FreakConfig
+vless://4751adcd-064b-493e-979b-b1c56c133cb4@188.114.98.6:80?encryption=none&security=none&type=ws&host=steep-water-754d-ppal0333333333333333.finisal307.workers.dev&path=/?ed=2560#🤡Ch: @pPal03🤡جوین بدید🤡
