@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://37e7881f-ff59-4858-83cd-c6b4b03cba4a@64.188.78.60:443?security=reality&encryption=none&pbk=0ZbtEmi2lk_KUh1-w6g08hnSn863LZwj30vSHWS-NCU&headerType=none&fp=chrome&spx=/H60wnRP591U6Dkw&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=ee009b#🇪🇪@vpnserverrr کانال تلگرامی
-vless://37e7881f-ff59-4858-83cd-c6b4b03cba4a@64.188.78.60:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=www.google.com&pbk=0ZbtEmi2lk_KUh1-w6g08hnSn863LZwj30vSHWS-NCU&sid=ee009b&spx=/H60wnRP591U6Dkw#🇪🇪@SiNAVM کانال تلگرامی
-vless://37e7881f-ff59-4858-83cd-c6b4b03cba4a@176.98.178.5:443?security=reality&encryption=none&pbk=_jpR0GmavJ8-b6UCyMnf1u4WLf4KYvvAkcISmL45TiY&headerType=none&fp=chrome&spx=/fRp9ZInf4FVeja5&type=tcp&flow=xtls-rprx-vision&sni=eh.vk.com&sid=f1f9#🇩🇪@vpnserverrr کانال تلگرامی
-vless://37e7881f-ff59-4858-83cd-c6b4b03cba4a@176.98.178.5:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=eh.vk.com&pbk=_jpR0GmavJ8-b6UCyMnf1u4WLf4KYvvAkcISmL45TiY&sid=f1f9&spx=/fRp9ZInf4FVeja5#🇩🇪@SiNAVM کانال تلگرامی
 vless://37d95fc6-9bc2-44de-9a67-e122821475b9@62.60.247.164:8880?encryption=none&type=ws&host=websocket.network.www.speedtest.net.kkoccashor.vegaskala.com.&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#m15pz4lx
 vless://37d04b77-d08c-4f34-958d-d9f2ff9cc32a@Zula.iR:80?type=ws&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&host=binextv.iransheep.web.tr.&security=none#BinexTiFy🪸-zoxhg5u5
 vless://37b4fc07-e0ab-4036-8843-6ed6945d3a3c@cfip.penubit.com:443?encryption=none&type=httpupgrade&host=franode.penubit.com&path=/Penubit&security=tls&fp=chrome&sni=franode.penubit.com&alpn=http/1.1&mux=4#AKLISvpn🕊️🔥🇨🇮
@@ -502,3 +498,7 @@ vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&s
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#Channel : @vpnserverrr
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@V2ray1_Ng
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Selinc
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Maznet-46202-4
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@IRAN_V2RAY1
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=#@Selinc?ed=512&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Selinc
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Maznet-46201-1

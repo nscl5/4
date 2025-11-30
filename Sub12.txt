@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@85.9.217.56:2080?security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&spx=/&type=grpc&sni=yahoo.com&sid=722ee6b369#telegram 🎪 v2ray_configs_pools
-vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@198.105.123.182:2080?mode=gun&security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&type=grpc&sni=yahoo.com&sid=722ee6b369#🇹🇷@FreakConfig
-vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@198.105.123.182:2080?mode=gun&security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&type=grpc&sni=yahoo.com&sid=722ee6b369#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@198.105.123.182:2080?mode=gun&security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&type=grpc&sni=yahoo.com&sid=722ee6b369#@V2rayNGVPN <= کانفیگ رایگان
 vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@198.105.123.182:2080/?type=grpc&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&sid=722ee6b369#⚱️62@oneclickvpnkeys
 vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@194.46.59.171:2080?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&mode=gun&security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&type=grpc&sni=yahoo.com&sid=722ee6b369#🇬🇧[Telegram:NetifyVPN]
 vless://684ead3d-43b1-4707-904a-24e3e9e91fb1@194.46.59.171:2080?mode=gun&security=reality&encryption=none&pbk=9jcs1L8alkKMjyWZh0b0TNaPV53ilNkMIJGLtMU-2S4&fp=chrome&type=grpc&sni=yahoo.com&sid=722ee6b369#🇬🇧@FreakConfig
@@ -502,3 +498,7 @@ vless://56104b8a-ab6e-4c38-c443-eb538a5ed762@165.232.127.172:443?mode=gun&securi
 vless://56104b8a-ab6e-4c38-c443-eb538a5ed762@104.248.26.51:443?mode=gun&security=none&encryption=none&type=grpc#@meli_proxyy
 vless://55fdba7f-8ae4-47f3-ad23-86b25c049b0d@172.67.136.244:2053?path=/R8aKBOK1R7OBYYMZ&security=tls&encryption=none&host=full.app-browser.org&type=ws&sni=full.app-browser.org#All-@V2rayAlpha--32
 vless://55fdba7f-8ae4-47f3-ad23-86b25c049b0d@104.19.96.119:2053?path=/R8aKBOK1R7OBYYMZ&security=tls&encryption=none&host=full.app-browser.org&type=ws&sni=full.app-browser.org#🇺🇸@AZARBAYJAB1
+vless://55fcbc64-7e4e-49fa-95f1-bb44a1efcbbf@88.198.160.200:42671?type=tcp&security=none#Donald_vpn-15
+vless://55e7dbac-8c5b-46e0-ae74-de2da0cad22b@www.speedtest.net:2086?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2086&security=none&encryption=none&host=cafebazaar.ir.novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=httpupgrade#@spikevpn👈 جوین بده💯⚡
+vless://55b7d103-5d93-4835-80d8-3074774d574e@95.179.253.176:21423?security=reality&encryption=none&pbk=49SRcrvAi15y2ao-X3YkliGxW83Sb9rBu9dABW2wTRk&headerType=none&fp=chrome&spx=/&type=tcp&sni=cloudflare.com&sid=969c794705af#⚡ @Fast78_Channel | Best Free Configs
+vless://55b7d103-5d93-4835-80d8-3074774d574e@95.179.253.176:21423?security=reality&encryption=none&pbk=49SRcrvAi15y2ao-X3YkliGxW83Sb9rBu9dABW2wTRk&headerType=none&fp=chrome&spx=/&type=tcp&sni=cloudflare.com&sid=969c794705af#@Daily_Configs
