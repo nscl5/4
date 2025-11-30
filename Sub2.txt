@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.99.48:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#@meli_proxyy
-vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.99.48:80?mode=auto&path=/&security=&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#🇩🇪@FreakConfig
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.98.238:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#@meli_proxyy
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.98.238:80?mode=auto&path=/&security=&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#🇩🇪@FreakConfig
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.97.139:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#MCI-@V2rayAlpha--2
@@ -502,3 +500,5 @@ vless://eafc3326-9b4f-444b-8c31-efdb0ee11577@172.66.40.99:2052?type=ws&path=/@Ma
 vless://eaf48cdb-4c3c-4393-8e64-f56715f35b9d@am255.amin5646.ir:2082?type=xhttp&encryption=none&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&host=am290.amin5646.ir&mode=auto&security=none#Telegram : @BinexTiFy 🇩🇪
 vless://eaf48cdb-4c3c-4393-8e64-f56715f35b9d@am255.amin5646.ir:2082?mode=auto&path=/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560&security=&encryption=none&host=am290.amin5646.ir&type=xhttp#@confiig_hub
 vless://eaed68d5-9920-4487-93de-a59a7cd3779a@England.phantompanel.shop:3681?encryption=none&security=reality&type=tcp&headerType=none&sni=www.cloudflare.com&pbk=iEgw42MO585IunvN6WGEO6XlG7l0U3qmawuOBeXrMiM&sid=6fe14a1f66f4bb82#Telegram:ShikaVPN حجم : 1 ترابایت
+vless://eaed68d5-9920-4487-93de-a59a7cd3779a@England.phantompanel.shop:3681?encryption=none&security=reality&type=tcp&headerType=none&sni=www.cloudflare.com&pbk=iEgw42MO585IunvN6WGEO6XlG7l0U3qmawuOBeXrMiM&sid=6fe14a1f66f4bb82#Telegram:ShikaVPN
+vless://ead3ae79-d7fd-44a6-9c7c-ec5b60d7fb5c@kanale-dailyconfigs.vigilante.ir:443?mode=multi&security=reality&encryption=none&pbk=7J9OcUYI23c2VWwyLWqfuNvAPr5BEVle3p2uqP-RFwk&fp=chrome&spx=/&type=grpc&serviceName=/DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2048&sni=tgju.com#⚡ @Fast78_Channel | Best Free Configs
