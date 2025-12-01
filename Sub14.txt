@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.250:80?mode=gun&security=none&encryption=none&type=grpc#@V2ray1_Ng
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.250:80?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
-vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.250:80?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.250:80?mode=gun&security=&encryption=none&type=grpc#🇺🇸@FreakConfig
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.249:80?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&mode=gun&security=none&encryption=none&type=grpc&sni=pqh29v4.ipforvetra.shop#🇺🇸[Telegram:NetifyVPN]
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.249:80?mode=gun&security=none&encryption=none&type=grpc#skypro_vpn
@@ -502,3 +499,6 @@ vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.11.173:443?path=@v2ray_confi
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.11.173:443?path=@V2rayBaaz&security=tls&encryption=none&alpn=http/1.1&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path==zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path=/proxyip=zani.yaemiko.ggff.net/@v2ray_configs_pools---@v2ray_configs_pools&security=tls&encryption=none&alpn=h2,http/1.1&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path=/proxyip=zani.yaemiko.ggff.net/@v2ray_configs_pools---@v2ray_configs_pools&security=tls&alpn=h2,http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈⚡❤️‍🔥
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path=/proxyip=zani.yaemiko.ggff.net/?&security=tls&alpn=h2,http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
