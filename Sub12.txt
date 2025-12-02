@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://55b7d103-5d93-4835-80d8-3074774d574e@95.179.253.176:21423?security=reality&encryption=none&pbk=49SRcrvAi15y2ao-X3YkliGxW83Sb9rBu9dABW2wTRk&headerType=none&fp=chrome&spx=/&type=tcp&sni=cloudflare.com&sid=969c794705af#@Daily_Configs
-vless://5562b859-cd73-9cd2-98ec-c3f308ce63a2@fr.zeroboostspeed.org:1231/?encryption=none&host=Fast.com&type=tcp&headerType=http#@Geek_Spot
-vless://5558694b-d1b7-4060-bf15-39abdf51302c@65.109.218.179:2083?encryption=none&security=reality&sni=khamenei.ir&fp=chrome&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&sid=54602915a7&spx=/&type=grpc&authority=&serviceName=melov2ray&mode=gun#@melov2ray🇫🇮
-vless://552f2fe8-fb7e-4f07-b4d6-a231f1dfec42@m13a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@Maznet-46199-2
 vless://552f2fe8-fb7e-4f07-b4d6-a231f1dfec42@m13a.vip784.com:33801?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇬🇧 | @External_Net
 vless://552f2fe8-fb7e-4f07-b4d6-a231f1dfec42@m13a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#https://t.me/v2raynplus |🇬🇧
 vless://552f2fe8-fb7e-4f07-b4d6-a231f1dfec42@m13a.vip784.com:33801?security=&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇬🇧 | @External_Net
@@ -502,3 +498,7 @@ vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss51454.tas-bazi.com:443?mode=stre
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss51454.tas-bazi.com:443?mode=stream-one&path=/sc&security=none&encryption=none&host=Join---azadiiivpn---Join---azadiiivpn---Join---azadiiivpn---Join---azadiiivpn&type=xhttp#azadiiivpn
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss51454.tas-bazi.com:443?mode=stream-one&path=/sc&security=none&encryption=none&host=Join----azadiizadiiivpn---Join----azadiiivpn----Join----azadiiivpn----Join----azadiìivpn&type=xhttp#azadiiivpn 🎀
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss51210.tas-bazi.com:443?mode=stream-one&path=/sc&security=&encryption=none&type=xhttp#@vmesskhodam
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#@vmesskhodam
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss29026.tas-bazi.com:443?type=xhttp&path=/sc&host=&mode=stream-one&security=none#telegram ☂️ v2ray_configs_pools
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss2180.tas-bazi.com:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.217.4:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
