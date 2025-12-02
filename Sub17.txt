@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://0a44145f-59dc-4e5b-a233-677b97f5114c@51.81.36.78:443?security=tls&encryption=none&alpn=h2,http/1.1&headerType=none&type=tcp&sni=147135011033.sec21org.com#@V2rayNG3
-vless://0a44145f-59dc-4e5b-a233-677b97f5114c@51.81.36.78:443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&type=tcp&sni=147135011033.sec21org.com#@V2rayNG3
-vless://0a375f39-86d0-46bd-b74b-e72fd43fcedf@62.60.248.14:28485?encryption=none&type=grpc&mode=gun&serviceName=/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec&security=reality&fp=chrome&sni=tgju.org&pbk=kP5lEpXBe5wbaSLOR6A9azX6kwMkfEk06bMkEpZxdSE&sid=dc&spx=/#MdVpnSec
 vless://0a3086ff-f4e4-4ab6-b2dd-ae9cb091bc10@V2ngFast.huqpmfood.ir:1146?encryption=none&type=xhttp&mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
 vless://0a079dd2-86dc-4209-b2b2-0069c5d6f1de@norman.ns.cloudflare.com:443?path=/kbsozzws&security=tls&encryption=none&host=638990351278603478.civic-amshz.info&type=ws&sni=638990351278603478.civic-amshz.info#All-@V2ray_Alpha--20
 vless://09e6b54d-ae00-47be-b534-cf4e74b9415f@91.107.141.33:41850?type=ws&encryption=none&path=/Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------&host=&security=none#@armanstore2-کانفیگ رایگان
@@ -502,3 +499,6 @@ ss://YWVzLTEyOC1nY206S3FSUU5naTFDLzVNcmhJZE5aU3NRdz09@45.153.130.174:2024#@v2ray
 ss://YWVzLTEyOC1nY206MTAwODY=@160.16.123.124:10087#@v2ray_configs_pools👈❤️‍🔥🧑‍💻
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181:443#🎁18@oneclickvpnkeys
 ss://Y2hhY2hhMjAtcG9seTEzMDU6eUp6RUpHYTBBWTFQYUlkbm1jbG1RUTgyQ293MTM4eHpQekQrME5Iemo3RT0=@195.15.255.120:52898#@daredevill_404
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzczA2d2ZWc1JpVkk=@83.217.9.210:443#@v2ray_configs_pools👈⚡❤️‍🔥
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzcWdOZ3pYQWRtYlpHUm1iU042QmpM@62.133.63.21:65262?note=--Telegram--@NetifyVPN--#🇹🇷[Telegram:NetifyVpn]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzcWdOZ3pYQWRtYlpHUm1iU042QmpM@62.133.63.21:65262#⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام🇹🇷
