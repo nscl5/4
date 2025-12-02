@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@45.14.245.117:443?security=reality&encryption=none&pbk=z03e7cOIQ4ltkE04ET9LbiLfMpl6RBgxw5VoNfCfxzU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=eec31d4b#All--@V2ray_Alpha-13
+vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@45.14.245.117:443?security=reality&encryption=none&pbk=z03e7cOIQ4ltkE04ET9LbiLfMpl6RBgxw5VoNfCfxzU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=eec31d4b#@HiByeVPNN❤️‍🔥🔥✨
+vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@38.244.156.36:443?security=reality&encryption=none&pbk=QcLolUMiP0LHoLPK6Rmo-8oHP1PENs9BRWF6tcByu2E&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=28ba7940#All--@V2ray_Alpha-10
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@212.192.214.167:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=vk.cc&pbk=bDDaSDMsFiIxf5on0yovlJB3h7fPpS40DJRPiE2tJRw&sid=846349c8&spx=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn#🇮🇸 @EVAY_VPN
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@185.242.84.181:443?security=reality&encryption=none&pbk=eYFJombyzUhLsqA8NfdHUBJdStTt7NN-Z63fuyAJUTc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=1127691d#MTN--@IRAN_V2RAY1
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@185.242.84.181:443?security=reality&encryption=none&pbk=eYFJombyzUhLsqA8NfdHUBJdStTt7NN-Z63fuyAJUTc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=1127691d#All--@V2ray_Alpha-23
@@ -499,6 +502,3 @@ vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.186.241:80/?type=ws&encrypti
 vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80?path=/news&security=none&encryption=none&host=cdn.ir&type=ws#🇩🇪@FreakConfig
 vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80?path=/news&security=&encryption=none&host=cdn.ir&type=ws#⚡ @Fast78_Channel | Best Free Configs
 vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80?encryption=none&security=none&type=ws&host=cdn.ir&path=/news&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80?encryption=none&security=none&type=ws&host=cdn.ir&path=/news#@Daily_Configs
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@37.120.184.180:80/?type=ws&encryption=none&flow=&host=cdn.ir&path=/news#🎁71@oneclickvpnkeys
-vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@193.151.135.21:44443?security=reality&encryption=none&pbk=XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net#🇩🇪 | @External_Net
