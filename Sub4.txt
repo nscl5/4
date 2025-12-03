@@ -2,13 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.70:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--8
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--34
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.156:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--24
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.134:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--35
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.134:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.96:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.96:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
@@ -502,3 +495,10 @@ vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encr
 vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#🏴‍☠️@FreakConfig
 vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=&encryption=none&headerType=http&type=tcp#🏴‍☠️@FreakConfig
 vless://d5e75b29-1b01-4ca0-b323-afe653ae12d7@91.107.138.222:443?type=tcp&encryption=none&security=none#🇩🇪(@armanstore2)-کانفیگ رایگان
+vless://d5e75b29-1b01-4ca0-b323-afe653ae12d7@91.107.138.222:443?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#@MARAMBASHI 🩵
+vless://d5e75b29-1b01-4ca0-b323-afe653ae12d7@91.107.138.222:443?encryption=none&security=none&type=tcp&headerType=none#@Daily_Configs
+vless://d5ad5040-00fb-4858-df1d-a1a10112189b@tgju.org:80?path=/olem/ws?ed=1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://d5a84e34-2e81-4de9-95bb-e606d585c8fb@test.fast.hosting-ip.com:80?type=xhttp&path=/@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420--------@EXPRESSVPN_420&host=starmnks.net&mode=auto&security=none#@EXPRESSVPN_420🇩🇪
+vless://d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a@www.speedtest.net:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#🇺🇸 Telegram @SRCVPN
+vless://d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a@www.speedtest.net:80?encryption=none&type=ws&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#🇺🇸 @G0dv2ray
+vless://d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a@172.66.156.81:80?path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy&security=&encryption=none=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&type=ws#🇺🇸@ghalagyann
