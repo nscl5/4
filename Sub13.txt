@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://402cf4cd-287c-4774-954e-c84a6a233fa5@70.34.214.175:10995?mode=auto&path=/&security=reality&encryption=none&pbk=2ztwuXmy5ttCN-IqWid22abpZFRqcj9aUalL6B8Kxlw&fp=chrome&spx=/&type=xhttp&sni=cloudflare.com&sid=43d9#@V2RAYROZ
+vless://4021c831-d21b-4e15-afff-00035d0d3b0d@151.101.3.8:80?mode=auto&path=/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&security=none&encryption=none&host=shcareld.global.ssl.fastly.net&type=xhttp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v5.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46200-4
+vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh27v6.hiddendom.shop#telegram 🚀 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🚀 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🍊 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram ⚡️ v2ray_configs_pools
@@ -498,7 +502,3 @@ vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?path=%2v2ray_conf
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:443?path==zani.yaemiko.ggff.net/@V2rayBaaz---@v2ray_configs_pools---@v2ray_configs_pools?ed=512&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:443?path==zani.yaemiko.ggff.net/?TELEGRAM-v2ray_configs_pools?ed=512&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools 💜💙
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:443?path==zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:443?path=/proxyip=zani.yaemiko.ggff.net&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.14.69:2096?path==zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.67.12:443?path=/v2ray_configs_pools?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#✅ @v2ray_configs_pools (تلگرام)
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.67.12:443?path=/v2ray_configs_pools---proxy_v2ray_configs_pools?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#telegram 🎯 v2ray_configs_pools
