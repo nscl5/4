@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://11922402-df9e-4ead-ab6b-56c9b7362837@helsinki.fonixapp.org:21105?security=reality&encryption=none&pbk=hvS624nh8B_UqRPXM_Fm2eMgJk6BSNBFmK82vRHylHw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lowes.com&sid=9e7234a45944#All-@V2rayAlpha--18
 vless://118abd6f-d32b-450b-84a7-326805d58e42@172.66.40.99:8080?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46188-1
 vless://118abd6f-d32b-450b-84a7-326805d58e42@172.66.40.99:8080?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46187-1
 vless://115e0e05-2820-4ae9-bf62-4142ce058574@m63a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#@Maznet-46196-4
@@ -501,4 +502,3 @@ trojan://fi1DPGOQ0I34PYZfaYyTvQ@91.107.172.48:443?security=tls&headerType=none&t
 trojan://fa47cf66-c31b-4dc5-a02b-e41830918e40@107.189.3.96:443?path=/Free-VPN-CF-Geo-Project/107.189.3.96=443&security=tls&host=joss.gpj.web.id&fp=chrome&type=ws&sni=joss.gpj.web.id#⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام 🇨🇭
 trojan://f282b878-8711-45a1-8c69-5564172123c1@172.67.156.25:443?path=/aioproxybot/129.150.49.58-18650&security=tls&host=aio.zipzap.biz.id&type=ws&sni=aio.zipzap.biz.id#@IRAN_V2RAY1
 trojan://ea39fa94f1ee00999337ea1fd3318e69@58.152.110.40:443?security=tls&headerType=none&type=tcp&sni=www.nintendogames.net#All-@IRAN_V2RAY1
-trojan://ea39fa94f1ee00999337ea1fd3318e69@58.152.110.40:443?security=tls&headerType=none&type=tcp&sni=www.nintendogames.net#@V2rayNG3

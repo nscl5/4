@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://eb6b1d2d-f4e6-499d-bce9-eeda18ed532c@109.122.247.103:2070?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://eb577431-3b16-4a8f-953b-7bcfb573b025@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?encryption=none&security=tls&sni=638901446244340634.dezful-prx-dnraabg.info&type=ws&alpn=&host=638901446244340634.dezful-prx-dnraabg.info&path=/kskoxmws#telegram 🚀 v2ray_configs_pools
 vless://eb577431-3b16-4a8f-953b-7bcfb573b025@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?encryption=none&security=tls&sni=638899496845219812.kish-prx-dnraabd.info&type=ws&alpn=&host=638899496845219812.kish-prx-dnraabd.info&path=/kskoxmws#telegram ☂️ v2ray_configs_pools
 vless://eb43a7d5-1b3e-4887-f4b1-f551df7079b8@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=&encryption=none&host=Mahsazxshop.org&type=xhttp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
@@ -501,4 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638971626453013983.gorgan-blkaft-aa
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638971626453013983.gorgan-blkaft-aaax.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46200-1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638970192452860730.helsinki-blkaft-aaax.info:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--35
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638970192452850318.helsinki-blkaft-aaax.info:8880?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46200-3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638970129452669909.budapest-blkaft-aaax.info:8880?mode=gun&security=none&encryption=none&type=grpc#Join To:@IRAN_V2RAY1 {VIP}
