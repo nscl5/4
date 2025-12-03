@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path=/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path=/?---proxy_v2ray_configs_pools------proxy_v2ray_configs_pools?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈⚡❤️‍🔥
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path=/&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@172.64.151.232:443?path=/&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@160.153.0.32:443?path=/telegram--v2ray_configs_pools--telegram--v2ray_configs_pools&security=tls&alpn=http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@160.153.0.32:443?path=/@v2ray_configs_pools---@v2ray_configs_pools?ed=2560&security=tls&alpn=http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈⚡❤️‍🔥
@@ -502,3 +499,6 @@ vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?path=/Telegram�
 vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?path=/Telegram_@sinavm/?ed=2560&security=tls&encryption=none&host=fast01.0860852.xyz&type=ws&sni=fast01.0860852.xyz#🇺🇸⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn کانال تلگرام
 vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?path=/Telegram_@sinavm/?ed=2560&security=tls&encryption=none&host=fast01.0860852.xyz&type=ws&sni=fast01.0860852.xyz#🇺🇸@FreakConfig
 vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?path=/Telegram_@sinavm/?ed=2560&security=tls&encryption=none&host=fast01.0860852.xyz&type=ws&sni=fast01.0860852.xyz#@V2rayNGVPN <= کانفیگ رایگان
+vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?encryption=none&security=tls&sni=fast01.0860852.xyz&insecure=0&allowInsecure=0&type=ws&host=fast01.0860852.xyz&path=/Telegram🇨🇳 @WangCai2 /?ed=2560#t.me/entryNET/config=1850368805033717
+vless://2456f90c-5183-476d-b069-16ae74ce120f@91.206.71.253:2096?encryption=none&security=tls&sni=fast01.0860852.xyz&insecure=0&allowInsecure=0&type=ws&host=fast01.0860852.xyz&path=/Telegram🇨🇳 @WangCai2 /?ed=2560#@Daily_Configs
+vless://2456f90c-5183-476d-b069-16ae74ce120f@45.80.111.253:2096?path=/Telegram @sinavm /?ed=2560&security=tls&encryption=none&host=fast01.0860852.xyz&type=ws&sni=fast01.0860852.xyz#🇺🇸@FreakConfig
