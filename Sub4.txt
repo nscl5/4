@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--36
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--13
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.142:8880?mode=gun&security=none&encryption=none&type=grpc#join Sho @Iran_V2ray1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.14.244.44:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--10
@@ -502,3 +499,6 @@ vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encr
 vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&host=&headerType=http&type=tcp#[🇮🇷]t.me/ConfigsHub
 vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&headerType=http&type=tcp#✅
+vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&headerType=http&type=tcp#limo
+vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&headerType=http&type=tcp#[🇮🇷]t.me/ConfigsHub
+vless://d5fed423-6123-42eb-b54f-444cda69fdfb@213.176.0.80:222?security=none&encryption=none&headerType=http&type=tcp#@V2rayNGVPN+<=+کانفیگ+رایگان
