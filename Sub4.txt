@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.55:8880?mode=gun&security=none&encryption=none&type=grpc#MCi--@IRAN_V2RAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.55:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?mode=gun&security=none&encryption=none&type=grpc#@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?mode=gun&security=none&encryption=none&type=grpc#@IRAN_V2RAAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880/?type=grpc&encryption=none&flow=#🎶41@oneclickvpnkeys
@@ -502,3 +500,5 @@ vless://d511b732-ade2-43dd-b2b9-76b215782326@152.53.142.129:35580?security=reali
 vless://d4eddaf9-a660-4905-b835-cad98677b380@104.24.13.116:80?encryption=none&security=none&type=ws&host=little-bird-a235-ppal03.fosawaw121.workers.dev&path=/?ed=2560#😟Ch: @pPal03😟جوین بدید😟
 vless://d4eddaf9-a660-4905-b835-cad98677b380@104.16.178.238:80?encryption=none&security=none&type=ws&host=little-bird-a235-ppal03.fosawaw121.workers.dev&path=/?ed=2560#😟Ch: @pPal03😟جوین بدید😟
 vless://d4e672e0-bc04-45c1-b710-df097fa41d23@104.24.219.162:80?encryption=none&security=none&type=ws&host=jolly-fog-9e08-ppal03.revog68198.workers.dev&path=/?ed=2560#😇Tel: @pPal03😇
+vless://d4e672e0-bc04-45c1-b710-df097fa41d23@104.16.183.83:80?encryption=none&security=none&type=ws&host=jolly-fog-9e08-ppal03.revog68198.workers.dev&path=/?ed=2560#😇Tel: @pPal03😇
+vless://d4e5f6a7-b8c9-4567-0123-def012345678@172.69.178.43:443?type=ws&encryption=none&host=aslivpn.pages.dev&path=/VLESS@PlanAsli&security=tls&sni=aslivpn.pages.dev&fp=chrome#@CaV2ray ⚡️

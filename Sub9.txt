@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@www.speedtest.net:2096?path=/Telegram@V2ray_Alpha/?ed=2560&security=tls&encryption=none&host=JOInv2ngFaSt-2mM.pAges.DeV&type=ws&sni=JoinV2nGFaSt-2MM.pAges.DEV#@V2rayNG3
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@www.speedtest.net:2083?path=/telegram@v2ray_alpha?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=HaSTI.fReeAIrLAINes.COm&fp=chrome&type=ws&sni=hAsTi.frEEairLainEs.Com#@V2rayNG3
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@ppal03.kharson-demetric.workers.dev:443?encryption=none&security=tls&sni=Ppal03.khArSON-deMETric.WOrkeRs.dEV&alpn=h2,http/1.1&fp=chrome&type=ws&host=pPAL03.kHArSon-DeMetrIC.WoRKErS.DEv&path=/BSbQHrIKid9PM8Up?ed=2560#🐬Ch: @pPal03🐬
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#@CaV2ray ⚡️
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@31.43.179.145:80?path=Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#@CaV2ray ⚡️
@@ -502,3 +500,5 @@ vless://7556317c-dff6-46e8-ad29-b408f2a6456e@104.19.106.68:2096?path=/Telegram@S
 vless://7556317c-dff6-46e8-ad29-b408f2a6456e@104.129.164.253:2096?security=tls&encryption=none&type=ws&sni=vless.muzheng.top#Channel : @Mrsoulb 🏴🏳
 vless://755592c6-eae3-4100-a8d8-81cdd845c6d7@swe-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=8453e5fd9af927#🇸🇪|•Sweden•|•
 vless://755592c6-eae3-4100-a8d8-81cdd845c6d7@rus-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=86e999a2cdc2#🇷🇺|•Russia•|•
+vless://755592c6-eae3-4100-a8d8-81cdd845c6d7@pol-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=f79448a30d#@MARAMBASHI 🇬🇧
+vless://755592c6-eae3-4100-a8d8-81cdd845c6d7@pol-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=f79448a30d#🇵🇱|•Poland•|•
