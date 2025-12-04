@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://0f1b978a-e1ea-4bcd-84fa-16d77cdc5b6a@172.233.171.226:10001/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=ip65cPljcoLAJwWfjL3SbikfdRHI2bhVpODh8mxbMmw&sid=1a24af87#🪝32@oneclickvpnkeys
 vless://0f072c94-f099-41c3-9c8f-caf4485f0cb3@91.107.141.33:41850?type=ws&encryption=none&path=/Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------&host=&security=none#@armanstore2-کانفیگ  رایگان
 vless://0ee7c1b6-2c11-4ca0-ab7d-64fe3a2d1a71@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#tm⚡|@lightning6
 vless://0ed2efd9-5c30-4bb3-985b-4e2bac8bd9f0@svnteam.aeza.nisvn.ir:80?mode=auto&security=&encryption=none&extra={"scMaxEachPostBytes": 1000000, "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&host=sfasdgfdgbfgdsggb547bw8.global.ssl.fastly.net&type=xhttp#@CaV2ray ⚡️
@@ -502,3 +501,4 @@ ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@23.158.56.196:8882#@daredevill_404
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@23.157.40.6:8882#@daredevill_404
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.143.66.87:5003#@V2rayNG3
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@23.162.200.130:5004#@daredevill_404
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@23.162.200.213:2375#@daredevill_404
