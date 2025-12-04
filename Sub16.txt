@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://097712e8-666a-42e2-aebf-c03d597d8482@cosmin.ns.cloudflare.com:443?path=/mcqvlfws&security=tls&encryption=none&host=639002745868715407.golf-amsir.info&type=ws&sni=639002745868715407.golf-amsir.info#@V2rayNGVPN <= کانفیگ رایگان
-vless://097712e8-666a-42e2-aebf-c03d597d8482@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639002745868715407.golf-amsir.info&type=ws&host=639002745868715407.golf-amsir.info&path=/mcqvlfws#🇳🇱[openproxylist.com] vless-NL
 vless://094fdaf8-929b-4b8c-81f3-ab61e6c8adff@87.120.219.226:443?security=reality&encryption=none&pbk=vHASs15JlekbgEeXan1f4ke79n7wm7cmCpWMe5xrCXY&headerType=none&fp=chrome&spx=/OVHzyUtRI3Amt5s&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=f4d5cc5b38#@vpnserverrr کانال تلگرام |🇬🇧
 vless://094fdaf8-929b-4b8c-81f3-ab61e6c8adff@85.208.139.57:443?security=reality&encryption=none&pbk=6p8Q1s1G3xxtuE3EVyj3xe4yKkgu4JpRoUcOII9EzRM&headerType=none&fp=chrome&spx=/RFZDvRViCN2Z6jy&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=e5d14354#@vpnserverrrکانال تلگرام |🇩🇪
 vless://094fdaf8-929b-4b8c-81f3-ab61e6c8adff@185.76.243.177:443?security=reality&encryption=none&pbk=7xXjIpYUAjPC0_vvNh2BJtI1omRAW6gj2nFOQbMIalo&headerType=none&fp=chrome&spx=/V26NdciqPbB0OEO&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=f099999777bc#@vpnserverrr کانال تلگرام |🇳🇱
@@ -502,3 +500,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:443#@MARAMBASHI 🇧🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvek5YSExmRzlXZTdTUlpoMWtlbmNq@77.83.246.74:443#SS-@V2rayAlpha--63
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@ltnl16.saint.ydns.eu:8080#SS-@V2rayAlpha--30
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@ltnl10.saint.ydns.eu:8080#SS-@V2rayAlpha--28
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@ltnl04.saint.ydns.eu:8080#SS-@V2rayAlpha--27
