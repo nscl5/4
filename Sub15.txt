@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://1130afd7-0be1-4f17-b0d6-d41c83e9158a@canada.huqpmfood.ir:1331?encryption=none&type=xhttp&mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&fp=chrome&sni=stackoverflow.com&pbk=HgDrSYUOhPxsBvxEUU4l3PeO6Q5p5v7eEStn1AbTV08&sid=1b435cd7a50885a4#🇨🇦 All Operator @MaSTeRSeRVeR1
+vless://1127fc22-993c-420b-897e-38b1dd21b629@172.66.40.99:443?path=/admin&security=tls&encryption=none&host=2free2.aparatir.xyz&type=ws&sni=2free2.aparatir.xyz#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://110ac6e9-f62b-5bd3-9d74-adbb4ec62f65@95.215.8.25:443?path=/vless&security=tls&encryption=none&host=95.215.8.25&fp=chrome&type=ws&sni=zula.ir#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://10aca91a-6e44-46cb-a890-ea246400c0a7@185.236.37.23:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn2.azkhaktakhane.ir#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://10a1ffcb-ca7a-499a-d2e2-d166d3e074c7@def.irimcs.org:2053?type=grpc&serviceName=@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns&security=reality&pbk=Z3gYwmi8oG80IZr8krZ2A08Y1liJj8RCl0d73nKLUmg&fp=chrome&sni=greenpepper.ir&sid=529c51346f66&spx=/#@Catvpns-🇩🇪--Channel
 vless://10a1ffcb-ca7a-499a-d2e2-d166d3e074c7@Def.irimcs.org:2053?type=grpc&serviceName=@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns&security=reality&pbk=zBXh4WorRzQ9RKVhaZR2flBf0jvY6ncL1HLAPE1vPyw&fp=chrome&sni=gstatic.com&sid=&spx=/#@Catvpns-🇩🇪--Channel
 vless://10a1ffcb-ca7a-499a-d2e2-d166d3e074c7@Def.irimcs.org:2053?type=grpc&serviceName=@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns&security=reality&pbk=r_tJUcl3b84e8a06QHqTbFrMtlS552kklJsdzLoAChk&fp=chrome&sni=dnschecker.org&sid=920967&spx=/#@Catvpns-🇩🇪--Channel
@@ -498,7 +502,3 @@ trojan://FiSo7J6vfS@51.68.13.106:1935?security=tls&alpn=h3,h2,http/1.1&headerTyp
 trojan://FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D@kuame.missionsec.us:443?security=tls&headerType=none&type=tcp&sni=kuame.missionsec.us#@v2ray1_Ng
 trojan://D+elR9-TfYxo.X6JVnrMw@38.54.8.233:11254?security=tls&headerType=none&type=tcp&sni=fluxfloss.click#🔥Join Telegram:@azarbayjab1🟣
 trojan://BxceQaOe@58.152.53.22:443?security=tls&allowInsecure=1&type=tcp&headerType=none#t.me/v2Line | Free | 3037 | Hong Kong
-trojan://BxceQaOe@58.152.30.175:443?security=tls&sni=58.152.30.175&allowInsecure=1&type=tcp&headerType=none#t.me/v2Line | Free | 3097 | Hong Kong
-trojan://BxceQaOe@58.152.30.175:443/?type=tcp&security=tls&sni=58.152.30.175&allowInsecure=1#🔴90@oneclickvpnkeys
-trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me/ripaojiedian#🇭🇰[openproxylist.com] trojan-HK
-trojan://BxceQaOe@58.152.30.120:443/?type=tcp&security=tls&allowInsecure=1#🟢67@oneclickvpnkeys

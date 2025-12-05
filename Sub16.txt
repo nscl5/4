@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://BxceQaOe@58.152.30.175:443?security=tls&sni=58.152.30.175&allowInsecure=1&type=tcp&headerType=none#t.me/v2Line | Free | 3097 | Hong Kong
+trojan://BxceQaOe@58.152.30.175:443/?type=tcp&security=tls&sni=58.152.30.175&allowInsecure=1#🔴90@oneclickvpnkeys
+trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me/ripaojiedian#🇭🇰[openproxylist.com] trojan-HK
+trojan://BxceQaOe@58.152.30.120:443/?type=tcp&security=tls&allowInsecure=1#🟢67@oneclickvpnkeys
 trojan://BxceQaOe@58.152.26.173:443?security=tls&headerType=none&type=tcp&sni=t.me/ripaojiedian#@HiByeVPNN❤️‍🔥🏆💫
 trojan://BxceQaOe@58.152.25.20:443/?type=tcp&security=tls&sni=t.me/ripaojiedian&allowInsecure=1#🟢70@oneclickvpnkeys
 trojan://BxceQaOe@58.152.18.95:443/?type=tcp&security=tls&sni= [By EbraSha] b2n.ir/v2ray-configs | 690 &allowInsecure=1#🟢71@oneclickvpnkeys
@@ -498,7 +502,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#@ShikaVPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#@MARAMBASHI 🩵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#@MARAMBASHI 💙
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#7
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSElieDlHRzhTTG12blZaMExLa3RC@77.238.239.53:11671#Vip - 🇳🇱@vpnserverrr
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSElieDlHRzhTTG12blZaMExLa3RC@77.238.239.53:11671#@V2RAYROZ
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiQW5rWUVQNFlBQi9vcnVnQW5pQ1dScWRkMElaUEVIRVVxRzAvalZwbkRvPQ==@3.72.247.237:8080#@daredevill_404
