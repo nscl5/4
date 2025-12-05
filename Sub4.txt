@@ -2,18 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.92:8880?mode=gun&security=none&encryption=none&authority=Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN&type=grpc#@IRAN_V2RAAY1
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.91:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#Channel : @vpnserverrr
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.82:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-29
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.82:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.71:8880?mode=gun&security=&encryption=none&type=grpc#WiFi-@V2rayAlpha--17
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--29
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=none&encryption=none&type=grpc#ALL@azadiiivpn 🤍
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.69:8880?mode=gun&security=none&encryption=none&authority=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=grpc#🇫🇷⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 @V2WRAY
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.5:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=none&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=&encryption=none&type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.27:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-31
@@ -502,3 +490,15 @@ vless://d00ed1eb-738c-47b5-ae92-33a15bc1cbef@rayphoriahub.iranfastshop.ir:7401?s
 vless://d002b1a4-ef75-44d2-96e2-bacdfa096f28@canada.huqpmfood.ir:1331?encryption=none&type=xhttp&mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&fp=chrome&sni=stackoverflow.com&pbk=HgDrSYUOhPxsBvxEUU4l3PeO6Q5p5v7eEStn1AbTV08&sid=1b435cd7a50885a4#🇨🇦 All Operator @MaSTeRSeRVeR1
 vless://d002299a-418f-4d76-a04a-50837b44227e@172.66.40.99:8880?encryption=none&type=ws&host=websocket.network.www.speedtest.net.kkoccashor.vegaskala.com.&path=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048&security=none#qvdyfs4z
 vless://cfe70656-5432-46f8-a7e4-0bf69f7a3ed5@91.107.190.98:48476?type=tcp&encryption=none&security=reality&pbk=vhlEFttiskr1M-4QmXAcqTHe0p-kFTbp8u5LSsaJWS0&fp=chrome&sni=cloudflare.com&sid=eb806375&spx=/#🇩🇪@armanstore2-کانال تلگرام
+vless://cfe70656-5432-46f8-a7e4-0bf69f7a3ed5@91.107.190.98:48476?security=reality&encryption=none&pbk=vhlEFttiskr1M-4QmXAcqTHe0p-kFTbp8u5LSsaJWS0&headerType=none&fp=chrome&spx=/&type=tcp&sni=cloudflare.com&sid=eb806375#@Daily_Configs
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#Join Sho : @IRAN_V2RAY1
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--39
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--13
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#@V2ray1_Ng
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#@ShikaVPN
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@sea-daisy.unity4world.ir:8880?mode=gun&security=&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@cone-snail.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#Channelvmesskhodam
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@cone-snail.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
+vless://cfe554a3-4cd5-4fe1-9951-e6b65fc52a74@cone-snail.unity4world.ir:8880?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
