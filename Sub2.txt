@@ -2,10 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.77.190:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram ⚡️ v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.75.62:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram ⚡️ v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.75.192:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🚀 v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.74.250:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🌟 v2ray_configs_pools
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.31.27:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🚀 v2ray_configs_pools
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.216.147:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🍀 v2ray_configs_pools
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@147.135.78.9:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🍀 v2ray_configs_pools
@@ -502,3 +498,7 @@ vless://e5220033-0730-468b-bb4a-9463c9664ece@172.66.40.99:2052?type=ws&path=/@Ma
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&type=grpc&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇩🇪]t.me/Raiv2mmr
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&type=grpc#@V2RAYROZ
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc&serviceName=#🇩🇪[openproxylist.com] vless-DE
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc&serviceName=#@V2rayNGVPN+<=+کانفیگ+رایگان
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#@V2RAYROZ
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?mode=gun&security=none&encryption=none&authority=Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn&type=grpc#[🇩🇪]t.me/ConfigsHub
