@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://origin@51.77.71.134:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-940%20%7C%20free-nodes
+trojan://c53647f3153f784b3c695ffbe5fb43c0@153.121.56.122:5321?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-939%20%7C%20free-nodes
+trojan://vip@www.gov.se:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-938%20%7C%20free-nodes
 trojan://21e10785-99c6-316e-a184-a03384ee06e5@hn.xiaohouzi.club:18835?security=tls&sni=$$feilvbin.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-937%20%7C%20free-nodes
 trojan://trojan@38.207.133.204:10002?security=tls&sni=qingming-b08.pages.dev&type=ws&path=/?ed=2560&Host=qingming-b08.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-936%20%7C%20free-nodes
 trojan://Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS@psg2-ag.t.sgateway.link:5223?security=tls&sni=pod-kr-g1.psusercontent.com#%E6%9C%AA%E7%9F%A5%20TROJAN-935%20%7C%20free-nodes
@@ -252,6 +255,7 @@ trojan://BxceQaOe@43.206.254.28:2569?security=tls&sni=t.me%2Fripaojiedian#%E6%9C
 trojan://414dff55-922a-4dc8-b5d3-b6517942b25a@east.eeeeeef998.buzz:15006?security=tls&sni=data.steamdownload.top#%E6%9C%AA%E7%9F%A5%20TROJAN-690%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.116.227:2283?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-689%20%7C%20free-nodes
 trojan://BxceQaOe@43.198.91.31:3579?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-688%20%7C%20free-nodes
+trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@iplc.xiaohouzi.club:20032?security=tls&sni=$$hk-azure02.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-687%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@36.156.102.84:3272?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-686%20%7C%20free-nodes
 trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-685%20%7C%20free-nodes
 trojan://BxceQaOe@52.193.233.149:26378?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-684%20%7C%20free-nodes
@@ -298,6 +302,7 @@ trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:5041?security=tls&sni=ww
 trojan://8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272@185.44.76.188:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-643%20%7C%20free-nodes
 trojan://rXzh%3B%3FnW1GGKB(K8@104.21.18.192:443?security=tls&sni=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV&type=ws&path=/tr4BCdusB84159lWnu&Host=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV#%E6%9C%AA%E7%9F%A5%20TROJAN-642%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hnm.xiaohouzi.club:51052?security=tls&sni=hnm.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-641%20%7C%20free-nodes
+trojan://253bc477d4e43c209f2d427272968280@160.16.124.55:1331?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-640%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.2:10826?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-639%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@153.121.65.107:1331?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-638%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@35.177.137.88:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-637%20%7C%20free-nodes
@@ -497,8 +502,3 @@ trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:48431?security=t
 trojan://b8808043-6566-4923-9195-e66bfb553d57@51.38.99.96:443?security=tls&sni=ba24.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-443%20%7C%20free-nodes
 trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-442%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.87:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-441%20%7C%20free-nodes
-trojan://WpfQAbO2wg@45.9.10.103:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-440%20%7C%20free-nodes
-trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.92:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-439%20%7C%20free-nodes
-trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-438%20%7C%20free-nodes
-trojan://NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR@45.64.22.55:443?security=tls&sni=pbvre.freetrade.link#%E6%9C%AA%E7%9F%A5%20TROJAN-437%20%7C%20free-nodes
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@138.2.115.240:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-436%20%7C%20free-nodes
