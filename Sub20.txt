@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://21e10785-99c6-316e-a184-a03384ee06e5@hn.xiaohouzi.club:18835?security=tls&sni=$$feilvbin.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-937%20%7C%20free-nodes
+trojan://trojan@38.207.133.204:10002?security=tls&sni=qingming-b08.pages.dev&type=ws&path=/?ed=2560&Host=qingming-b08.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-936%20%7C%20free-nodes
+trojan://Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS@psg2-ag.t.sgateway.link:5223?security=tls&sni=pod-kr-g1.psusercontent.com#%E6%9C%AA%E7%9F%A5%20TROJAN-935%20%7C%20free-nodes
 trojan://telegram-id-directvpn@34.210.47.105:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-934%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@iplc.xiaohouzi.club:20032?security=tls&sni=$$hk-azure02.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-933%20%7C%20free-nodes
 trojan://14bdba6dede262387ebdebaa706e1c90@trs12.bolab.net:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-932%20%7C%20free-nodes
@@ -499,6 +502,3 @@ trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.92:443?security=tls&sni=www.
 trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-438%20%7C%20free-nodes
 trojan://NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR@45.64.22.55:443?security=tls&sni=pbvre.freetrade.link#%E6%9C%AA%E7%9F%A5%20TROJAN-437%20%7C%20free-nodes
 trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@138.2.115.240:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-436%20%7C%20free-nodes
-trojan://1bf16b43-0ad5-4512-a0e8-34bb8966278e@sg.stablize.top:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-435%20%7C%20free-nodes
-trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@155.248.172.87:28443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-434%20%7C%20free-nodes
-trojan://1bf16b43-0ad5-4512-a0e8-34bb8966278e@uk.stablize.top:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-433%20%7C%20free-nodes

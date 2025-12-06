@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.8:10819?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1437%20%7C%20free-nodes
+trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.132.158:2381?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1436%20%7C%20free-nodes
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp07a.roc-taiwan.org.ua:65017?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1435%20%7C%20free-nodes
 trojan://7b06d22a8a7c764f@211.72.35.158:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1434%20%7C%20free-nodes
 trojan://BxceQaOe@54.46.125.108:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1433%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp08a.roc-taiwan.org.ua:65018?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1432%20%7C%20free-nodes
@@ -499,6 +502,3 @@ trojan://iyinglong@18.141.8.87:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-941%
 trojan://origin@51.77.71.134:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-940%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@153.121.56.122:5321?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-939%20%7C%20free-nodes
 trojan://vip@www.gov.se:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-938%20%7C%20free-nodes
-trojan://21e10785-99c6-316e-a184-a03384ee06e5@hn.xiaohouzi.club:18835?security=tls&sni=$$feilvbin.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-937%20%7C%20free-nodes
-trojan://trojan@38.207.133.204:10002?security=tls&sni=qingming-b08.pages.dev&type=ws&path=/?ed=2560&Host=qingming-b08.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-936%20%7C%20free-nodes
-trojan://Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS@psg2-ag.t.sgateway.link:5223?security=tls&sni=pod-kr-g1.psusercontent.com#%E6%9C%AA%E7%9F%A5%20TROJAN-935%20%7C%20free-nodes
