@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://253bc477d4e43c209f2d427272968280@160.16.116.227:2283?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1932%20%7C%20free-nodes
-trojan://mainssh-ddoejfv14@140.82.38.103:443?security=tls&sni=frtgrpc.mainssh.xyz&type=grpc&serviceName=trojangrpc#%E6%9C%AA%E7%9F%A5%20TROJAN-1931%20%7C%20free-nodes
-trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.9:10824?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1930%20%7C%20free-nodes
 trojan://BxceQaOe@160.16.85.138:4492?security=tls&sni=t.me/ripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1929%20%7C%20free-nodes
 trojan://8b475d9e868e43e0@211.72.35.157:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1928%20%7C%20free-nodes
 trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@212.90.123.130:28443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1927%20%7C%20free-nodes
@@ -502,3 +499,6 @@ trojan://BxceQaOe@54.46.125.108:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp08a.roc-taiwan.org.ua:65018?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1432%20%7C%20free-nodes
 trojan://a3278882-3614-39cf-a3d6-faefa8c910ab@iplc.xiaohouzi.club:20514?security=tls&sni=$$$$supaz041.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1431%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp04a.roc-taiwan.net.ua:65014?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1430%20%7C%20free-nodes
+trojan://253bc477d4e43c209f2d427272968280@153.121.51.29:1331?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1429%20%7C%20free-nodes
+trojan://253bc477d4e43c209f2d427272968280@160.16.68.250:4451?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1428%20%7C%20free-nodes
+trojan://telegram-id-directvpn@13.48.105.114:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1427%20%7C%20free-nodes
