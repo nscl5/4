@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vmess://eyJ2IjoiMiIsImFkZCI6IjE4NS4yMjEuMTYwLjEyNSIsInBvcnQiOjIwNTIsImlkIjoiNjA2NmFiZjEtY2RiMS00ODE4LWQzNWEtN2M4ZTBlZTkwMzIwIiwiYWlkIjowLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImNjLnYyamV5LmZ1biIsInBhdGgiOiJcLyIsInRscyI6Im5vbmUiLCJwcyI6Ilx1ZDgzY1x1ZGRmN1x1ZDgzY1x1ZGRmYSBSVSB8IFx1ZDgzZFx1ZGQxMyBWTUVTUyB8IEB2MnJheV9mcmVlX2NvbmYgWzI0XSJ9
+vmess://eyJ2IjoiMiIsImFkZCI6IjQ1Ljg1LjExOC4yNDUiLCJwb3J0IjoyMDUyLCJpZCI6IjYwNjZhYmYxLWNkYjEtNDgxOC1kMzVhLTdjOGUwZWU5MDMyMCIsImFpZCI6MCwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJjYy52MmpleS5mdW4iLCJwYXRoIjoiXC8iLCJ0bHMiOiJub25lIiwicHMiOiJcdWQ4M2NcdWRkZWNcdWQ4M2NcdWRkZTcgR0IgfCBcdWQ4M2RcdWRkMTMgVk1FU1MgfCBAdjJyYXlfZnJlZV9jb25mIFsyM10ifQ
+vmess://eyJ2IjoiMiIsImFkZCI6IjE4OC40Mi44OS4xMTUiLCJwb3J0IjoyMDUyLCJpZCI6IjYwNjZhYmYxLWNkYjEtNDgxOC1kMzVhLTdjOGUwZWU5MDMyMCIsImFpZCI6MCwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJjYy52MmpleS5mdW4iLCJwYXRoIjoiXC8iLCJ0bHMiOiJub25lIiwicHMiOiJcdWQ4M2NcdWRkZjNcdWQ4M2NcdWRkZjEgTkwgfCBcdWQ4M2RcdWRkMTMgVk1FU1MgfCBAdjJyYXlfZnJlZV9jb25mIFsyMl0ifQ
+vless://TELEGRAM-CONFiGLiNE-78@test.fast.hosting-ip.com:80?mode=auto&path=%2Ftelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%2Ctelegram-CONFiGLiNE%3Fed%3D2048&security=none&encryption=none&host=byby.global.ssl.fastly.net&type=xhttp#%F0%9F%87%A8%F0%9F%87%A6%20CA%20%7C%20%F0%9F%94%93%20VLESS%20%7C%20%40orange_vpns%20%5B16%5D
 vmess://eyJwcyI6Ilx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYVtvcGVucHJveHlsaXN0LmNvbV0gdm1lc3MtREUiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
 vmess://eyJwcyI6IiVGMCU5RiU4NyVBOSVGMCU5RiU4NyVBQSUyMCU0MEV2YXlfdnBuIiwicG9ydCI6IjEwMCIsImFkZCI6ImNwYW5lbC5uYXZhcjIuaXIiLCJuZXQiOiJ3cyIsImlkIjoiMjY0MDJiYzctNzg5NS00ZGQwLWFlNmUtMTUxYTAwYzcxMTQ1IiwicGF0aCI6IlwvP0BFdmF5X3Zwbi0tLS1ARXZheV92cG4tLS0tQEV2YXlfdnBuLS0tLUBFdmF5X3Zwbi0tLS1ARXZheV92cG4tLS0tQEV2YXlfdnBuLS0tLUBFdmF5X3ZwbiIsImhvc3QiOiJ1cGxvYWRib3kuY29tIiwic2N5IjoiIn0=
 vmess://eyJwb3J0IjoiMTI0NDkiLCJwYXRoIjoiIiwiaG9zdCI6IiIsInR5cGUiOiJub25lIiwicHMiOiJBS0xJU3ZwbiVGMCU5RiU4NyVBQiVGMCU5RiU4NyVCNyIsIm5ldCI6InRjcCIsImFkZCI6IjQ1LjEzLjIyNi4xMTYiLCJpZCI6ImIxMDUzYTY3LTg4YjktNDU1MC1iNWZiLTgyNjczNWFkYzA0NSIsInNjeSI6ImF1dG8ifQ==
@@ -498,7 +502,3 @@ vless://f6f442e3-69d1-4a83-bb78-241152eed859@40.160.7.224:443?type=xhttp&path=/s
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@40.160.50.44:443?mode=stream-one&path=/sef/?@MARAMBASHI_MARAMBASHI?ed=2048&security=none&encryption=none&type=xhttp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@40.160.50.149:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🌺 v2ray_configs_pools
 vless://f6f442e3-69d1-4a83-bb78-241152eed859@40.160.15.211:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🌈 v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.77.190:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram ⚡️ v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.75.62:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram ⚡️ v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.75.192:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🚀 v2ray_configs_pools
-vless://f6f442e3-69d1-4a83-bb78-241152eed859@15.204.74.250:443?type=xhttp&path=/sef&host=&mode=stream-one&security=none#telegram 🌟 v2ray_configs_pools
