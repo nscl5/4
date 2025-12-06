@@ -374,6 +374,7 @@ trojan://253bc477d4e43c209f2d427272968280@36.150.215.203:3043?security=tls&sni=w
 trojan://253bc477d4e43c209f2d427272968280@160.16.63.16:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1575%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.144.208:2381?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1574%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.116.227:2283?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1573%20%7C%20free-nodes
+trojan://b8808043-6566-4923-9195-e66bfb553d57@51.38.99.96:443?security=tls&sni=ba24.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-1572%20%7C%20free-nodes
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1571%20%7C%20free-nodes
 trojan://BxceQaOe@58.152.25.242:443?sni=t.me/ripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1570%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.84:3160?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1569%20%7C%20free-nodes
@@ -459,7 +460,6 @@ trojan://BxceQaOe@jp.baidu.com:26378?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hnm.xiaohouzi.club:27482?security=tls&sni=$$$hnm.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1489%20%7C%20free-nodes
 trojan://414dff55-922a-4dc8-b5d3-b6517942b25a@east.eeeeeef998.buzz:15002?security=tls&sni=data.steamdownload.top#%E6%9C%AA%E7%9F%A5%20TROJAN-1488%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@15.237.50.200:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1487%20%7C%20free-nodes
-trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.55:443?security=tls&sni=reooec.freetrade.link#%E6%9C%AA%E7%9F%A5%20TROJAN-1486%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.biz.ua:8443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1485%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.5:10822?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1484%20%7C%20free-nodes
 trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@155.248.172.87:28443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1483%20%7C%20free-nodes
@@ -494,6 +494,7 @@ trojan://BxceQaOe@58.152.18.95:443?allowInsecure=0#%E6%9C%AA%E7%9F%A5%20TROJAN-1
 trojan://vip@www.visa.com.tw:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#TW%20TROJAN-1454%20%7C%20free-nodes
 trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@20.163.90.12:443?security=tls&sni=paydiu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1453%20%7C%20free-nodes
 trojan://4d048fc6-d944-41dd-b327-10856adcc82d@zi.you.usdtvfk.top:443?security=tls&sni=zi.you.usdtvfk.top#%E6%9C%AA%E7%9F%A5%20TROJAN-1452%20%7C%20free-nodes
+trojan://253bc477d4e43c209f2d427272968280@36.150.215.203:3270?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1451%20%7C%20free-nodes
 trojan://TNDSJfNv@36.151.195.48:4603?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1450%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:1331?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1449%20%7C%20free-nodes
 trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1448%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://40c89b10235c40321e7a3cef82b53a03@trs16.bolab.net:22?security=tls#%E6%9C
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:17112?security=tls&sni=$$supaz012.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1446%20%7C%20free-nodes
 trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1445%20%7C%20free-nodes
 trojan://Qzy7tgpRhu@37.18.14.33:443?security=tls&sni=m.vk.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1444%20%7C%20free-nodes
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1443%20%7C%20free-nodes

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-442%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.87:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-441%20%7C%20free-nodes
 trojan://WpfQAbO2wg@45.9.10.103:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-440%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.92:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-439%20%7C%20free-nodes
@@ -404,7 +403,6 @@ vless://71a712db-3843-4d24-b4c4-724ee0813044@V2ngfast.heloisfood.ir:2718?mode=gu
 vless://787ae54e-40ad-4caf-899b-ad3a19ff1103@89.110.68.47:8443?security=reality&encryption=none&pbk=UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn.discordapp.com&sid=50c860b05993532d#%E6%9C%AA%E7%9F%A5%20VLESS-43%20%7C%20free-nodes
 vless://4f590914-6d75-4f1d-a361-2fddb3cdf669@cosmin.ns.cloudflare.com:443?path=%2Fccemutws&security=tls&encryption=none&insecure=1&host=639003456256484486.giulia-amsis.info&type=ws&allowInsecure=1&sni=639003456256484486.giulia-amsis.info#%E6%9C%AA%E7%9F%A5%20VLESS-42%20%7C%20free-nodes
 vless://fdb139e5-d408-4342-c807-d391d3078f9f@213.21.254.20:1404?mode=gun&security=none&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#GB%20VLESS-41%20%7C%20free-nodes
-vless://78fc9ba9-9c68-4b49-891f-ea9e38bd3b56@84.8.145.58:443?&security=tls&fp=random&sni=ak.suoni.nyc.mn&type=ws&headerType=none&host=ak.suoni.nyc.mn&path=%2Fproxyip%3Dsjc.o00o.ooo#GB%20VLESS-40%20%7C%20free-nodes
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnNVJRb3hRdVZ0bkZ2M1h4c2E4ZWRQaXNYTlBueVdLeQ@45.83.20.206:443#%E6%9C%AA%E7%9F%A5%20SS-39%20%7C%20free-nodes
 vless://d37d61da-e50d-4f7f-9969-7f0136f97953@delilah.ns.cloudflare.com:443?path=%2Ffwgisws&security=tls&encryption=none&insecure=1&host=hazmkardan.info&type=ws&allowInsecure=1&sni=hazmkardan.info#%E6%9C%AA%E7%9F%A5%20VLESS-38%20%7C%20free-nodes
 vless://270b7522-bda3-4381-bffb-6156076e271e@172.64.33.91:443?path=%2Famglzgws&security=tls&encryption=none&insecure=0&host=639004042094803957.legacy-amsit.info&type=ws&allowInsecure=0&sni=639004042094803957.legacy-amsit.info#%E6%9C%AA%E7%9F%A5%20VLESS-37%20%7C%20free-nodes
@@ -502,3 +500,5 @@ trojan://kSZddpnUKy@150.136.57.125:41106?security=tls#%E6%9C%AA%E7%9F%A5142
 trojan://acfef609-b3c7-4e52-b292-8921d5fca90d@ca-full.privateip.net:443?security=tls#%E6%9C%AA%E7%9F%A5141
 trojan://rXzh%3B%3FnW1GGKB(K8@104.21.18.192:443?security=tls&type=ws&sni=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV&path=/tr4BCdusB84159lWnu#%E6%9C%AA%E7%9F%A5140
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:48464?security=tls&sni=$$vuus04.xiaohouzi.club#%E6%9C%AA%E7%9F%A5139
+trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@89.163.220.99:28443?security=tls#%E6%9C%AA%E7%9F%A5138
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5Q2JRNGJyeTRvdGZpZks3b2VsNzFOYVhwUEw5cFlKYg==@89.221.225.15:443#%E6%9C%AA%E7%9F%A5137%203.4MB%2Fs
