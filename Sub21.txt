@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev&path=/tro8sFW1S91B6sZrM1?ed=2560#%E6%9C%AA%E7%9F%A5%20TROJAN-466%20%7C%20free-nodes
 trojan://e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad@51.91.11.29:80?security=tls&sni=softsaaz.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-465%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hnm.xiaohouzi.club:17107?security=tls&sni=hnm.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-464%20%7C%20free-nodes
 trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-463%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.144.208:2283?security=tls&sni=w
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.9:10819?security=tls#%E6%9C%AA%E7%9F%A5167
 trojan://e9368912c4ed6046dca6949229cbff02@36.156.102.84:1920?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5166
 trojan://x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj@154.17.24.29:443?security=tls#%E6%9C%AA%E7%9F%A5165
+trojan://shenmegui@185.49.33.47:8461?security=tls&sni=$jp.swiftfalcon.app#%E6%9C%AA%E7%9F%A5164

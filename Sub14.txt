@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?path=/?ed=2048&security=none&encryption=none&host=SeRvER16.VtNEt.InFO&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?encryption=none&security=&sni=&type=ws&alpn=&host=SeRvER07.VtNEt.InFO&path=/?ed=2048#telegram 🚀 v2ray_configs_pools
 vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?encryption=none&security=&sni=&type=ws&alpn=&host=NoDE16.VtNEt.InFO&path=/?ed=2048#telegram 🍊 v2ray_configs_pools
 vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws?ed=2048@v2ray_configs_pools&security=tls&v2ray_configs_pools
@@ -502,3 +501,4 @@ vless://140ae345-e7b8-49f5-8920-85f82085344e@tidehunter.fonixapp.org:40745?secur
 vless://140ae345-e7b8-49f5-8920-85f82085344e@37.120.191.120:40745?security=reality&encryption=none&pbk=KIJ-Gb61R1Ng1kMvD01v51SwtrrYh3npN5cSkxb-MH0&host=PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET?ed=2048HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot--HiByeVPNNbot&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=3b#@HiByeVPNNBot✨❤️‍🔥💥
 vless://140ae345-e7b8-49f5-8920-85f82085344e@37.120.191.120:40745?security=reality&encryption=none&pbk=KIJ-Gb61R1Ng1kMvD01v51SwtrrYh3npN5cSkxb-MH0&headerType=none&fp=chrome&spx=/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=3b#🇩🇪 | @External_Net
 vless://13e565e4-22fe-4f49-b72a-333ba4e0eefd@91.99.169.190:2056?security=reality&type=tcp&headerType=none&path=&host=&sni=cloudflare.com&fp=chrome&pbk=WzFcHkOMaJvojpPg8ELSmBtB729ufyeHl-h3EU2R4Ts&sid=9477d87e64cf9e75#@ShikaVPN 🪩 Location : Germany 🇩🇪 🔋 Limited
+vless://13e565e4-22fe-4f49-b72a-333ba4e0eefd@91.99.169.190:2056?security=reality&type=tcp&headerType=none&path=&host=&sni=cloudflare.com&fp=chrome&pbk=WzFcHkOMaJvojpPg8ELSmBtB729ufyeHl-h3EU2R4Ts&sid=9477d87e64cf9e75#@ShikaVPN

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-hy2://3bd247a8-993e-11ec-a8bf-f23c91cfbbc9@b47e4158-t6pb40-tk5ls1-z7a1.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=b47e4158-t6pb40-tk5ls1-z7a1.us.hyhuawei.com#🔴84@oneclickvpnkeys
 hy2://398e0d38-8649-11ef-959c-f23c9164ca5d@8bad3e9f-t53wg0-t7k911-1gxvd.us.hyhuawei.com:443/?insecure=1&sni=8bad3e9f-t53wg0-t7k911-1gxvd.us.hyhuawei.com#🪝62@oneclickvpnkeys
 hy2://3952a514-eaa7-11ef-97da-f23c91cfbbc9@2fe149f1-t53wg0-taksay-1tcuf.hk2.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=2fe149f1-t53wg0-taksay-1tcuf.hk2.hyhuawei.com#🪝83@oneclickvpnkeys
 hy2://336501b6-51d2-11ee-a993-f23c9164ca5d@9f03f237-t6ngg0-t8kd6j-1c9em.us.hyhuawei.com:443/?insecure=1&sni=9f03f237-t6ngg0-t8kd6j-1c9em.us.hyhuawei.com#🪝48@oneclickvpnkeys
@@ -502,3 +501,4 @@ trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@kaizen-tw-2.mielink-dns2.co
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19241?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1469%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.196.59:1802?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1468%20%7C%20free-nodes
 trojan://xxoo@146.19.230.241:443?security=tls&sni=loader.tapsell.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-1467%20%7C%20free-nodes
+trojan://telegram-id-privatevpns@3.8.123.26:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1466%20%7C%20free-nodes
