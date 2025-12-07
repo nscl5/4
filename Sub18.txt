@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://c60fbf90-4b55-11ed-b935-225401db9d57@51.75.76.22:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1946%20%7C%20free-nodes
+trojan://telegram-id-directvpn@63.180.93.12:22223?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1945%20%7C%20free-nodes
+trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@89.163.220.99:28443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1944%20%7C%20free-nodes
+trojan://5623be5f-c9da-4511-81a9-b4b39b16edae@103.173.255.234:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1943%20%7C%20free-nodes
 trojan://BxceQaOe@112.118.116.66:443?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1942%20%7C%20free-nodes
 trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1941%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.150.76:1596?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1940%20%7C%20free-nodes
@@ -498,7 +502,3 @@ trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:1331?security=tls&sni=ww
 trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1448%20%7C%20free-nodes
 trojan://40c89b10235c40321e7a3cef82b53a03@trs16.bolab.net:22?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1447%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:17112?security=tls&sni=$$supaz012.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1446%20%7C%20free-nodes
-trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1445%20%7C%20free-nodes
-trojan://Qzy7tgpRhu@37.18.14.33:443?security=tls&sni=m.vk.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1444%20%7C%20free-nodes
-trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1443%20%7C%20free-nodes
-trojan://telegram-id-directvpn@13.40.3.71:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1442%20%7C%20free-nodes
