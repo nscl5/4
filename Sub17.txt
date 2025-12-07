@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://e9368912c4ed6046dca6949229cbff02@36.156.102.84:5321?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1763%20%7C%20free-nodes
 trojan://BxceQaOe@112.118.116.66:443?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1762%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@58.152.53.94:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1761%20%7C%20free-nodes
 trojan://61605c66-6d41-4b9d-a496-b9898f3f95d0@jp-h1.sshub.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1760%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://253bc477d4e43c209f2d427272968280@36.150.215.203:3043?security=tls&sni=w
 trojan://b5fc9fa9-796d-4185-a316-395ecac04a85@150.230.249.20:443?security=tls&sni=www.gomacau.gq#%E6%9C%AA%E7%9F%A5%20TROJAN-1265%20%7C%20free-nodes
 trojan://414dff55-922a-4dc8-b5d3-b6517942b25a@east.eeeeeef998.buzz:15002?security=tls&sni=data.steamdownload.top#%E6%9C%AA%E7%9F%A5%20TROJAN-1264%20%7C%20free-nodes
 trojan://4f2c305b-9a03-4493-b3e4-2dff2f1af8c9@141.95.61.209:1145?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1263%20%7C%20free-nodes
-trojan://28d98f761aca9d636f44db62544628eb@45.66.134.219:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1262%20%7C%20free-nodes
