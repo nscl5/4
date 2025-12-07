@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.87:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-441%20%7C%20free-nodes
 trojan://WpfQAbO2wg@45.9.10.103:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-440%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@58.152.30.92:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-439%20%7C%20free-nodes
 trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-438%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://255a0a50-3f10-11f0-b0d6-1239d0255272@51.38.65.155:443?security=tls#%E6%
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.131.243:316?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5143
 trojan://kSZddpnUKy@150.136.57.125:41106?security=tls#%E6%9C%AA%E7%9F%A5142
 trojan://acfef609-b3c7-4e52-b292-8921d5fca90d@ca-full.privateip.net:443?security=tls#%E6%9C%AA%E7%9F%A5141
+trojan://rXzh%3B%3FnW1GGKB(K8@104.21.18.192:443?security=tls&type=ws&sni=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV&path=/tr4BCdusB84159lWnu#%E6%9C%AA%E7%9F%A5140
