@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://BxceQaOe@58.152.18.95:443/?type=tcp&security=tls&sni= [By EbraSha] b2n.ir/v2ray-configs | 690 &allowInsecure=1#🟢71@oneclickvpnkeys
 trojan://BxceQaOe@43.198.90.142:2673?security=tls&sni=🔒 [By EbraSha] b2n.ir/v2ray-configs | 647 &fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#👉🆔 @v2ray_configs_pool 📡 🇸🇬SG 🧭 1.6MB/s
 trojan://BxceQaOe@43.198.90.142:2673?security=tls&sni=🔒 [By EbraSha] &fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#👉🆔 @v2ray_configs_pool 📡 🇸🇬SG 🧭 2.0MB/s
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me/ripaojiedian#🇭🇰[openproxylist.com] trojan-HK
@@ -502,3 +501,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSbTVHdnFLeU9Ma3ZNWWd6Z0FFMUtH@46.246.96.42:1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSbTVHdnFLeU9Ma3ZNWWd6Z0FFMUtH@46.246.96.42:12346#1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSbHJPMWZ3dVRBMFdpU25OWlV5ekx6@62.133.60.43:36456#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSWVpYaXM1MWc3Y3RGUGRrWDZ6QTg4@142.111.146.222:8443#🇲🇾[openproxylist.com] ss-MY
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSWVpYaXM1MWc3Y3RGUGRrWDZ6QTg4@142.111.146.222:8443#🇲🇾2@vpnserverrr

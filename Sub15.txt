@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://127afb57-1197-4e9f-995e-ea78deddc226@n2vpn-helper.projectis.ir:2083?path=/@n2vpn&security=tls&encryption=none&host=n2vpn.projectis.ir&fp=chrome&type=ws&sni=n2vpn.projectis.ir#@n2vpn+-+کانفیگ+های+اختصاصی
 vless://127afb57-1197-4e9f-995e-ea78deddc226@n2vpn-helper.projectis.ir:2083?path=/@n2vpn&security=tls&encryption=none&host=n2vpn.projectis.ir&fp=chrome&type=ws&sni=n2vpn.projectis.ir#@n2vpn+-+کانفی
 vless://12486672-3116-48b2-8495-2d7223874a7b@31.58.239.159:1433?path=/&security=none&encryption=none&host=snapp.ir&type=ws#@CaV2ray ⚡️
 vless://12345678-1234-1234-1234-123456789123@185.176.24.61:2096?path=/snippets&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=vless.hubp.de#🔸ALL: {@IRAN_V2RAY1}💘
@@ -502,3 +501,4 @@ trojan://BxceQaOe@58.152.30.120:443/?type=tcp&security=tls&allowInsecure=1#🟢6
 trojan://BxceQaOe@58.152.26.173:443?security=tls&headerType=none&type=tcp&sni=t.me/ripaojiedian#@HiByeVPNN❤️‍🔥🏆💫
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me/ripaojiedian#🇭🇰[openproxylist.com] trojan-HK
 trojan://BxceQaOe@58.152.25.20:443/?type=tcp&security=tls&sni=t.me/ripaojiedian&allowInsecure=1#🟢70@oneclickvpnkeys
+trojan://BxceQaOe@58.152.18.95:443/?type=tcp&security=tls&sni= [By EbraSha] b2n.ir/v2ray-configs | 690 &allowInsecure=1#🟢71@oneclickvpnkeys
