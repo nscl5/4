@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://723c46be-ac60-4675-8f3f-a1529d41c338@173.245.58.130:443?encryption=none&security=tls&sni=a.azrf.me&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=a.azrf.me&path=/proxyip=kr.william.us.ci:443?ed=2560#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 4.4MB/s
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@172.67.68.196:443?encryption=none&security=tls&sni=a.azrf.me&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=a.azrf.me&path=/proxyip=kr.william.us.ci:443?ed=2560#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 8.6MB/s
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@172.64.53.112:443?encryption=none&security=tls&sni=a.azrf.me&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=a.azrf.me&path=/proxyip=kr.william.us.ci:443?ed=2560#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 4.7MB/s
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@172.64.52.68:443?encryption=none&security=tls&sni=a.azrf.me&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=a.azrf.me&path=/proxyip=kr.william.us.ci:443?ed=2560#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 4.5MB/s
@@ -502,3 +501,4 @@ vless://617d5079-9fae-494a-98ca-90da9e10cd70@159.89.45.81:80?path=/?ed=2048&secu
 vless://61545806-60b6-4b38-9d2f-884081a5a913@ns.cloudflare.com:2086?path=/shop&security=none&encryption=none&host=cdn2.epiconline.ir&type=ws#Join Sho:@IRAN_V2RAY1[🇫🇮]
 vless://61545806-60b6-4b38-9d2f-884081a5a913@85.90.207.47:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1 [🇦🇲]
 vless://61545806-60b6-4b38-9d2f-884081a5a913@46.246.96.224:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1[🇸🇪]
+vless://61545806-60b6-4b38-9d2f-884081a5a913@45.140.169.69:33727?security=none&encryption=none&headerType=http&type=tcp#Join Sho:@IRAN_V2RAY1 [🇷🇺]

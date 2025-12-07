@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://TNDSJfNv@36.151.195.48:4603?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1450%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:1331?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1449%20%7C%20free-nodes
 trojan://8r%3C%5B9%27l6hAO%238ZQi@koma-yt.pages.dev:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1448%20%7C%20free-nodes
 trojan://40c89b10235c40321e7a3cef82b53a03@trs16.bolab.net:22?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1447%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://BxceQaOe@58.152.18.95:443?allowInsecure=0#%E6%9C%AA%E7%9F%A5%20TROJAN-9
 trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@60.72img.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-952%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@153.121.56.122:5041?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-951%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:42541?security=tls&sni=hn.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-950%20%7C%20free-nodes
+trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-949%20%7C%20free-nodes

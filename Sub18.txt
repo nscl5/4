@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-hy2://0abd5d38-fdf1-11ed-bade-f23c91369f2d@1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com#🎶97@oneclickvpnkeys
 hy2://0720c874-35e8-11ef-aa88-f23c913c8d2b@71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com#🪝76@oneclickvpnkeys
 hy2://0114339c-488d-11ee-8792-f23c9164ca5d@00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com#🪝55@oneclickvpnkeys
 vmess://eyJhZGQiOiI1Ny4xMjkuMjQuMTI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkBwcm94eV9rYWZlZfCfh6nwn4eqIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
@@ -502,3 +501,4 @@ trojan://vip@www.visa.com.tw:443?security=tls&sni=heihu880.pages.dev&type=ws&pat
 trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@20.163.90.12:443?security=tls&sni=paydiu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1453%20%7C%20free-nodes
 trojan://4d048fc6-d944-41dd-b327-10856adcc82d@zi.you.usdtvfk.top:443?security=tls&sni=zi.you.usdtvfk.top#%E6%9C%AA%E7%9F%A5%20TROJAN-1452%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@36.150.215.203:3270?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1451%20%7C%20free-nodes
+trojan://TNDSJfNv@36.151.195.48:4603?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1450%20%7C%20free-nodes
