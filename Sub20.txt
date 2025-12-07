@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-949%20%7C%20free-nodes
-trojan://shenmegui@185.49.33.47:8461?security=tls&sni=$jp.swiftfalcon.app#%E6%9C%AA%E7%9F%A5%20TROJAN-948%20%7C%20free-nodes
 trojan://b5fc9fa9-796d-4185-a316-395ecac04a85@150.230.249.20:443?security=tls&sni=www.gomacau.gq#%E6%9C%AA%E7%9F%A5%20TROJAN-947%20%7C%20free-nodes
 trojan://telegram-id-directvpn@3.96.217.9:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-946%20%7C%20free-nodes
 trojan://xxoo@194.156.99.39:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-945%20%7C%20free-nodes
@@ -478,6 +476,7 @@ trojan://253bc477d4e43c209f2d427272968280@58.152.25.156:443?security=tls&sni=www
 trojan://40c89b10235c40321e7a3cef82b53a03@trs17.bolab.net:22?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-476%20%7C%20free-nodes
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19201?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-475%20%7C%20free-nodes
 trojan://be94cd60-8e91-4cd6-9c53-26ee1314edfd@178.33.161.196:2053?security=tls&sni=joss.gpj1.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-474%20%7C%20free-nodes
+trojan://21e10785-99c6-316e-a184-a03384ee06e5@hn.xiaohouzi.club:18835?security=tls&sni=$$feilvbin.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-473%20%7C%20free-nodes
 trojan://0cc6b4268dea0ba8@60.249.3.231:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-472%20%7C%20free-nodes
 trojan://BaeSzHdfJIR13l67@70.34.218.149:11930?security=tls&headerType=none&type=tcp&sni=softpillow.silentrocket.click#%E6%9C%AA%E7%9F%A5%20TROJAN-471%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@16.163.0.29:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-470%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hn.xiaohouzi.club:46014?security=t
 trojan://c2de1269-17cb-41f6-ab97-f8c11a6f0f4f@158.178.206.197:8443?security=tls&sni=joss.gpj1.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-451%20%7C%20free-nodes
 trojan://de798060-31d0-11ee-b282-1239d0255272@51.81.82.15:443?security=tls&sni=zula.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-450%20%7C%20free-nodes
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19240?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-449%20%7C%20free-nodes
+trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@60.72img.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-448%20%7C%20free-nodes
