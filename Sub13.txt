@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://3c2e5f39-d738-40d4-929c-249ea568cb4a@65.109.228.235:45743?security=none&encryption=none&headerType=none&type=tcp#@V2rayNG3
 vless://3c1eef35-015b-48cd-9f0a-23d9ef5816cc@104.16.8.237:80?encryption=none&security=none&type=ws&host=little-haze-1600-ppal03.gabonim122.workers.dev&path=/?ed=2560#🥑Tel: @pPal03🥑Join🥑
 vless://3c1eef35-015b-48cd-9f0a-23d9ef5816cc@103.21.244.75:80?encryption=none&security=none&type=ws&host=little-haze-1600-ppal03.gabonim122.workers.dev&path=/?ed=2560#🥑Tel: @pPal03🥑Join🥑
 vless://3c1a04bb-165a-476d-af02-3dc5590f8742@91.98.22.20:22933?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇩🇪 | @External_Net
@@ -501,4 +502,3 @@ vless://2ad2e8b8-952c-43ef-83a2-abd897b0924e@89.39.70.58:10459?note=---Telegram-
 vless://2ace2af4-dbe1-4aa8-925c-ecbce7703356@earthshaker.fonixapp.org:34251?security=reality&encryption=none&pbk=7YnBT77FEbuPm7lDErGuskhNdiq773WQYumBa0aapXo&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=a57aef#🇩🇪@FreakConfig
 vless://2ace2af4-dbe1-4aa8-925c-ecbce7703356@earthshaker.fonixapp.org:34251?security=reality&encryption=none&pbk=7YnBT77FEbuPm7lDErGuskhNdiq773WQYumBa0aapXo&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=a57aef#⚡ @Fast78_Channel | Best Free Configs
 vless://2ace2af4-dbe1-4aa8-925c-ecbce7703356@earthshaker.fonixapp.org:34251?security=reality&encryption=none&pbk=7YnBT77FEbuPm7lDErGuskhNdiq773WQYumBa0aapXo&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=a57aef#IR-@V2rayAlpha--5
-vless://2ace2af4-dbe1-4aa8-925c-ecbce7703356@earthshaker.fonixapp.org:34251?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ilovepdf.com&fp=chrome&pbk=7YnBT77FEbuPm7lDErGuskhNdiq773WQYumBa0aapXo&sid=a57aef&spx=/&type=tcp&headerType=none#@Daily_Configs
