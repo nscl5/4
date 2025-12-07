@@ -98,6 +98,7 @@ hy2://0da8651e-e1f6-11ec-bd7c-f23c913c8d2b@a033d21f-t6ngg0-tcinla-hrtf.us.hyhuaw
 hy2://0abd5d38-fdf1-11ed-bade-f23c91369f2d@1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com#🎶97@oneclickvpnkeys
 hy2://0720c874-35e8-11ef-aa88-f23c913c8d2b@71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=71deac1b-t6ngg0-t8xyf4-1l0qa.us.hyhuawei.com#🪝76@oneclickvpnkeys
 hy2://0114339c-488d-11ee-8792-f23c9164ca5d@00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com:443/?mport=30000-60000&insecure=1&sni=00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com#🪝55@oneclickvpnkeys
+vmess://eyJhZGQiOiI1Ny4xMjkuMjQuMTI1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkBwcm94eV9rYWZlZfCfh6nwn4eqIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@62.100.205.100:990#[
 trojan://c60fbf90-4b55-11ed-b935-225401db9d57@51.75.76.22:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1946%20%7C%20free-nodes
 trojan://telegram-id-directvpn@63.180.93.12:22223?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1945%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://mainssh-ddoejfv14@140.82.38.103:443?security=tls&sni=frtgrpc.mainssh.xy
 trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@31.72img.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1547%20%7C%20free-nodes
 trojan://xxoo@3.34.6.217:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1546%20%7C%20free-nodes
 trojan://ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz@219.76.13.175:443?security=tls&sni=python.protocolbuffer.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1545%20%7C%20free-nodes
-trojan://9ccc3e1d-3df5-4348-aa05-738310149cc3@45.86.229.28:443?security=tls&sni=joss.gpj1.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-1544%20%7C%20free-nodes

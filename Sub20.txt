@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.seoulcityhall.com.ua:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1044%20%7C%20free-nodes
 trojan://xxoo@146.19.230.241:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1043%20%7C%20free-nodes
 trojan://0cc6b4268dea0ba8@60.249.3.231:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1042%20%7C%20free-nodes
 trojan://7ac49a893e0bd10c@60.249.3.226:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1041%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://telegram-id-directvpn@3.129.217.93:22222?security=tls&sni=trj.rollingne
 trojan://ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g@219.76.13.175:443?security=tls&sni=golang.protocolbuffer.com#%E6%9C%AA%E7%9F%A5%20TROJAN-546%20%7C%20free-nodes
 trojan://f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c@104.21.112.1:443?security=tls&sni=yellow-cloud-d53f.vavovi6084.workers.dev&type=ws&path=/?ed=2560&Host=yellow-cloud-d53f.vavovi6084.workers.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-545%20%7C%20free-nodes
 trojan://telegram-id-directvpn@13.49.224.224:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-544%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@15.236.122.160:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-543%20%7C%20free-nodes

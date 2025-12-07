@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://telegram-id-privatevpns@15.236.122.160:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-543%20%7C%20free-nodes
 trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@60.72img.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-542%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.81.84:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-541%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.dp.ua:8443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-540%20%7C%20free-nodes
@@ -501,4 +502,3 @@ vless://ed159d76-80be-4e34-aa56-a5f14c28bbfc@brenna.ns.cloudflare.com:443?encryp
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.99.27.92:443?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#DE%20VLESS-45%20%7C%20free-nodes
 vless://71a712db-3843-4d24-b4c4-724ee0813044@V2ngfast.heloisfood.ir:2718?mode=gun&security=&encryption=none&type=grpc&serviceName=@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast#DE%20VLESS-44%20%7C%20free-nodes
 vless://787ae54e-40ad-4caf-899b-ad3a19ff1103@89.110.68.47:8443?security=reality&encryption=none&pbk=UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn.discordapp.com&sid=50c860b05993532d#%E6%9C%AA%E7%9F%A5%20VLESS-43%20%7C%20free-nodes
-vless://4f590914-6d75-4f1d-a361-2fddb3cdf669@cosmin.ns.cloudflare.com:443?path=%2Fccemutws&security=tls&encryption=none&insecure=1&host=639003456256484486.giulia-amsis.info&type=ws&allowInsecure=1&sni=639003456256484486.giulia-amsis.info#%E6%9C%AA%E7%9F%A5%20VLESS-42%20%7C%20free-nodes
