@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.188:8880?mode=gun&security=none&encryption=none&type=grpc#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?security=&encryption=none&type=grpc#JOIN ➪@FILTERK0SH
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.181:8880?mode=gun&security=none&encryption=none&type=grpc#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.181:8880?mode=gun&security=none&encryption=none&type=grpc#@vmesskhodam
@@ -502,3 +501,4 @@ vless://ca2e23cb-2d9a-4812-d713-506f91d3735f@host17.sheydayeman.nl:8880?path=/&s
 vless://ca2e23cb-2d9a-4812-d713-506f91d3735f@host17.sheydayeman.nl:8880?path=/&security=none&encryption=none&type=ws#@sunflowerplato🌻
 vless://ca2e23cb-2d9a-4812-d713-506f91d3735f@host17.sheydayeman.nl:8880?encryption=none&type=ws&path=/?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=none#🇳🇱 @EVAY_VPN
 vless://ca0ef0f2-1437-4e4b-b3e3-de82aa651003@marzpsubrsp.hlewx.com:20340?security=none&encryption=none&host=refersion.com&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&sid=#🟢55@oneclickvpnkeys
