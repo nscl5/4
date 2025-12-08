@@ -2,6 +2,12 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@155.248.172.87:28443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1726%20%7C%20free-nodes
+trojan://2cf6d686799e6fa95316394064f26c0a@160.16.240.91:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1725%20%7C%20free-nodes
+trojan://mainssh-ddoejfv14@140.82.38.103:443?security=tls&sni=frtgrpc.mainssh.xyz#%E6%9C%AA%E7%9F%A5%20TROJAN-1724%20%7C%20free-nodes
+trojan://idc117okt@103.176.78.153:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1723%20%7C%20free-nodes
+trojan://acfef609-b3c7-4e52-b292-8921d5fca90d@ca-full.privateip.net:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1722%20%7C%20free-nodes
+trojan://BxceQaOe@43.199.190.102:3579?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1721%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.68.250:1596?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1720%20%7C%20free-nodes
 trojan://trojan@ip.sb:8443?security=tls&type=ws&sni=fofang.pages.dev&path=/?ed=2560#%E6%9C%AA%E7%9F%A5%20TROJAN-1719%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hnm.xiaohouzi.club:49361?security=tls&sni=hnm.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1718%20%7C%20free-nodes
@@ -496,9 +502,3 @@ trojan://iyinglong@18.141.8.87:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1229
 trojan://a0514d9b-d109-47fd-b173-1e7f83268f21@104.16.183.101:443?security=tls&sni=tws23.kallepache.store#%E6%9C%AA%E7%9F%A5%20TROJAN-1228%20%7C%20free-nodes
 trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1227%20%7C%20free-nodes
 trojan://Sp3eDVp@51.77.71.131:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1226%20%7C%20free-nodes
-trojan://253bc477d4e43c209f2d427272968280@153.121.45.139:1700?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1225%20%7C%20free-nodes
-trojan://92435aa8-f3b6-466a-ad58-c55cbb6d2acf@hinet.mjt000.com:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1224%20%7C%20free-nodes
-trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:48465?security=tls&sni=$$vuus05.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1223%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@54.78.157.126:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1222%20%7C%20free-nodes
-trojan://7a566d21dfcd0f12490275fd3dd3cfc4@trs09.bolab.net:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1221%20%7C%20free-nodes
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.kharkov.ua:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1220%20%7C%20free-nodes
