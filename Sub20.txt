@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://0cc6b4268dea0ba8@60.249.3.231:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-507%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@3.120.187.229:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-506%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@126.116.225.149:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-505%20%7C%20free-nodes
 trojan://9498f3a0-2992-11ee-a4c7-1239d0255272@fr.test3.net:443?security=tls&sni=zula.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-504%20%7C%20free-nodes
@@ -501,4 +502,3 @@ vless://a7e04b44-855e-4fe7-8fa0-31894e928bce@137.184.237.123:443?flow=xtls-rprx-
 vless://4b1c96fb-0892-4ccf-9e12-de3f7172be0a@delilah.ns.cloudflare.com:443?encryption=none&amp;security=tls&amp;sni=639005752550617685.accord-lmnxa.info&amp;type=ws&amp;alpn=&amp;host=639005752550617685.accord-lmnxa.info&amp;path=/yzbacvws#FR%20VLESS-10%20%7C%20free-nodes
 vless://e03b538a-91c9-4d3c-a2cb-8a6b1d8df54f@213.165.63.234:62728?security=reality&amp;encryption=none&amp;pbk=ITde_Ktn7SlHLykmQ4vzVXLXZd0J7ZxuS3Oc4bNHFg8&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;sni=yandex.ru&amp;sid=d8edfadb35ecdf00#%E6%9C%AA%E7%9F%A5%20VLESS-09%20%7C%20free-nodes
 vless://5f81ae57-1b77-45df-9ba1-a774c040bc5e@meg.ns.cloudflare.com:443?encryption=none&amp;security=tls&amp;sni=ice-nimejam.info&amp;type=ws&amp;alpn=&amp;host=ice-nimejam.info&amp;path=/perform#US%20VLESS-08%20%7C%20free-nodes
-vless://5f81ae57-1b77-45df-9ba1-a774c040bc5e@meg.ns.cloudflare.com:443?encryption=none&amp;security=tls&amp;sni=jet-nimejam.info&amp;type=ws&amp;alpn=&amp;host=jet-nimejam.info&amp;path=/perform#GB%20VLESS-07%20%7C%20free-nodes
