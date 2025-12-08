@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://telegram-id-directvpn@18.130.204.79:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-594%20%7C%20free-nodes
 trojan://BxceQaOe@58.152.30.120:443?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-593%20%7C%20free-nodes
 trojan://a0514d9b-d109-47fd-b173-1e7f83268f21@104.16.183.101:443?security=tls&sni=tws23.kallepache.store#%E6%9C%AA%E7%9F%A5%20TROJAN-592%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@35.177.137.88:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-591%20%7C%20free-nodes
@@ -502,3 +501,4 @@ vless://6ba2eac6-0ec9-44ca-a42b-a8e23aafb530@204.216.216.23:1114?security=realit
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.130.76:41647?flow=&type=grpc&mode=gun&serviceName=&security=none#DE%20VLESS-97%20%7C%20free-nodes
 trojan://92690597d6298061459918a371e8d77d@47.242.225.242:443?security=tls&sni=hezijiasuqi.com#HK%20TROJAN-96%20%7C%20free-nodes
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.140:8080#%E6%9C%AA%E7%9F%A5%20SS-95%20%7C%20free-nodes
+vless://dfac7622-66ca-4efe-9976-76f04f4e5d8b@m65a.vip784.com:33801?security=none&amp;type=tcp&amp;headerType=http&amp;path=%2F&amp;host=varzesh3.ir#DE%20VLESS-94%20%7C%20free-nodes

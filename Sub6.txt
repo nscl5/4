@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://ac1edaf9-37c2-4d92-9d29-9ad759127206@167.71.43.126:443?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆⁴
 vless://ac1edaf9-37c2-4d92-9d29-9ad759127206@167.71.43.126:443?mode=gun&security=&encryption=none&type=grpc&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇩🇪]t.me/Raiv2mmr
 vless://ac17912b-4d01-412f-88f7-2ac0fedfa93c@arcwarden.fonixapp.org:56210?security=reality&encryption=none&pbk=YI0Z--HirbgWUlnb37MtOaHBBT63fKIx_YdZYDCJ2SM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=canva.com&sid=62db#All-@V2rayAlpha--19
 vless://ac083fa9-df9a-4722-b70d-24c17bef0516@185.243.49.205:8444?security=none&encryption=none&host=speedtest.net/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@CaV2ray ⚡️
@@ -501,4 +502,3 @@ vless://Parsashonam-301@185.146.173.39:8880?path=/Parsashonam-Parsashonam-Parsas
 vless://Parsashonam-300@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://Parsashonam-298@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://Parsashonam-296@[2a01:4f8:1c1a:dc2b::1]:8888?security=none&encryption=none&host=TELEGRA&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://Parsashonam-296@185.146.173.39:8880?path=/Parsashonam-Parsashonam-Parsashonam/?ed=2056&security=none&encryption=none&host=De.Parsashonam.CfD.&type=httpupgrade#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

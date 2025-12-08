@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://c53647f3153f784b3c695ffbe5fb43c0@36.156.102.84:2283?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1094%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:17112?security=tls&sni=$$supaz012.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1093%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@18.135.6.102:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1092%20%7C%20free-nodes
 trojan://e35026da-e985-49ca-b43b-276062a535a6@104.21.79.246:443?security=tls&sni=notdirect.howhealthyistoomajreally.homes&type=ws&path=/ilb9fuWfuqWDjlQrGCkIH66kMFPa&Host=notdirect.howhealthyistoomajreally.homes#%E6%9C%AA%E7%9F%A5%20TROJAN-1091%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.6:10823?security=tls#%E
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.132.158:2283?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-597%20%7C%20free-nodes
 trojan://e9368912c4ed6046dca6949229cbff02@36.156.102.84:2173?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-596%20%7C%20free-nodes
 trojan://b09d2aaa443af97a@211.72.35.155:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-595%20%7C%20free-nodes
+trojan://telegram-id-directvpn@18.130.204.79:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-594%20%7C%20free-nodes
