@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@uns.xiaohouzi.club:13328?security=tls&sni=siga01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1509%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.130.66:3296?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1508%20%7C%20free-nodes
 trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@kaizen-hk-8.mielink-dns2.com:443?security=tls&sni=paydiu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1507%20%7C%20free-nodes
 trojan://cd41b9d7-df15-46ad-a778-257b0851525a@us01.trojanyyds.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1506%20%7C%20free-nodes
@@ -343,6 +342,7 @@ trojan://92435aa8-f3b6-466a-ad58-c55cbb6d2acf@hinet.mjt000.com:443?security=tls#
 trojan://79314e99f0a473fe86efc7827942ad00@16.163.0.29:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1171%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@153.121.65.107:1331?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1170%20%7C%20free-nodes
 trojan://telegram-id-directvpn@35.156.35.238:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1169%20%7C%20free-nodes
+trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19248?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1168%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@203.198.122.28:443?security=tls&sni=fe2.update.microsoft.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1167%20%7C%20free-nodes
 trojan://cd41b9d7-df15-46ad-a778-257b0851525a@de01.trojanyyds.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1166%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.107.37:507?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1165%20%7C%20free-nodes
@@ -371,6 +371,7 @@ trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.2:10823?security=tls#%E
 trojan://vip@www.ipget.net:443?security=tls&type=ws&sni=heihu880.pages.dev&path=/?ed=2560#%E6%9C%AA%E7%9F%A5%20TROJAN-1142%20%7C%20free-nodes
 trojan://Ty33ylFA4u6A5e0NE3wRFp3DIa8lZOzC87CeKnxYgpSOSa2ZaXBjDDSY9qCcxR@45.64.22.55:443?security=tls&sni=flowery.meijireform.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1141%20%7C%20free-nodes
 trojan://8aab51da-6b67-4bd2-b6e6-5ab3008cf53e@jp.iamnotagoodman.com:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1140%20%7C%20free-nodes
+trojan://BxceQaOe@160.16.242.183:2145?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1139%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.144.208:2283?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1138%20%7C%20free-nodes
 trojan://4d111af8-5078-37e0-a583-34155f60b32c@129.146.175.86:44302?security=tls&sni=phxv001.jd0001.top#%E6%9C%AA%E7%9F%A5%20TROJAN-1137%20%7C%20free-nodes
 trojan://vip@104.18.42.163:443?security=tls&type=ws&sni=heihu880.pages.dev&path=/?ed=2560#%E6%9C%AA%E7%9F%A5%20TROJAN-1136%20%7C%20free-nodes
@@ -487,7 +488,6 @@ trojan://c2de1269-17cb-41f6-ab97-f8c11a6f0f4f@158.178.206.197:8443?security=tls&
 trojan://qj1Dz1CJmFQRhWr1SP80aA@172.67.204.84:443?security=tls&sni=cdn-21.gsmxreality.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1025%20%7C%20free-nodes
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19240?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1024%20%7C%20free-nodes
 trojan://cd41b9d7-df15-46ad-a778-257b0851525a@sg01.trojanyyds.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1023%20%7C%20free-nodes
-trojan://253bc477d4e43c209f2d427272968280@160.16.63.16:443?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1022%20%7C%20free-nodes
 trojan://90f45c05-917f-3b1b-a582-899cfe4cf7b3@auto.wgnmdgfw.com:16327?security=tls&sni=eplcgame.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1021%20%7C%20free-nodes
 trojan://shenmegui@185.49.33.47:8461?security=tls&sni=$jp.swiftfalcon.app#%E6%9C%AA%E7%9F%A5%20TROJAN-1020%20%7C%20free-nodes
 trojan://e4af2638-bb12-4e4a-84f1-a032e23ca63f@usla.mjt000.com:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1019%20%7C%20free-nodes
