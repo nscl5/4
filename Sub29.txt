@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://9498f3a0-2992-11ee-a4c7-1239d0255272@fr.test3.net:443?security=tls&sni=zula.ir#%E6%9C%AA%E7%9F%A5171
 trojan://BxceQaOe@36.156.102.115:26876?security=tls#%E6%9C%AA%E7%9F%A5170
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.7:10822?security=tls#%E6%9C%AA%E7%9F%A5169
 trojan://f42d1b0d-c398-43cb-be37-d739b1477a5d@107.189.3.96:443?security=tls&sni=joss.gpj4.web.id#%E6%9C%AA%E7%9F%A5168
