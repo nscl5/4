@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://e5f6a7b8-c9d0-5678-1234-ef0123456789@51.82.89.185:2053?type=tcp&encryption=none&sni=fast.com&fp=chrome&security=reality&pbk=JKL9876543210fedcba9876543210fed#@CaV2ray ⚡️
 vless://e5e2998b-92ff-4a71-abd2-46548489ac0b@172.66.40.99:2052?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46182-2
 vless://e5c6a9d4-03e0-4d43-91cc-c3e153b96eb6@www.speedtest.net:2052?flow=&type=ws&host=Bia.joinbede.ir&path=/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480&security=none#@vmessorg
 vless://e5c2e234-333e-48b4-8199-2793a64527bc@77.238.237.179:443?security=tls&encryption=none&host=s1-c3r.pages.dev&fp=chrome&type=ws&sni=s1-c3r.pages.dev#Join To : @IRAN_V2RAY1
@@ -501,4 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.109:8880?mode=gun&secur
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.22:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-21
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-25
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.211:8880?mode=gun&security=&encryption=none&type=grpc#https://t.me/v2raynplus |🇨🇵
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.210:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1

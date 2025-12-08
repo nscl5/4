@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp05a.roc-taiwan.org.ua:65015?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1660%20%7C%20free-nodes
 trojan://xxoo@146.19.230.241:443?security=tls&sni=bmi.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-1659%20%7C%20free-nodes
 trojan://telegram-id-directvpn@34.219.52.119:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1658%20%7C%20free-nodes
 trojan://cd41b9d7-df15-46ad-a778-257b0851525a@us01.trojanyyds.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1657%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://e35026da-e985-49ca-b43b-276062a535a6@104.21.79.246:443?security=tls&sni
 trojan://BxceQaOe@52.193.233.149:26378?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1162%20%7C%20free-nodes
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:1331?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1161%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@iplc.xiaohouzi.club:20037?security=tls&sni=$$$$iplc.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1160%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@15.237.50.200:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1159%20%7C%20free-nodes

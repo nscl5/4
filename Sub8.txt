@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://8cde876d-7628-4587-bbb7-0535a7d177ce@45.150.32.240:37007/?type=tcp&encryption=none&flow=#🔵6@oneclickvpnkeys
 vless://8cc5a4e5-1457-4edd-e0f3-5b99a552af9b@am8.amin-1.ir:2082?type=xhttp&encryption=none&path=/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android&host=am8.amin-1.ir&mode=auto&security=none#🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠همه اپراتورها
 vless://8c8e79ba-6bf6-42dc-9f16-04947ebf5325@windrunner.fonixapp.org:443?security=reality&encryption=none&pbk=MvVhNhJedr9JB7tNjJ8d0z7z6FfHwXqcPGkZ15A-QGY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=xp.apple.com&sid=9c7a#All-@V2rayAlpha--32
 vless://8c8e79ba-6bf6-42dc-9f16-04947ebf5325@windrunner.fonixapp.org:443?security=reality&encryption=none&pbk=MvVhNhJedr9JB7tNjJ8d0z7z6FfHwXqcPGkZ15A-QGY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=xp.apple.com&sid=9c7a#@V2rayNGVPN+<=+کانفیگ+رایگان
@@ -501,4 +502,3 @@ vless://7738423e-132e-4e2a-bd2c-034b4740ad4d@sv2.tsteamu1.top:40002?mode=auto&se
 vless://77371595-b7aa-472a-9d61-e9731861af07@2.189.84.219:8443?security=none&encryption=none&host=head.shecanMarket.com&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://7711fc80-c163-4f35-80c4-d5e61c69659d@104.24.47.130:80?encryption=none&security=none&type=ws&host=icy-bar-399d-ppal03.pomoyes509.workers.dev&path=/?ed=2560#👕Ch: @pPal03👕جوین بدید👕
 vless://7711fc80-c163-4f35-80c4-d5e61c69659d@104.16.112.97:80?encryption=none&security=none&type=ws&host=icy-bar-399d-ppal03.pomoyes509.workers.dev&path=/?ed=2560#👕Ch: @pPal03👕جوین بدید👕
-vless://76f5e2e8-8970-4873-9332-6a1ffbb3abb0@62.60.248.14:46395?encryption=none&type=grpc&mode=gun&serviceName=/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN&security=reality&fp=chrome&sni=www.latimes.com&pbk=R7rQRf2vm_y2RYIFDZcS5ucks0gNKgKthRT-bUtyymo&sid=96973faa2f0bf0&spx=/#V2rayArgo
