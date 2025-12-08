@@ -234,6 +234,7 @@ hy2://16461a78-363c-457a-92f9-83b0a68edc37@hk.eyucdn.xyz:2056/?insecure=1&sni=hk
 hy2://16461a78-363c-457a-92f9-83b0a68edc37@de.eyucdn.xyz:2056/?insecure=1&sni=de.eyucdn.xyz#法兰克福
 hy2://15d8d4f4-a050-4034-bb08-3a262dba2c2d@194.87.196.112:11000/?insecure=1&sni=www.bing.com#🟢61@oneclickvpnkeys
 hy2://15d8d4f4-a050-4034-bb08-3a262dba2c2d@129.146.169.138:59000/?insecure=1&sni=www.bing.com#🟢64@oneclickvpnkeys
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@23.95.76.59:990#[
 trojan://BxceQaOe@160.16.242.183:2145?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1901%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.57.238:449?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1900%20%7C%20free-nodes
 trojan://21e10785-99c6-316e-a184-a03384ee06e5@hnm.xiaohouzi.club:27094?security=tls&sni=siga01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1899%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.kyiv
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.86:26295?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1637%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@160.16.81.84:1536?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1636%20%7C%20free-nodes
 trojan://0c6a3341e8d5ab17@f5465c4.pg.gladns.com:3389?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1635%20%7C%20free-nodes
-trojan://rXzh%3B%3FnW1GGKB(K8@104.21.18.192:443?security=tls&sni=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV&type=ws&path=/tr4BCdusB84159lWnu&Host=sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV#%E6%9C%AA%E7%9F%A5%20TROJAN-1634%20%7C%20free-nodes

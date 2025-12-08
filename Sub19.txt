@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://BaeSzHdfJIR13l67@70.34.218.149:11930?security=tls&sni=softpillow.silentrocket.click#%E6%9C%AA%E7%9F%A5%20TROJAN-634%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@36.156.102.88:1806?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-633%20%7C%20free-nodes
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19233?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-632%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hn.xiaohouzi.club:18459?security=tls&sni=hn.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-631%20%7C%20free-nodes
@@ -501,4 +502,3 @@ vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=%2F&secu
 vless://77fb812d-2eb5-430e-afea-ccacc9795a86@speedtest.net:80?path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&amp;security=none&amp;encryption=none&amp;host=downloadha.global.ssl.fastly.net&amp;type=ws#DE%20VLESS-136%20%7C%20free-nodes
 vless://_911331@s3.nobaddays.site:49943?security=reality&encryption=none&pbk=_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw&headerType=none&fp=chrome&type=tcp&sni=ietf.org&sid=ffffffffff#%E6%9C%AA%E7%9F%A5%20VLESS-135%20%7C%20free-nodes
 vless://f61d9aee-63b8-439e-bebf-afaa53c015fd@170.64.232.45:28899?security=reality&encryption=none&pbk=UcJ-s55xl9msAtzJcBghDUTSnyilzB6d7NpUfkHoQmY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=s0.awsstatic.com#%E6%9C%AA%E7%9F%A5%20VLESS-134%20%7C%20free-nodes
-vless://d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b@45.92.176.55:2243?security=reality&encryption=none&pbk=_ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=rontgen.fasssst.ru&sid=e3cbc70477#%E6%9C%AA%E7%9F%A5%20VLESS-133%20%7C%20free-nodes
