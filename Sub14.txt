@@ -2,6 +2,15 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=aws.amazon.com&fp=chrome&security=reality&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&sid=#🟠94@oneclickvpnkeys
+vless://14be6993-5cf7-4105-dbc8-3403a73f83e2@213.21.254.20:1404?mode=gun&security=none&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#@NT_Safe 🇱🇻   روی کانفیگا بزنید کپی
+vless://14be6993-5cf7-4105-dbc8-3403a73f83e2@213.21.254.20:1404?mode=gun&security=none&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#@NT_Safe 🇱🇻
+vless://14be6993-5cf7-4105-dbc8-3403a73f83e2@213.21.254.20:1404?mode=gun&security=&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#⚡ @Fast78_Channel | Best Free Configs
+vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?path=/&security=none&encryption=none&type=ws#✅ @prrofile_purple (تلگرام)
+vless://1496e54a-15c4-46c7-8eaa-d2878c2296ac@ezalor.fonixapp.org:15420?security=reality&encryption=none&pbk=7X3ayYDMuYR4Vz8Px8hDjOIxOMnRncjapXpWIzaKyls&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=47#All-@V2rayAlpha--15
+vless://148709e4-402b-48dd-8892-ed39b55ea45c@172.67.56.112:80?path=/BaRAyeIran?ed=2560&security=none&encryption=none&host=entezar.loseyourself.dpdns.org&type=ws#@CaV2ray ⚡️
+vless://145c6488-b1d0-4df3-b140-72cc1cec711c@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=e1.ir&type=xhttp#tm⚡|@lightning6
+vless://145c6488-b1d0-4df3-b140-72cc1cec711c@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=&encryption=none&host=e1.ir&type=xhttp#tmConfigX2rayConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray
 vless://1437fec7-064b-4f8f-98f4-8c9aad3738b0@dubai.fonixapp.org:443?security=reality&encryption=none&pbk=HZM7SXNCsT5M_zWuBURZfplLY-L5Gqww5qRPJZAP8C4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=754dc2#🇦🇪@FreakConfig
 vless://1437fec7-064b-4f8f-98f4-8c9aad3738b0@dubai.fonixapp.org:443?security=reality&encryption=none&pbk=HZM7SXNCsT5M_zWuBURZfplLY-L5Gqww5qRPJZAP8C4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=754dc2#All-@V2rayAlpha--37
 vless://1437fec7-064b-4f8f-98f4-8c9aad3738b0@dubai.fonixapp.org:443?security=reality&encryption=none&pbk=HZM7SXNCsT5M_zWuBURZfplLY-L5Gqww5qRPJZAP8C4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=754dc2#@V2rayNGVPN <= کانفیگ رایگان
@@ -493,12 +502,3 @@ trojan://LxJCPOP40a@206.206.77.237:51469?mode=gun&security=reality&pbk=nlxKGGnvT
 trojan://G9CHhXltVx@96.9.213.108:12646?security=tls&headerType=none&type=tcp#All-@V2rayAlpha--1
 trojan://Fv7ogJ6vfz@209.200.246.53:36774?mode=gun&security=reality&pbk=QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU&fp=chrome&type=grpc&sni=cloudflare.com&sid=3e#All-#V2rayAlpha--8
 trojan://Fv7ogJ6vfz@209.200.246.53:36774?mode=gun&security=reality&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&pbk=QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU&fp=chrome&type=grpc&sni=cloudflare.com&sid=3e#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆²
-trojan://Fv7ogJ6vfz@209.200.246.53:36774/?type=grpc&sni=cloudflare.com&fp=chrome&security=reality&pbk=QX1ITiHw0tTKi5ouMn-6mE2-Hb0-gk25N67gP2sQ-nU&sid=3e#🟣54@oneclickvpnkeys
-trojan://FR8IHksUYg@170.64.132.131:8080?security=none&headerType=http&type=tcp#All-@V2rayAlpha--42
-trojan://FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D@kuame.missionsec.us:443?security=tls&headerType=none&type=tcp&sni=kuame.missionsec.us#@v2ray1_Ng
-trojan://BxceQaOe@58.152.26.173:443?security=tls&headerType=none&type=tcp&sni=t.me/ripaojiedian#@HiByeVPNN❤️‍🔥🏆💫
-trojan://BxceQaOe@58.152.26.173:443/?type=tcp&security=tls&allowInsecure=1#香港
-trojan://BxceQaOe@153.121.51.221:1821?security=tls&headerType=none&type=tcp&sni=t.me/ripaojiedian#@IRAN_V2RAY1 🇯🇵
-trojan://BaeSzHdfJIR13l67@70.34.218.149:11930/?type=tcp&security=tls&sni=softpillow.silentrocket.click&allowInsecure=1#🟠24@oneclickvpnkeys
-trojan://Aimer@188.164.159.43:2083?path=/?ed?ed=2048@v2ray_configs_pools--@v2ray_configs_pools--@v2ray_configs_pools--@v2ray_configs_pools&security=tls&host=epgb.aimercc.dpdns.org&type=ws&sni=epgb.aimercc.dpdns.org#telegram 🍊 v2ray_configs_pools
-trojan://@Geek_Spot@176.97.210.2:12882/?type=tcp#🇺🇦 Ukraine 3
