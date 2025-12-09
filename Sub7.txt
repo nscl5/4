@@ -2,6 +2,11 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-27
+vless://SVNTEAM1@SVNTEAM.MiSVN.iR:443/?type=tcp&security=reality&pbk=193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE&fp=chrome&sni=www.refersion.com&sid=&spx=/#SVNTEAM-TCP🇩🇪-19
+vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-44
+vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-42
+vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-40
 vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-38
 vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-36
 vless://SVNTEAM1@151.101.194.133:443/?type=ws&path=/SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM,SVNTEAM?ed=8880&host=SVNTEAM.IR&security=tls&fp=chrome&alpn=h2,http/1.1&sni=mio.splashthat.com#SVNTEAM-TLS🇩🇪-34
@@ -497,8 +502,3 @@ vless://90c9c25c-df6c-4438-83d3-ef97166a9184@72.56.69.193:443?encryption=none&fl
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@72.56.69.193:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&fp=chrome&security=reality&pbk=yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE&sid=5485e4d782145257#🟠69@oneclickvpnkeys
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@194.87.221.125:443?security=reality&encryption=none&pbk=yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=67b44a5918dcd53a#🇳🇱@FreakConfig
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@194.87.221.125:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&fp=chrome&security=reality&pbk=yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE&sid=67b44a5918dcd53a#🟠75@oneclickvpnkeys
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#@vmesskhodam
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=#/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=#/?Join------Join------Join------Join---?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://90c7ad5e-cd15-4314-b39b-aeabd397d592@104.18.13.229:2087?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
