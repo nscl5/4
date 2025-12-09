@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://e4b8df56-b680-4a34-ab47-5bf5738ed718@5.181.21.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.google.com&fp=chrome&security=reality&pbk=v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8&sid=85225c27630d023f#🟠7@oneclickvpnkeys
-vless://e4a4438f-585b-4555-b8e3-f032def5819c@164.92.199.171:443?mode=stream-one&path=/sad&security=reality&encryption=none&pbk=PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo&fp=chrome&spx=/&type=xhttp&sni=store.steampowered.com#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://e4a4438f-585b-4555-b8e3-f032def5819c@161.35.71.211:443?mode=stream-one&path=/sad&security=reality&encryption=none&pbk=PxUNgm0eZte9F8f8ntMTADWX-37SzRBvlLGLvlOH9lo&fp=chrome&spx=/&type=xhttp&sni=store.steampowered.com#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://e498fe2d-f299-42c8-a7e1-9dfc1c5974a7@Evay-vpn.octacityroleplay.ir:1122?mode=auto&path=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&encryption=none&pbk=4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI&host=join-bede-evay_vpn.org&fp=chrome&type=xhttp&sni=www.slideshare.net&sid=4c7b0ea36fc7f0c4#t.me/entryNET/config=1850965235386099
 vless://e498fe2d-f299-42c8-a7e1-9dfc1c5974a7@Evay-vpn.octacityroleplay.ir:1122?encryption=none&type=xhttp&host=join-bede-evay_vpn.org&path=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&fp=chrome&sni=www.slideshare.net&pbk=4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI&sid=4c7b0ea36fc7f0c4#🇩🇪 | @EVAY_VPN
@@ -502,3 +500,5 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.146:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.146:8880?mode=gun&security=none&encryption=none&type=grpc#All--@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.146:8880?mode=gun&security=none&encryption=none&type=grpc#@IRAN_V2RAY1 vip
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880?mode=gun&security=&encryption=none&type=grpc#WiFi-@V2rayAlpha--21
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.231.75.74:8880?mode=gun&security=none&encryption=none&type=grpc#azadiiivpn 🎀
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.231.75.74:8880?mode=gun&security=none&encryption=none&type=grpc#Join To : @IRAN_V2RAY1

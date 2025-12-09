@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://2a2d5f5d-6acb-438f-ba25-f3cbc6614b63@51.38.232.101:80?path=/vless/&security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=ws#🇩🇪 | @External_Net
-vless://2a2d5f5d-6acb-438f-ba25-f3cbc6614b63@51.38.232.101:80?path=/vless/&security=none&encryption=none&fp=chrome&type=ws#Bya To:@IRAN_V2RAY1
 vless://2a2a6062-003c-4f44-b293-ee0d0416afee@91.84.118.130:1443/?type=grpc&encryption=none&flow=&serviceName=admin&sni=ozon.ru&fp=chrome&security=reality&pbk=JuDrUZsgHt0i_hz3kOhQbiX708vbjR9uHHFwi3fWqSc&sid=47e92a4b0513b27f#♾️35@oneclickvpnkeys
 vless://2a2a6062-003c-4f44-b293-ee0d0416afee@144.124.254.31:1443/?type=grpc&encryption=none&flow=&serviceName=admin&sni=ozon.ru&fp=chrome&security=reality&pbk=JuDrUZsgHt0i_hz3kOhQbiX708vbjR9uHHFwi3fWqSc&sid=47e92a4b0513b27f#♾️47@oneclickvpnkeys
 vless://2a2a6062-003c-4f44-b293-ee0d0416afee@144.124.252.219:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=pimg.mycdn.me&fp=chrome&security=reality&pbk=gbP2G_j0cmFvgmWaWLpzZavEzQiPzky-fApmbF2BWxU&sid=1fdea407109a1750#♾️39@oneclickvpnkeys
@@ -502,3 +500,5 @@ vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190/?type=tcp&encryp
 vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=aws.amazon.com&fp=chrome&security=reality&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&sid=#⚛️14@oneclickvpnkeys
 vless://14be6993-5cf7-4105-dbc8-3403a73f83e2@213.21.254.20:1404?mode=gun&security=none&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#@NT_Safe 🇱🇻   روی کانفیگا بزنید کپی
 vless://14be6993-5cf7-4105-dbc8-3403a73f83e2@213.21.254.20:1404?mode=gun&security=none&encryption=none&type=grpc&serviceName=@NT_Safe,@NT_Safe,@NT_Safe,@NT_Safe#@NT_Safe 🇱🇻
+vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?path=/&security=none&encryption=none&type=ws#✅ @prrofile_purple (تلگرام)
+vless://1496e54a-15c4-46c7-8eaa-d2878c2296ac@ezalor.fonixapp.org:15420?security=reality&encryption=none&pbk=7X3ayYDMuYR4Vz8Px8hDjOIxOMnRncjapXpWIzaKyls&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=47#All-@V2rayAlpha--15
