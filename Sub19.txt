@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://telegram-id-privatevpns@63.181.113.103:22222?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-743%20%7C%20free-nodes
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-742%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@52.58.103.24:22222?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-741%20%7C%20free-nodes
 trojan://telegram-id-directvpn@35.156.35.238:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-740%20%7C%20free-nodes
 trojan://trojan@38.207.133.204:10002?security=tls&sni=qingming-b08.pages.dev&type=ws&path=/?ed=2560&Host=qingming-b08.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-739%20%7C%20free-nodes
@@ -500,5 +502,3 @@ trojan://BxceQaOe@43.198.204.4:1866?security=tls&sni=t.me%2Fripaojiedian#%E6%9C%
 trojan://8a03bc28-2a33-42c4-be59-30464dbb9954@london11.yukiss.eu.org:18818?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-245%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.63.16:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-244%20%7C%20free-nodes
 trojan://57edfecf-5694-4a34-8072-54a4f0636a62@146.56.179.67:40005?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-243%20%7C%20free-nodes
-trojan://1bf16b43-0ad5-4512-a0e8-34bb8966278e@ap.stablize.top:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-242%20%7C%20free-nodes
-trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.7:10823?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-241%20%7C%20free-nodes

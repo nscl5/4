@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://79314e99f0a473fe86efc7827942ad00@160.16.68.250:1596?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1244%20%7C%20free-nodes
+trojan://trojan@www.visa.com.sg:8443?security=tls&sni=pangpi.pages.dev&type=ws&path=/?ed=2560&Host=pangpi.pages.dev#SG%20TROJAN-1243%20%7C%20free-nodes
 trojan://a70b39d1-62ea-4d9e-b681-9c5408352234@103.103.245.125:50418?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1242%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@35.180.202.29:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1241%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.9:10826?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1240%20%7C%20free-nodes
@@ -500,5 +502,3 @@ trojan://253bc477d4e43c209f2d427272968280@36.150.215.188:1546?security=tls#%E6%9
 trojan://wb6368@92.243.75.49:2087?security=tls&type=ws&sni=hsdgbuys.pages.dev&path=/#%E6%9C%AA%E7%9F%A5%20TROJAN-746%20%7C%20free-nodes
 trojan://telegram-id-directvpn@44.201.217.130:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-745%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@13.37.144.126:22222?security=tls&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-744%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@63.181.113.103:22222?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-743%20%7C%20free-nodes
-trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-742%20%7C%20free-nodes
