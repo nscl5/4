@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://vip@www.udacity.com:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1760%20%7C%20free-nodes
+trojan://telegram-id-privatevpns@18.184.9.101:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1759%20%7C%20free-nodes
+trojan://telegram-id-privatevpns@52.57.238.174:22222?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1758%20%7C%20free-nodes
 trojan://vip@www.udacity.com:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1757%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hnm.xiaohouzi.club:17103?security=tls&sni=$$canada01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1756%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@13.37.144.126:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1755%20%7C%20free-nodes
@@ -499,6 +502,3 @@ trojan://BxceQaOe@43.199.190.102:3579?security=tls&sni=t.me%2Fripaojiedian#%E6%9
 trojan://ED177480-E516-11EA-8B44-BBC4E882BA0B@tw01.balala2016.xyz:20261?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1262%20%7C%20free-nodes
 trojan://79314e99f0a473fe86efc7827942ad00@18.162.142.242:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1261%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.9:10825?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1260%20%7C%20free-nodes
-trojan://9498f3a0-2992-11ee-a4c7-1239d0255272@fr.test3.net:443?security=tls&sni=zula.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-1259%20%7C%20free-nodes
-trojan://mainssh-niwrhf87@140.82.32.17:443?security=tls&sni=getgrpc.mainssh.xyz#%E6%9C%AA%E7%9F%A5%20TROJAN-1258%20%7C%20free-nodes
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@219.94.250.108:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1257%20%7C%20free-nodes
