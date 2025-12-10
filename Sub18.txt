@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://vip@www.udacity.com:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1440%20%7C%20free-nodes
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?security=tls&sni=jp-bgp.speedaccelerate.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1439%20%7C%20free-nodes
 trojan://30761083-5dcd-49d6-85b5-33756ef1f7ed@uk2-full.privateip.net:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1438%20%7C%20free-nodes
 trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1437%20%7C%20free-nodes
 trojan://BxceQaOe@36.156.102.115:26876?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1436%20%7C%20free-nodes
@@ -500,5 +502,3 @@ trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.144.208:316?security=tls&sni=ww
 trojan://e4af2638-bb12-4e4a-84f1-a032e23ca63f@usla.mjt000.com:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-942%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.odessa.ua:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-941%20%7C%20free-nodes
 trojan://BxceQaOe@58.152.25.242:443?security=tls&sni=t.me/ripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-940%20%7C%20free-nodes
-trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@45.64.22.41:443?security=tls&sni=jgw2.gaox.ml#%E6%9C%AA%E7%9F%A5%20TROJAN-939%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@3.64.168.175:22222?security=tls&sni=trojan.burgerip.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-938%20%7C%20free-nodes
