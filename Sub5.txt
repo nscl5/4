@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&host=/?&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#All-@IRAN_V2RAY1
-vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#All-@IRAN_V2RAY1
 vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#All--@V2rayAlpha-32
 vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#@sunflowerplato🌻
 vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&encryption=none&pbk=y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=89dbda1a1c9369#@Hddify
@@ -502,3 +500,5 @@ vless://b58a2b09-2ae0-459d-d6a3-474b88742685@151.101.3.8:80?mode=auto&path=/@Xpn
 vless://b58a2b09-2ae0-459d-d6a3-474b88742685@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=none&encryption=none&host=Mahsazxshop.org&type=xhttp#@bored_vpn
 vless://b5802512-e06d-4784-bdf2-8c9a411dee74@m23a.vip784.com:33801?security=&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=varzesh3.ir&headerType=http&type=tcp#⚜️𝗝𝗼𝗶𝗻 ➠ @TEHRANARGO کانال تلگرام
 vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@172.67.9.145:80?path=/?ed=2560&security=none&encryption=none&host=kssepa.sabzipolobamahi.dpdns.org&type=ws#@CaV2ray ⚡️
+vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@101reel.com:443/?type=ws&encryption=none&host=barayeiranmahsang.sabzipolobamahi.dpdns.org&path=/?ed=2560&security=tls&sni=barayeiranmahsang.sabzipolobamahi.dpdns.org&fp=chrome#[🇦🇿 CDN] @Geek_Spot
+vless://b55ec078-3b17-4ed1-a697-71f464cdcaaa@101reel.com:443/?type=ws&encryption=none&host=barayeiranmahsang.sabzipolobamahi.dpdns.org&path=/?ed=2560&security=tls&sni=barayeiranmahsang.sabzipolobamahi.dpdns.org&fp=chrome#@Geek_Spot
