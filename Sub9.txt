@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://78aea809-7966-424a-b198-f1854732dd8e@141.227.128.139:80?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://789d4f30-c31b-4762-8116-ed42574d5e85@cdn29.saloonak.ir:8443?security=&encryption=none&headerType=none&type=tcp#@v2ray_configs_pools👈⚡❤️‍🔥
-vless://787ae54e-40ad-4caf-899b-ad3a19ff1103@89.110.68.47:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=cdn.discordapp.com&security=reality&pbk=UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w&sid=50c860b05993532d#🟠66@oneclickvpnkeys
 vless://787ae54e-40ad-4caf-899b-ad3a19ff1103@146.19.143.8:8443?security=reality&encryption=none&pbk=UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=discordapp.com&sid=50c860b05993532d#🏴‍☠️@FreakConfig
 vless://78658cea-4771-4c2d-bbb8-d224bfb9ebbe@m40a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://78658cea-4771-4c2d-bbb8-d224bfb9ebbe@m40a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
@@ -502,3 +499,6 @@ vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/?T
 vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=&encryption=none&extra={"xPaddingBytes":"10-100","noSSEHeader":true}&host=e1.ir&type=xhttp#⚡ @Fast78_Channel | Best Free Configs
 vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=&encryption=none&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&host=e1.ir&type=xhttp#⚡ @Fast78_Channel | Best Free Configs
 vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/&security=none&encryption=none&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&host=e1.ir&type=xhttp#Test 🟰تست🔖
+vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/&security=none&encryption=none&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&host=e1.ir&type=xhttp#Test
+vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?mode=auto&path=/&security=&encryption=none&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&host=e1.ir&type=xhttp#🇩🇪@FreakConfig
+vless://666e1c11-2cfa-43d3-bd39-4c8e47ea3b42@146.75.119.82:80?encryption=none&security=none&type=xhttp&host=e1.ir&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&mode=auto&extra={"xPaddingBytes":"10-100","noSSEHeader":true}#⚡ @Fast78_Channel | Best Free Configs

@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://faaaf16e-188e-42f2-bcc1-17feadc84fad@151.236.15.72:444/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=opensuse.org&fp=chrome&security=reality&pbk=FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw&sid=82b9ca5d8d39ba72#♾️37@oneclickvpnkeys
-vless://faa47bdc-8581-4e47-a557-35caa72681bd@104.24.181.248:80?encryption=none&security=none&type=ws&host=delicate-feather-dc36-ppal03.shah-beck.workers.dev&path=/?ed=2560#⏸️Ch: @pPal03⏸️جوین بدید⏸️
-vless://faa47bdc-8581-4e47-a557-35caa72681bd@104.16.173.114:80?encryption=none&security=none&type=ws&host=delicate-feather-dc36-ppal03.shah-beck.workers.dev&path=/?ed=2560#⏸️Ch: @pPal03⏸️جوین بدید⏸️
 vless://fa92e9cd-b5be-4e00-8fc4-4543012d1fd0@5.34.214.154:443?security=reality&encryption=none&pbk=RW2LSBmmSe02gQ2e4OGfNmggZbuO4trpafPiNqVEajs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ign.com&sid=e0b8e166#telegram ⚡️ v2ray_configs_pools
 vless://fa80408d-f7ce-4c96-ac0b-6c1b791b5b69@n2vpn-helper.projectis.ir:2053?path=/@n2vpn&security=tls&encryption=none&host=n2vpn.projectis.ir&fp=chrome&type=ws&sni=n2vpn.projectis.ir#@n2vpn+-+کانفیگ+های+اختصاصی
 vless://fa72a38c-56bf-4f3b-9735-e96e9840ae54@65.109.118.175:443?security=tls&alpn=h3,h2,http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp&sni=app.chandplus.com#@v2ray_configs_pools👈⚡❤️‍🔥
@@ -502,3 +499,6 @@ vless://e7087223-8433-4a7d-b9f2-4bd8d737f9c4@V2ngnet.huqpmfood.ir:4455?mode=auto
 vless://e68bc33e-7222-4125-b064-8209d71f29d9@63.141.128.14:8080?path=/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&security=none&encryption=none&host=a.joIn.zEdMoDeOn.oNl.&type=ws#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://e67cc88d-8b7f-4d12-a631-0171f05dd563@104.17.147.22:80?path=/@Vpn_Mikey،@Vpn_Mikey&security=none&encryption=none&host=Vpn_Mikey-speedtest.net.Amir-Mikey.Tech.&type=httpupgrade#@Vpn_Mikey | unlimitedGB 🇫🇷
 vless://e66beedb-dd44-47f0-baf8-7ba947d919d0@91.99.85.185:8443?type=xhttp&path=/xhttp&host=&mode=stream-one&security=none#telegram ☂️ v2ray_configs_pools
+vless://e66beedb-dd44-47f0-baf8-7ba947d919d0@91.99.126.77:8443?type=xhttp&path=/xhttp&host=&mode=stream-one&security=none#telegram 🎪 v2ray_configs_pools
+vless://e66a1e27-be31-4671-82fc-e810b0f7a8cb@104.18.26.90:443?path=/linkws?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=mAXNeTVIpaP-clOUD205.NETKH3.SIte&type=ws#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://e6616708-1d44-40ba-9ce3-167f57353b4b@141.227.162.151:33921?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@V2RAYROZ

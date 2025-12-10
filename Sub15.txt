@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://tunnel-v2ray_configs_pools_official-us@us-4.stunnel.cc:8441?security=tls&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=us-4.stunnel.cc#[TrojanVPN] v2ray_configs_pools_official-🇺🇸
-trojan://tunnel-v2ray_configs_pools_official-us@us-3.stunnel.cc:8441?security=tls&alpn=http/1.1&host=us-3.stunnel.cc&headerType=none&type=tcp&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev#@v2ray_configs_pools
-trojan://tunnel-v2ray_configs_pools_official-pl@pl-1.stunnel.cc:8441?security=tls&alpn=http/1.1&host=pl-1.stunnel.cc&headerType=none&type=tcp&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev#@HiByeVPNN
 trojan://tunnel-v2ray_configs_pools_official-gb@gb-1.stunnel.cc:8441?security=tls&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=gb-1.stunnel.cc#[TrojanVPN] v2ray_configs_pools_official-🇬🇧
 trojan://tunnel-v2ray_configs_pools_official-de@de-1.stunnel.cc:8441?security=tls&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=de-1.stunnel.cc#[TrojanVPN] v2ray_configs_pools_official-🇩🇪
 trojan://tunnel-v2ray_configs_pools_offcial-nl@nl-1.stunnel.cc:8441?security=tls&sni=zula.ir.v2ray_configs_pools-official.v2ray_configs_pools-official.workers.dev&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=nl-1.stunnel.cc#[TrojanVPN] v2ray_configs_pools_offcial-🇳🇱
@@ -502,3 +499,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.165:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.227:8080#@v2ray_configs_pools 🩵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRNWNBeHBlWnpWdHVrRDJnejVGUTZn@212.118.54.195:443#@daredevill_404
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRNTRnQVNaaHRocmZoRGVVVXlIUjd4TUtFcGM4Y2xwNVFDcFdZcnd2a3lRPQ==@167.172.95.249:30655#@CaV2ray ⚡️
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPcWlXejlTVWRVeUhBZnk0cXM4Sld1@h110vpntr.outlinekeys.net:65262#telegram 🍊 v2ray_configs_pools
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPaUxSN2FBMGs1akp4djB1aWtRbFRV@78.129.140.11:443#🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPWklCLUpsNHRobDBoUl9iZjhXcVZn@77.243.81.97:44#🇰🇿7@vpnserverrr
