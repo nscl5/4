@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.11.173:443?path=@V2rayBaaz&security=tls&encryption=none&alpn=http/1.1&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path==zani.yaemiko.ggff.net/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path=/proxyip=zani.yaemiko.ggff.net/@v2ray_configs_pools---@v2ray_configs_pools&security=tls&encryption=none&alpn=h2,http/1.1&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.18.36.24:443?path=/proxyip=zani.yaemiko.ggff.net/@v2ray_configs_pools---@v2ray_configs_pools&security=tls&alpn=h2,http/1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#@v2ray_configs_pools👈⚡❤️‍🔥
@@ -501,4 +502,3 @@ vless://1efab776-c694-4652-f89e-45ffffe49ef6@chat.openai.com:8080?encryption=non
 vless://1efab776-c694-4652-f89e-45ffffe49ef6@cafearz.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
 vless://1edafc20-cffb-4921-bb2b-f00ce9864c5c@45.88.183.157:23803?security=none&encryption=none&headerType=none&type=tcp#@HiByeVPNN 💯⚡❤️‍🔥
 vless://1ecc7c9d-0eb9-4615-a03e-bd6a34766d24@test.fast.hosting-ip.com:80?type=xhttp&encryption=none&path=/Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420&host=starboy.ir&mode=auto&security=none#[🇩🇪 @EXPRESSVPN_420
-vless://1ecc7c9d-0eb9-4615-a03e-bd6a34766d24@151.101.3.8:80?type=xhttp&encryption=none&path=/Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420---Join----EXPRESSVPN_420&host=starboy.ir&mode=auto&security=none#[🇩🇪 @EXPRESSVPN_420
