@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://7e281f58-63b0-4e9a-a3fe-537e33e374b9@130.193.42.234:443?security=reality&encryption=none&pbk=O-_WpC4axy8j1boU0W7Tnj_DcikraQ3blHy1BHIbZkg&headerType=none&fp=chrome&spx=/telegram_sinavm_sinavm&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=a579dff0#🇷🇺@FreakConfig
 vless://7e281f58-63b0-4e9a-a3fe-537e33e374b9@130.193.42.234:443?security=reality&encryption=none&pbk=O-_WpC4axy8j1boU0W7Tnj_DcikraQ3blHy1BHIbZkg&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=a579dff0#🇷🇺
 vless://7e281f58-63b0-4e9a-a3fe-537e33e374b9@130.193.42.234:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=sun6-22.userapi.com&pbk=O-_WpC4axy8j1boU0W7Tnj_DcikraQ3blHy1BHIbZkg&sid=a579dff0&spx=/telegram_sinavm_sinavm#🇷🇺@SiNAVM کانال تلگرامی
 vless://7e0e6e2e-31c3-47ac-b243-81b07a14026c@91.99.18.180:1010?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
@@ -502,3 +501,4 @@ vless://694767ad-2fd8-42ac-a3f9-a17418db7380@V2ngFast.byte-server.ir:4455?encryp
 vless://69394f3f-e84c-44b3-96ae-46000130cf2b@5.189.190.60:34704?security=reality&encryption=none&pbk=Yl_Un-j1bd9icfC153HCUY_uRKWdj4D_PxHTQ59q5m4&headerType=none&fp=chrome&type=tcp&sni=ava.game.naver.com.lsvly.qzz.io&sid=11c996b441cf6c#MTN--@IRAN_V2RAY1
 vless://692ece70-c136-4f77-8921-1e99091b9987@ssssssss.zabc.net:8443?path=/&security=tls&encryption=none&host=ssssssss.zabc.net&fp=chrome&type=ws&sni=ssssssss.zabc.net#MCI--@IRAN_V2RAY1
 vless://69279880-8407-4b8b-9a3e-09dd23c485cf@91.107.160.195:8443?security=reality&encryption=none&pbk=22umskuVYX_83MN2r90b32l8RInE-mVGayYcRgBwU0E&headerType=none&fp=chrome&spx=/&type=tcp&sni=store.steampowered.com&sid=f5#telegram 🎯 v2ray_configs_pools
+vless://69279880-8407-4b8b-9a3e-09dd23c485cf@91.107.160.195:8443?security=reality&encryption=none&pbk=22umskuVYX_83MN2r90b32l8RInE-mVGayYcRgBwU0E&headerType=none&fp=chrome&spx=/&type=tcp&sni=store.steampowered.com&sid=f5#telegram 🌺 v2ray_configs_pools

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=639001966536690941.prius-amsiq.info&type=ws&sni=639001966536690941.prius-amsiq.info#All-@V2rayAlpha-30
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638987647974712110.outback-amshs.info&type=ws&sni=638987647974712110.outback-amshs.info#All-@V2rayAlpha--18
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&insecure=1&host=639008791593418731.jimny-amsix.info&type=ws&allowInsecure=1&sni=639008791593418731.jimny-amsix.info#🇨🇦
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638987972960682357.prius-amsht.info&type=ws&sni=638987972960682357.prius-amsht.info#All-@V2rayAlpha--35
@@ -502,3 +501,4 @@ vless://4182c59d-3b09-4bc9-ef7a-71e5628749e8@cafearz.com:8080?type=ws&encryption
 vless://4181c93f-0a91-48e3-bf9d-0e2c548734a5@bakrie.ac.id.servpn.my.id:443?path=/id5?@&security=tls&encryption=none&host=bakrie.ac.id.servpn.my.id&fp=chrome&type=ws&sni=bakrie.ac.id.servpn.my.id#@FILTERK0SH
 vless://417a3a22-8019-4991-82e1-8e4e27e95022@paris.fonixapp.org:443?security=reality&encryption=none&pbk=9Bx-1do5J20bTshcos2BDFpgRfRHIig3MyRAJET11AY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=07e75c2cb26c35#@Daily_Configs
 vless://417a3a22-8019-4991-82e1-8e4e27e95022@paris.fonixapp.org:443?security=reality&encryption=none&pbk=9Bx-1do5J20bTshcos2BDFpgRfRHIig3MyRAJET11AY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=07e75c2cb26c35#🇫🇷@FreakConfig
+vless://417a3a22-8019-4991-82e1-8e4e27e95022@paris.fonixapp.org:443?security=reality&encryption=none&pbk=9Bx-1do5J20bTshcos2BDFpgRfRHIig3MyRAJET11AY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=07e75c2cb26c35#All-@V2rayAlpha--7

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.94:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-30
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.82:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-29
@@ -502,3 +501,4 @@ vless://cf5a73e1-e1ba-4a21-aadd-2ed60eae1b52@axe.djjw8292n.ir:2053?path=/homepag
 vless://cf4b927c-25f6-4915-89e1-99d6866ff768@88.198.160.200:42671?type=tcp&security=none#Donald-16
 vless://cf041b8c-7ec6-43eb-cae4-e8e7b2520164@151.101.3.8:80?type=xhttp&encryption=none&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&host=Mahsazxshop.org&mode=auto&security=none#🇩🇪 | XpnTeam - Telegrams-2
 vless://cef4ee17-07fd-492f-921e-ddaa6294ba51@dubai.fonixapp.org:53654?security=reality&encryption=none&pbk=lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=f7#@IRAN_V2RAY1--MCI
+vless://cef4ee17-07fd-492f-921e-ddaa6294ba51@217.195.200.206:53654?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=stackoverflow.com&pbk=lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk&sid=f7&spx=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn#🇦🇪 @Evay_vpn
