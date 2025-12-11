@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:316?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1409%20%7C%20free-nodes
+trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@szf02.xiaohouzi.club:36304?security=tls&sni=szf02.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1408%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.odessa.ua:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1407%20%7C%20free-nodes
 trojan://mainssh-niwrhf87@95.179.246.122:443?security=tls&sni=getgrpc.mainssh.xyz&type=grpc&serviceName=trojangrpc#%E6%9C%AA%E7%9F%A5%20TROJAN-1406%20%7C%20free-nodes
 trojan://telegram-id-directvpn@34.219.52.119:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1405%20%7C%20free-nodes
@@ -500,5 +502,3 @@ trojan://253bc477d4e43c209f2d427272968280@160.16.72.33:3294?security=tls&sni=www
 trojan://265f092f-418b-30c9-a479-4800fd44dd19mielink@kaizen-us-6.mielink-dns2.com:443?security=tls&sni=paydiu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-910%20%7C%20free-nodes
 trojan://vip@www.gov.se:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-909%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.kyiv.ua:8443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-908%20%7C%20free-nodes
-trojan://253bc477d4e43c209f2d427272968280@160.16.117.182:3296?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-907%20%7C%20free-nodes
-trojan://telegram-id-privatevpns@18.135.6.102:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-906%20%7C%20free-nodes

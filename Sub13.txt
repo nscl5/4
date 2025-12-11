@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://3c1a04bb-165a-476d-af02-3dc5590f8742@91.98.22.20:22933?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇩🇪 | @External_Net
+vless://3bfbd5e8-6904-4404-a05e-cbcfd77d6588@xtlsresponse.revolutiontime.vigilante.ir:6842?mode=gun&security=reality&encryption=none&pbk=VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4&fp=chrome&type=grpc&serviceName=DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048&sni=slack.com&sid=934e93fea74aeefe#Telegram: @Daily_Configs 🇫🇮
 vless://3bfbd5e8-6904-4404-a05e-cbcfd77d6588@xtls32backend.vigilante.ir:6842?mode=gun&security=reality&encryption=none&pbk=VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4&fp=chrome&type=grpc&serviceName=DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048&sni=slack.com&sid=934e93fea74aeefe#Telegram: @Daily_Configs 🇮🇹
 vless://3bf32aef-fceb-48e9-ff30-5cb6a211aeb8@157.230.124.41:443?mode=gun&security=none&encryption=none&type=grpc#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://3bebc077-0d92-4832-9ae4-c0820a673b9e@power.teampluss.ir:80?path=/Pak91jqn-Mehskl.ir.shop.com?ed=2048&security=none&encryption=none&host=Zilor.ir&type=ws#@CaV2ray ⚡️
@@ -500,5 +502,3 @@ vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?path=/?ed=2048&security
 vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?encryption=none&security=&sni=&type=ws&alpn=&host=SeRvER07.VtNEt.InFO&path=/?ed=2048#telegram 🚀 v2ray_configs_pools
 vless://2b277eea-66b2-4f3a-b934-46225c1f5e6f@tgju.org:80?encryption=none&security=&sni=&type=ws&alpn=&host=NoDE16.VtNEt.InFO&path=/?ed=2048#telegram 🍊 v2ray_configs_pools
 vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws?ed=2048@v2ray_configs_pools&security=tls&v2ray_configs_pools
-vless://2b25cdb0-ecb2-4caa-910d-b2e5b2309ca3@185.234.66.94:443?path=/tqjkmwws?ed=2048@v2ray_configs_pools&security=tls&encryption=none&type=ws#@v2ray_configs_pools👈⚡❤️‍🔥
-vless://2b2219ab-707a-4773-af6c-539de4a76c89@217.144.186.49:38231?security=none&encryption=none&host=nature.com&headerType=http&type=tcp#@CaV2ray ⚡️

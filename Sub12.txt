@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@15.223.168.175:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🌺 v2ray_configs_pools
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@15.165.228.119:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram ☂️ v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@13.60.11.107:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&fp=chrome&spx=/#telegram 🌟 v2ray_configs_pools
 vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@13.38.110.164:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=store.steampowered.com&fp=chrome&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&sid=f5&spx=/&type=tcp&headerType=none#telegram 🎪 v2ray_configs_pools
 vless://4c266f5d-5836-4417-d5ab-f253ca9de933@chat.openai.com:8080?encryption=none&security=none&type=ws&host=shad.ir.fin.test.digicyber.click.&path=/olem/ws?ed=1024#@melov2ray🇫🇮
@@ -500,5 +502,3 @@ vless://3c36eadb-747a-4166-8db0-23fec9883ea2@172.67.149.104:443?path=/assets?ed=
 vless://3c36eadb-747a-4166-8db0-23fec9883ea2@172.67.149.104:443?path=/assets?ed=2560&security=tls&encryption=none&fp=chrome&type=ws&sni=HarmonY-448.pages.DEV#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://3c1eef35-015b-48cd-9f0a-23d9ef5816cc@104.16.8.237:80?encryption=none&security=none&type=ws&host=little-haze-1600-ppal03.gabonim122.workers.dev&path=/?ed=2560#🥑Tel: @pPal03🥑Join🥑
 vless://3c1eef35-015b-48cd-9f0a-23d9ef5816cc@103.21.244.75:80?encryption=none&security=none&type=ws&host=little-haze-1600-ppal03.gabonim122.workers.dev&path=/?ed=2560#🥑Tel: @pPal03🥑Join🥑
-vless://3c1a04bb-165a-476d-af02-3dc5590f8742@91.98.22.20:22933?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#🇩🇪 | @External_Net
-vless://3bfbd5e8-6904-4404-a05e-cbcfd77d6588@xtlsresponse.revolutiontime.vigilante.ir:6842?mode=gun&security=reality&encryption=none&pbk=VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4&fp=chrome&type=grpc&serviceName=DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048&sni=slack.com&sid=934e93fea74aeefe#Telegram: @Daily_Configs 🇫🇮

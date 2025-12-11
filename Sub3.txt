@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--43
+vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--42
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--40
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--15
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#✅ @prrofile_purple (تلگرام)
@@ -500,5 +502,3 @@ vless://e3af49ba-6a41-4fa1-8f21-f40d1f154c68@lifestealer.fonixapp.org:443?securi
 vless://e3af49ba-6a41-4fa1-8f21-f40d1f154c68@lifestealer.fonixapp.org:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=configuration.apple.com&fp=chrome&security=reality&pbk=DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc&sid=173c58#🟣7@oneclickvpnkeys
 vless://e3a00f7e-8e2d-42d2-af6f-f077fad19487@masterserver1.de.huqpmfood.ir:1331?encryption=none&type=xhttp&mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 All Operator @MaSTeRSeRVeR1
 vless://e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc@65.109.218.179:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=chrome&spx=/&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://e371c3c9-4ebd-4a17-9915-ee1331c02e74@dwarvensniper.fonixapp.org:443?security=reality&encryption=none&pbk=q6ayd3-xiVbHZqOFRWTqZ8ftHSPhzcWKno4nfO3uOjI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=clients3.google.com&sid=5df42470e9#🇩🇪@FreakConfig
-vless://e371c3c9-4ebd-4a17-9915-ee1331c02e74@dwarvensniper.fonixapp.org:443?security=reality&encryption=none&pbk=q6ayd3-xiVbHZqOFRWTqZ8ftHSPhzcWKno4nfO3uOjI&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=clients3.google.com&sid=5df42470e9#All-@V2rayAlpha--24
