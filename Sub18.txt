@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://21e10785-99c6-316e-a184-a03384ee06e5@hnm.xiaohouzi.club:18831?security=tls&sni=avas01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1909%20%7C%20free-nodes
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hnm.xiaohouzi.club:47555?security=tls&sni=$$$au02.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1908%20%7C%20free-nodes
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1907%20%7C%20free-nodes
 trojan://8aab51da-6b67-4bd2-b6e6-5ab3008cf53e@jp.iamnotagoodman.com:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1906%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://79314e99f0a473fe86efc7827942ad00@160.16.212.152:507?security=tls&sni=ww
 trojan://trojan@38.207.133.204:10002?security=tls&sni=qingming-b08.pages.dev&type=ws&path=/?ed=2560&Host=qingming-b08.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1412%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.5:10822?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1411%20%7C%20free-nodes
 trojan://wkmY1R4EcP@45.63.110.20:443?security=tls&sni=z-v2-003281.kailib.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1410%20%7C%20free-nodes
+trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.240.91:316?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1409%20%7C%20free-nodes

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://db54c2ca-abe2-19ae-9abf-46a4aa1598f8@de.u-team.ir:6750?security=none&encryption=none&host=s7r.ir&headerType=none&type=tcp#🇳🇱 @Netra_ir | کانال تلگرام
 vless://db54c2ca-abe2-19ae-9abf-46a4aa1598f8@de.u-team.ir:6748?security=none&encryption=none&host=s7r.ir&headerType=none&type=tcp#[🇩🇪]
 vless://db54c2ca-abe2-19ae-9abf-46a4aa1598f8@de.u-team.ir:6747?security=&encryption=none&host=s7r.ir&headerType=none&type=tcp#🏴󠁧󠁢󠁥󠁮󠁧󠁿 @Netra_ir | کانال تلگرام
 vless://db54c2ca-abe2-19ae-9abf-46a4aa1598f8@de.u-team.ir:6747?security=&encryption=none&host=s7r.ir&headerType=none&type=tcp#t.me/entryNET/config=1851067792322868
@@ -502,3 +501,4 @@ vless://c5106d17-4c9c-43b8-be91-c5164c8853a9@151.101.3.8:80?mode=auto&path=/@Xpn
 vless://c4ccf00e-72c6-4fd9-b7ce-f625a835539f@109.123.236.161:42692/?type=tcp&encryption=none&flow=#⚛️30@oneclickvpnkeys
 vless://c4c65307-1245-4061-95d6-5172c1130903@194.182.79.240:22730?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@mehrosaboran
 vless://c495405a-41d7-429e-b999-94136197b211@104.21.7.162:2053?path=/J5aLQOY1R9ONWYCM?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&security=tls&encryption=none&host=dashboard.app-browser.org&type=ws&sni=dashboard.app-browser.org#@HiByeVPNN❤️‍🔥⚡✨
+vless://c495405a-41d7-429e-b999-94136197b211@104.21.7.162:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=dashboard.app-browser.org&type=ws&sni=dashboard.app-browser.org#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
