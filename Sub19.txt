@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://274c1b23-2bfe-40ac-943c-ebc1aa044b22@41.216.177.41:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1304%20%7C%20free-nodes
+trojan://vip@104.18.42.163:443?security=tls&sni=heihu880.pages.dev&type=ws&path=/?ed=2560&Host=heihu880.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1303%20%7C%20free-nodes
+trojan://253bc477d4e43c209f2d427272968280@36.156.102.86:22000?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1302%20%7C%20free-nodes
+trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.4:10824?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1301%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@gz01.xiaohouzi.club:14705?security=tls&sni=$$$$$$$vusig01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1300%20%7C%20free-nodes
 trojan://9e5d7ec6-d24d-41dc-848d-54a2e3429d2f@feisha-other.kunlun06dns.com:15025?security=tls&sni=openssl.nodesni.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1299%20%7C%20free-nodes
 trojan://BxceQaOe@13.231.220.185:4569?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1298%20%7C%20free-nodes
@@ -498,7 +502,3 @@ trojan://telegram-id-directvpn@18.222.168.7:22222?security=tls&sni=trj.rollingne
 trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:48431?security=tls&sni=hn.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-801%20%7C%20free-nodes
 trojan://BxceQaOe@52.195.216.100:4492?sni=t.me/ripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-800%20%7C%20free-nodes
 trojan://mainssh-niwrhf87@95.179.246.122:443?security=tls&sni=getgrpc.mainssh.xyz#%E6%9C%AA%E7%9F%A5%20TROJAN-799%20%7C%20free-nodes
-trojan://T@_WvT8Ho@LW%w_,@nop-55q.pages.dev:2053?security=tls&sni=NOp-55q.pAgEs.dEv&type=ws&path=/trGPZDfetEwuO25SAs?ed=2560&Host=NOp-55q.pAgEs.dEv#%E6%9C%AA%E7%9F%A5%20TROJAN-798%20%7C%20free-nodes
-trojan://76d630f2af6619c4a5de0ef953df3c6a@153.121.73.102:1331?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-797%20%7C%20free-nodes
-trojan://8a03bc28-2a33-42c4-be59-30464dbb9954@mel12.yukiss.eu.org:18818?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-796%20%7C%20free-nodes
-trojan://76d630f2af6619c4a5de0ef953df3c6a@58.152.110.82:443?sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-795%20%7C%20free-nodes

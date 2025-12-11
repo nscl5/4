@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://d64fbcef-f032-48ae-8f52-d73976cb0c57@betty.ns.cloudflare.com:443?path=/unjgcrws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639006691599818826.sentra-amsiv.info#Channel : @Mrsoulb 🏴🏳
+vless://d643b9ca-57b7-4cd5-84b8-a77f26b6346e@162.159.1.33:443?path=/Telegram@V2ray_Alpha/?ed=2560&security=tls&encryption=none&host=rayan-fg-1.narges.filegear-sg.me&fp=chrome&type=ws&sni=rayan-fg-1.narges.filegear-sg.me#@CaV2ray ⚡️
+vless://d643b9ca-57b7-4cd5-84b8-a77f26b6346e@162.159.1.33:443?path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=rayan-fg-1.narges.filegear-sg.me&fp=chrome&type=ws&sni=rayan-fg-1.narges.filegear-sg.me#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
+vless://d62f1926-a61e-4c00-baa5-740a523aca16@[2001:41d0:801:1000::930]:40717?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🎯 v2ray_configs_pools
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🍊 v2ray_configs_pools
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🍀 v2ray_configs_pools
@@ -498,7 +502,3 @@ vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?security=realit
 vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&sid=d21e7c&type=tcp&headerType=none#@Daily_Configs
 vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&sid=d21e7c#🟢28@oneclickvpnkeys
 vless://bfc73db8-88ee-4739-844d-2a1aebda0671@SVNTEAM.MiSVN.iR:443?security=reality&type=tcp&headerType=&flow=xtls-rprx-vision&path=&host=&sni=tgju.org&fp=chrome&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&sid=e54b5ad736ae4c38#SVNTEAN🇩🇪TCP-46
-vless://bfab4670-a9a1-4caa-a375-187e76eb3f20@37.27.40.194:42671?type=ws&encryption=none&path=/NT_Safe&host=&security=none#🇺🇸-@nt_safe
-vless://bf73e6e5-0336-40d5-995c-283de50646d2@104.24.158.124:80?encryption=none&security=none&type=ws&host=divine-limit-e9df-ppal03.jorekon645.workers.dev&path=/?ed=2560#📀Ch: @pPal03📀جوین بدید📀
-vless://bf73e6e5-0336-40d5-995c-283de50646d2@104.16.116.22:80?encryption=none&security=none&type=ws&host=divine-limit-e9df-ppal03.jorekon645.workers.dev&path=/?ed=2560#📀Ch: @pPal03📀جوین بدید📀
-vless://bf3e8944-8d26-47de-8748-b9aa74cce974@140.238.100.35:40721?security=reality&encryption=none&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&headerType=none&type=tcp&sni=yahoo.com&sid=df8611c07d#All--@V2rayAlpha-36
