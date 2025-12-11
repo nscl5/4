@@ -2,6 +2,12 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://e683d757-b855-44c3-b0b6-22586444914a@86.107.197.239:443?security=tls&sni=joss.gpj1.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-1862%20%7C%20free-nodes
+trojan://5623be5f-c9da-4511-81a9-b4b39b16edae@103.81.85.238:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1861%20%7C%20free-nodes
+trojan://6b4ced5e-835a-4a7a-9d03-6a46e94668cb@103.195.236.24:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1860%20%7C%20free-nodes
+trojan://8d047125-8467-4724-bb62-ef64405dca78@91.192.102.92:443?security=tls&sni=joss.gpj1.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-1859%20%7C%20free-nodes
+trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19233?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1858%20%7C%20free-nodes
+trojan://6b4ced5e-835a-4a7a-9d03-6a46e94668cb@103.195.236.24:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1857%20%7C%20free-nodes
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.kiev.ua:2053?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1856%20%7C%20free-nodes
 trojan://telegram-id-directvpn@13.40.3.71:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1855%20%7C%20free-nodes
 trojan://0f098bb2-9fad-3cc3-8acf-2a3268c1eb27@hn.xiaohouzi.club:18432?security=tls&sni=hn.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1854%20%7C%20free-nodes
@@ -496,9 +502,3 @@ trojan://f42d1b0d-c398-43cb-be37-d739b1477a5d@107.189.3.96:443?security=tls&sni=
 trojan://21e10785-99c6-316e-a184-a03384ee06e5@hnm.xiaohouzi.club:18831?security=tls&sni=avas01.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-1365%20%7C%20free-nodes
 trojan://BxceQaOe@58.152.25.242:443?security=tls&sni=t.me%25252Fripaojiedian#%E6%9C%AA%E7%9F%A5%20TROJAN-1364%20%7C%20free-nodes
 trojan://6c7d536e-1ecf-448d-83c1-3044dd89ceac@5.182.39.57:443?security=tls&sni=joss.gpj4.web.id#%E6%9C%AA%E7%9F%A5%20TROJAN-1363%20%7C%20free-nodes
-trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1362%20%7C%20free-nodes
-trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.144.208:1331?security=tls&sni=www.baidu.com#%E6%9C%AA%E7%9F%A5%20TROJAN-1361%20%7C%20free-nodes
-trojan://xstack-1718-9761-freevpn@cdn-gr-3.goldaccess.xyz:1935?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1360%20%7C%20free-nodes
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@129.146.255.158:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1359%20%7C%20free-nodes
-trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@60.72img.xyz:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-1358%20%7C%20free-nodes
-trojan://d4e41ff772c7fd45@45.11.104.94:3389?security=tls&sni=sbank.ir#%E6%9C%AA%E7%9F%A5%20TROJAN-1357%20%7C%20free-nodes
