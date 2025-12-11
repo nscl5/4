@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.222:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.222:8880?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46199-4
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.222:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.218:8880?mode=gun&security=none&encryption=none&type=grpc#Join To:@IRAN_V2RAY1 {VIP}
@@ -502,3 +501,4 @@ vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&en
 vless://cd54a584-2aeb-4a81-8558-84822c5e60d1@15.223.83.61:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=J2bRPBQbUXzfoe-sch7fxMlzKqaX2L0kEm4Rcly6Kgo&sid=d0c43a7737&fp=chrome&spx=/#telegram 🌈 v2ray_configs_pools
 vless://cd54a584-2aeb-4a81-8558-84822c5e60d1@15.223.180.240:443?encryption=none&security=reality&type=tcp&sni=store.steampowered.com&pbk=J2bRPBQbUXzfoe-sch7fxMlzKqaX2L0kEm4Rcly6Kgo&sid=d0c43a7737&fp=chrome&spx=/#telegram 🍊 v2ray_configs_pools
 vless://cd25cc00-2e00-4faa-a850-7b94190d7999@usaa.fastlynew.hosting-ip.com:80?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#@MARAMBASHI 🇮🇹
+vless://cd1bd810-ae03-4af8-a9cf-e39fb3220533@antimage.fonixapp.org:48138?security=reality&encryption=none&pbk=lbo1jWRdkDrMcBkRcVXUBGoEbOun23CERmtkOWDS7Go&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=a941df4328#MCI-@V2rayAlpha--13

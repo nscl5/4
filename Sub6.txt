@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://b5363ae9-9ed8-47d7-bd95-b2c83acc1f8f@95.111.208.215:24401?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&security=reality&encryption=none&pbk=6Tayhy99MQpr2AvgmdiqHAzd7Z0F9F6Qj-eZN2FRsjU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=6d3e7476fd#🇸🇪[Telegram:NetifyVPN]
 vless://b4f7b99a-85a4-4dd3-a25e-55e6fae0ad53@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=smart.domnewconfsob1.org#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://b4e82e10-b8bb-447b-82d2-3a70eb41f8da@[2a01:4f8:c014:276c::1]:4603?security=&encryption=none&headerType=none&type=tcp#Irancell-ایرانسل (🚀) VLESS 🔗
 vless://b4e82e10-b8bb-447b-82d2-3a70eb41f8da@91.98.158.243:4603?security=&encryption=none&headerType=none&type=tcp#همراه اول-Mcl (🚀) VLESS 🔗
@@ -502,3 +501,4 @@ vless://TELEGRAM-CONFiGLiNE-68@151.101.0.0:80?mode=auto&path=/telegram-CONFiGLiN
 vless://TELEGRAM-CONFiGLiNE-68@151.101.0.0:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=&encryption=none&host=azaiji3.global.ssl.fastly.net&type=xhttp#@V2ray_confing33
 vless://TELEGRAM-CONFiGLiNE-65@151.101.0.0:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=none&encryption=none&host=looanooboijji.global.ssl.fastly.net&type=xhttp#[🇩🇪]@configLINE(3)
 vless://TELEGRAM-CONFiGLiNE-63@151.101.67.8:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=none&encryption=none&host=azaiji2.global.ssl.fastly.net&type=xhttp#[🇩🇪]@configLINE(2)
+vless://TELEGRAM-CONFiGLiNE-63@151.101.67.8:80?mode=auto&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&security=none&encryption=none&host=azaiji2.global.ssl.fastly.net&type=xhttp#@V2ray_confing33

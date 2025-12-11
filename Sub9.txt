@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://7ce55d76-b821-471a-8227-4f88b3c0ffaf@141.227.136.51:25688?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@bored_vpn
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@www.speedtest.net:80?path=/Telegram@V2ray_Alpha/?ed=2560&security=none&encryption=none&host=mail.ski1plag.ir&type=ws#@CaV2ray ⚡️
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@e.mosic7.info:80?path=/?ed=443&security=none&encryption=none&host=my.ski1plag.ir&type=ws#https://t.me/v2raynplus
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=/upload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#@CaV2ray ⚡️
@@ -502,3 +501,4 @@ vless://6880c016-63a3-4335-bafa-c180ffd3325f@br.pouriau.com:2052?path=/---ping--
 vless://6878eb0a-5f00-4f8e-aff0-88b6cf3086f5@deusup.dashping1.ir:8101?encryption=none&flow=xtls-rprx-vision&security=reality&sni=preview.redd.it&fp=chrome&pbk=DG2WqjfT9HFqCfHzaYAVNEayiJN8yGQ64YT9-9eV5Fs&sid=bbddcffa7270&type=tcp&headerType=none#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 4.0MB/s
 vless://6873298f-8256-4315-88c8-13dc8da308cf@tuskar.fonixapp.org:45352?security=reality&encryption=none&pbk=a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=smallpdf.com&sid=2b#WiFi-@V2rayAlpha--17
 vless://6873298f-8256-4315-88c8-13dc8da308cf@152.53.133.132:45352?security=reality&encryption=none&pbk=a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8&headerType=none&fp=chrome&spx=/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=tcp&flow=xtls-rprx-vision&sni=smallpdf.com&sid=2b#🇩🇪 | @External_Net
+vless://68680fbb-ed8c-499e-a315-33946ed197da@151.101.3.8:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&type=xhttp#tm⚡|@lightning6
