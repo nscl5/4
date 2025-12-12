@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443/?type=ws&encryption=none&flow=&host=639008791593418731.jimny-amsix.info&path=/cahttingws&security=tls&sni=639008791593418731.jimny-amsix.info&allowInsecure=1&fp=chrome#⚙️24@oneclickvpnkeys
-vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=639000411272217052.swift-amsin.info&fp=chrome&type=ws&sni=639000411272217052.swift-amsin.info#All-@V2rayAlpha-37
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638988506136311592.corolla-amshw.info&type=ws&sni=638988506136311592.corolla-amshw.info#Join To @Iran_v2ray1🇺🇸
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@betty.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&insecure=0&host=638988506154325684.civic-amshw.info&type=ws&allowInsecure=0&sni=638988506154325684.civic-amshw.info#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://53ee6aff-171a-48a0-9d1a-2153802a5626@109.207.171.107:8443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#https://t.me/v2raynplus |🇳🇱
@@ -502,3 +500,5 @@ vless://41b8c97a-7fac-4191-8922-f58d42a9acf7@app-stg.gopay.co.id.servpn.my.id:44
 vless://41b8c97a-7fac-4191-8922-f58d42a9acf7@104.26.1.108:443?path=/id5?ed=2560/?JKVPNTELEGRAM_CHANEL_JKVPN_JKVPN&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://41b8c97a-7fac-4191-8922-f58d42a9acf7@104.26.0.108:443?path=/id5?ed=2560/?JKVPNTELEGRAM_CHANEL_JKVPN_JKVPN&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://4182c59d-3b09-4bc9-ef7a-71e5628749e8@cafearz.com:8080?type=ws&encryption=none&path=/olem/ws?ed=1024&host=shad.ir.de.test.digicyber.click.&security=none#@melov2ray🇩🇪
+vless://4181c93f-0a91-48e3-bf9d-0e2c548734a5@bakrie.ac.id.servpn.my.id:443?path=/id5?@&security=tls&encryption=none&host=bakrie.ac.id.servpn.my.id&fp=chrome&type=ws&sni=bakrie.ac.id.servpn.my.id#@FILTERK0SH
+vless://417a3a22-8019-4991-82e1-8e4e27e95022@paris.fonixapp.org:443?security=reality&encryption=none&pbk=9Bx-1do5J20bTshcos2BDFpgRfRHIig3MyRAJET11AY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=07e75c2cb26c35#@Daily_Configs

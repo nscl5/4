@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://Warpi-Free-Vpn-In-GooglePlay@vp9.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#All-@V2rayAlpha--25
-vless://Warpi-Free-Vpn-In-GooglePlay@vp9.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#All--@IRAN_V2RAY1🇩🇪
 vless://Warpi-Free-Vpn-In-GooglePlay@vp5.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#Join Sho:@IRAN_V2RAY1🇩🇪
 vless://Warpi-Free-Vpn-In-GooglePlay@vp4.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#All-@V2rayAlpha--14
 vless://Warpi-Free-Vpn-In-GooglePlay@vp10.myphotomoments.ir:443?security=none&encryption=none&headerType=none&type=tcp#All-@V2rayAlpha--12
@@ -502,3 +500,5 @@ vless://95bbb722-7641-4247-b795-25a2f540e67b@185.138.88.58:443?security=reality&
 vless://95bb51c8-660a-4a5b-80e5-93112261ed5f@172.66.40.99:443?path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&serviceName=Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH&security=tls&encryption=none&alpn=h2,http/1.1&host=hE136.maShkesTan.CoM&fp=chrome&allowinsecure=0&type=ws&sni=hE136.maShkesTan.CoM#➪+@FILTERK0SH++منبع+کانفیگ+رایگان
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.99.190.62:443/?type=grpc&encryption=none&flow=#♾️18@oneclickvpnkeys
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?mode=gun&security=none&encryption=none&type=grpc#WiFi-@V2rayAlpha--15
+vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--13
+vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--9
