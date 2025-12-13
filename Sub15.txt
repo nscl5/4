@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://16a3dea9-96fc-4c91-b74f-15cf627d1ca0@drow-ranger.fonixapp.org:37933?security=reality&encryption=none&pbk=lPSI3kHNhurG5ak6LTNc6NAJmSOvdt8EWjLHdsJXLCE&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=f2951ff6a7#IR-@V2rayAlpha--12
+vless://169221de-6408-4143-9e66-6f77de385e94@172.67.204.84:443?path=/@V2rayBaaz?ed&security=tls&encryption=none&host=cassiusvpn-cassiusvpn-000.stat-4.workers.dev&type=ws&sni=cassiusvpn-cassiusvpn-000.stat-4.workers.dev#@Maznet-46206-3
 vless://1648a686-98dc-4b21-9bc6-0dcc9000e101@104.19.98.71:443?path=/&security=tls&alpn=h3&encryption=none&host=123-8i5.pages.dev&type=ws&sni=123-8i5.pages.dev#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#All-@V2rayAlpha--45
@@ -500,5 +502,3 @@ vless://00da2022-d7d5-4fa2-af0f-73bd75b185a4@37.27.217.185:16553?security=realit
 vless://00b773b0-5489-4d3f-9b99-7370dda12a87@tgju.org:80?path=/?ed=2048&security=none&encryption=none&host=DAUntlESS-DAuGHTer.OneeaT.cO&type=ws#telegram ⚡️ v2ray_configs_pools
 vless://00b4785b-6ae1-496c-ad87-9dc4f89b7b3e@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?encryption=none&security=tls&sni=638901790535245808.brussels-prx-dnraaal.info&type=ws&alpn=&host=638901790535245808.brussels-prx-dnraaal.info&path=/gflzprws#telegram 🚀 v2ray_configs_pools
 vless://00b0d4de-b126-4511-87c1-8f1feb462fa6@171.22.114.248:27394?security=reality&encryption=none&pbk=TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=c2fa#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆⁶
-vless://00b0d4de-b126-4511-87c1-8f1feb462fa6@171.22.114.248:27394?security=reality&encryption=none&pbk=TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=c2fa#All--@V2rayAlpha--9
-vless://00b0d4de-b126-4511-87c1-8f1feb462fa6@171.22.114.248:27394?security=reality&encryption=none&pbk=TZO1nvxk-x90cL3v9ixowQNC56sQ8k76_KaGU6jczks&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=c2fa#All--@V2rayAlpha--11
