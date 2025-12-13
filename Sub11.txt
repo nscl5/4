@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@parspack.com:443?path=/?ed=2048@v2ray_configs_pools&security=tls&encryption=none&host=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT&fp=chrome&type=ws&sni=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@104.18.5.250:443?path=/?ed=2048@v2ray_configs_pools--@v2ray_configs_pools&security=tls&encryption=none&host=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT&fp=chrome&type=ws&sni=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://5da1f823-b460-407c-86d7-13b9b00a62f2@ch.napsternetx.ir:2096?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://5d99fbfb-1039-4c74-8fff-57864279c0a7@159.69.220.135:24199?encryption=none&type=tcp&security=none#Donald_vpn-27
@@ -502,3 +501,4 @@ vless://4a0ced83-c4f2-4946-aa90-d9ce633d43a7@152.53.142.189:11487?security=reali
 vless://4a0ced83-c4f2-4946-aa90-d9ce633d43a7@152.53.142.189:11487?security=reality&encryption=none&pbk=Vjc6Pniq5ueH7Ue6b3V7nf5oWm89rh113zK1wxm5CFA&host=/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=medicalnewstoday.com&sid=5d#🇩🇪 | @External_Net
 vless://4a0ced83-c4f2-4946-aa90-d9ce633d43a7@152.53.142.189:11487?security=reality&encryption=none&pbk=Vjc6Pniq5ueH7Ue6b3V7nf5oWm89rh113zK1wxm5CFA&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=medicalnewstoday.com&sid=5d#🇩🇪 | @External_Net
 vless://4a0ced83-c4f2-4946-aa90-d9ce633d43a7@152.53.142.189:11487?encryption=none&flow=xtls-rprx-vision&security=reality&sni=medicalnewstoday.com&fp=chrome&pbk=Vjc6Pniq5ueH7Ue6b3V7nf5oWm89rh113zK1wxm5CFA&sid=5d&type=tcp&headerType=none&host=/?#@Daily_Configs
+vless://49f078d4-b577-4518-b1c3-6485f01179dd@idbdhs-818272-isbshsh-181727.bawqrataaui.ir:24433?security=reality&encryption=none&pbk=9WenG6jYyrlRJQL8SVLONfIhOnqE5defrWao5XpisiQ&fp=chrome&spx=/&type=grpc&serviceName=/configfree/configfree/configfree/configfree/configfree/configfree/configfree/configfree/configfree/configfree/configfree/configfree&sni=www.cdn77.com&sid=a5#با+سرعت+نور+وصل+باش+@ConfigFree
