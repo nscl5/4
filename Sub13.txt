@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://38f898e5-8a8c-41c0-8c36-72ecefdd01a1@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=pOISED-JOUrney.ONEeaT.Co&type=ws#telegram 🍀 v2ray_configs_pools
-vless://38f418af-9af3-40c1-a09c-7dad003b77f7@V2ngFast.huqpmfood.ir:1146?mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
 vless://38ede7d1-5a7b-4263-b9b7-bc89b0695241@128.140.80.142:443?path=/linkws?ed&security=none&encryption=none&host=128.140.80.142&type=ws#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://38e35756-f704-4eed-a325-225e95ed789c@212.134.84.115:443?security=reality&encryption=none&pbk=cjDD6AA5RawGxEhDEz0vTKwzzMXaDjwMDZcDK6eAFRI&headerType=none&fp=chrome&spx=/&type=tcp&sni=pcmag.com&sid=0a1247#@Hddify |~| چنل هدیفای
 vless://38ced162-2eb3-4aee-998f-747961f02c01@helsinki.fonixapp.org:23747?security=reality&encryption=none&pbk=u7gBBaokHefxp8JS3G_Nu1X5y6Rh5SsRBrVC1L-4ySY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=lowes.com&sid=b7#MCI-@V2ray_Alpha--5
@@ -502,3 +500,5 @@ vless://297ae8b5-dacd-4dee-b045-b578c0a0dcf6@141.227.160.163:25531?mode=gun&secu
 vless://297128e9-5422-486e-9232-046b4952de1a@tgju.org:80?path=/?ed=2048&security=none&encryption=none&host=DIFferENt-PArtY.ONEEaT.cO&type=ws#telegram 🌺 v2ray_configs_pools
 vless://293b72a4-a55e-4319-850e-40514d33afc5@ns.cloudflare.com:8880?encryption=none&security=none&type=ws&host=xsndhf.bale-asd.ddns-ip.net&path=ws/?ed=2048#✅@v2ray_configs_pools
 vless://29397c5b-be3b-41d9-8a49-21575668e915@antimage.fonixapp.org:37876?security=reality&encryption=none&pbk=ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yelp.com&sid=907e#All-@V2ray_Alpha--32
+vless://29397c5b-be3b-41d9-8a49-21575668e915@antimage.fonixapp.org:37876?security=reality&encryption=none&pbk=ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yelp.com&sid=907e#MCI-@V2ray_Alpha--12
+vless://29397c5b-be3b-41d9-8a49-21575668e915@antimage.fonixapp.org:37876?security=reality&encryption=none&pbk=ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yelp.com&sid=907e#@IRAN_V2RAY1--All

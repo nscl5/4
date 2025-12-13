@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZY3d6QUNaSVFkZ1lXZHRQUFRpcjUx@92.118.112.101:9483?note=--Telegram--@NetifyVPN--#🇺🇸[Telegram:NetifyVpn]
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#✅ @v2ray_configs_pools (تلگرام)
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#@v2ray_configs_pools❤️‍🔥⚡
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVTh3cmZHTDJ1Y0JIS1N1cDlOQUZR@87.120.84.173:777#🇩🇪3@vpnserverrr
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZTHVlTnhFNzJ2MUsxOGY5UGNwbzRs@194.87.216.218:52571?note=--Telegram--@NetifyVPN--#🇳🇱[Telegram:NetifyVpn]
@@ -502,3 +500,5 @@ trojan://vpn@109.120.132.80:2025?security=tls&type=ws&sni=vkvd127.mycdn.me&path=
 trojan://2a9ba60d-10ce-4f79-97e7-817334456195@3.85.62.200:54527?security=tls&sni=tr7.tgcunzhang.xyz#%E6%9C%AA%E7%9F%A5181
 trojan://eDHWaPzxcl@145.223.70.115:25365?security=tls#%E6%9C%AA%E7%9F%A5180
 trojan://0b2d98a4-25bc-3d9f-9694-9d1e929de8dd@120.226.39.25:19248?security=tls#%E6%9C%AA%E7%9F%A5179
+trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.89.176:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5178%2093.2KB%2Fs
+trojan://BxceQaOe@16.163.138.120:2752?security=tls&sni=t.me/ripaojiedian#%E6%9C%AA%E7%9F%A5177
