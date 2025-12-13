@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=1&host=azizoarjmand.info&type=ws&allowInsecure=1&sni=azizoarjmand.info#@Daily_Configs
+vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=azizoarjmand.info#⚡ @Fast78_Channel | Best Free Configs
+vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=azizoarjmand.info#rt
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=azizoarjmand.info#Channel : @Mrsoulb 🏴🏳
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=azizoarjmand.info#@Daily_Configs
 vless://ee122f13-9b54-49b6-abc5-aa47b464fdb3@norman.ns.cloudflare.com:443?path=/yhowcws&security=tls&encryption=none&insecure=0&host=azizoarjmand.info&type=ws&allowInsecure=0&sni=azizoarjmand.info#✅سرورهایبیشتردرکانال:prrofile_purple@✅
@@ -499,6 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.13.164:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.98:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Maznet-46198-1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.39:8880?mode=gun&security=none&encryption=none&authority=?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&type=grpc#@HiByeVPNN❤️‍🔥🔥✨
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.37:8880?mode=gun&security=none&encryption=none&authority=?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN&type=grpc#@HiByeVPNN❤️‍🔥💎✨
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.110.61:8880?mode=gun&security=none&encryption=none&type=grpc#All--@V2rayAlpha-12
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.110.117:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--38
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.110.115:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--6
