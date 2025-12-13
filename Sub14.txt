@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#MCI-@V2ray_Alpha--2
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@vmesskhodam
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#Join Sho : @IRAN_V2RAY1
@@ -501,4 +502,3 @@ vless://1648a686-98dc-4b21-9bc6-0dcc9000e101@104.19.98.71:443?path=/&security=tl
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#All-@V2rayAlpha--45
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#@sunflowerplato🌻
-vless://161fa2ac-9618-4a3c-bc9b-5420ecc1826e@104.21.47.6:443?path=/?@V2rayBaaz------@V2rayBaaz&security=tls&encryption=none&host=v2ray-vmess-free.irnoen.workers.dev&type=ws&sni=v2ray-vmess-free.irnoen.workers.dev#@Maznet-46206-2
