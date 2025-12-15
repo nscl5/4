@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=ws#@TEHRANARGO کانالمون 🍫
+vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#🇩🇪@FreakConfig
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#WiFi_23--@V2rayAlpha
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#@Broz_time+>+کانفیگ+رایگان
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
@@ -500,5 +502,3 @@ trojan://Aimer@188.164.159.43:2083?path=/?ed?ed=2048@v2ray_configs_pools--@v2ray
 trojan://@Geek_Spot@176.97.210.2:12882/?type=tcp#🇺🇦 Ukraine 3
 trojan://9BbIGN.nF=gztO-iq7ETmxdJ@80.240.17.154:13448?security=tls&headerType=none&type=tcp&sni=ads.x5.ru#All_2--@V2rayAlpha
 trojan://9BbIGN.nF=gztO-iq7ETmxdJ@80.240.17.154:13448/?type=tcp&security=tls&sni=ads.x5.ru&allowInsecure=1#🚨20@oneclickvpnkeys
-trojan://9BbIGN.nF=gztO-iq7ETmxdJ@45.76.94.79:13448/?type=tcp&security=tls&sni=ads.x5.ru&allowInsecure=1#🚨8@oneclickvpnkeys
-trojan://9BbIGN.nF=gztO-iq7ETmxdJ@199.247.5.172:13448/?type=tcp&security=tls&sni=ads.x5.ru&allowInsecure=1#🚨15@oneclickvpnkeys

@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://e910e101-517e-47fc-8c40-66a1a41a573b@V2ngFast.huqpmfood.ir:4455?encryption=none&type=xhttp&mode=auto&path=/@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet&security=reality&fp=chrome&sni=stackoverflow.com&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&sid=077dc29a23d311f2#🇩🇪 @V2ngNet
+vless://e8a471a3-4837-41fc-9a96-14dfd205306d@45.87.154.92:443?path=/pypcnmws&security=tls&encryption=none&type=ws&sni=ads.x5.ru#🇳🇱@FreakConfig
 vless://e8a471a3-4837-41fc-9a96-14dfd205306d@45.87.154.92:443?path=/pypcnmws&security=tls&encryption=none&type=ws&sni=ads.x5.ru#All_24--@V2rayAlpha
 vless://e8a471a3-4837-41fc-9a96-14dfd205306d@45.87.154.92:443?path=/pypcnmws&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=ads.x5.ru#🍄
 vless://e8a471a3-4837-41fc-9a96-14dfd205306d@45.87.154.92:443?path=/pypcnmws&security=tls&encryption=none&insecure=1&host=Join---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStoreJoin---nitruStore---Join---nitruStore&type=ws&allowInsecure=1&sni=ads.x5.ru#t.me/entryNET/config=1851583685836168
@@ -500,5 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880?mode=gun&security=
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880?mode=gun&security=none&encryption=none&type=grpc#@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880/?type=grpc&encryption=none&flow=#♾️19@oneclickvpnkeys
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.96:8880?mode=gun&security=&encryption=none&type=grpc#WiFi-@V2rayAlpha--19
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.89:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify

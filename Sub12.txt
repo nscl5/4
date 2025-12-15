@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://40730d97-ffa7-1108-2c53-761516eb5fda@130.49.77.10:443?security=reality&encryption=none&pbk=pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#azadiiivpn ³🎀
+vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?security=reality&encryption=none&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=6104c5e9613ea56c#🏴‍☠️@FreakConfig
 vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?security=reality&encryption=none&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=6104c5e9613ea56c#All--@IRAN_V2RAY1
 vless://403c6b7b-4441-487f-9c0b-bddfd76c170f@141.227.160.163:25533?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@bored_vpn
 vless://403c6b7b-4441-487f-9c0b-bddfd76c170f@141.227.160.163:25533?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@V2ray_confing33
@@ -500,5 +502,3 @@ vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.39.30:443?mode=gun&security=n
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.39.30:443?mode=gun&security=none&encryption=none&type=grpc#All_29--@V2rayAlpha
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.39.30:443?mode=gun&security=none&encryption=none&type=grpc#@V2rayNGVPN <= کانفیگ رایگان
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.39.30:443?mode=gun&security=&encryption=none&type=grpc#🇩🇪@FreakConfig
-vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.39.30:443/?type=grpc&encryption=none&flow=#✅16@oneclickvpnkeys
-vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.38.116:443?mode=gun&security=none&encryption=none&type=grpc#WiFi_19--@V2rayAlpha
