@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?security=none&encryption=none&host=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=ws#telegram⤿🇩🇪@V2WRAY
 vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?security=none&encryption=none&host=/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=ws#🇩🇪 | @External_Net
 vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?path=/?ed=2048@v2ray_configs_pools--@v2ray_configs_pools&security=none&encryption=none&type=ws#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?path=/?ed=2048@v2ray_configs_pools--@v2ray_configs_pools&security=&encryption=none&type=ws#@v2ray_configs_pools👈⚡❤️‍🔥
@@ -501,4 +502,3 @@ vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh29v6.hiddendom.shop#🇺🇸@FreakConfig
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh29v6.hiddendom.shop#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&allowInsecure=0&sni=pqh27v5.hiddendom.shop#🔸ALL: {@IRAN_V2RAY1}💘
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?mode=gun&security=none&encryption=none&type=grpc#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

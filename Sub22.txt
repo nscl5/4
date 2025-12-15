@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://555034c8-6420-45d0-893c-905c02342150@51.83.186.142:80?security=tls&sni=pl1.trojanvh.xyz#%E6%9C%AA%E7%9F%A5%20TROJAN-333%20%7C%20free-nodes
 trojan://telegram-id-directvpn@13.40.3.71:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-332%20%7C%20free-nodes
 trojan://iyinglong@18.141.8.87:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-331%20%7C%20free-nodes
 trojan://40c89b10235c40321e7a3cef82b53a03@trs12.bolab.net:22?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-330%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.kiev
 trojan://8a03bc28-2a33-42c4-be59-30464dbb9954@mel12.yukiss.eu.org:18818?security=tls#%E6%9C%AA%E7%9F%A533
 trojan://FLpONjB2Lb@139.162.45.139:443?security=tls#%E6%9C%AA%E7%9F%A532
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.81.84:4054?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A531
-trojan://vip@104.18.42.163:443?security=tls&type=ws&sni=heihu880.pages.dev&path=/?ed=2560#%E6%9C%AA%E7%9F%A530

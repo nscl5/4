@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.4:10826?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-833%20%7C%20free-nodes
 trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-832%20%7C%20free-nodes
 trojan://telegram-id-privatevpns@3.252.69.131:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-831%20%7C%20free-nodes
 trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.3:10823?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-830%20%7C%20free-nodes
@@ -501,4 +502,3 @@ trojan://253bc477d4e43c209f2d427272968280@182.237.0.26:1177?security=tls&sni=www
 trojan://76d630f2af6619c4a5de0ef953df3c6a@202.181.103.235:2890?allowInsecure=1&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-336%20%7C%20free-nodes
 trojan://21e10785-99c6-316e-a184-a03384ee06e5@hn.xiaohouzi.club:18733?security=tls&sni=$$ajpn03.xiaohouzi.club#%E6%9C%AA%E7%9F%A5%20TROJAN-335%20%7C%20free-nodes
 trojan://vpn@109.120.132.80:2025?security=tls&type=ws&sni=vkvd127.mycdn.me&path=/#%E6%9C%AA%E7%9F%A5%20TROJAN-334%20%7C%20free-nodes
-trojan://555034c8-6420-45d0-893c-905c02342150@51.83.186.142:80?security=tls&sni=pl1.trojanvh.xyz#%E6%9C%AA%E7%9F%A5%20TROJAN-333%20%7C%20free-nodes
