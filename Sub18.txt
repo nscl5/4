@@ -266,7 +266,6 @@ hy2://16461a78-363c-457a-92f9-83b0a68edc37@hk.eyucdn.xyz:2056/?insecure=1&sni=hk
 hy2://16461a78-363c-457a-92f9-83b0a68edc37@de.eyucdn.xyz:2056/?insecure=1&sni=de.eyucdn.xyz#法兰克福
 hy2://06b2ac52-fcc6-11ec-bb74-f23c9164ca5d@21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com:443/?insecure=1&sni=21a3b260-t6pb40-t9byd7-1jfvb.hk1.hyhuawei.com#💠73@oneclickvpnkeys
 hy2://01537f15-1251-4345-a9fb-d152274bac2e@fr.axcc.top:7896/?insecure=1&obfs=salamander&obfs-password=ZDQxZDhjZDk4ZjAwYjIwNA==#⚙️19@oneclickvpnkeys
-vmess://eyJhZGQiOiI1Ny4xMjkuMjUuMjIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im8ubWV0dWppLmNvbSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0IjoiNDQzIiwicHMiOiJAcHJveHlfa2FmZWXwn4ep8J+HqiIsInNjeSI6ImF1dG8iLCJzbmkiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.214.6:2890?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-2055%20%7C%20free-nodes
 trojan://6711c6cf-847a-4177-b059-55f519b09de4@103.173.155.72:38000?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-2054%20%7C%20free-nodes
 trojan://6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3@fr-full.privateip.net:443?security=tls#%E6%9C%AA%E7%9F%A5%20TROJAN-2053%20%7C%20free-nodes
@@ -502,3 +501,4 @@ trojan://telegram-id-directvpn@18.222.168.7:22222?security=tls&sni=trj.rollingne
 trojan://34c52684-3aee-456d-8e21-fe16d0277e5a@bestcdn4.868863.xyz:2096?allowInsecure=0&sni=17654164554158.796812.xyz&ws=1&wspath=%2Fagraeabtegrrh#%E6%9C%AA%E7%9F%A5%20TROJAN-1823%20%7C%20free-nodes
 trojan://253bc477d4e43c209f2d427272968280@153.121.73.102:3294?security=tls&sni=www.nintendogames.net#%E6%9C%AA%E7%9F%A5%20TROJAN-1822%20%7C%20free-nodes
 trojan://telegram-id-directvpn@18.222.168.7:22222?security=tls&sni=trj.rollingnext.co.uk#%E6%9C%AA%E7%9F%A5%20TROJAN-1821%20%7C%20free-nodes
+trojan://auto@172.66.46.254:443?security=tls&sni=dcf741e8.epeius-2gy.pages.dev&type=ws&path=/?ed=2560&Host=dcf741e8.epeius-2gy.pages.dev#%E6%9C%AA%E7%9F%A5%20TROJAN-1820%20%7C%20free-nodes
