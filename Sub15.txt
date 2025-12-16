@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=terazhedi.info&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=terazhedi.info#🇩🇪
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=terazhedi.info#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=terazhedi.info#limo
@@ -502,3 +501,4 @@ vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#⚡ @Fast78_Channel | Best Free Configs
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?encryption=none&security=tls&insecure=1&allowInsecure=1&type=ws&path=/&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?encryption=none&security=tls&insecure=1&allowInsecure=1&type=ws&path=/#@Daily_Configs
+vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443/?type=ws&encryption=none&flow=&path=/&security=tls&allowInsecure=1&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
