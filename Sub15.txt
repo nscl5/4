@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://13f395b3-5d40-43f9-bd94-55feaae1fa70@ezalor.fonixapp.org:443?security=reality&encryption=none&pbk=KQ2kgnnjTCTNaHRBYu7-qmT9GnWefrPm3L67JrOw9wA&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=d1.awsstatic.com&sid=1d62#All-@V2rayAlpha--12
+vless://13d4b0f0-b153-4df2-baa7-c11bd3b746c8@zZz.ZzZ.zZz.yasharteam.com:443?security=reality&encryption=none&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tgju.org&sid=e54b5ad736ae4c38#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://13d4b0f0-b153-4df2-baa7-c11bd3b746c8@zZz.ZzZ.zZz.yasharteam.com:443?security=reality&encryption=none&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tgju.org&sid=e54b5ad736ae4c38#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://13c72182-9869-4956-83bb-f8ec486e0a1b@usaa.fastlynew.hosting-ip.com:80?path=/&security=&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆⁴
 vless://137c2b05-bcd7-4fe7-a2bb-25b25b25e366@ippool.penubit.site:2087?encryption=none&type=httpupgrade&host=ndgr.penubit.site&path=/Penubit&security=tls&fp=chrome&sni=ndgr.penubit.site&alpn=http/1.1&mux=4#AKLISvpn🇬🇧FREE(Aklisvpn)
@@ -500,5 +502,3 @@ vless://00134d22-e7bc-4690-860a-05d2be0f6f06@91.99.221.2:443?mode=stream-one&pat
 vless://00134d22-e7bc-4690-860a-05d2be0f6f06@91.99.221.2:443?mode=stream-one&path=/xhttp&security=&encryption=none&type=xhttp#@Maznet-46193-1
 vless://...mahanvpn..@www.speedtest.net:2052?path=/mAhAnteaM,?ed=2560&security=none&encryption=none&host=mAhaNteAm.noD32Cpu.iR.&type=httpupgrade#🇩🇪🔑Tel@mahanvpn-vip
 vless://...mahanvpn..@www.speedtest.net:2052?path=/mAhAnteaM,?ed=2560&security=none&encryption=none&host=mAhaNteAm.noD32Cpu.iR.&type=httpupgrade#
-vless://...mahanvpn..@172.67.160.192:2052?type=httpupgrade&path=/mAhAnteaM,?ed=2560&host=mAhaNteAm.noD32Cpu.iR.&security=none#🇩🇪🔑Tel@mahanvpn-vip
-vless://...mahanvpn..+@www.speedtest.net:2052?path=/mAhAnteaM,?ed=2560&security=none&encryption=none&host=mAhaNteAm.noD32Cpu.iR.&type=httpupgrade#🇩🇪🔑Tel@mahanvpn-vip
