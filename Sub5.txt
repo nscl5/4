@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://d214752d-1ebd-40be-89f6-7e901a4066f1@nufilter.fast.hosting-ip.com:80?mode=auto&path=/telegram-v2ray_configs_pools,telegram-v2ray_configs_pools?ed=80&security=&encryption=none&host=abazsargozashteh.com&type=xhttp#telegram 🎪 v2ray_configs_pools
-vless://d1e720d6-4ac9-4a03-b781-567960161b13@51.222.86.157:54051?security=none&encryption=none&host=/?BIA_TELEGRAM@v2ray_configs_pools&headerType=none&type=tcp#@v2ray_configs_pools 💜💙
 vless://d1e720d6-4ac9-4a03-b781-567960161b13@51.222.86.157:54051?security=none&encryption=none&headerType=none&type=tcp#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://d1e44075-8c92-4698-9db0-e71d7015b757@SMALL-mEAL.oneeAt.co:80?path=/&security=&encryption=none&type=ws#https://t.me/v2raynplus |🇳🇱29
 vless://d1bbd824-3472-4c65-b142-e7f482b51325@68.183.65.172:11188?security=reality&encryption=none&pbk=67e20mSbdCaGJlIa_QOUu7LZOlTAFe9cEAq7yl2Yfjk&headerType=&fp=chrome&spx=/&type=tcp&sni=store.steampowered.com#با+سرعت+نور+وصل+باش+@ConfigFree
@@ -502,3 +500,5 @@ vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.220.150:8443?type=xhttp&path=
 vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.220.150:8443?mode=stream-one&path=/xhttp&security=&encryption=none&type=xhttp#@vmesskhodam
 vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.183.30:8443?mode=stream-one&path=/xhttp&security=none&encryption=none&type=xhttp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.183.30:8443?mode=stream-one&path=/xhttp&security=none&encryption=none&type=xhttp#telegram 🌺 v2ray_configs_pools
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.183.30:8443?mode=stream-one&path=/xhttp&security=none&encryption=none&type=xhttp#@vmesskhodam
+vless://bb7b030f-fd37-488a-be1f-1a26d874cb26@91.99.176.24:8443?type=xhttp&path=/xhttp&host=&mode=stream-one&security=none#telegram ⚡️ v2ray_configs_pools
