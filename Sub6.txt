@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://bf92bdef-ab8d-4481-8798-2d39023357b2@net2.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#🇳🇱@FreakConfig
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@net2.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@net2.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#@V2ray1_Ng
 vless://bf92bdef-ab8d-4481-8798-2d39023357b2@net2.intfreed.ru:443?security=reality&encryption=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=video.intfreed.ru&sid=7755e972daf8eec8#@Daily_Configs
@@ -501,4 +502,3 @@ vless://a43e87e0-8654-4885-8d8c-7ef11d361213@151.101.205.194:80?mode=auto&path=/
 vless://a43c4b2a-6203-4216-bd85-0a99afffad15@5.75.206.165:8443?security=none&encryption=none&headerType=none&type=tcp#@V2ray_confing33
 vless://a43c4b2a-6203-4216-bd85-0a99afffad15@5.75.206.165:8443?security=&encryption=none&headerType=none&type=tcp#@V2ray_confing33
 vless://a43aea6e-1ecf-4bc7-afeb-9ab306a2a19c@zeusolympus.fonixapp.org:15409?security=reality&encryption=none&pbk=Y4gxi2ba79pcpcTCp5FDaRzC14ArArsrl__RHNC7_Cg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=cff4cd#All-@V2ray_Alpha--37
-vless://a431521c-2934-4868-ee73-c495477f333c@am288.amin-1.ir:2082?type=xhttp&encryption=none&path=/@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM&host=am288.amin-1.ir&mode=auto&security=none#Telegram : @VPN_ROOM 🇩🇪
