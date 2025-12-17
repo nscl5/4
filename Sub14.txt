@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://260b60aa-1f98-44b2-ab95-1824f012d98f@portal.ofmdirect.com:23200?security=reality&encryption=none&pbk=LE95sS4Nr-eLLLKM6g7VXQ3zpnL_kVI9QJVirYPhYhc&headerType=none&fp=chrome&type=tcp&sni=tgju.org&sid=1147e7aa17cb87aa#All-@V2rayAlpha-34
 vless://260a7608-2e68-468b-9faf-36d59f0ca598@217.16.18.50:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ozon.ru&fp=chrome&security=reality&pbk=l7cLIMrQQPS1LCyzgqCqP9O1rvoIanR9Npa3lYrz2xI&sid=296453e3e4#⭕75@oneclickvpnkeys
 vless://25f325bd-3ed0-4eac-bedd-ad43c3a44e0c@103.249.132.2:8443?security=reality&encryption=none&pbk=EUJQeYjLR3WY8bKDPVHsSZ_V_xOSmb6dxhqG9k-EqCY&headerType=none&fp=chrome&type=tcp&sni=wikihow.com&sid=96d0a6e8a6c0d73a#All--@IRAN_V2RAY1
 vless://25dc828d-acbb-45ff-95aa-e1ac9f543cd6@Net.1lagvpn13.cfd:2087?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@L_AGVPN13 @L_AGVPN13 @L_AGVPN13 @L_AGVPN13&sni=C.1lagvpn13.cfd#1593jhvl  🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹  Gr
@@ -501,4 +502,3 @@ vless://17185659-9cd7-4894-93d3-a9ef421ca720@turkey.huqpmfood.ir:1331?encryption
 vless://170ba974-6ae5-44ae-dfdc-4675b5643f34@79.137.33.139:16390?security=none&encryption=none&headerType=none&type=tcp#@v2ray_configs_pools  ✅ عضو شوید
 vless://17088e1c-2ec5-41e9-e948-f711d0a2bbee@91.99.179.41:24199?security=none&encryption=none&headerType=none&type=tcp#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://17088e1c-2ec5-41e9-e948-f711d0a2bbee@91.99.179.41:24199?security=none&encryption=none&headerType=none&type=tcp#@Hddify
-vless://16e87c27-a97c-4338-9ff2-12f98eaf6067@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=/edaixvws&security=tls&encryption=none&host=638892846452851844.hamedan-prx-dnraaao.info&type=ws&sni=638892846452851844.hamedan-prx-dnraaao.info#telegram 🍊 v2ray_configs_pools
