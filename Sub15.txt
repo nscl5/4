@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://16d7a04d-e6f4-479f-8914-80d3817317f9@172.67.175.106:443?path=/&security=tls&encryption=none&host=ed19-dc7.pages.dev&fp=chrome&type=ws&sni=ed19-dc7.pages.dev#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://16aa617a-631d-4be3-8a6f-819a7b7480d0@91.107.244.240:8443?security=reality&encryption=none&pbk=A-uda057zISQMYHNFlfW1PQefk11bqT_RnI8aPi3YnU&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&headerType=none&fp=chrome&type=tcp&sni=fastly.com&sid=3f9bee6a2f7f#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆⁶
 vless://16aa617a-631d-4be3-8a6f-819a7b7480d0@91.107.244.240:8443?security=reality&encryption=none&pbk=A-uda057zISQMYHNFlfW1PQefk11bqT_RnI8aPi3YnU&headerType=none&fp=chrome&type=tcp&sni=fastly.com&sid=3f9bee6a2f7f#🇩🇪@FreakConfig
 vless://16aa617a-631d-4be3-8a6f-819a7b7480d0@91.107.244.240:8443?security=reality&encryption=none&pbk=A-uda057zISQMYHNFlfW1PQefk11bqT_RnI8aPi3YnU&headerType=none&fp=chrome&type=tcp&sni=fastly.com&sid=3f9bee6a2f7f#All_14--@V2rayAlpha
@@ -501,4 +502,3 @@ vless://02e46039-200d-4ae4-ac90-b0d619f72034@clyde.ns.cloudflare.com:443?path=/a
 vless://02e46039-200d-4ae4-ac90-b0d619f72034@clyde.ns.cloudflare.com:443?path=/aafeuws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=redlabell.info#Channel : @Mrsoulb 🏴🏳
 vless://02e46039-200d-4ae4-ac90-b0d619f72034@clyde.ns.cloudflare.com:443?path=/aafeuws&security=tls&encryption=none&insecure=0&host=redlabell.info&type=ws&allowInsecure=0&sni=redlabell.info#🇳🇱
 vless://02e46039-200d-4ae4-ac90-b0d619f72034@clyde.ns.cloudflare.com:443?path=/aafeuws&security=tls&encryption=none&insecure=0&host=redlabell.info&type=ws&allowInsecure=0&sni=redlabell.info#limo
-vless://02e46039-200d-4ae4-ac90-b0d619f72034@clyde.ns.cloudflare.com:443?path=/aafeuws&security=tls&encryption=none&insecure=0&host=redlabell.info&type=ws&allowInsecure=0&sni=redlabell.info#@Daily_Configs
