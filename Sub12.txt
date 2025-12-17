@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://47417f96-4908-4e2f-c4cb-5149b196672a@104.17.148.22:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048@XpnTeam?ed=2048@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#@bored_vpn
 vless://47134234-9a13-4a90-a75a-826f922497f6@138.199.159.218:443?path=/linkws?ed=2560&security=none&encryption=none&host=138.199.159.218&type=ws#@Hddify
 vless://4710b85a-66e6-411b-b492-0e0f7366ad21@104.18.13.51:443?path=/ws&security=tls&encryption=none&host=rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg&fp=chrome&type=ws&sni=rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg#Bya To:@IRAN_V2RAY1
 vless://4703c0e2-c218-4161-9c9d-7c4e68374c00@171.22.120.248:443?path=/vgzxaiws&security=tls&encryption=none&type=ws&sni=github.com#🇩🇪@FreakConfig
@@ -502,3 +501,4 @@ vless://3458a236-bc0a-4526-8f9a-4607fa0e8834@172.238.190.16:443?mode=stream-one&
 vless://3458a236-bc0a-4526-8f9a-4607fa0e8834@172.238.190.16:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram ⚡️ v2ray_configs_pools
 vless://344c9272-c35a-4805-8285-e01cb4310b4f@butcher.fonixapp.org:2083?security=reality&encryption=none&pbk=CDUS4VDmw-WDT_lkYZLcLmJIt90jspvykI_1LaUPmSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fonts.gstatic.com&sid=3938#🇩🇪@FreakConfig
 vless://344c9272-c35a-4805-8285-e01cb4310b4f@butcher.fonixapp.org:2083?security=reality&encryption=none&pbk=CDUS4VDmw-WDT_lkYZLcLmJIt90jspvykI_1LaUPmSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fonts.gstatic.com&sid=3938#All--@V2rayAlpha-16
+vless://344c9272-c35a-4805-8285-e01cb4310b4f@butcher.fonixapp.org:2083?security=reality&encryption=none&pbk=CDUS4VDmw-WDT_lkYZLcLmJIt90jspvykI_1LaUPmSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fonts.gstatic.com&sid=3938#@V2ray1_Ng

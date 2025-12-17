@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://344c9272-c35a-4805-8285-e01cb4310b4f@butcher.fonixapp.org:2083?security=reality&encryption=none&pbk=CDUS4VDmw-WDT_lkYZLcLmJIt90jspvykI_1LaUPmSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fonts.gstatic.com&sid=3938#@V2ray1_Ng
 vless://34155f4a-b42f-4961-9268-df5069fca1ff@185.97.119.25:80?path=/&security=none&encryption=none&type=ws#All-@V2ray_Alpha--28
 vless://34101c6a-1da4-4ffd-af36-ca8134bd8f8b@sweden.netninja.ru:8444?security=reality&encryption=none&pbk=qtqQVReOiQPUhSKBL8rZ9c921pk4Tr2UvponGFdEGQI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=a71aaf4d2db3e06a#@Broz_time > کانفیگ رایگان
 vless://34101c6a-1da4-4ffd-af36-ca8134bd8f8b@netherlands.netninja.ru:8444?security=reality&encryption=none&pbk=qtqQVReOiQPUhSKBL8rZ9c921pk4Tr2UvponGFdEGQI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=a71aaf4d2db3e06a#@Daily_Configs
@@ -502,3 +501,4 @@ vless://2652fbc5-e1b1-691f-c9c7-11ad83e828a6@rusdokyav.vtuix.ir:7033?mode=gun&se
 vless://2652fbc5-e1b1-691f-c9c7-11ad83e828a6@franxmbikil.vtuix.ir:7033?mode=gun&security=reality&encryption=none&pbk=iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE&fp=chrome&type=grpc&serviceName=7034vless&sni=telewebion.com&sid=16b6cda7ab793526#🇫🇷
 vless://2652fbc5-e1b1-691f-c9c7-11ad83e828a6@finlandiniop.vtuix.ir:7035?path=/&security=none&encryption=none&host=filimo.com&type=ws#🇫🇮
 vless://2652fbc5-e1b1-691f-c9c7-11ad83e828a6@finlandiniop.vtuix.ir:7035?path=/&security=&encryption=none&host=filimo.com&type=ws&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇫🇮]t.me/Raiv2mmr
+vless://2652fbc5-e1b1-691f-c9c7-11ad83e828a6@ardagulerturk.vtuix.ir:7033?mode=gun&security=reality&encryption=none&pbk=iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE&fp=chrome&type=grpc&serviceName=7034vless&sni=telewebion.com&sid=16b6cda7ab793526#🇹🇷@FreakConfig
