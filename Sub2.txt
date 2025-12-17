@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://f81d5b9b-c5b7-46cb-8710-0cf41ab33570@antimage.fonixapp.org:443?security=reality&encryption=none&pbk=WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=6590cb#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆³
-vless://f81d5b9b-c5b7-46cb-8710-0cf41ab33570@antimage.fonixapp.org:443?security=reality&encryption=none&pbk=WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=6590cb#All-@V2rayAlpha--25
 vless://f81d5b9b-c5b7-46cb-8710-0cf41ab33570@antimage.fonixapp.org:443?security=reality&encryption=none&pbk=WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=ajax.cloudflare.com&sid=6590cb#All-@V2rayAlpha--1
 vless://f806b420-881e-4e47-add3-d8ddeff81470@V2ngnet.huqpmfood.ir:4455?mode=auto&path=/@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @v2ngnet
 vless://f803f14d-5722-463a-8941-e535ae934441@37.27.40.194:24199?encryption=none&type=ws&security=none#Donald-32
@@ -502,3 +500,5 @@ vless://e9db60cd-83df-430a-960e-b77c56dc6ede@norman.ns.cloudflare.com:443?path=/
 vless://e9cf7de8-33a6-42da-badd-c40ec172b5a0@159.69.21.66:80?type=ws&encryption=none&path=/stream&host=www.movieee.ir&security=none#@Free_HTTPCustom-48h   آموزش اتصال  خرید کانفیگ اختصاصی
 vless://e9cf7de8-33a6-42da-badd-c40ec172b5a0@159.69.21.66:80?type=ws&encryption=none&path=/stream&host=www.movieee.ir&security=none#@Free_HTTPCustom-48h
 vless://e9c011b3-5e03-4496-c030-3dba558d87d3@165.232.120.27:443?mode=gun&security=none&encryption=none&type=grpc#✅ @prrofile_purple (تلگرام)
+vless://e9c011b3-5e03-4496-c030-3dba558d87d3@165.232.120.27:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--41
+vless://e9c011b3-5e03-4496-c030-3dba558d87d3@165.232.120.27:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--17

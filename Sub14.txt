@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://2471b831-2695-44c3-90bd-b9a7f31a9c8f@91.99.179.41:42671?type=tcp&security=none#Donald_vpn10
-vless://2471b831-2695-44c3-90bd-b9a7f31a9c8f@91.99.179.41:42671?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://2469eb29-e69b-40bd-a89f-a12f356f58d7@V2ngFast.huqpmfood.ir:1146?mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
 vless://2459bb58-3a89-4c04-903e-851f589e4f5e@151.101.3.8:80?mode=auto&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&security=none&encryption=none&host=Mahsazxshop.org&type=xhttp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://2456f90c-5183-476d-b069-16ae74ce120f@92.53.191.253:2096?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=fast01.0860852.xyz&type=ws&sni=fast01.0860852.xyz#Bya To:@IRAN_V2RAY1
@@ -502,3 +500,5 @@ vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?path=/J5aL
 vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=uk.api-music-fa.com#@Daily_Configs
 vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&fp=chrome&type=ws&sni=uk.api-music-fa.com#🇬🇧@FreakConfig
 vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&fp=chrome&type=ws&sni=uk.api-music-fa.com#🇬🇧 @FreakConfig
+vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&fp=chrome&type=ws&sni=uk.api-music-fa.com#@sunflowerplato🌻
+vless://1588ca4b-d27a-4447-9dfc-a772c3fe2baf@uk.api-music-fa.com:2053?encryption=none&security=tls&sni=uk.api-music-fa.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=/J5aLQOY1R9ONWYCM#@Daily_Configs
