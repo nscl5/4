@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://0dc68b86-9b13-4f9d-9315-bdeabf54feec@65.109.212.126:2080?security=none&encryption=none&headerType=none&type=tcp#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
-vless://0da7cec9-ef2a-4b79-efee-c16662086df4@usaa.fastlynew.hosting-ip.com:80?security=none&type=ws&path=/telegeam-@v2_city--?ed=2048&host=mojhsjd.global.ssl.fastly.net&encryption=none#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_9 🧭 6.0MB/s
 vless://0da7cec9-ef2a-4b79-efee-c16662086df4@usaa.fastlynew.hosting-ip.com:80?path=/telegeam-@v2_city--?ed=2048&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#@v2_city با کانفیگ رایگان اینستا نرو آی پی ثابت نیس دیسیبل میشه پیجت
 vless://0da7cec9-ef2a-4b79-efee-c16662086df4@usaa.fastlynew.hosting-ip.com:80?path=/telegeam-@freeOnlineVPN?ed=2048&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
 vless://0d7ec99f-84d1-48dc-bf06-fefbc886a9f4@invoker.fonixapp.org:2083?security=reality&encryption=none&pbk=wYJxQU_EMrR5hV1elpfFZU7bzVIq0L5XFqgkzocfVCk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=cdn.steamstatic.com&sid=1c#🇩🇪@FreakConfig
@@ -502,3 +500,5 @@ trojan://c16a577c-1dbd-41b0-90c7-d7177ce0bd1f@194.147.33.207:443?mode=auto&path=
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.214:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#🎨17@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.214:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅80@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.213:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅79@oneclickvpnkeys
+trojan://blhwsknjxmfuydz0vhfv@146.70.73.212:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅75@oneclickvpnkeys
+trojan://blhwsknjxmfuydz0vhfv@146.70.73.211:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅89@oneclickvpnkeys

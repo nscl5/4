@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://blhwsknjxmfuydz0vhfv@146.70.73.212:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅75@oneclickvpnkeys
-trojan://blhwsknjxmfuydz0vhfv@146.70.73.211:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅89@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.211:53809/?type=tcp&security=tls&sni=web.max.ru&allowInsecure=1#🎨15@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.210:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅96@oneclickvpnkeys
 trojan://baVlPf-s1zH.ygXwtMdDu@38.110.1.201:26706/?type=tcp&security=tls&sni=static.rutube.ru&allowInsecure=1#🧢71@oneclickvpnkeys
@@ -502,3 +500,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXhjWWNlZnFVakc5U2oxdUxvaFF6@h110vpnus.outl
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXhjWWNlZnFVakc5U2oxdUxvaFF6@92.118.112.101:9483?note=--Telegram--@NetifyVPN--#🇺🇸[Telegram:NetifyVpn]
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXhjWWNlZnFVakc5U2oxdUxvaFF6@92.118.112.101:9483#https://t.me/v2rayNplus |🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#@CaV2ray ⚡️
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiaVcyYkVJYzIxTjNFVGIxRG44amhE@h110vpnus.outlinekeys.net:9483#https://t.me/v2rayNplus |🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiV3h3Sk1YTmliZWxJYVVmQWtuMHNp@194.87.216.218:52571#✅سرورهایبیشتردرکانال:prrofile_purple@✅
