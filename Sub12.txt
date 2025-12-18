@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.19:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#✅18@oneclickvpnkeys
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.12:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#All_43--@V2rayAlpha
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.12:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#✅14@oneclickvpnkeys
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#🇳🇱@FreakConfig
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#@V2rayNGVPN+<=+کانفیگ+رایگان
@@ -500,5 +502,3 @@ vless://39584f02-a282-437c-945b-e11805297ad0@bonefletcher.fonixapp.org:24888?sec
 vless://3949130a-a1d6-453b-91a9-870c3ba7abad@a.confignor.site:35493?type=grpc&encryption=none&serviceName=چنل+سازنده+اصلی+کانفیگ+@ConfigFree&authority=&security=reality&pbk=qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA&fp=chrome&sni=www.cdn77.com&sid=9c24&spx=/#ما+همیشه+در+کنار+شما+هستیم+@ConfigFree
 vless://3949130a-a1d6-453b-91a9-870c3ba7abad@a.confignor.site:35493?type=grpc&encryption=none&serviceName=چنل+سازنده+اصلی+کانفیگ+@ConfigFree&authority=&security=reality&pbk=qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA&fp=chrome&sni=www.cdn77.com&sid=9c24&spx=/#دیگه+به+فیلترشکن+پولی+نده+@ConfigFree
 vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299?path=/&security=none&encryption=none&type=ws#@sunflowerplato🌻
-vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299?path=/&security=none&encryption=none&fp=chrome&type=ws#Bya To:@IRAN_V2RAY1
-vless://39051b26-3165-4898-a552-c777a89aaf10@78.157.49.210:32197/?encryption=none&host=vasaham.com&type=tcp&headerType=http#@Geek_Spot

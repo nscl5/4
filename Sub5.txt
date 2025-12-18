@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://d62f1926-a61e-4c00-baa5-740a523aca16@[2001:41d0:801:1000::930]:40717?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🎯 v2ray_configs_pools
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🍊 v2ray_configs_pools
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🍀 v2ray_configs_pools
 vless://d62494a5-4feb-4422-9547-1050a907afa8@speedtestcustom.com:80?type=xhttp&path=/gftrdd?ed=2560&host=take5.global.ssl.fastly.net&mode=auto&security=none#telegram 🌈 v2ray_configs_pools
@@ -500,5 +502,3 @@ vless://c0e0f2b4-0550-49b2-8231-efde819bd8e1@178.128.138.210:443?mode=auto&path=
 vless://c0dc0f80-8150-4289-8983-f9ce3b1fdd26@a.confignor.site:35493?type=grpc&encryption=none&serviceName=چنل+سازنده+اصلی+کانفیگ+@ConfigFree&authority=&security=reality&pbk=qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA&fp=chrome&sni=www.cdn77.com&sid=9c24&spx=/#اگه+قطع+شد+مجدد+به+کانال+سر+بزن+@ConfigFree
 vless://c0cccf7a-eee8-4e61-8036-5ae7fee7a58d@fi1.axolab.org:443?security=reality&encryption=none&pbk=k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=widgets.kinopoisk.ru&sid=cd0b563c7e0ea754#🇫🇮 Finland 1
 vless://c0cccf7a-eee8-4e61-8036-5ae7fee7a58d@de.axolab.org:443?security=reality&encryption=none&pbk=k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=storage.yandexcloud.net&sid=cd0b563c7e0ea754#🇩🇪 Germany
-vless://c0cccf7a-eee8-0007-8036-5ae7fee7a58d@ru2.axolab.org:8443?mode=auto&path=/path&security=reality&encryption=none&pbk=5fDhF-XENnso6mg5MQGDnpEgOCc_9di0SAAf3enc1TU&type=xhttp&sni=rutube.ru&sid=3be3331f42d41313#🇷🇺 Russia 2
-vless://c0bec1db-8577-46cf-aad1-a107e1c866a1@undl.doctorrezaaeissite.ir:80?security=reality&encryption=none&pbk=-3T3wKBehm_NOsTnrZfWIKklAe3sTXhlAS_9rjdQMTw&headerType=none&fp=chrome&spx=/&type=tcp&sni=maps.google.com&sid=9b806ce1#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

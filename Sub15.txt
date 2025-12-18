@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://1ad8e2eb-d5a7-4397-a9f6-c5d7f09a849d@am288.amin-1.ir:2082?type=xhttp&encryption=none&path=/@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM&host=am288.amin-1.ir&mode=auto&security=none#Telegram : @VPN_ROOM 🇩🇪
+vless://1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37@185.174.136.244:8080?security=reality&encryption=none&pbk=iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&sni=yandex.com&sid=27cfa05000c23cc4#🇷🇺 | @External_Net
 vless://1ab44c12-1462-422e-aeab-aaa025636f61@217.198.12.224:443?security=reality&encryption=none&pbk=cBJsDdArckzyAvjzcqF_cK9Rpts2Lxq1oqj-b9_HeQ8&headerType=none&fp=chrome&spx=/y3vtypp2mJH2n5t&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=46fe77b51a66#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://1ab44c12-1462-422e-aeab-aaa025636f61@103.249.133.69:443?security=reality&encryption=none&pbk=eAKw1k-H2cuw0AsjNH-3RG2RBHOZCPz8qQp-i5W-Zkk&headerType=none&fp=chrome&spx=/BjbMH0KJ2gNtut1&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=f73895c725c3#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=freefree1213.global.ssl.fastly.net&type=xhttp#All-@V2rayAlpha--8
@@ -500,5 +502,3 @@ vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.195:2053?path=/&security=t
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.7.186:2053?path=/&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&type=ws&sni=AeEye-52235.zephorium.uk#@Hddify
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.5.112:2053?path=/&security=tls&encryption=none&host=iYjnx-71195.zephorium.uk&type=ws&sni=iYjnx-71195.zephorium.uk#@Hddify
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.4.39:2053?path=/&security=tls&encryption=none&host=AeEye-52235.zephorium.uk&type=ws&sni=AeEye-52235.zephorium.uk#@Hddify
-vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@45.131.208.53:2053?path=/&security=tls&encryption=none&host=iYjnx-71195.zephorium.uk&type=ws&sni=iYjnx-71195.zephorium.uk#@Hddify
-vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@3.121.208.145:25670?security=none&encryption=none&headerType=none&type=tcp#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
