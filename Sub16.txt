@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://0e2ca1a0-8ff3-414a-a210-6bec2eb49de9@45.140.147.142:443/?type=ws&encryption=none&flow=&path=/phbwoqws&security=tls&allowInsecure=1&note=@freeOnlineVPN#🇳🇱 - NL - @freeOnlineVPN
-vless://0deffff7-0f84-4e15-9adf-439a3d554ad6@masterserver1.huqpmfood.ir:1331?mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=qSCPbuLS9FrLTRzIbKmD3vNOnsk_ZUxmjPywZXeM_Co&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 All Operator @MaSTeRSeRVeR1
 vless://0de1c91c-a7f0-465a-8445-ea20a7f14d3d@172.66.40.99:2052?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46174-2
 vless://0dc68b86-9b13-4f9d-9315-bdeabf54feec@65.109.212.126:2080?security=none&encryption=none&headerType=none&type=tcp#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://0da7cec9-ef2a-4b79-efee-c16662086df4@usaa.fastlynew.hosting-ip.com:80?path=/telegeam-@v2_city--?ed=2048&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#@v2_city با کانفیگ رایگان اینستا نرو آی پی ثابت نیس دیسیبل میشه پیجت
@@ -502,3 +500,5 @@ trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.250:27234/?type=tcp&security=tls&sni
 trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.250:27234/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅94@oneclickvpnkeys
 trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.117:27234/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅97@oneclickvpnkeys
 trojan://kuGDUhAYqXnvIomV0Kdljfor@167.17.70.117:27234/?type=tcp&security=tls&allowInsecure=1#✅97@oneclickvpnkeys
+trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142/?type=tcp&security=tls&sni=static.rutube.ru&allowInsecure=1#🧢77@oneclickvpnkeys
+trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142/?type=tcp&security=tls&sni=static.rutube.ru&allowInsecure=1#🧢76@oneclickvpnkeys
