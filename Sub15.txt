@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://23f88d32-aa7c-4adf-ae31-9358ea8efa09@185.148.104.142:443?path=/kardel&security=tls&encryption=none&host=wkjhf.bull-sai.info&fp=chrome&type=ws&sni=wkjhf.bull-sai.info#All-@V2ray_Alpha--21
 vless://23f88d32-aa7c-4adf-ae31-9358ea8efa09@154.83.2.238:443?path=/kardel&security=tls&alpn=h2&encryption=none&host=reypi.duck-sai.info&fp=chrome&type=ws&sni=reypi.duck-sai.info#All-@V2ray_Alpha--23
 vless://23f88d32-aa7c-4adf-ae31-9358ea8efa09@104.254.140.167:443?path=/kardel&security=tls&alpn=h2&encryption=none&host=reypi.duck-sai.info&fp=chrome&type=ws&sni=reypi.duck-sai.info#All-@V2ray_Alpha--19
 vless://23cd7428-f60b-46c1-bd95-2690e8dda2bc@deusup.dashping1.ir:8101?security=reality&encryption=none&pbk=DG2WqjfT9HFqCfHzaYAVNEayiJN8yGQ64YT9-9eV5Fs&fp=chrome&sni=preview.redd.it&sid=bbddcffa7270&spx=/F------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---&flow=xtls-rprx-vision#کانفیگ+ویژه+رایگان+و+اختصاصی+فروشی+🇮🇷🇩🇪🇫🇮🇺🇸+@RayphoriaHub
@@ -502,3 +501,4 @@ vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.160.151:443?security=&encrypt
 vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://15398933-070d-4ea2-9697-5fcd79793c97@91.99.54.106:443/?encryption=none&host=zula.ir&type=tcp&headerType=http#@Geek_Spot
+vless://1518e9af-2b3f-42da-8c2e-71469d68afe4@www.speedtest.net:443?mode=stream-up&path=/&security=tls&alpn=h2&encryption=none&fp=chrome&type=xhttp&sni=us-1.85858569.xyz#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
