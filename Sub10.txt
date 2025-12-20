@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://7270612b-49f6-4b04-999c-34d8263da767@108.162.195.45:443?path=/aymdlws&security=tls&encryption=none&host=picassoo.info&type=ws&sni=picassoo.info#@bored_vpn
+vless://723c46be-ac60-4675-8f3f-a1529d41c338@mfa.gov.ua:443?path=/proxyip=kr.william.us.ci:443?ed=2560&security=tls&encryption=none&host=a.azrf.me&fp=chrome&type=ws&sni=a.azrf.me#All-@V2rayAlpha--21
+vless://723c46be-ac60-4675-8f3f-a1529d41c338@mfa.gov.ua:443?path=/proxyip=kr.william.us.ci:443?ed=2560&security=tls&encryption=none&host=a.azrf.me&fp=chrome&type=ws&sni=a.azrf.me#@FarazV2ray
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@198.41.209.148:443?path=/proxyip=kr.william.us.ci:443?ed=2560&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=a.azrf.me&fp=chrome&type=ws&sni=a.azrf.me#@TEHRANARGO 👈🏻 دریافت کانفیگ رایگان
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@198.41.209.148:443?path=/proxyip=kr.william.us.ci:443?ed=2560&security=tls&encryption=none=&host=a.azrf.me&fp=chrome&type=ws&sni=a.azrf.me#@bored_vpn
 vless://723c46be-ac60-4675-8f3f-a1529d41c338@198.41.209.110:443?path=/proxyip=kr.william.us.ci:443?ed=2560&security=tls&encryption=none&host=a.azrf.me&fp=chrome&type=ws&sni=a.azrf.me#@FarazV2ray
@@ -499,6 +502,3 @@ vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@www.visasoutheasteurope.com:443?pat
 vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@www.visa.com.tw:443?path=/&security=tls&encryption=none&host=rayan-config-04.rayan-ii.dns-dynamic.net&fp=chrome&type=ws&sni=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@parspack.com:443?path=/?ed=2048@v2ray_configs_pools&security=tls&encryption=none&host=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT&fp=chrome&type=ws&sni=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT#@v2ray_configs_pools👈⚡❤️‍🔥
 vless://5da52d2d-1ab8-48d0-8421-8354fd6ce7d3@104.18.5.250:443?path=/?ed=2048@v2ray_configs_pools--@v2ray_configs_pools&security=tls&encryption=none&host=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT&fp=chrome&type=ws&sni=rAyAn-cOnFiG-04.rAyAn-iI.DnS-DyNaMiC.NeT#@v2ray_configs_pools👈⚡❤️‍🔥
-vless://5da1f823-b460-407c-86d7-13b9b00a62f2@ch.napsternetx.ir:2096?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://5d8bc42a-d345-4bd3-a844-4b90afc44670@104.24.138.64:80?encryption=none&security=none&type=ws&host=patient-shadow-baf1-ppal03.hohel98085.workers.dev&path=/?ed=2560#💣Ch: @pPal03💣جوین بدید💣
-vless://5d8bc42a-d345-4bd3-a844-4b90afc44670@104.16.76.55:80?encryption=none&security=none&type=ws&host=patient-shadow-baf1-ppal03.hohel98085.workers.dev&path=/?ed=2560#💣Ch: @pPal03💣جوین بدید💣
