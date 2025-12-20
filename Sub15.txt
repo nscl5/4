@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=terazhedi.info#@Daily_Configs
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&fp=chrome&type=ws&sni=terazhedi.info#🇩🇪@FreakConfig
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&fp=chrome&type=ws&sni=terazhedi.info#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws?ed&security=tls&encryption=none&fp=chrome&type=ws&sni=terazhedi.info#@Broz_time > کانفیگ رایگان
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=terazhedi.info&type=ws&sni=terazhedi.info#⚜️𝗝𝗼𝗶𝗻 ➠ @TEHRANARGO
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=terazhedi.info&type=ws&sni=terazhedi.info#Telegram:@TEHRANARGO
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&host=terazhedi.info&fp=chrome&type=ws&sni=terazhedi.info#⚜️𝗝𝗼𝗶𝗻 ➠ @TEHRANARGO
@@ -498,7 +502,3 @@ vless://0d0782a3-2c62-4936-b893-5790188778ea@ipw.gfdv54cvghhgfhgj-njhgj64.info:4
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=ws#@TEHRANARGO کانالمون 🍫
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#🇩🇪@FreakConfig
 vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#WiFi_23--@V2rayAlpha
-vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#All_32--@V2rayAlpha
-vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&type=ws#@Broz_time+>+کانفیگ+رایگان
-vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?path=/&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#⚡ @Fast78_Channel | Best Free Configs
-vless://0d0782a3-2c62-4936-b893-5790188778ea@74.119.192.71:443?encryption=none&security=tls&insecure=1&allowInsecure=1&type=ws&path=/#@Daily_Configs
