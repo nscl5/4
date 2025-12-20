@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&type=ws#@Broz_time+>+کانفیگ+رایگان
+vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#⚡ @Fast78_Channel | Best Free Configs
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?encryption=none&security=tls&insecure=1&allowInsecure=1&type=ws&path=/#@Daily_Configs
 vless://0d0782a3-2c62-4936-b893-5790188778ea@37.221.125.172:443?path=/&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=ws#برای اتصال دائمی جوین شو🍥 TelegramID ⌲TEHRANARGO 🪩
 vless://0d0782a3-2c62-4936-b893-5790188778ea@37.221.125.172:443?path=/&security=tls&encryption=none&type=ws#🇩🇪@FreakConfig
@@ -500,5 +502,3 @@ trojan://c16a577c-1dbd-41b0-90c7-d7177ce0bd1f@194.147.33.207:443?mode=auto&path=
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.214:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#🎨17@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.214:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅80@oneclickvpnkeys
 trojan://blhwsknjxmfuydz0vhfv@146.70.73.213:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅79@oneclickvpnkeys
-trojan://blhwsknjxmfuydz0vhfv@146.70.73.212:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅75@oneclickvpnkeys
-trojan://blhwsknjxmfuydz0vhfv@146.70.73.211:53809/?type=tcp&security=tls&sni=www.vk.com&allowInsecure=1#✅89@oneclickvpnkeys

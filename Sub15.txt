@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none&type=ws&sni=terazhedi.info#Channel : @vpnserverrr
+vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none&type=ws&sni=terazhedi.info#Channel : @Mrsoulb 🏴🏳
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none&type=ws&sni=terazhedi.info#@sunflowerplato🌻
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none&type=ws&sni=terazhedi.info#@Broz_time > کانفیگ رایگان
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?path=/sghiyws&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=terazhedi.info&note=@freeOnlineVPN#🇩🇪 - DE - @freeOnlineVPN
@@ -500,5 +502,3 @@ vless://0d0782a3-2c62-4936-b893-5790188778ea@5.252.22.113:443?path=/&security=tl
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none=/@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@Telegram-|-@TEHRANARGO-|-@TEHRANARGO&type=ws#برای اتصال دائمی جوین شو🍥 TelegramID ⌲TEHRANARGO 🪩
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&type=ws#All_20--@V2rayAlpha
 vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&type=ws#@FarazV2ray
-vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&type=ws#@Broz_time+>+کانفیگ+رایگان
-vless://0d0782a3-2c62-4936-b893-5790188778ea@45.12.138.8:443?path=/&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#⚡ @Fast78_Channel | Best Free Configs
