@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://e5798cac-ef8b-47f9-bf1e-7074a0e95930@spb-sn3-de.djarbnet.ru:443?security=reality&encryption=none&pbk=p1vMVj999k-Syvfv0AMRf1deUgTIGcSaEm-Fj_1TlAU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=spb-sn3-de.djarbnet.ru&sid=0c#🇷🇺@vpnserverrr کانال تلگرامی
 vless://e5798cac-ef8b-47f9-bf1e-7074a0e95930@spb-sn3-de.djarbnet.ru:443?security=reality&encryption=none&pbk=p1vMVj999k-Syvfv0AMRf1deUgTIGcSaEm-Fj_1TlAU&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=spb-sn3-de.djarbnet.ru&sid=0c#🇩🇪@vpnserverrrکانال تلگرامی
 vless://e5798cac-ef8b-47f9-bf1e-7074a0e95930@spb-sn3-de.djarbnet.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=spb-sn3-de.djarbnet.ru&pbk=p1vMVj999k-Syvfv0AMRf1deUgTIGcSaEm-Fj_1TlAU&sid=0c&spx=/#🇩🇪@SiNAVM کانال تلگرامی
 vless://e5798cac-ef8b-47f9-bf1e-7074a0e95930@spb-sn3-de.djarbnet.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=spb-sn3-de.djarbnet.ru&pbk=p1vMVj999k-Syvfv0AMRf1deUgTIGcSaEm-Fj_1TlAU&sid=0c#🇷🇺@SiNAVM کانال تلگرامی
@@ -501,4 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.253:8880?mode=gun&secur
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.248:8880?mode=gun&security=none&encryption=none&type=grpc#➪+@FILTERK0SH++منبع+کانفیگ+رایگان
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.248:8880?mode=gun&security=none&encryption=none&type=grpc#@vmesskhodam
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.239:8880?mode=gun&security=none&encryption=none&type=grpc#@vmesskhodam
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.234:8880?type=grpc&mode=gun&security=none#@vmesskhodam

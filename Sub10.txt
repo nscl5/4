@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@[2a01:4f8:c013:a2c1::b00b]:443?mode=stream-one&path=/statue&security=tls&alpn=h3&encryption=none&type=xhttp&sni=statue.lnmarketplace.net#All--@IRAN_V2RAY1
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@206.71.158.10:443?mode=stream-one&path=/statue/?v2ray_configs_pools...&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#✅@v2ray_configs_pools
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@109.120.138.47:443?mode=stream-one&path=/statue/??ed/?@MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@109.120.138.47:443?mode=stream-one&path=/statue/??ed&security=tls&alpn=h2&encryption=none&host=statue.lnmarketplace.net&type=xhttp&sni=statue.lnmarketplace.net#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
@@ -501,4 +502,3 @@ vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mod
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@Daily_Configs
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#-6
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#🇫🇷@FreakConfig
-vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@MARAMBASHI 🩵
