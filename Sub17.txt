@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://cwCv14UD6o-XbGm7NKjHWPJ819FL@155.138.222.121:29014/?type=tcp&security=tls&sni=web.max.ru&allowInsecure=1#🧢68@oneclickvpnkeys
-trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.228:10889/?type=tcp&security=tls&sni=web.max ru&allowInsecure=1#🎨33@oneclickvpnkeys
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889?security=tls&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=web.max.ru#t.me/entryNET/config=1851908325442965
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.172:10889/?type=tcp&security=tls&sni=web.max.ru&allowInsecure=1#🎨32@oneclickvpnkeys
 trojan://cTv.9PDdCt-wybBrG1qlxI5UJuaEj@167.17.185.169:10889/?type=tcp&security=tls&sni=ya.ru&allowInsecure=1#🎨37@oneclickvpnkeys
@@ -502,3 +500,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRFkxTg==@de1.opensocks.site:8388#👉🆔 @
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRFkxTg==@de1.opensocks.site:1443#👉🆔 @v2ray_configs_pool 📡 🇨🇭CH_2 🧭 4.3MB/s
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaR00xWQ==@138.124.70.206:1443?note=@freeOnlineVPN#🇫🇷 - FR - @freeOnlineVPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaR00xWQ==@138.124.70.206:1443#🇫🇷6@vpnserverrr
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZekg0aWQ3WkV5S3BmeTM5RjJZY09tekNzQmtsR3doOA@95.174.68.33:443#💙✨کانال تلگرامی ما : @SkyPro_vpn
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#✅ @v2ray_configs_pools (تلگرام)

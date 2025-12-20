@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://3d7dd548-5456-4f28-8019-393fbfab3312@104.26.0.108:443?path=/sg3?ed=2560/?ed=2048&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://3d7dd548-5456-4f28-8019-393fbfab3312@104.26.0.108:443?path=/sg3?ed=2560/?ed=2048&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://3d7dd548-5456-4f28-8019-393fbfab3312@104.26.0.108:443?path=/sg3/?-ShadowProxy66&security=tls&encryption=none&host=app-stg.gopay.co.id.servpn.my.id&fp=chrome&type=ws&sni=app-stg.gopay.co.id.servpn.my.id#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://3d7312d8-d69f-48e0-b78d-a063219165f0@test2.amin8263.ir:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://3d617588-ae06-4379-bed9-60b6bac8dbdc@141.98.169.100:443?path=/oyoelzws&security=tls&encryption=none&type=ws&sni=www.vk.com#t.me/entryNET/config=1851947961800774
@@ -502,3 +500,5 @@ vless://2e54d111-18f0-4b69-a1af-3aa40e1f8ad6@172.66.40.99:443?path=/@V2RAYFAST_7
 vless://2e3471c1-9eb0-4810-aec3-09c1118d2dfc@104.24.196.67:80?encryption=none&security=none&type=ws&host=morning-wildflower-70dd-ppal03.xotocip989.workers.dev&path=/?ed=2560#👽Tel: @pPal03👽جوین بدید گوگولیا👽
 vless://2e3471c1-9eb0-4810-aec3-09c1118d2dfc@104.16.241.253:80?encryption=none&security=none&type=ws&host=morning-wildflower-70dd-ppal03.xotocip989.workers.dev&path=/?ed=2560#👽Tel: @pPal03👽جوین بدید گوگولیا👽
 vless://2e23b585-a486-4541-83d8-5832a1409c6e@31.207.44.210:32155?security=reality&encryption=none&pbk=6-b7u_t7wG_jbda_lucHW4Au9biBl1E0tA2Zkqm8mSw&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=737af772#@Maznet-46203-4
+vless://2e199883-3f52-49c3-b271-e8e9de0ba89b@84.201.4.247:15348?security=reality&type=tcp&headerType=none&path=&host=&sni=refersion.com&fp=chrome&pbk=AO_n0YhLhYvzAmDRudYDRZJ_J4WQFgAkDT3j2SDhMkI&sid=162efe24c2fa24d5#@EXPRESSVPN_420
+vless://2e199883-3f52-49c3-b271-e8e9de0ba89b@84.201.4.247:15343?security=none&type=grpc&headerType=&serviceName=EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420&authority=&mode=gun#@EXPRESSVPN_420
