@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--43
+vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--42
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--40
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--15
 vless://f361c445-281f-4ffe-e834-a9eb53282ff2@138.68.75.228:443?mode=gun&security=none&encryption=none&authority=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET&type=grpc#✅ @prrofile_purple (تلگرام)
@@ -500,5 +502,3 @@ vless://e71f9e93-064e-4847-b628-f41c6e74e6cb@v03.vxlimir.com:1370?security=reali
 vless://e71f9e93-064e-4847-b628-f41c6e74e6cb@v02.vxlimir.com:1370?security=reality&type=tcp&headerType=none&path=&host=&sni=refersion.com&fp=chrome&pbk=_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw&sid=e1afb93bfe75a34b#@CaV2ray ⚡️
 vless://e71f9e93-064e-4847-b628-f41c6e74e6cb@v01.vxlimir.com:1370?security=reality&type=tcp&headerType=none&path=&host=&sni=refersion.com&fp=chrome&pbk=_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw&sid=e1afb93bfe75a34b#@CaV2ray ⚡️
 vless://e71e700c-3751-4362-92a0-817ae5ec7fa4@aut-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://e7087223-8433-4a7d-b9f2-4bd8d737f9c4@V2ngnet.huqpmfood.ir:4455?mode=auto&path=/@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @v2ngnet
-vless://e6e28ce0-428a-432b-800d-b8dedcd3ce84@151.101.205.194:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=none&encryption=none&host=fotofactory.pk&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&type=xhttp#tm⚡|@lightning6
