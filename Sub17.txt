@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://02d87d00-c769-48d8-91cb-bd05e2f62790@151.101.25.242:80?mode=auto&path=/&security=none&encryption=none&host=jetfr228.global.ssl.fastly.net&type=xhttp#@Daily_Configs
-vless://02d87d00-c769-48d8-91cb-bd05e2f62790@151.101.25.242:80?mode=auto&path=/&security=&encryption=none&host=jetfr228.global.ssl.fastly.net&type=xhttp&note=@freeOnlineVPN#🇫🇷 - FR - @freeOnlineVPN
 vless://02d87d00-c769-48d8-91cb-bd05e2f62790@151.101.25.242:80?mode=auto&path=/&security=&encryption=none&host=jetfr228.global.ssl.fastly.net&type=xhttp#🇫🇷@FreakConfig
 vless://02d87d00-c769-48d8-91cb-bd05e2f62790@151.101.25.242:80?mode=auto&path=/&security=&encryption=none&host=jetfr228.global.ssl.fastly.net&type=xhttp#⚡ @Fast78_Channel | Best Free Configs
 vless://02d87d00-c769-48d8-91cb-bd05e2f62790@151.101.25.242:80?encryption=none&security=none&type=xhttp&host=jetfr228.global.ssl.fastly.net&path=/&mode=auto&note=@freeOnlineVPN#🇫🇷 - FR - @freeOnlineVPN
@@ -502,3 +500,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZWpTUnlxYTAzM09FUG1FUXN2UnNs@194.59.183.134
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWE9WakVNc3gwMGplT1F6SHNRcmtM@213.176.16.71:4966#SS-@V2rayAlpha--100
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWE9WakVNc3gwMGplT1F6SHNRcmtM@213.176.16.71:4966#Join Sho : @IRAN_V2RAY1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsWE9WakVNc3gwMGplT1F6SHNRcmtM@213.176.16.71:4966#@IRAN_V2RAY1 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprbjFqenc1cjdkSDRQbnVvV1hxRndR@marz18fin.uniwebworld.com:1080#@Broz_time+>+کانفیگ+رایگان
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpraGUxZUFldW80UWdCaVc3OXhUTW51@h110vpnnl.outlinekeys.net:52571#https://t.me/v2rayNplus |🇳🇱

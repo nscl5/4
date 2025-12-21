@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://67456b60-2a9e-4287-8808-c1ea5706403e@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=blazeus150your-name.global.ssl.fastly.net&type=xhttp#@sunflowerplato🌻
-vless://67456b60-2a9e-4287-8808-c1ea5706403e@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=blazeus150your-name.global.ssl.fastly.net&type=xhttp#@V2rayNGVPN <= کانفیگ رایگان
 vless://67456b60-2a9e-4287-8808-c1ea5706403e@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/&security=none&encryption=none&host=blazeus150your-name.global.ssl.fastly.net&type=xhttp#@Daily_Configs
 vless://6742388969-client-81f@ne1.tunnelx.space:2087?path=/assets/img/banner_v3.webp/&security=none&encryption=none&host=ws.ne1.tunnelx.space&type=ws#All-@IRAN_V2RAY1
 vless://67402bb4-fac3-4135-89f7-26128e0e6d8b@V2ngFast.huqpmfood.ir:1146?mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
@@ -502,3 +500,5 @@ vless://5051e400-8ebc-4402-9c3b-e0047a6c6599@V2ngFast.huqpmfood.ir:1146?mode=aut
 vless://50343a81-a35e-44b9-a6a6-0b7dd6711ed4@141.98.169.101:443?path=/ufkipews&security=tls&encryption=none&type=ws#@V2rayNGVPN+<=+کانفیگ+رایگان
 vless://50343a81-a35e-44b9-a6a6-0b7dd6711ed4@141.98.169.101:443?path=/ufkipews&security=tls&encryption=none&type=ws#@V2rayNGVPN <= کانفیگ رایگان
 vless://50343a81-a35e-44b9-a6a6-0b7dd6711ed4@141.98.169.101:443?path=/ufkipews&security=tls&encryption=none&type=ws#@Broz_time > کانفیگ رایگان
+vless://50343a81-a35e-44b9-a6a6-0b7dd6711ed4@141.98.169.101:443?path=/ufkipews&security=tls&encryption=none&insecure=1&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=ws&allowInsecure=1#@MARAMBASHI 🩵
+vless://50343a81-a35e-44b9-a6a6-0b7dd6711ed4@141.98.169.101:443?path=/ufkipews&security=tls&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=ws&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#@Broz_time+>+کانفیگ+رایگان
