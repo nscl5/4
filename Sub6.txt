@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://d0c0be4b-7c56-4f3a-b779-7a7f4d91d170@209.97.138.185:443?path=/egnyfcws&security=tls&encryption=none&type=ws&sni=github.com#All-@V2rayAlpha--28
 vless://d0c0be4b-7c56-4f3a-b779-7a7f4d91d170@209.97.138.185:443/?type=ws&encryption=none&flow=&path=/egnyfcws&security=tls&sni=github.com&allowInsecure=1#🔶30@oneclickvpnkeys
 vless://d0acc190-00a8-481a-e8b0-c14e4ea67444@usaa.fastlynew.hosting-ip.com:80?path=/&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#@v2_city با کانفیگ رایگان اینستا نرو آی پی ثابت نیس دیسیبل میشه پیجت
 vless://d0a83280-3da7-4fe0-9bad-51b51136d707@masterserver1.huqpmfood.ir:1331?mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=qSCPbuLS9FrLTRzIbKmD3vNOnsk_ZUxmjPywZXeM_Co&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 All Operator @MaSTeRSeRVeR1
@@ -502,3 +501,4 @@ vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.85.155:443?security=none&encr
 vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.216.235:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.125.215:443?type=tcp&path=/&host=zula.ir&headerType=http&security=none#telegram 🌈 v2ray_configs_pools
 vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.125.215:443?type=tcp&path=/&host=zula.ir&headerType=http&security=none#telegram ☂️ v2ray_configs_pools
+vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.125.215:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#

@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://bc4f49dc-2c50-49ac-b8fa-d3020a5e65de@91.99.125.215:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#
 vless://bc432859-051c-40e5-ab96-a34f47f1b14a@172.236.103.104:443?encryption=none&security=none&type=xhttp&path=/&mode=stream-one# @NIM_VPN_ir
 vless://bc3120d9-8b56-4caa-b868-a110fbdbbfeb@172.66.40.99:2052?type=ws&path=/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&host=υρρσят-多言語-دعم.snaptripupport.space.&security=none#@Maznet-46177-2
 vless://bc310b8d-fbe8-4c55-970b-be77816fceea@45.79.10.46:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🚀 v2ray_configs_pools
@@ -502,3 +501,4 @@ vless://a19a0922-24c6-4d61-f58d-44589eb1dbd0@Www.Speedtest.net:2095?type=httpupg
 vless://a1857994-eaac-4cea-bc12-69e6fecba119@Evay-vpn.octacityroleplay.ir:1122?encryption=none&type=xhttp&host=join-bede-evay_vpn.org&path=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&fp=chrome&sni=www.slideshare.net&pbk=4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI&sid=4c7b0ea36fc7f0c4#🇩🇪 2 | @EVAY_VPN
 vless://a14469aa-31af-4be2-917c-76459248d4e8@by.segaro.xyz:80?mode=gun&security=reality&encryption=none&pbk=xrohjDH5Xk_NvHZpOyiH8mqWI-nTciE5r0X45dLjrAI&fp=chrome&spx=/&type=grpc&sni=yahoo.com&sid=8dbe#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://a14469aa-31af-4be2-917c-76459248d4e8@by.segaro.xyz:80?mode=gun&security=reality&encryption=none&pbk=xrohjDH5Xk_NvHZpOyiH8mqWI-nTciE5r0X45dLjrAI&fp=chrome&spx=/&type=grpc&sni=yahoo.com&sid=8dbe#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.24.247.189:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch: @pPal03👁جوین بدید گوگولیا👁
