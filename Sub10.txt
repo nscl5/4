@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?security=tls&sni=my.ski1plag.ir&alpn=h2,http/1.1&fp=chrome&type=ws&host=my.ski1plag.ir&packetEncoding=xudp&encryption=none#@Geek_Spot
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?path=/Telegram@V2ray_Alpha&security=tls&alpn=h2,http/1.1&encryption=none&host=my.ski1plag.ir&fp=chrome&type=ws&sni=my.ski1plag.ir#@CaV2ray ⚡️
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8080/?type=ws&encryption=none&host=my.ski1plag.ir&path=/download&packetEncoding=xudp#@Geek_Spot
 vless://7c8cf438-8d5a-4ce9-bc1c-88345a545f2f@185.68.244.86:42545?security=none&encryption=none&headerType=none&type=tcp#@Hddify
@@ -502,3 +501,4 @@ vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@103.35.191.221:443?security=reality
 vless://677615f7-87d5-5019-a44d-4fc3ff8d59d7@103.35.191.221:443?security=reality&encryption=none&pbk=xZ0pVv73Je0cD-3zCB5ABlRROIbWqTLt5YSE3FlA7GI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=efe06ff4#@HiByeVPNN❤️‍🔥🔥✨
 vless://676a0fd3-f87b-4c14-ae1b-c982dd8ea266@Net.1lagvpn13.cfd:2087?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@L_AGVPN13 @L_AGVPN13 @L_AGVPN13 @L_AGVPN13&sni=C.1lagvpn13.cfd#qe7qcl6s  🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 vless://676a0fd3-f87b-4c14-ae1b-c982dd8ea266@Net.1lagvpn13.cfd:2087?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@L_AGVPN13 @L_AGVPN13 @L_AGVPN13 @L_AGVPN13&sni=C.1lagvpn13.cfd#qe7qcl6s
+vless://6768a90d-1092-46c7-fbf1-5bb8b695b2b9@SRCVPN.fastlynew.hosting-ip.com:80?mode=auto&path=/@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG--@HqV2RayNG?ed=2056&host=hqTm.iR&type=xhttp#🇩🇪 Telgram @SRCVPN
