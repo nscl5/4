@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://f028a8c0-6763-4558-aee3-2563db9d7825@172.64.32.220:443/?type=ws&encryption=none&flow=&host=freudd.info&path=/xxvclws&security=tls&sni=freudd.info&allowInsecure=1#🔶53@oneclickvpnkeys
-vless://f0263bd6-570a-4bc0-bbb9-6fad124b18cf@62.133.62.166:2095?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
 vless://f02506a5-2685-4ec8-bd4e-70f53002bc02@Evay-vpn.octacityroleplay.ir:1122?encryption=none&type=xhttp&host=join-bede-evay_vpn.org&path=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn&security=reality&fp=chrome&sni=www.slideshare.net&pbk=4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI&sid=4c7b0ea36fc7f0c4#🇩🇪 | @EVAY_VPN
 vless://f0075296-2b03-42ef-a4cd-491804eb9da1@m3a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@MARAMBASHI 💜
 vless://f0075296-2b03-42ef-a4cd-491804eb9da1@m3a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#@Daily_Configs
@@ -502,3 +500,5 @@ vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.235.241.127:443?path=/hormoz&se
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.235.241.127:443/?type=ws&encryption=none&flow=&path=/hormoz&security=tls&sni=github.com&allowInsecure=1#🔷25@oneclickvpnkeys
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.235.241.122:443?path=/hormoz&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#Channel : @Mrsoulb 🏴🏳
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.235.241.122:443?path=/hormoz&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1#@Daily_Configs
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.235.241.117:443?path=/hormoz&security=tls&encryption=none&type=ws#@V2rayNGVPN+<=+کانفیگ+رایگان
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@185.218.3.9:443?path=/hormoz&security=tls&encryption=none&type=ws#@V2rayNGVPN+<=+کانفیگ+رایگان
