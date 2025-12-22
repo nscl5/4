@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=/upload&security=none&encryption=none&host=my.ski1plag.ir&type=ws#@CaV2ray ⚡️
+vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80/?type=ws&encryption=none&host=my.ski1plag.ir&path=/upload&packetEncoding=xudp#@Geek_Spot
+vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?security=tls&sni=my.ski1plag.ir&alpn=h2,http/1.1&fp=chrome&type=ws&host=my.ski1plag.ir&packetEncoding=xudp&encryption=none#@Geek_Spot
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8443?path=/Telegram@V2ray_Alpha&security=tls&alpn=h2,http/1.1&encryption=none&host=my.ski1plag.ir&fp=chrome&type=ws&sni=my.ski1plag.ir#@CaV2ray ⚡️
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8080/?type=ws&encryption=none&host=my.ski1plag.ir&path=/download&packetEncoding=xudp#@Geek_Spot
 vless://7c8cf438-8d5a-4ce9-bc1c-88345a545f2f@185.68.244.86:42545?security=none&encryption=none&headerType=none&type=tcp#@Hddify
@@ -499,6 +502,3 @@ vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.67.74.133:443?path=/id5?ed=2560
 vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.67.74.133:443?path=/id5/?ed=2048bia-planB_proxy&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.67.74.133:443?path=/id5/?ed=2048bia-planB_proxy&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#@FILTERK0SH
 vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.67.74.133:443?path=/id5/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://6780a3c0-a98c-4622-b894-8e34167f7b31@172.66.40.99:443?path=/id5?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://6780a3c0-a98c-4622-b894-8e34167f7b31@104.26.1.108:443?type=grpc&serviceName=Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH--Telegram--FILTERK0SH&mode=multi&security=tls&encryption=none&path=/id5?ed=2560/%&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#@FILTERK0SH
-vless://6780a3c0-a98c-4622-b894-8e34167f7b31@104.26.1.108:443?path=/id5?ed=2560/?JKVPNTELEGRAM_CHANEL_JKVPN_JKVPN&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@

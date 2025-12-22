@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v6.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc&sni=pqh30v6.ipforvetra.shop#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v5.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46200-4
+vless://401374e6-df77-41fb-f638-dad8184f175b@pqh29v4.ipforvetra.shop:80?mode=gun&security=none&encryption=none&type=grpc&sni=pqh29v4.ipforvetra.shop#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh27v6.hiddendom.shop#telegram 🚀 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🚀 v2ray_configs_pools
 vless://401374e6-df77-41fb-f638-dad8184f175b@all.tellmethetrue.shop:443?security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh26v8.hiddendom.shop#telegram 🍊 v2ray_configs_pools
@@ -499,6 +502,3 @@ vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.241:443?security=reality&
 vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.241:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🏴‍☠@FreakConfig
 vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.241:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&sid=7cad5040#📡36@oneclickvpnkeys
 vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.240:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🏴‍☠@FreakConfig
-vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.240:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🇧🇬@FreakConfig
-vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.240:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#@FarazV2ray
-vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.240:443?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🇧🇬[Telegram:NetifyVPN]
