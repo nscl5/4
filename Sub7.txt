@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://bc310b8d-fbe8-4c55-970b-be77816fceea@45.79.10.46:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🚀 v2ray_configs_pools
 vless://bc310b8d-fbe8-4c55-970b-be77816fceea@45.79.10.46:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🍀 v2ray_configs_pools
 vless://bc310b8d-fbe8-4c55-970b-be77816fceea@45.79.10.46:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🌟 v2ray_configs_pools
 vless://bc310b8d-fbe8-4c55-970b-be77816fceea@45.79.10.46:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram ☂️ v2ray_configs_pools
@@ -501,4 +502,3 @@ vless://a14469aa-31af-4be2-917c-76459248d4e8@by.segaro.xyz:80?mode=gun&security=
 vless://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.24.247.189:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch: @pPal03👁جوین بدید گوگولیا👁
 vless://a1311ab3-0498-4cfd-b2c9-b5a4ba7d2999@104.16.184.194:80?encryption=none&security=none&type=ws&host=rapid-mountain-e6a9-ppal03.rahog30057.workers.dev&path=/?ed=2560#👁Ch: @pPal03👁جوین بدید گوگولیا👁
 vless://a114d067-b900-4f60-87a5-50d4d63972b8@usa.visa.com:443?path=/?ed=2560&security=tls&encryption=none&host=PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev&fp=chrome&type=ws&sni=PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev#@Maznet-46203-2
-vless://a1015799-6c9a-4bab-8ad0-8c9444d46fa0@141.227.166.22:11230?mode=gun&security=none&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#✅سرورهایبیشتردرکانال:prrofile_purple@✅
