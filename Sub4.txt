@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.96:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.89:8880?mode=gun&security=none&encryption=none&authority=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=grpc#🇳🇱⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 @V2WRAY
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--12
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880?mode=gun&security=none&encryption=none&type=grpc#@vmesskhodam-@vmesskhodam
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@217.69.7.35:8880?mode=gun&security=none&encryption=none&type=grpc#@IRAN_V2RAY1
@@ -500,5 +502,3 @@ vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?
 vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@Broz_time > کانفیگ رایگان
 vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=&encryption=none&host=varzesh3.com&headerType=http&type=tcp#🇩🇪@FreakConfig
 vless://cef4ee17-07fd-492f-921e-ddaa6294ba51@dubai.fonixapp.org:53654?security=reality&encryption=none&pbk=lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=f7#@IRAN_V2RAY1--MCI
-vless://cef4ee17-07fd-492f-921e-ddaa6294ba51@217.195.200.206:53654?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=stackoverflow.com&pbk=lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk&sid=f7&spx=/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn#🇦🇪 @Evay_vpn
-vless://cef1e956-e92b-4dbb-999a-6524679f8a40@51.222.158.206:80?path=/vless/&security=none&encryption=none&type=ws#All-@V2rayAlpha--7
