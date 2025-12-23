@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://38f898e5-8a8c-41c0-8c36-72ecefdd01a1@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=pOISED-JOUrney.ONEeaT.Co&type=ws#telegram 🍊 v2ray_configs_pools
 vless://38f898e5-8a8c-41c0-8c36-72ecefdd01a1@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=pOISED-JOUrney.ONEeaT.Co&type=ws#telegram 🍀 v2ray_configs_pools
 vless://38f418af-9af3-40c1-a09c-7dad003b77f7@V2ngFast.huqpmfood.ir:1146?mode=auto&path=/@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 @V2ngFast
 vless://38e35756-f704-4eed-a325-225e95ed789c@212.134.84.115:443?security=reality&encryption=none&pbk=cjDD6AA5RawGxEhDEz0vTKwzzMXaDjwMDZcDK6eAFRI&headerType=none&fp=chrome&spx=/&type=tcp&sni=pcmag.com&sid=0a1247#@Hddify |~| چنل هدیفای
@@ -501,4 +502,3 @@ vless://2b7ff221-0ea2-4474-ab4e-686e6a11dc65@fra.germany-14.com:2087?encryption=
 vless://2b7ff221-0ea2-4474-ab4e-686e6a11dc65@[2a01:e5c0:201f::2]:2087?security=reality&encryption=none&pbk=p8D0V1jYr98lK4kU8FlBYfQ1kMO6zgIx5qI_p5dr_Bc&headerType=none&fp=chrome&spx=/sinavm-sinavm&type=tcp&sni=tgju.org&sid=6ba85179e30d4fc2#🇫🇷@vpnserverrr کانال تلگرامی
 vless://2b7ff221-0ea2-4474-ab4e-686e6a11dc65@46.226.166.12:2087?security=reality&encryption=none&pbk=p8D0V1jYr98lK4kU8FlBYfQ1kMO6zgIx5qI_p5dr_Bc&headerType=none&fp=chrome&spx=/sinavm-sinavm&type=tcp&sni=tgju.org&sid=6ba85179e30d4fc2#🇫🇷@vpnserverrrکانال تلگرامی
 vless://2b74e019-81b0-4c77-9f41-2f3aaf04132d@185.231.205.152:443?path=/uefsanws&security=tls&encryption=none&type=ws&sni=ads.x5.ru#🇫🇷@FreakConfig
-vless://2b74e019-81b0-4c77-9f41-2f3aaf04132d@185.231.205.152:443?path=/uefsanws&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=ads.x5.ru#@Daily_Configs

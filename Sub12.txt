@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://495c0dad-3268-4470-ac57-887c5089db0d@162.159.152.2:443?security=tls&type=ws&path=/&host=asuka.boringdad.netlib.re&sni=asuka.boringdad.netlib.re&fp=chrome&encryption=none#👉🆔 @v2ray_configs_pool 📡 🇩🇪DE_7 🧭 5.0MB/s
 vless://495c0dad-3268-4470-ac57-887c5089db0d@162.159.152.2:443?path=/&security=tls&encryption=none&host=ziyong.boringdad.netlib.re&fp=chrome&type=ws&sni=ziyong.boringdad.netlib.re#@Broz_time+>+کانفیگ+رایگان
 vless://495c0dad-3268-4470-ac57-887c5089db0d@162.159.152.2:443?path=/&security=tls&encryption=none&host=ziyong.boringdad.netlib.re&fp=chrome&type=ws&sni=ziyong.boringdad.netlib.re#@Broz_time > کانفیگ رایگان
 vless://495c0dad-3268-4470-ac57-887c5089db0d@162.159.152.2:443?path=/&security=tls&encryption=none&host=asuka.boringdad.netlib.re&fp=chrome&type=ws&sni=asuka.boringdad.netlib.re#@Broz_time > کانفیگ رایگان
@@ -501,4 +502,3 @@ vless://3949130a-a1d6-453b-91a9-870c3ba7abad@a.confignor.site:35493?type=grpc&en
 vless://3949130a-a1d6-453b-91a9-870c3ba7abad@a.confignor.site:35493?type=grpc&encryption=none&serviceName=چنل+سازنده+اصلی+کانفیگ+@ConfigFree&authority=&security=reality&pbk=qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA&fp=chrome&sni=www.cdn77.com&sid=9c24&spx=/#دیگه+به+فیلترشکن+پولی+نده+@ConfigFree
 vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299?path=/&security=none&encryption=none&fp=chrome&type=ws#Bya To:@IRAN_V2RAY1
 vless://39051b26-3165-4898-a552-c777a89aaf10@78.157.49.210:32197/?encryption=none&host=vasaham.com&type=tcp&headerType=http#@Geek_Spot
-vless://38f898e5-8a8c-41c0-8c36-72ecefdd01a1@tgju.org:80?path=/?ed=2048&security=&encryption=none&host=pOISED-JOUrney.ONEeaT.Co&type=ws#telegram 🍊 v2ray_configs_pools
