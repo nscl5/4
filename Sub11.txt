@@ -2,6 +2,13 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&type=ws&sni=638988506154316713.civic-amshw.info#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=639001966536690941.prius-amsiq.info&type=ws&sni=639001966536690941.prius-amsiq.info#All-@V2rayAlpha-30
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638987647974712110.outback-amshs.info&type=ws&sni=638987647974712110.outback-amshs.info#All-@V2rayAlpha--18
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@norman.ns.cloudflare.com:443?encryption=none&security=tls&sni=639008791615856318.golf-amsix.info&insecure=1&allowInsecure=1&type=ws&host=639008791615856318.golf-amsix.info&path=/cahttingws#@Daily_Configs
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639008791593418731.jimny-amsix.info#Channel : @Mrsoulb 🏴🏳
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638987972960682357.prius-amsht.info&type=ws&sni=638987972960682357.prius-amsht.info#🇨🇦@AZARBAYJAB1
+vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@delilah.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638987972960682357.prius-amsht.info&type=ws&sni=638987972960682357.prius-amsht.info#All-@V2rayAlpha--35
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=639000411272217052.swift-amsin.info&fp=chrome&type=ws&sni=639000411272217052.swift-amsin.info#All-@V2rayAlpha-37
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&host=638988506136311592.corolla-amshw.info&type=ws&sni=638988506136311592.corolla-amshw.info#Join To @Iran_v2ray1🇺🇸
 vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@clyde.ns.cloudflare.com:443?path=/cahttingws&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=639008791615851231.golf-amsix.info#Channel : @Mrsoulb 🏴🏳
@@ -495,10 +502,3 @@ vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.217.4:443?mode=stream-one&pat
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc?ed=2048@azadiiivpn&security=none&encryption=none&type=xhttp#@azadiiivpn💕
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#🇩🇪⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 @V2WRAY
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#@Maznet-46194-2
-vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#@Maznet-46193-2
-vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#@Maznet-46192-2
-vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@91.99.117.29:443?mode=stream-one&path=/sc&security=none&encryption=none&type=xhttp#@Maznet-46191-2
-vless://43ef78f8-ae84-402d-982d-8fe8b53b8d37@159.203.9.227:443?type=xhttp&path=/sf&host=&mode=stream-one&security=none#telegram 🍊 v2ray_configs_pools
-vless://43ef78f8-ae84-402d-982d-8fe8b53b8d37@159.203.10.217:443?type=xhttp&path=/sf&host=&mode=stream-one&security=none#telegram ☂️ v2ray_configs_pools
-vless://43ef78f8-ae84-402d-982d-8fe8b53b8d37@138.197.149.46:443?mode=stream-one&path=/sf&security=none&encryption=none&type=xhttp#Channel-@vmesskhodam
-vless://43ef78f8-ae84-402d-982d-8fe8b53b8d37@134.122.41.60:443?mode=stream-one&path=/sf&security=none&encryption=none&type=xhttp#Channel-@vmesskhodam
