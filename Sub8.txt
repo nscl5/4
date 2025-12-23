@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://EDC0OA8XuJBMPnqVB4Se@demo1.greenroad2me.com:443?security=reality&encryption=none&pbk=MEiIGCxZP1bD53BOVflKoI6J6Fka972Q0WaNuauihFo&headerType=none&fp=chrome&spx=/kTIWmeiQhsBmfFp&type=tcp&flow=xtls-rprx-vision&sni=d1.greenroad2me.com&sid=8282f23300a383f3#@IRAN_V2RAY1 🇳🇱
 vless://@mahanvpn@172.67.160.192:2052?type=httpupgrade&path=/mAhAnteaM,?ed=2560&host=mAhaNteAm.noD32Cpu.iR.&security=none#🇩🇪🔑Tel@mahanvpn-vip
 vless://@mahanvpn@172.67.160.192:2052?path=/mAhAnteaM,?ed=2560&security=none&encryption=none&host=mAhaNteAm.noD32Cpu.iR.&type=httpupgrade#🇩🇪🔑Tel@mahanvpn
 vless://@mahanvpn.@172.67.160.192:2052?type=httpupgrade&path=/mAhAnteaM,?ed=2560&host=mAhaNteAm.noD32Cpu.iR.&security=none#🇩🇪🔑Tel@mahanvpn-vip
@@ -502,3 +501,4 @@ vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&e
 vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#@Maznet-46197-2
 vless://88872588-2a25-47f9-b498-79142565a239@45.67.228.224:443?path=/ufhqdyws&security=tls&encryption=none&type=ws#All_21--@V2rayAlpha
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=kivi.apps724.site#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?path=/&security=tls&encryption=none&type=ws&sni=havij.mrconfigur.site#🇩🇪@FreakConfig

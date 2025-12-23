@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://c43b7819-008e-4863-aa20-9d3fc2935df8@tunell-star.fastsoft98.ir:2010?encryption=none&security=none&type=tcp&headerType=none#@NIM_VPN_ir
 vless://c43b7819-008e-4863-aa20-9d3fc2935df8@tunell-star.dsadsadads.ir:2070?encryption=none&security=none&type=tcp&headerType=none#@NIM_VPN_ir
 vless://c43b7819-008e-4863-aa20-9d3fc2935df8@tunell-rezidentali.fastsoft98.ir:2080?encryption=none&security=none&type=tcp&headerType=http&host=http://SpaceNetwork.divarcdn.com#@NIM_VPN_ir
 vless://c43b7819-008e-4863-aa20-9d3fc2935df8@star.fastsoft98.ir:80?encryption=none&security=none&type=xhttp&host=b26cdn3foramindedicated.com&path=/scer&mode=auto#@NIM_VPN_ir
@@ -502,3 +501,4 @@ vless://a9b548c2-c33e-4b8e-befd-13fec8ab2e2d@fs.ir-sub.fun:80?path=/ZEDMODEON-ZE
 vless://a9a56912-511d-46bc-aa79-afc08aed9d4f@masterserver1.huqpmfood.ir:1331?mode=auto&path=/@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1-@MaSTeRSeRVeR1&security=reality&encryption=none&extra={"scMaxEachPostBytes": "1000000", "scMaxConcurrentPosts": 100, "scMinPostsIntervalMs": 30, "xPaddingBytes": "100-1000", "noGRPCHeader": false}&pbk=qSCPbuLS9FrLTRzIbKmD3vNOnsk_ZUxmjPywZXeM_Co&fp=chrome&type=xhttp&sni=stackoverflow.com&sid=077dc29a23d311f2#🇩🇪 All Operator @MaSTeRSeRVeR1
 vless://a976e0dd-6d59-467d-ba67-fb66596ce010@63.141.128.14:8080?path=/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&security=none&encryption=none&host=a.joIn.zEdMoDeOn.oNl.&type=ws#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://a94a2efa-0bf9-48e2-cc7f-d3fc2420ae31@www.speedtest.net:2095?path=/TELEGRAM_BYA_CHANEL_v2ray_configs_pools-v2ray_configs_pools?ed=2048&security=&encryption=none&host=joker.ahang-alpha.ir&type=httpupgrade#⁴𝗝𝗼𝗶𝗻➠🇳🇱⭕᭄꯭@v2ray_configs_pools
+vless://a9457db5-e0b8-4a86-bb33-957c99b235c0@185.243.99.104:29453?security=reality&encryption=none&pbk=cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY&headerType=none&fp=chrome&type=tcp&sni=zhaket.com&sid=850a5cbb81#All--@IRAN_V2RAY1
