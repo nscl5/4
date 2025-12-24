@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://465f35d5-897c-4ce0-811c-24ac58711f45@45.76.82.61:443?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
 vless://465f35d5-897c-4ce0-811c-24ac58711f45@136.244.93.78:443?mode=gun&security=none&encryption=none&type=grpc#All_34--@V2rayAlpha
 vless://465f35d5-897c-4ce0-811c-24ac58711f45@108.61.179.83:443?mode=gun&security=none&encryption=none&type=grpc#Channel : @Mrsoulb 🏴🏳
 vless://465f35d5-897c-4ce0-811c-24ac58711f45@108.61.179.83:443?mode=gun&security=none&encryption=none&type=grpc#@Daily_Configs
@@ -502,3 +501,4 @@ vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@89.23.123.17:4443?security=reality&
 vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@85.209.154.133:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@85.209.154.133:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#[🚀] ➠ @V2ray_official
 vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@5.181.21.101:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#[⚡] ➠ @V2ray_official
+vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@212.60.21.104:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#@Daily_Configs

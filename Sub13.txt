@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@212.60.21.104:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#@Daily_Configs
 vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@147.45.230.128:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#[🛸] ➠ @V2ray_official
 vless://3121850a-24aa-41f9-936d-dbdf10a3b31f@103.35.190.51:4443?security=reality&encryption=none&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=aa7e96542880027a#@Daily_Configs
 vless://3116cc23-0c39-4bb6-8154-d3f332e9017e@uk2.srv.oplcdn.link:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ign.com&sid=6ba85179e30d4fc2#♾️𝗝𝗼𝗶𝗻➠🆔️@ATLAS_V2VPN🆓️🔷️40🌐
@@ -502,3 +501,4 @@ vless://280f6de0-453b-4ea2-88b3-203debc7f91b@V2ngFast.huqpmfood.ir:1146?mode=aut
 vless://27f2ce3b-7488-4078-8887-b9c129bddc3f@86.48.24.154:5900?security=none&encryption=none&headerType=none&type=tcp#✅ @v2ray_configs_pools (تلگرام)
 vless://27ba062e-9d2d-4296-a4b4-3a695a608bdf@104.129.245.4:8443?security=reality&encryption=none&pbk=S0THP31DQPg3PDvoEq-EFmgM_wp3Wp_il96M_nvD_EQ&host=aparat.com&headerType=http&fp=chrome&spx=/&type=tcp&sni=google.com&sid=120afdb343646637#⚡ @Fast78_Channel | Best Free Configs
 vless://27ba062e-9d2d-4296-a4b4-3a695a608bdf@104.129.245.4:8443?security=reality&encryption=none&pbk=S0THP31DQPg3PDvoEq-EFmgM_wp3Wp_il96M_nvD_EQ&host=aparat.com&headerType=http&fp=chrome&spx=/&type=tcp&sni=google.com&sid=120afdb343646637#@Daily_Configs
+vless://27ba062e-9d2d-4296-a4b4-3a695a608bdf@104.129.245.4:8443?security=reality&encryption=none&pbk=S0THP31DQPg3PDvoEq-EFmgM_wp3Wp_il96M_nvD_EQ&host=aparat.com&headerType=http&fp=chrome&spx=/&type=tcp&sni=google.com&sid=120afdb343646637#
