@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://696f0888-f81f-4bcb-a0da-6aa851ba0705@185.126.255.180:443?type=tcp&encryption=none&path=/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config&headerType=http&security=reality&pbk=AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw&fp=chrome&sni=www.speedtest.net&sid=&spx=/#@Alfred_Config
 vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--12
 vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?mode=gun&security=none&encryption=none&type=grpc#All-@V2rayAlpha--10
 vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
@@ -501,4 +502,3 @@ vless://53a50ef0-5d3d-4e32-a0e1-a2476c25ac5b@test.fast.hosting-ip.com:80?type=xh
 vless://539bccb6-2a84-4464-b99e-ea781f2fdaa6@tgju.org:80?type=ws&encryption=none&path=/olem/ws?ed=1024&host=de.channel.digicyber.click&security=none#@melov2ray🇩🇪
 vless://53958b8e-8fa9-4566-a7d4-0f81611d7dbf@46.151.26.197:443?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&host=newser3.ultimateserv.ru&type=xhttp&sni=newser3.ultimateserv.ru#Vip - 🇳🇱@vpnserverrr
 vless://53958b8e-8fa9-4566-a7d4-0f81611d7dbf@46.151.26.197:443?encryption=none&type=xhttp&mode=auto&host=newser3.ultimateserv.ru&path=/&security=tls&sni=newser3.ultimateserv.ru&alpn=h2,http/1.1#Vip - 🇳🇱@𝗦𝗶𝗡𝗔𝗩𝗠
-vless://53800ae5-ece5-4d1f-ac6d-407d1a8b0b95@103.35.189.137:443/?type=ws&encryption=none&flow=&path=/mrtejzws&security=tls&sni=ya.ru&fp=chrome#🎄62@oneclickvpnkeys
