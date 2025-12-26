@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://80c19783-5c4f-4794-ae0b-6efd11fd27ab@157.180.120.194:40200?security=&encryption=none&headerType=none&type=tcp#🇫🇮@FreakConfig
-vless://80c19783-5c4f-4794-ae0b-6efd11fd27ab@157.180.120.194:40200?security=&encryption=none&headerType=&type=tcp&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#[🇫🇮]t.me/Raiv2mmr
 vless://80c19783-5c4f-4794-ae0b-6efd11fd27ab@157.180.120.194:40200?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&type=tcp&encryption=none&security=none#🇫🇮[Telegram:NetifyVPN]
 vless://80c19783-5c4f-4794-ae0b-6efd11fd27ab@157.180.120.194:40200/?type=tcp&encryption=none&flow=#⛄41@oneclickvpnkeys
 vless://80a02d29-a5bd-4eb1-a478-fa556b2824b3@141.98.169.111:443?path=/bspuwfws&security=tls&encryption=none&type=ws&sni=web.max.ru#❄️81@oneclickvpnkeys
@@ -502,3 +500,5 @@ vless://6b2647bd-addb-4682-ade7-2cd50f89afa6@79.137.202.150:28485?mode=gun&secur
 vless://6b01632c-a073-483f-9fea-2d20835d003f@snap.online24net.ir:55555?security=reality&encryption=none&pbk=iN6Mxm-XgB9_nfgRHxdE3QX9XJpAY-EHv-EtvAIkYx4&headerType=none&fp=chrome&type=tcp&sni=stackoverflow.com&sid=ea83a8b0#@CaV2ray ⚡️
 vless://6ae9cd42-eebe-47a5-c7b8-c85ffddbd529@www.speedtest.net:2082?path=/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082&security=none&encryption=none&host=novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.&type=ws#@spikevpn👈 جوین بده💯⚡
 vless://6ab8ab39-09a0-43ca-8a15-31edbcd430c2@151.101.205.194:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=&encryption=none&host=fotofactory.pk&type=xhttp#🇩🇪@V2ray_official | All¹
+vless://6a8ee307-a1fb-4801-92e2-86253ecdd88d@5.181.21.152:24170?security=reality&encryption=none&pbk=rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=200f99e321#➪+@FILTERK0SH++منبع+کانفیگ+رایگان
+vless://6a8ee307-a1fb-4801-92e2-86253ecdd88d@5.181.21.152:24170?security=reality&encryption=none&pbk=rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=200f99e321#All--@IRAN_V2RAY1

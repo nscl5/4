@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&headerType=none&fp=chrome&spx=/@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-@V2WRAY-?ed=2560&type=tcp&sni=yahoo.com&sid=0e#🇦🇲 ⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 @V2WRAY
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#❄️63@oneclickvpnkeys
 vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e#⛄51@oneclickvpnkeys
 vless://f65006fc-2fa4-4860-b036-0cdb11a10e24@172.66.40.99:80?path=/telegram-v2ray_configs_pools,telegram-v2ray_configs_,telegram-v2ray_conf?ed=80&security=none&encryption=none&host=ab.shangoli5.motorphrotan.ir.&type=ws#telegram ⚡️ v2ray_configs_pools
 vless://f64ec975-bed6-4c91-b02b-80e5fdad363b@51.222.84.252:25429?security=none&encryption=none&headerType=none&type=tcp#@v2ray_configs_pools👈⚡❤️‍🔥
@@ -502,3 +500,5 @@ vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.137:443?path=/hormoz&sec
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.137:443?path=/hormoz&security=tls&encryption=none&type=ws&sni=github.com#All-@V2rayAlpha--17
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.137:443?path=/hormoz&security=tls&encryption=none&type=ws&sni=github.com#@FarazV2ray
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.137:443?path=/hormoz&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=github.com#⚡ @Fast78_Channel | Best Free Configs
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.137:443?path=/hormoz&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=github.com#@Daily_Configs
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@94.131.110.131:443?path=/hormoz&security=tls&encryption=none&type=ws&sni=ozon.ru#[🛸] ➠ @V2ray_official
