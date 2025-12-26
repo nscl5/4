@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.27:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.141:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Maznet-46197-1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.125:8880?mode=gun&security=none&encryption=none&type=grpc#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
@@ -501,4 +502,3 @@ vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?
 vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#Channel : @Mrsoulb 🏴🏳
 vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@Daily_Configs
 vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@Broz_time > کانفیگ رایگان
-vless://cf16fe9d-df3a-4ec8-9fbf-ec61b86b5751@Free.DarinaService-Free.Store:8444?security=&encryption=none&host=varzesh3.com&headerType=http&type=tcp#🇩🇪@FreakConfig
