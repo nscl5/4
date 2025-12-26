@@ -2,11 +2,12 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZUM0WkJ2U3RPZ1FFelRwQ1lqV041@217.60.249.112:443#%F0%9F%87%AE%F0%9F%87%B7%20_IR_%E4%BC%8A%E6%9C%97
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HrPCfh6cg6Iux5Zu9IC0gU2xvdWdoIC0gRGlnaXRhbE9jZWFuLCBMTEMgLSAxIiwiYWRkIjoidjM2LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgzNiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjM2LmhkYWNkLmNvbSIsInRscyI6IiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIYU5xdzlwSUU0amN4OThzZzdVUWdIZUdOVE00UjJwaw@194.246.114.101:443#%F0%9F%87%B7%F0%9F%87%BA%20_RU_%E4%BF%84%E7%BD%97%E6%96%AF
-trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%252Fripaojiedian#_CN_%E4%B8%AD%E5%9B%BD
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#%F0%9F%87%BA%F0%9F%87%B8%20_US_%E7%BE%8E%E5%9B%BD
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bzdFYnRxSXdnWlhYSG1NdjVMYkxjT3hwdHlQbE5raA@178.23.190.238:443#%F0%9F%87%B3%F0%9F%87%B1%20_NL_%E8%8D%B7%E5%85%B0
-vmess://eyJ2IjoiMiIsInBzIjoi8J+Hq/Cfh7cg5rOV5Zu9IDA5IiwiYWRkIjoidjM1LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgzNSIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjM1LmhkYWNkLmNvbSIsInRscyI6IiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.174:8080#%F0%9F%87%A9%F0%9F%87%AA%20_DE_%E5%BE%B7%E5%9B%BD
+vless://9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c@104.18.29.253:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=kawaiifreevpn-7ds.pages.dev&fp=random&type=ws&sni=kawaiifreevpn-7ds.pages.dev#%F0%9F%9F%A3%F0%9F%94%A5%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%40ParsiV2ray%20%D9%BE%D8%B1%20%D8%B3%D8%B1%D8%B9%D8%AA
+vless://b28eb861-1748-4200-ba72-278669edc33b@104.18.26.90:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=barayeiranmahsang.mahmoodchitooz.dpdns.org&fp=random&type=ws&sni=barayeiranmahsang.mahmoodchitooz.dpdns.org#%F0%9F%9B%A1%EF%B8%8F%20%40FreakConfig
+vless://54f6e78c-b497-4db7-ba48-38c4cf81d5ef@188.114.99.16:2053?path=%2FTelegram%40V2RAYNG_1378%2F%3Fed%3D2560&security=tls&encryption=none&host=019309B7.XyZ0.PaGeS.dEV&fp=randomized&type=ws&sni=019309B7.XyZ0.PaGeS.dEV#@meli_proxyy
+vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@ipw.gfdv54cvghhgfhgj-njhgj64.info:8443?encryption=none&security=tls&sni=IyFpLkXk10.jOoLaJoOlA.OrG&type=ws&host=IyFpLkXk10.jOoLaJoOlA.OrG&path=%2F#%40Daily_Configs
+vless://b360267f-81aa-4740-a9c0-9a64fe7f9775@104.26.6.89:80?encryption=none&security=none&type=ws&host=onlytesla1.xz027.com&path=%2F#%40Daily_Configs
+vless://ce43596d-c8f0-4600-b909-4390881ab5e7@193.238.153.91:35755?encryption=none&security=none&type=tcp&headerType=none#%40Daily_Configs
+vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?path=%2F&security=tls&encryption=none&host=Ft77Ta8Q1m.EmShAbKhObE.oRg&type=ws&sni=Ft77Ta8Q1m.EmShAbKhObE.oRg#@meli_proxyy
+vless://ec8a65ad-aafc-4095-9b8c-ea10890ca629@154.92.9.46:443?encryption=none&security=tls&sni=simorgh.hpcode.ir&fp=firefox&type=ws&host=simorgh.hpcode.ir&path=%2FJavid-SHAH-KingRezaPahlavi%2F%3Fed%3D%40vpnserverrr_vpnserverrr_vpnserverrr#%40Daily_Configs
+vless://310c8c17-6cd3-44eb-9ab0-f8f5dbac7976@9f.startrich.site:8441?security=none&encryption=none&type=ws#@meli_proxyy
