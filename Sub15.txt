@@ -2,6 +2,10 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://26874748-86d4-4c3e-a3c6-2c56618cf801@www.speedtest.net:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
+vless://26874748-86d4-4c3e-a3c6-2c56618cf801@tgju.org:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
+vless://26874748-86d4-4c3e-a3c6-2c56618cf801@chat.deepseek.com:80?type=ws&path=/olem/ws?ed=1024&host=fin.channel.digicyber.click&security=none#@melov2ray🇫🇮
+vless://267e5284-8c31-42ed-9807-2182a88ca78b@pl.dznn.net:443?security=reality&encryption=none&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api.mindbox.ru&sid=19aa22f681923dc8#🇵🇱@vpnserverrrکانال تلگرامی
 vless://267e5284-8c31-42ed-9807-2182a88ca78b@pl.dznn.net:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=api.mindbox.ru&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&sid=19aa22f681923dc8#🇵🇱@SiNAVM کانال تلگرامی
 vless://267e5284-8c31-42ed-9807-2182a88ca78b@45.92.219.50:443?security=reality&encryption=none&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ozon.ru&sid=19aa22f681923dc8#🇹🇷@vpnserverrrکانال تلگرامی
 vless://267e5284-8c31-42ed-9807-2182a88ca78b@45.92.219.50:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=ozon.ru&pbk=9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg&sid=19aa22f681923dc8#🇹🇷@SiNAVM کانال تلگرامی
@@ -498,7 +502,3 @@ vless://16a3dea9-96fc-4c91-b74f-15cf627d1ca0@drow-ranger.fonixapp.org:37933?secu
 vless://169221de-6408-4143-9e66-6f77de385e94@172.67.204.84:443?path=/@V2rayBaaz?ed&security=tls&encryption=none&host=cassiusvpn-cassiusvpn-000.stat-4.workers.dev&type=ws&sni=cassiusvpn-cassiusvpn-000.stat-4.workers.dev#@Maznet-46206-3
 vless://1670aed6-5763-4d24-8c05-8074449233b6@45.87.153.147:443?path=/ivxblsws&security=tls&encryption=none&type=ws&sni=github.com#All_33--@V2rayAlpha
 vless://1670aed6-5763-4d24-8c05-8074449233b6@45.87.153.147:443?path=/ivxblsws&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=github.com#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://1648a686-98dc-4b21-9bc6-0dcc9000e101@104.19.98.71:443?path=/&security=tls&alpn=h3&encryption=none&host=123-8i5.pages.dev&type=ws&sni=123-8i5.pages.dev#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
-vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
-vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#All-@V2rayAlpha--45
-vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=/J5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#@sunflowerplato🌻
