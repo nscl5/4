@@ -2,8 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://47867494-9509-4c32-a90a-e9253b033279@fn11.irsbv2.ir:443?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=cloudflare.com&type=ws#@MARAMBASHI 🇵🇱
-vless://47867494-9509-4c32-a90a-e9253b033279@fn11.irsbv2.ir:443?encryption=none&security=none&type=ws&host=cloudflare.com&path=/#@Daily_Configs
 vless://4775848f-2595-4777-8524-b60b16c3cd79@tuskar.fonixapp.org:443?security=reality&encryption=none&pbk=bMd4ndQTVjCtOYI9nKspNZx_XZXmPgbrcfw20GZQckA&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=api.snapkit.com&sid=332d4a4e#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆⁴
 vless://4775848f-2595-4777-8524-b60b16c3cd79@tuskar.fonixapp.org:443?security=reality&encryption=none&pbk=bMd4ndQTVjCtOYI9nKspNZx_XZXmPgbrcfw20GZQckA&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=api.snapkit.com&sid=332d4a4e#All-@V2rayAlpha--6
 vless://476bc9f4-36fd-4cca-af09-057cc134e7cd@tuskar.fonixapp.org:2083?security=reality&encryption=none&pbk=w-w9qJQ6_i4Te9FJrRRxfIWGMqUPg5pmwu1akbFACRg&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=api.snapkit.com&sid=332d4a4e#All--@V2rayAlpha-27
@@ -502,3 +500,5 @@ vless://33f4ca29-6404-42de-8ca7-18846dbf5dcc@141.98.169.94:443/?type=ws&encrypti
 vless://33d7bcae-57c5-4336-8aff-e01c99594c0d@46.62.214.228:443?path=/&security=tls&encryption=none&type=ws&sni=cyrus.v2bazzar.ir#Join To:@IRAN_V2RAY1 {VIP}
 vless://33a69ad0-4d00-47b8-a200-69d37578eb9c@m11a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://33a69ad0-4d00-47b8-a200-69d37578eb9c@m11a.vip784.com:33801?security=none&encryption=none&host=varzesh3.ir&headerType=http&type=tcp#All--@V2rayAlpha--5
+vless://33a0c07b-82c7-40c8-aac7-4ab2071bcc03@43.160.246.221:46920?security=reality&encryption=none&pbk=26jcWQerQE3ryBAm1OCcC7MrgGlI5I-gpdel1xf2Hx8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#All--@IRAN_V2RAY1
+vless://337bf72e-bb79-4d5f-be3f-7822eb77100c@ipw.gfdv54cvghhgfhgj-njhgj64.info:8443?path=/&security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=SmL7g6VtS9.tOrSaNsPoRt16.OrG#telegram 🚀 v2ray_configs_pools
