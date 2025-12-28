@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://e80f6880-f525-48a2-9d3f-faea2cd7c967@81.200.146.76:41770?security=none&encryption=none&headerType=none&type=tcp#🏴🏳
 vless://e80f6880-f525-48a2-9d3f-faea2cd7c967@81.200.146.76:41770?security=none&encryption=none&headerType=none&type=tcp#Channel : @Mrsoulb 🏴🏳
 vless://e80f6880-f525-48a2-9d3f-faea2cd7c967@81.200.146.76:41770?security=none&encryption=none&headerType=none&type=tcp#@V2rayNGVPN <= کانفیگ رایگان
 vless://e80f6880-f525-48a2-9d3f-faea2cd7c967@81.200.146.76:41770?security=none&encryption=none&headerType=none&type=tcp#@Daily_Configs
@@ -501,4 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?mode=gun&security=
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?mode=gun&security=none&encryption=none&type=grpc#ALL@azadiiivpn 🤍
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?mode=gun&security=none&encryption=none&type=grpc#ALL@azadiiivpn 💕
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.49:8880?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46201-4

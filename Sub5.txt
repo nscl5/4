@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.49:8880?mode=gun&security=none&encryption=none&type=grpc#@Maznet-46201-4
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.213:8880?mode=gun&security=&alpn=h3,h2,http/1.1&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&fp=chrome&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#🇬🇧TM (@AZARBAYJAB1) GPRS
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.209:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.209:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
@@ -501,4 +502,3 @@ vless://d00d13b2-5cd3-4648-afa9-807983647ed8@[2a0e:d600:0:2f8::2]:443?path=/&sec
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@[2a0e:d600:0:2f8::2]:443?encryption=none&type=ws&host=sinavm.ir&path=/&security=none#🇵🇱@SiNAVM - ipv6 - residential
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?path=/&security=none&encryption=none&type=ws#🇵🇱
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?path=/&security=none&encryption=none&host=sinavm.ir&type=ws#🇵🇱@vpnserverrrکانال تلگرام
-vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?path=/&security=&encryption=none&host=sinavm.ir&type=ws#@V2ray_confing33

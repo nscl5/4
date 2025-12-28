@@ -2,6 +2,7 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://037e395f-f79d-4d61-bb92-dafcc27e53ba@46.101.57.231:443?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&path=/esoznjws&security=tls&encryption=none&insecure=1&fp=chrome&type=ws&allowInsecure=1&sni=m.vk.com#🇬🇧[Telegram:NetifyVPN]
 vless://037e395f-f79d-4d61-bb92-dafcc27e53ba@46.101.57.231:443/?type=ws&encryption=none&flow=&path=/esoznjws&security=tls&sni=m.vk.com&allowInsecure=1#❄️34@oneclickvpnkeys
 vless://037e395f-f79d-4d61-bb92-dafcc27e53ba@46.101.57.231:443/?type=ws&encryption=none&flow=&path=/esoznjws&security=tls&sni=m.vk.com&allowInsecure=1#⛄20@oneclickvpnkeys
 vless://03715a86-0dfc-42b4-ae1f-a9de57c48950@86.104.74.45:443?path=/dyaghvws&security=tls&encryption=none&type=ws&sni=web.max.ru#🇫🇷@FreakConfig
@@ -501,4 +502,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆²
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#https://t.me/v2raynplus |🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#[🇳🇱]t.me/ConfigsHub
