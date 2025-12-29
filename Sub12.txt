@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://59e13435-da17-4299-97d5-8c49dfe3c820@172.66.40.99:443?path=/admin&security=tls&encryption=none&host=2free2.aparatir.xyz&type=ws&sni=2free2.aparatir.xyz#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://59c22523-08b9-4dc8-99ac-1bf909b4c36e@77.110.119.151:48469?type=grpc&encryption=none&serviceName=Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-&authority=&security=none#8vn3f1fp
 vless://59900b55-dd25-4a86-9cb1-1a1e7bb1981e@185.146.173.185:2052?type=ws&encryption=none&path=Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-&host=fggvggvvvv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG&security=none#sdz4tfeb@V2Ray_Rolly
 vless://598d2298-5e1f-4d07-bc4b-6d1949693852@162.19.250.117:25921?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
@@ -502,3 +501,4 @@ vless://486cb417-7426-4bed-8135-c3b2ff0740a3@arcwarden.fonixapp.org:16523?securi
 vless://485fafeb-f806-40ad-996c-94e01ee84daf@elementalss.fonixapp.org:443?security=reality&encryption=none&pbk=lhwCcXyMGY8GEVV0wDTRsSApcOj-CM1fP8DRY0buRHg&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=mtalk.google.com&sid=eea9#All-@V2rayAlpha--2
 vless://4839e0b9-b275-47ea-81ab-9bfd38bbe7af@43.156.217.68:41283?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#✨ @Geek_Spot | 🚀 | 🌐 43.156.217.68 | 🇸🇬
 vless://48300e8d-4f24-483b-a817-f5e894f06b68@172.67.204.84:443?path=/&security=tls&encryption=none&type=ws&sni=companypdf9.pages.dev#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://48113b57-8b64-465c-91ef-898f7577b312@v2shop2.bing-net.com:4902?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#@NIM_VPN_ir

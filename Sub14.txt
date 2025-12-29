@@ -2,7 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://3458a236-bc0a-4526-8f9a-4607fa0e8834@172.238.190.16:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram 🍊 v2ray_configs_pools
 vless://3458a236-bc0a-4526-8f9a-4607fa0e8834@172.238.190.16:443?mode=stream-one&path=/&security=&encryption=none&type=xhttp#telegram ⚡️ v2ray_configs_pools
 vless://3458141f-28ec-4aca-9c6c-1bbc38d22f00@deusup.dashping1.ir:8101?security=reality&encryption=none&pbk=DG2WqjfT9HFqCfHzaYAVNEayiJN8yGQ64YT9-9eV5Fs&fp=chrome&sni=preview.redd.it&sid=bbddcffa7270&spx=/F------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---------Telegram------RayphoriaHub---&flow=xtls-rprx-vision#کانفیگ+ویژه+رایگان+و+اختصاصی+فروشی+🇮🇷🇩🇪🇫🇮🇺🇸+@RayphoriaHub
 vless://344c9272-c35a-4805-8285-e01cb4310b4f@butcher.fonixapp.org:2083?security=reality&encryption=none&pbk=CDUS4VDmw-WDT_lkYZLcLmJIt90jspvykI_1LaUPmSM&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fonts.gstatic.com&sid=3938#All--@V2rayAlpha-16
@@ -502,3 +501,4 @@ vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&s
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Maznet-46202-4
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@IRAN_V2RAY1
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.53:443?path=/?ed&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#@Maznet-46201-1
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@162.159.152.205:443?path=/?ed=2560&security=tls&alpn=h3&encryption=none&host=sni.aizrf.com&fp=chrome&type=ws&sni=sni.aizrf.com#✅سرورهایبیشتردرکانال:prrofile_purple@✅
