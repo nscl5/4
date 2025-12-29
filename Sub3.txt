@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://fb69d0c1-7c8c-495f-ffe0-f42d1f714809@Www.Speedtest.net:2052?flow=&type=xhttp&host=joinbedebe1.vmessorg.ir&path=/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg/?ed=8080&mode=auto&security=none#@vmessorg
-vless://fae3917a-a649-4112-add5-581c05b61111@www.speedtest.net:8080?type=xhttp&encryption=none&path=/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android?ed=2048&host=Allow.amin-1.ir&mode=auto&security=none#🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠همه اپراتورها
-vless://fad329ac-313b-471c-8d94-a6e8f598990e@198.41.192.125:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#MCI-@V2rayAlpha--3
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@188.114.97.139:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#MCI-@V2rayAlpha--2
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@104.27.80.66:80?mode=auto&path=/&security=none&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#MCI-@V2rayAlpha--1
 vless://fad329ac-313b-471c-8d94-a6e8f598990e@104.27.80.66:80?mode=auto&path=/&security=&encryption=none&host=vp3.mydatacloud2.ir&type=xhttp#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
@@ -502,3 +499,6 @@ vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:4
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:2096?path=/&security=tls&alpn=h3,h2&encryption=none&host=J1oG84r7Qf.WaSaBi7890.OrG&fp=chrome&type=ws&sni=J1oG84r7Qf.WaSaBi7890.OrG#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=smart.trevanda.info#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&host=smart.trevanda.info&fp=chrome&type=ws&sni=smart.trevanda.info#✅سرورهایبیشتردرکانال:prrofile_purple@✅
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&host=smart.trevanda.info&fp=chrome&type=ws&sni=smart.trevanda.info#@Hddify
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=smart.trevanda.info#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@best.cdniran.info:443?path=/&security=tls&alpn=h3,h2&encryption=none&fp=chrome&type=ws&sni=smart.trevanda.info#@IRAN_V2RAY1 vip
