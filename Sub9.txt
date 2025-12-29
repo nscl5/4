@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://9e871c22-c0e1-44a0-c821-c19c664eac88@test2.amin8263.ir:2095?type=ws&encryption=none&path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&host=test3.amin8263.ir&security=none#🇩🇪 | XpnTeam - Telegrams-4yay61jd
+vless://9e871c22-c0e1-44a0-c821-c19c664eac88@test2.amin8263.ir:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=&encryption=none&host=test3.amin8263.ir&type=ws#[🚀] ➠ @V2ray_official
 vless://9e871c22-c0e1-44a0-c821-c19c664eac88@172.67.146.171:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#🇩🇪+@mehrosaboran
 vless://9e871c22-c0e1-44a0-c821-c19c664eac88@172.67.146.171:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#🇩🇪+@bored_vpn
 vless://9e871c22-c0e1-44a0-c821-c19c664eac88@104.21.65.149:2095?path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&security=none&encryption=none&host=test3.amin8263.ir&type=ws#🇩🇪+@mehrosaboran
@@ -500,5 +502,3 @@ vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.19.211.200:443/?type=ws&encrypt
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.19.157.252:443/?type=ws&encryption=none&flow=&host=kivi.mrconfigur.site&path=/&security=tls&sni=kivi.mrconfigur.site&allowInsecure=1&fp=chrome#🎲28@oneclickvpnkeys
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.18.40.54:443/?type=ws&encryption=none&flow=&host=kivi.mrconfigur.site&path=/&security=tls&sni=kivi.mrconfigur.site&allowInsecure=1&fp=chrome#🎲21@oneclickvpnkeys
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.18.252.184:443/?type=ws&encryption=none&flow=&host=kivi.mrconfigur.site&path=/&security=tls&sni=kivi.mrconfigur.site&allowInsecure=1&fp=chrome#🎲24@oneclickvpnkeys
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.18.147.17:443/?type=ws&encryption=none&flow=&host=kivi.mrconfigur.site&path=/&security=tls&sni=kivi.mrconfigur.site&allowInsecure=1&fp=chrome#🎲26@oneclickvpnkeys
-vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.240.150:443/?type=ws&encryption=none&flow=&host=kivi.mrconfigur.site&path=/&security=tls&sni=kivi.mrconfigur.site&allowInsecure=1&fp=chrome#🎲78@oneclickvpnkeys
