@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@185.143.232.224:80?path=/news&security=none&encryption=none&host=bama.ir.german.cdnir.org&type=ws#𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=/Telegram-V2ray_Alpha/?ed=2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#@CaV2ray ⚡️
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=/TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI/?ed=2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#@CaV2ray ⚡️
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=/?ed=2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#.
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=/TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI/?ed=2560#@CaV2ray ⚡️
@@ -500,5 +502,3 @@ vless://44b08fea-1e51-4be9-a2a8-f193c458e6ac@164.92.153.42:45127?mode=gun&securi
 vless://44b08fea-1e51-4be9-a2a8-f193c458e6ac@164.92.153.42:45127?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@mehrosaboran
 vless://44b08fea-1e51-4be9-a2a8-f193c458e6ac@164.92.153.42:45127?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#@bored_vpn
 vless://44aded6c-a012-452b-8e13-04d5f15a659f@89.44.242.222:46822?security=none&encryption=none&headerType=none&type=tcp#💎کانفیگ های بیشتر در چنل تلگرام💎 Config_Rayegan@
-vless://44aded6c-a012-452b-8e13-04d5f15a659f@89.44.242.222:46822?security=none&encryption=none&headerType=none&type=tcp#@Maznet-46197-4
-vless://44aded6c-a012-452b-8e13-04d5f15a659f@89.44.242.222:46822?security=&encryption=none&headerType=none&type=tcp#@Maznet-46198-4

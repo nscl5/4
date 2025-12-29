@@ -2,6 +2,8 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=Join------Join------Join---_T&security=tls&alpn=h3&encryption=none&fp=chrome&type=ws&sni=vless.hubp.de#خرید کانفیگ اختصاصی ویژه و پرسرعت: @Arshiavpn12
+vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=Join---&security=tls&alpn=h3&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@Arshiavpn12 جوین شو قطع نشی
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=/?ed=Join---_---T?ed=512&security=tls&alpn=h3&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@Arshiavpn12 جوین شو قطع نشی
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=/?ed=Join---T?ed=512&security=tls&alpn=h3&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@vmesskhodam
 vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?path=/?ed=Join---T?ed=512&security=tls&alpn=h3&encryption=none&host=vless.hubp.de&fp=chrome&type=ws&sni=vless.hubp.de#@Arshiavpn12 جوین شو قطع نشی
@@ -500,5 +502,3 @@ vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed=2560&
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed=2560&security=tls&encryption=none&host=sni.111000.dynv6.net&fp=chrome&type=ws&sni=sni.111000.dynv6.net#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed=2560&security=tls&encryption=none&host=sni.111000.dynv6.net&fp=chrome&type=ws&sni=sni.111000.dynv6.net#@V2ray_confing33
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed=2560&security=tls&encryption=none&host=sni.111000.dynv6.net&fp=chrome&type=ws&sni=sni.111000.dynv6.net#@Selinc
-vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed&security=tls&encryption=none&insecure=0&host=sni.111000.dynv6.net&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.dynv6.net#🇺🇸@FreakConfig
-vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?encryption=none&type=ws&host=sni.111000.dynv6.net&path=/?ed=2560&security=tls&fp=chrome&sni=sni.111000.dynv6.net#🇩🇪@SiNAVM کانال تلگرامی
