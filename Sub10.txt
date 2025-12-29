@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#🇩🇪[Telegram:NetifyVpn]
+vless://7ba08646-09b3-4295-ac25-fff7f27b07da@NOADS.TORPROSPEED.IR:223?security=reality&encryption=none&pbk=JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o&headerType=none&fp=chrome&spx=/&type=tcp&sni=cloudflare.com&sid=c7f175a94bd79f8d#🇸🇪 𓏺 @EXPRESSVPN_420
+vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.231.218:443?security=none&encryption=none&host=zula.ir/?TELEGRAM_JOKERRVPN&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.231.218:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#@CaV2ray ⚡️
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.199.137:443?security=none&encryption=none&host=zula.ir/?TELEGRAM_JOKERRVPN&headerType=http&type=tcp#@CaV2ray ⚡️
 vless://7b6eca4c-44ae-40c6-973a-4e3b29d30803@91.99.199.137:443?security=none&encryption=none&host=zula.ir/?TELEGRAM@JOKERRVPN&headerType=http&type=tcp#@CaV2ray ⚡️
@@ -499,6 +502,3 @@ vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mod
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#All-@V2rayAlpha--6
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@sunflowerplato🌻
 vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@Daily_Configs
-vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@Arshiavpn12 جوین شو قطع نشی
-vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=2560&security=&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#[🚀] ➠ @V2ray_official
-vless://67340574-ff95-4338-8c8a-46caa044effd@trt.fastlynew.hosting-ip.com:80?mode=auto&path=/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=none&encryption=none&host=maxfr171.global.ssl.fastly.net&type=xhttp#@MARAMBASHI 🩵

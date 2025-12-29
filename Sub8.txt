@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=none&encryption=none&type=xhttp#@Broz_time > کانفیگ رایگان
+vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=none&encryption=none&type=xhttp#@Arshiavpn12 جوین شو قطع نشی
+vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=&encryption=none&type=xhttp#🇳🇱@FreakConfig
 vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=&encryption=none&type=xhttp#🇪🇸@FreakConfig
 vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=&encryption=none&type=xhttp#🇩🇪@FreakConfig
 vless://SERVERNETT-SERVERNETT1@rf4.sernett.ir:80?mode=auto&path=/&security=&encryption=none&type=xhttp#r♡ya
@@ -499,6 +502,3 @@ vless://8efcae96-9dc7-4612-b17c-9a372ed84ddd@151.101.205.194:80?path=/-LiV2ry@LI
 vless://8efcae96-9dc7-4612-b17c-9a372ed84ddd@151.101.205.194:80?path=/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048&security=&encryption=none&extra={"xPaddingBytes":"10-100", "noSSEHeader":true}&host=e1.ir&type=xhttp#ConfigX2rayConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray Telegram--- https://t.me/ConfigX2ray
 vless://8ef1b0db-5954-447c-85e5-4f62b107ed61@dl5-us4-cdn.fastfilecdn.org:2052?security=none&encryption=none&host=dl5-us4-cdn.fastfilecdn.org&type=ws&sni=dl5-us4-cdn.fastfilecdn.org#🇺🇸 | @External_Net
 vless://8ec48ed8-cc7c-4cc6-a69a-c95adfe4c371@188.166.150.79:443?path=/amuggqws&security=tls&encryption=none&type=ws&sni=ozon.ru#[🚀] ➠ @V2ray_official
-vless://8ec48ed8-cc7c-4cc6-a69a-c95adfe4c371@188.166.150.79:443?path=/amuggqws&security=tls&encryption=none&insecure=1&type=ws&allowInsecure=1&sni=ozon.ru#https://t.me/v2rayNplus |🇬🇧
-vless://8ec48ed8-cc7c-4cc6-a69a-c95adfe4c371@188.166.150.79:443?note=---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---Telegram---@NetifyVPN---path=/amuggqws&security=tls&encryption=none&type=ws&sni=ozon.ru#🇬🇧[Telegram:NetifyVPN]
-vless://8ec48ed8-cc7c-4cc6-a69a-c95adfe4c371@188.166.150.79:443/?type=ws&encryption=none&flow=&path=/amuggqws&security=tls&sni=ozon.ru#🟩22@oneclickvpnkeys
