@@ -2,9 +2,6 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
-vless://eb774544-18d2-4f43-ad4a-df77ee6726d4@v2ngnet.byte-server.ir:4488?mode=gun&security=&encryption=none&type=grpc&serviceName=@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet#[🇩🇪]t.me/ConfigsHub
-vless://eb774544-18d2-4f43-ad4a-df77ee6726d4@v2ngfast.v2ngfast.byte-server.ir:2718?mode=gun&security=&encryption=none&type=grpc&serviceName=@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast#[🇩🇪]t.me/ConfigsHub
-vless://eb774544-18d2-4f43-ad4a-df77ee6726d4@masterserver1.masterserver1.byte-server.ir:6423?mode=gun&security=&encryption=none&type=grpc&serviceName=@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1#[🇩🇪]t.me/ConfigsHub
 vless://eb7263e5-24b9-4d9c-942c-5f6f0c98ff63@am288.amin-1.ir:2082?type=xhttp&encryption=none&path=/@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM&host=am288.amin-1.ir&mode=auto&security=none#Telegram : @VPN_ROOM 🇩🇪
 vless://eb6b1d2d-f4e6-499d-bce9-eeda18ed532c@109.122.247.103:2070?security=none&encryption=none&headerType=none&type=tcp#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://eb5e2adb-8466-450f-a962-83b3228efa2d@test2.amin8263.ir:2095?type=ws&encryption=none&path=/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048&host=test3.amin8263.ir&security=none#🇩🇪 | XpnTeam - Telegrams-230nj6j4
@@ -502,3 +499,6 @@ vless://e2b3de13-ecef-469a-9ac6-34c25c7d29fc@www.speedtest.net:2095?path=/TELEGR
 vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@uaegaming.gojustore.site:7035?path=/&security=none&encryption=none&host=filimo.com&type=ws#@NETMelliAnti
 vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@pizaitaliano.gojustore.site:7035?path=/&security=none&encryption=none&host=filimo.com&type=ws#@NETMelliAnti
 vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@holnether.gojustore.site:7035?path=/&security=none&encryption=none&host=filimo.com&type=ws#@NETMelliAnti
+vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@francebuget.gojustore.site:7033?mode=gun&security=reality&encryption=none&pbk=iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE&fp=chrome&type=grpc&serviceName=7034vless&sni=www.telewebion.com&sid=16b6cda7ab793526#@NETMelliAnti
+vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@engliskieusjai.gojustore.site:7035?path=/&security=none&encryption=none&host=filimo.com&type=ws#@NETMelliAnti
+vless://e265fc78-e269-46b2-9b6a-85f573dab3d5@ardagulerturk.gojustore.site:7033?mode=gun&security=reality&encryption=none&pbk=iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE&fp=chrome&type=grpc&serviceName=7034vless&sni=www.telewebion.com&sid=16b6cda7ab793526#@NETMelliAnti
