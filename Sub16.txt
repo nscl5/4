@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed=2560&security=tls&encryption=none&host=sni.111000.dynv6.net&fp=chrome&type=ws&sni=sni.111000.dynv6.net#@Selinc
+vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed&security=tls&encryption=none&insecure=0&host=sni.111000.dynv6.net&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.dynv6.net#🇺🇸@FreakConfig
+vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed&security=tls&encryption=none&insecure=0&host=sni.111000.dynv6.net&fp=chrome&type=ws&allowInsecure=0&sni=sni.111000.dynv6.net#
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?path=/?ed&security=tls&encryption=none&host=sni.111000.dynv6.net&fp=chrome&type=ws&sni=sni.111000.dynv6.net#🇺🇸@FreakConfig
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@208.103.161.32:2053?encryption=none&type=ws&host=sni.111000.dynv6.net&path=/?ed=2560&security=tls&fp=chrome&sni=sni.111000.dynv6.net#🇩🇪@SiNAVM کانال تلگرامی
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@104.19.73.126:2053?path=/?ed=2560&security=tls&encryption=none&insecure=1&host=sni.111000.dynv6.net&type=ws&allowInsecure=1&sni=sni.111000.dynv6.net#limo
@@ -499,6 +502,3 @@ vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.148.22:2095?path=/?ed=512&se
 vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.148.22:2095?path=/?ed=512&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#All--@V2rayAlpha-22
 vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.148.22:2095?path=/?ed=512&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#All--22
 vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.148.22:2095?path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#@MARAMBASHI 🇳🇱
-vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.148.22:2095?path=/&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#[🇨🇦]t.me/ConfigsHub
-vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.147.22:2095?path=/?ed=TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆
-vless://087ddd93-b412-460c-a803-d796312d0ad0@104.17.147.22:2095?path=/?ed=TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=uk9.hope-pls.ir&type=ws#@MARAMBASHI 🇺🇸

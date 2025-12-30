@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://8e6acce9-8b56-7190-d491-7d84f8189e26@213.232.120.2:443?security=reality&encryption=none&pbk=6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA&headerType=none&fp=chrome&spx=/TELEGRAM---v2ray_configs_pools---TELEGRAM---v2ray_configs_pools---TELEGRAM---v2ray_configs_pools&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com#@v2ray_configs_pools👈⚡❤️‍🔥
+vless://8e68e16a-096e-4485-9efb-21cb2989c296@185.207.198.254:443?path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048&security=tls&encryption=none&host=Kk40.motorphrotan.ir&fp=chrome&type=ws&sni=Kk40.motorphrotan.ir#@CaV2ray ⚡️
+vless://8e68e16a-096e-4485-9efb-21cb2989c296@104.16.104.151:443?path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048&security=tls&encryption=none&host=Kk40.motorphrotan.ir&fp=chrome&type=ws&sni=Kk40.motorphrotan.ir#@CaV2ray ⚡️
 vless://8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e@91.193.18.158:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&fp=chrome&security=reality&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&sid=f79448a30d#⛄️90@oneclickvpnkeys
 vless://8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e@85.158.109.149:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&fp=chrome&security=reality&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&sid=f79448a30d#⛄️78@oneclickvpnkeys
 vless://8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e@45.139.196.195:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&fp=chrome&security=reality&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&sid=f79448a30d#⛄️74@oneclickvpnkeys
@@ -499,6 +502,3 @@ vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/PVlCNDt9CiME
 vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/PVlCNDt9CiMEktH3?ed=2560&security=tls&alpn=http/1.1&encryption=none&fp=chrome&type=ws&sni=8j3f7HD37h.PaGES.dEV#Channel : @Mrsoulb 🏴🏳
 vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#🧑‍💻
 vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#🏴🏳
-vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#🇩🇪@FreakConfig
-vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#🇨🇦@FreakConfig
-vless://7bcb7241-33f9-48e0-8660-b33aed2bff7a@104.21.96.1:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=8j3f7HD37h.PaGES.dEV#Channel-@vmesskhodam
