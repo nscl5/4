@@ -4,9 +4,11 @@ import (
 	"bufio"
 	"context"
 	"encoding/base64"
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -294,7 +296,7 @@ func decodeBase64(encoded []byte) (string, error) {
 
 func filterForProtocols(data []string, protocols []string) []string {
 	var filtered []string
-	seen := make(map[string]bool) // Track duplicates
+	seen := make(map[string]bool) // Track unique server identity (Protocol + Host + Port)
 
 	for _, line := range data {
 		line = strings.TrimSpace(line)
@@ -302,20 +304,83 @@ func filterForProtocols(data []string, protocols []string) []string {
 			continue
 		}
 
-		// Skip if we've already seen this config
-		if seen[line] {
-			continue
-		}
-
+		// Identify protocol
+		var currentProtocol string
 		for _, protocol := range protocols {
-			if strings.HasPrefix(line, protocol) {
-				filtered = append(filtered, line)
-				seen[line] = true // Mark as seen
+			prefix := protocol
+			if !strings.HasSuffix(prefix, "://") && protocol != "warp://" {
+				prefix += "://"
+			}
+			if strings.HasPrefix(line, prefix) {
+				currentProtocol = protocol
 				break
 			}
 		}
+
+		if currentProtocol == "" {
+			continue
+		}
+
+		// Smart Deduplication: Parse core identity (Address + Port)
+		identity := parseCoreIdentity(line, currentProtocol)
+		if seen[identity] {
+			continue
+		}
+
+		filtered = append(filtered, line)
+		seen[identity] = true
 	}
 	return filtered
+}
+
+// parseCoreIdentity extracts the Protocol + Host + Port from a config line.
+// This allows us to find duplicates that have different names or parameters but point to the same server.
+func parseCoreIdentity(config string, protocol string) string {
+	config = strings.TrimSpace(config)
+
+	switch protocol {
+	case "vmess":
+		trimmed := strings.TrimPrefix(config, "vmess://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err != nil {
+			return config // Fallback to full string if decoding fails
+		}
+		var data struct {
+			Add  string      `json:"add"`
+			Port interface{} `json:"port"` // Use interface because port can be string or int
+		}
+		if err := json.Unmarshal([]byte(decoded), &data); err != nil {
+			return config
+		}
+		return fmt.Sprintf("vmess://%s:%v", data.Add, data.Port)
+
+	case "ssr":
+		trimmed := strings.TrimPrefix(config, "ssr://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err != nil {
+			// SSR padding is often weird, try simple trim if padding fails
+			return config
+		}
+		// SSR format: host:port:protocol:method:obfs:base64pass/?obfsparam=...
+		parts := strings.Split(decoded, ":")
+		if len(parts) >= 2 {
+			return fmt.Sprintf("ssr://%s:%s", parts[0], parts[1])
+		}
+		return config
+
+	default:
+		// Works for vless, trojan, ss, hy2, tuic
+		u, err := url.Parse(config)
+		if err != nil {
+			return config
+		}
+		host := u.Hostname()
+		port := u.Port()
+		if host == "" {
+			return config
+		}
+		return fmt.Sprintf("%s://%s:%s", protocol, host, port)
+	}
 }
 
 func cleanExistingFiles(base64Folder string) {
