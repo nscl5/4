@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify |^| چنل هدیفای
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--34
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#@sunflowerplato🌻
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.156:8880?mode=gun&security=none&encryption=none&type=grpc#All-@V2ray_Alpha--24
@@ -499,6 +502,3 @@ vless://d0298536-d670-4045-bbb1-ddd5ea68683e@time.is:443?path=/&security=tls&enc
 vless://d0298536-d670-4045-bbb1-ddd5ea68683e@172.66.132.196:443?path=/Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET=?ed=2560&security=tls&encryption=none&host=a.azadnet003.ddns-ip.net&fp=chrome&type=ws&sni=a.azadnet003.ddns-ip.net#@V2rayNGVPN+<=+کانفیگ+رایگان
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@[2a0e:d600:0:2f8::2]:443?path=/&security=none&encryption=none&type=ws#🇵🇱
 vless://d00d13b2-5cd3-4648-afa9-807983647ed8@[2a0e:d600:0:2f8::2]:443?encryption=none&type=ws&host=sinavm.ir&path=/&security=none#🇵🇱@SiNAVM - ipv6 - residential
-vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?path=/&security=none&encryption=none&type=ws#🇵🇱
-vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?path=/&security=&encryption=none&host=sinavm.ir&type=ws#@V2ray_confing33
-vless://d00d13b2-5cd3-4648-afa9-807983647ed8@144.31.3.129:443?encryption=none&type=ws&host=sinavm.ir&path=/&security=none#🇵🇱@SiNAVM کانال تلگرام

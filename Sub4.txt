@@ -2,6 +2,9 @@
 #profile-update-interval: 1
 #support-url: https://github.com/Danialsamadi/v2go
 #profile-web-page-url: https://github.com/Danialsamadi/v2go
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443?path=/hormoz&security=tls&encryption=none&type=ws#🇺🇸@FreakConfig
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443?path=/hormoz&security=tls&encryption=none&type=ws#🇩🇪@FreakConfig
+vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443?path=/hormoz&security=tls&encryption=none&type=ws#@Broz_time > کانفیگ رایگان
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443?path=/hormoz&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0#🇩🇪@FreakConfig
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443?path=/hormoz&security=tls&encryption=none&host=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=ws#telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆
 vless://e615a5ba-fce3-4ffa-9c86-b0327a8a107a@92.118.231.181:443/?type=ws&encryption=none&flow=&path=/hormoz&security=tls&sni=eh.vk.com#🎁12@oneclickvpnkeys
@@ -499,6 +502,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?mode=gun&security=none&encryption=none&type=grpc#All-@IRAN_V2RAY1
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.120.178.9:8880?mode=gun&security=none&encryption=none&type=grpc#JOIN ➪@FILTERK0SH
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&type=grpc#azadiiivpn 🎀
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&type=grpc#@Hddify |^| چنل هدیفای
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.97:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#@Hddify
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#✅سرورهایبیشتردرکانال:prrofile_purple@✅
