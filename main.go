@@ -156,8 +156,6 @@ func main() {
 	processingTime := time.Since(start).Seconds()
 	writeUpdateSummary(len(filteredConfigs), stats, processingTime, originalCount, failedLinks)
 
-	fmt.Println("Configuration aggregation completed successfully!")
-
 	// Now sort configurations by protocol
 	sortConfigs()
 }
@@ -380,6 +378,12 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 				}
 				seen[identity] = true
 				mu.Unlock()
+
+				// Life Guard: Port Checker (TCP Connectivity Test)
+				host, port := getHostPort(line, currentProtocol)
+				if !checkPort(host, port) {
+					continue
+				}
 
 				// Country Lookup (Parallelized as it involves DNS)
 				country := getCountryInfo(line, currentProtocol)
@@ -840,4 +844,48 @@ func writeUpdateSummary(total int, stats map[string]int, duration float64, origi
 		writer.WriteString("\n## ✅ All Sources Successful\n")
 		writer.WriteString("All configured sources were reached successfully.\n")
 	}
+}
+
+func checkPort(host, port string) bool {
+	if host == "" || port == "" {
+		return false
+	}
+	address := net.JoinHostPort(host, port)
+	conn, err := net.DialTimeout("tcp", address, 2*time.Second)
+	if err != nil {
+		return false
+	}
+	conn.Close()
+	return true
+}
+
+func getHostPort(config, protocol string) (string, string) {
+	switch protocol {
+	case "vmess":
+		trimmed := strings.TrimPrefix(config, "vmess://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			var data struct {
+				Add  string      `json:"add"`
+				Port interface{} `json:"port"`
+			}
+			json.Unmarshal([]byte(decoded), &data)
+			return data.Add, fmt.Sprintf("%v", data.Port)
+		}
+	case "ssr":
+		trimmed := strings.TrimPrefix(config, "ssr://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			parts := strings.Split(decoded, ":")
+			if len(parts) >= 2 {
+				return parts[0], parts[1]
+			}
+		}
+	default:
+		u, err := url.Parse(config)
+		if err == nil {
+			return u.Hostname(), u.Port()
+		}
+	}
+	return "", ""
 }
