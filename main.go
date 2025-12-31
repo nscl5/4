@@ -327,10 +327,85 @@ func filterForProtocols(data []string, protocols []string) []string {
 			continue
 		}
 
-		filtered = append(filtered, line)
+		// Clean Namer: Standardize the name
+		cleanLine := standardizeName(line, currentProtocol, len(filtered)+1)
+		filtered = append(filtered, cleanLine)
 		seen[identity] = true
 	}
 	return filtered
+}
+
+// standardizeName renames a configuration to a professional format: v2go | Protocol | ID
+func standardizeName(config string, protocol string, index int) string {
+	newName := fmt.Sprintf("v2go | %s | %d", strings.ToUpper(protocol), index)
+
+	switch protocol {
+	case "vmess":
+		trimmed := strings.TrimPrefix(config, "vmess://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err != nil {
+			return config
+		}
+		var data map[string]interface{}
+		if err := json.Unmarshal([]byte(decoded), &data); err != nil {
+			return config
+		}
+		data["ps"] = newName
+		updated, _ := json.Marshal(data)
+		return "vmess://" + base64.StdEncoding.EncodeToString(updated)
+
+	case "ssr":
+		trimmed := strings.TrimPrefix(config, "ssr://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err != nil {
+			return config
+		}
+		// SSR format: host:port:protocol:method:obfs:base64pass/?obfsparam=...&remarks=base64remarks&...
+		parts := strings.Split(decoded, "/?")
+		if len(parts) < 1 {
+			return config
+		}
+
+		mainInfo := parts[0]
+		params := ""
+		if len(parts) > 1 {
+			params = parts[1]
+		}
+
+		// Handle remarks in params
+		paramList := strings.Split(params, "&")
+		newParamList := []string{}
+		remarksFound := false
+		encodedName := strings.ReplaceAll(base64.StdEncoding.EncodeToString([]byte(newName)), "=", "")
+
+		for _, p := range paramList {
+			if strings.HasPrefix(p, "remarks=") {
+				newParamList = append(newParamList, "remarks="+encodedName)
+				remarksFound = true
+			} else if p != "" {
+				newParamList = append(newParamList, p)
+			}
+		}
+		if !remarksFound {
+			newParamList = append(newParamList, "remarks="+encodedName)
+		}
+
+		updatedDecoded := mainInfo + "/?" + strings.Join(newParamList, "&")
+		return "ssr://" + strings.ReplaceAll(base64.StdEncoding.EncodeToString([]byte(updatedDecoded)), "=", "")
+
+	default:
+		// Standard URL protocols: vless, trojan, ss, hy2, tuic
+		u, err := url.Parse(config)
+		if err != nil {
+			// Fallback: if url.Parse fails, try to replace existing fragment
+			if strings.Contains(config, "#") {
+				return config[:strings.Index(config, "#")] + "#" + url.PathEscape(newName)
+			}
+			return config + "#" + url.PathEscape(newName)
+		}
+		u.Fragment = newName
+		return u.String()
+	}
 }
 
 // parseCoreIdentity extracts the Protocol + Host + Port from a config line.
