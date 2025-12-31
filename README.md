@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt
 
 **Base64 encoded (if main link fails):**
 ```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_base64_Sub.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/refs/heads/main/All_Configs_Sub.txt
 ```
 
 ### Protocol-Specific Subscriptions
