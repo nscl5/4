@@ -1,5 +1,5 @@
 # V2Ray Config Update Summary
-Generated on: 2025-12-31 01:17:27 EST
+Generated on: 2025-12-31 01:29:01 EST
 
 ## Configuration Statistics
 - Total unique configurations: 37134
@@ -14,7 +14,7 @@ Generated on: 2025-12-31 01:17:27 EST
   - warp://: 0 configs
 
 ## Performance
-- Processing time: 5.75 seconds
+- Processing time: 14.80 seconds
 - Duplicate removal: 60.8% reduction (from 94624 to 37134)
 
 ## ✅ All Sources Successful

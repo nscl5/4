@@ -7,24 +7,27 @@
 ## 🔥 Performance Highlights
 
 - **⚡ 99.7% Faster**: Reduced processing time from ~2 hours to ~14 seconds
-- **🎯 Smart Deduplication**: Removes 95%+ duplicate configurations automatically  
-- **🔄 Concurrent Processing**: 10 parallel workers for maximum efficiency
-- **💾 Memory Optimized**: Streaming I/O with connection pooling
-- **📊 Real-time Statistics**: Detailed processing metrics and protocol breakdown
+- **🎯 Smart Deduplication**: Identity-based parsing (Host + Port) removes true duplicates even with different names
+- **🌍 Globalist Support**: Automatic GeoIP tagging with country flags (e.g., 🇩🇪 DE, 🇺🇸 US)
+- **🏷️ Clean Namer**: Standardizes all config names to a professional format (e.g., `v2go | 🇩🇪 DE | VLESS | 1`)
+- **� Regional Sorting**: Automatically splits configurations by country into separate subscription files
+- **� Concurrent Processing**: High-performance worker pool (300+ workers) for lightning-fast DNS and GeoIP resolution
 
 ### Performance Comparison
-| Version | Runtime | Success Rate | Configs Processed |
+| Version | Runtime | Success Rate | Unique Servers |
 |---------|---------|--------------|-------------------|
-| Python  | ~2 hours | Frequent failures | ~450k |
-| **Go**  | **~14 seconds** | **100% reliable** | **450k+** |
+| Python  | ~2 hours | Frequent failures | ~21k (approx) |
+| **Go (v2go)** | **~1 minute** | **100% reliable** | **~37k (Cleaned)** |
 
 ## 🛠️ Supported Protocols
 
-- **VLESS** (Primary - ~335k configs)
-- **Shadowsocks (SS)** (~69k configs)  
-- **VMess** (~25k configs)
-- **Trojan** (~17k configs)
-- **ShadowsocksR (SSR)** (~86 configs)
+- **VLESS** (Primary)
+- **Shadowsocks (SS)**
+- **VMess**
+- **Trojan**
+- **Hysteria2 (HY2)**
+- **TUIC**
+- **ShadowsocksR (SSR)**
 
 ## 🚀 Quick Start
 
@@ -37,34 +40,37 @@
 ```bash
 # Clone the repository
 git clone https://github.com/Danialsamadi/v2go.git
-cd v2go/Files
+cd v2go
 
 # Build the aggregator
-go build -o aggregator main.go sort.go
+go build -o aggregator *.go
 
-# Run the aggregator
+# Run the aggregator (downloads GeoIP DB automatically)
 ./aggregator
-
-# Sort configs by protocol (optional)
-go run sort.go
 ```
 
 ### Automated Updates
-The repository includes GitHub Actions workflow that automatically updates configurations every 6 hours.
+The repository includes a GitHub Actions workflow that automatically updates configurations every 6 hours, performing fresh deduplication and regional sorting.
 
 ## 📁 Output Structure
 
 ```
 v2go/
-├── All_Configs_Sub.txt              # All configs (plain text)
-├── All_Configs_base64_Sub.txt       # All configs (base64 encoded)
-├── Splitted-By-Protocol/            # Protocol-specific files
+├── All_Configs_Sub.txt              # All unique configs (plain text)
+├── All_Configs_base64_Sub.txt       # All unique configs (base64 encoded)
+├── Splitted-By-Protocol/            # Organized by protocol
 │   ├── vless.txt
 │   ├── vmess.txt  
 │   ├── ss.txt
-│   ├── ssr.txt
-│   └── trojan.txt
-└── Sub1.txt - Sub14.txt            # Split into 500-config chunks
+│   ├── trojan.txt
+│   ├── hy2.txt
+│   └── tuic.txt
+├── Splitted-By-Country/             # Organized by GeoIP location
+│   ├── US.txt (United States)
+│   ├── DE.txt (Germany)
+│   ├── GB.txt (United Kingdom)
+│   └── ... (over 100+ countries)
+└── Sub1.txt - Sub20.txt            # Split into 500-config chunks
 ```
 
 ## 🔗 Subscription Links
@@ -76,12 +82,26 @@ v2go/
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt
 ```
 
-**Base64 encoded (if main link fails):**
+### 🌍 Country-Specific Subscriptions
+
+Get configurations only for the countries you need. Replace `XX` with any 2-letter country code (e.g., US, DE, GB).
+
+**United States (US):**
 ```
-https://raw.githubusercontent.com/Danialsamadi/v2go/refs/heads/main/All_Configs_Sub.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/US.txt
 ```
 
-### Protocol-Specific Subscriptions
+**Germany (DE):**
+```
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/DE.txt
+```
+
+**United Kingdom (GB):**
+```
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/GB.txt
+```
+
+### 🛰️ Protocol-Specific Subscriptions
 
 **VLESS:**
 ```
@@ -98,14 +118,14 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/vm
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/ss.txt
 ```
 
-**ShadowsocksR:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/ssr.txt
-```
-
 **Trojan:**
 ```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/trojan.txt
+```
+
+**Hysteria2:**
+```
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/hy2.txt
 ```
 
 ### Split Subscriptions (500 configs each)

@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"net/url"
 	"os"
@@ -14,6 +15,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/oschwald/geoip2-golang"
 )
 
 const (
@@ -72,6 +75,11 @@ type Result struct {
 	Error      error
 }
 
+var (
+	geoDB    *geoip2.Reader
+	geoCache sync.Map // cache for host -> country code
+)
+
 func main() {
 	start := time.Now()
 	fmt.Println("Starting V2Ray config aggregator...")
@@ -93,6 +101,19 @@ func main() {
 		},
 	}
 
+	// Download and open GeoIP database
+	if err := downloadGeoIPDB(); err != nil {
+		fmt.Printf("Warning: Could not download GeoIP database: %v\n", err)
+	} else {
+		db, err := geoip2.Open("GeoLite2-Country.mmdb")
+		if err == nil {
+			geoDB = db
+			defer geoDB.Close()
+		} else {
+			fmt.Printf("Warning: Could not open GeoIP database: %v\n", err)
+		}
+	}
+
 	// Fetch all URLs concurrently
 	fmt.Println("Fetching configurations from sources...")
 	allConfigs, failedLinks := fetchAllConfigs(client, links, dirLinks)
@@ -100,7 +121,7 @@ func main() {
 	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
 	originalCount := len(allConfigs)
-	filteredConfigs := filterForProtocols(allConfigs, protocols)
+	filteredConfigs, configsByCountry := filterForProtocols(allConfigs, protocols)
 
 	fmt.Printf("Found %d unique valid configurations\n", len(filteredConfigs))
 	fmt.Printf("Removed %d duplicates\n", originalCount-len(filteredConfigs))
@@ -127,6 +148,10 @@ func main() {
 	// Calculate protocol statistics
 	stats := calculateStats(filteredConfigs)
 
+	// Write country-specific files
+	fmt.Println("Writing country-specific files...")
+	writeCountryFiles(configsByCountry)
+
 	// Write summary to UPDATE_SUMMARY.md
 	processingTime := time.Since(start).Seconds()
 	writeUpdateSummary(len(filteredConfigs), stats, processingTime, originalCount, failedLinks)
@@ -138,9 +163,14 @@ func main() {
 }
 
 func ensureDirectoriesExist() (string, error) {
-	// Create Base64 directory in current directory
+	// Create Base64 directory
 	base64Folder := "Base64"
 	if err := os.MkdirAll(base64Folder, 0755); err != nil {
+		return "", err
+	}
+
+	// Create Splitted-By-Country directory
+	if err := os.MkdirAll("Splitted-By-Country", 0755); err != nil {
 		return "", err
 	}
 
@@ -294,50 +324,110 @@ func decodeBase64(encoded []byte) (string, error) {
 	return string(decoded), nil
 }
 
-func filterForProtocols(data []string, protocols []string) []string {
+func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string) {
 	var filtered []string
-	seen := make(map[string]bool) // Track unique server identity (Protocol + Host + Port)
+	configsByCountry := make(map[string][]string)
+	seen := make(map[string]bool)
+	var mu sync.Mutex
 
-	for _, line := range data {
-		line = strings.TrimSpace(line)
-		if line == "" {
-			continue
-		}
-
-		// Identify protocol
-		var currentProtocol string
-		for _, protocol := range protocols {
-			prefix := protocol
-			if !strings.HasSuffix(prefix, "://") && protocol != "warp://" {
-				prefix += "://"
-			}
-			if strings.HasPrefix(line, prefix) {
-				currentProtocol = protocol
-				break
-			}
-		}
-
-		if currentProtocol == "" {
-			continue
-		}
-
-		// Smart Deduplication: Parse core identity (Address + Port)
-		identity := parseCoreIdentity(line, currentProtocol)
-		if seen[identity] {
-			continue
-		}
-
-		// Clean Namer: Standardize the name
-		cleanLine := standardizeName(line, currentProtocol, len(filtered)+1)
-		filtered = append(filtered, cleanLine)
-		seen[identity] = true
+	type configRes struct {
+		line    string
+		country string
+		proto   string
 	}
-	return filtered
+
+	// Use a worker pool for parallel country lookup and deduplication
+	jobs := make(chan string, 100)
+	results := make(chan configRes, 100)
+
+	const numWorkers = 300
+	var wg sync.WaitGroup
+
+	for w := 0; w < numWorkers; w++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for line := range jobs {
+				line = strings.TrimSpace(line)
+				if line == "" {
+					continue
+				}
+
+				// Identify protocol
+				var currentProtocol string
+				for _, protocol := range protocols {
+					prefix := protocol
+					if !strings.HasSuffix(prefix, "://") && protocol != "warp://" {
+						prefix += "://"
+					}
+					if strings.HasPrefix(line, prefix) {
+						currentProtocol = protocol
+						break
+					}
+				}
+
+				if currentProtocol == "" {
+					continue
+				}
+
+				// Smart Deduplication: Parse core identity (Address + Port)
+				identity := parseCoreIdentity(line, currentProtocol)
+
+				mu.Lock()
+				if seen[identity] {
+					mu.Unlock()
+					continue
+				}
+				seen[identity] = true
+				mu.Unlock()
+
+				// Country Lookup (Parallelized as it involves DNS)
+				country := getCountryInfo(line, currentProtocol)
+
+				results <- configRes{line: line, country: country, proto: currentProtocol}
+			}
+		}()
+	}
+
+	go func() {
+		for _, line := range data {
+			jobs <- line
+		}
+		close(jobs)
+	}()
+
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	for res := range results {
+		// Standardize the name sequentially to have correct indexing
+		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country)
+		filtered = append(filtered, cleanLine)
+
+		countryKey := res.country
+		if countryKey == "" {
+			countryKey = "Unknown"
+		}
+		configsByCountry[countryKey] = append(configsByCountry[countryKey], cleanLine)
+	}
+
+	return filtered, configsByCountry
 }
 
-// standardizeName renames a configuration to a professional format: v2go | Protocol | ID
-func standardizeName(config string, protocol string, index int) string {
-	newName := fmt.Sprintf("v2go | %s | %d", strings.ToUpper(protocol), index)
+// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID
+func standardizeName(config string, protocol string, index int, country string) string {
+	flag := getFlag(country)
+	countryDisplay := ""
+	if country != "" {
+		if flag != "" {
+			countryDisplay = flag + " " + country + " | "
+		} else {
+			countryDisplay = country + " | "
+		}
+	}
+	newName := fmt.Sprintf("v2go | %s%s | %d", countryDisplay, strings.ToUpper(protocol), index)
 
 	switch protocol {
 	case "vmess":
@@ -444,7 +534,6 @@ func parseCoreIdentity(config string, protocol string) string {
 		return config
 
 	default:
-		// Works for vless, trojan, ss, hy2, tuic
 		u, err := url.Parse(config)
 		if err != nil {
 			return config
@@ -458,6 +547,107 @@ func parseCoreIdentity(config string, protocol string) string {
 	}
 }
 
+func getCountryInfo(config, protocol string) string {
+	if geoDB == nil {
+		return ""
+	}
+
+	host := ""
+	switch protocol {
+	case "vmess":
+		trimmed := strings.TrimPrefix(config, "vmess://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			var data struct {
+				Add string `json:"add"`
+			}
+			json.Unmarshal([]byte(decoded), &data)
+			host = data.Add
+		}
+	case "ssr":
+		trimmed := strings.TrimPrefix(config, "ssr://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			parts := strings.Split(decoded, ":")
+			if len(parts) > 0 {
+				host = parts[0]
+			}
+		}
+	default:
+		u, err := url.Parse(config)
+		if err == nil {
+			host = u.Hostname()
+		}
+	}
+
+	if host == "" {
+		return ""
+	}
+
+	// Check cache
+	if val, ok := geoCache.Load(host); ok {
+		return val.(string)
+	}
+
+	// Resolve IP if it's a domain
+	ip := net.ParseIP(host)
+	if ip == nil {
+		ips, err := net.LookupIP(host)
+		if err == nil && len(ips) > 0 {
+			ip = ips[0]
+		}
+	}
+
+	if ip == nil {
+		geoCache.Store(host, "")
+		return ""
+	}
+
+	record, err := geoDB.Country(ip)
+	if err != nil {
+		geoCache.Store(host, "")
+		return ""
+	}
+
+	code := record.Country.IsoCode
+	geoCache.Store(host, code)
+	return code
+}
+
+func getFlag(code string) string {
+	if len(code) != 2 {
+		return ""
+	}
+	code = strings.ToUpper(code)
+	return string(rune(code[0])+127397) + string(rune(code[1])+127397)
+}
+
+func downloadGeoIPDB() error {
+	dbPath := "GeoLite2-Country.mmdb"
+	if _, err := os.Stat(dbPath); err == nil {
+		return nil
+	}
+
+	fmt.Println("Downloading GeoIP database...")
+	// Using a reliable mirror
+	url := "https://raw.githubusercontent.com/6Kmfi6HP/maxmind/main/GeoLite2-Country.mmdb"
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	out, err := os.Create(dbPath)
+	if err != nil {
+		return err
+	}
+	defer out.Close()
+
+	_, err = io.Copy(out, resp.Body)
+	return err
+}
+
 func cleanExistingFiles(base64Folder string) {
 	// Remove main files
 	os.Remove("All_Configs_Sub.txt")
@@ -467,6 +657,32 @@ func cleanExistingFiles(base64Folder string) {
 	for i := 0; i < 20; i++ {
 		os.Remove(fmt.Sprintf("Sub%d.txt", i))
 		os.Remove(filepath.Join(base64Folder, fmt.Sprintf("Sub%d_base64.txt", i)))
+	}
+
+	// Clean Splitted-By-Country directory
+	files, err := os.ReadDir("Splitted-By-Country")
+	if err == nil {
+		for _, f := range files {
+			os.Remove(filepath.Join("Splitted-By-Country", f.Name()))
+		}
+	}
+}
+
+func writeCountryFiles(configsByCountry map[string][]string) {
+	countryDir := "Splitted-By-Country"
+	for country, configs := range configsByCountry {
+		filename := filepath.Join(countryDir, country+".txt")
+		file, err := os.Create(filename)
+		if err != nil {
+			continue
+		}
+
+		writer := bufio.NewWriter(file)
+		for _, config := range configs {
+			writer.WriteString(config + "\n")
+		}
+		writer.Flush()
+		file.Close()
 	}
 }
 
