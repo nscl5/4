@@ -47,12 +47,10 @@ jobs:
         
     - name: Build and run Go aggregator
       run: |
-        cd Files
         echo "Building Go application..."
         go mod tidy
         # Build both files together since main.go depends on sort.go
-        go build -ldflags="-s -w" -o ../aggregator *.go
-        cd ..
+        go build -ldflags="-s -w" -o aggregator *.go
         echo "Starting config aggregation and sorting..."
         ./aggregator
         echo "Config processing completed successfully!"
@@ -130,40 +128,6 @@ jobs:
             fi
           done
         fi
-        
-    - name: Create status summary
-      run: |
-        echo "# V2Ray Config Update Summary" > UPDATE_SUMMARY.md
-        echo "Generated on: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> UPDATE_SUMMARY.md
-        echo "" >> UPDATE_SUMMARY.md
-        
-        # Count configurations by type
-        echo "## Configuration Statistics" >> UPDATE_SUMMARY.md
-        
-        total=0
-        if [ -f "All_Configs_Sub.txt" ]; then
-          total=$(wc -l < "All_Configs_Sub.txt")
-        elif ls All_Configs_Sub_part_* >/dev/null 2>&1; then
-          total=$(cat All_Configs_Sub_part_* | wc -l)
-        fi
-        echo "- Total configurations: $total" >> UPDATE_SUMMARY.md
-        
-        # Protocol breakdown
-        if [ -d "Splitted-By-Protocol" ]; then
-          echo "- Protocol breakdown:" >> UPDATE_SUMMARY.md
-          for file in Splitted-By-Protocol/*.txt; do
-            if [ -f "$file" ]; then
-              protocol=$(basename "$file" .txt)
-              count=$(wc -l < "$file")
-              echo "  - $protocol: $count configs" >> UPDATE_SUMMARY.md
-            fi
-          done
-        fi
-        
-        echo "" >> UPDATE_SUMMARY.md
-        echo "## Performance" >> UPDATE_SUMMARY.md
-        echo "- Processing time: ~14 seconds (Go implementation)" >> UPDATE_SUMMARY.md
-        echo "- Duplicate removal: ~95% reduction" >> UPDATE_SUMMARY.md
         
     - name: Commit and push changes
       uses: EndBug/add-and-commit@v9
