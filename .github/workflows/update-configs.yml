@@ -52,6 +52,7 @@ jobs:
         # Build both files together since main.go depends on sort.go
         go build -ldflags="-s -w" -o aggregator *.go
         echo "Starting config aggregation and sorting..."
+        ulimit -n 65535
         ./aggregator
         echo "Config processing completed successfully!"
       

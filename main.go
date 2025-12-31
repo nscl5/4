@@ -76,8 +76,11 @@ type Result struct {
 }
 
 var (
-	geoDB    *geoip2.Reader
-	geoCache sync.Map // cache for host -> country code
+	geoDB      *geoip2.Reader
+	dnsCache   sync.Map // host -> IP
+	portCache  sync.Map // addr -> bool
+	ipGeoCache sync.Map // IP -> country code
+	geoCache   sync.Map // legacy host -> country code
 )
 
 func main() {
@@ -334,11 +337,11 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 		proto   string
 	}
 
-	// Use a worker pool for parallel country lookup and deduplication
-	jobs := make(chan string, 100)
-	results := make(chan configRes, 100)
+	// Turbo Engine: Massive parallel pipeline with buffering
+	jobs := make(chan string, len(data))
+	results := make(chan configRes, len(data))
 
-	const numWorkers = 300
+	const numWorkers = 1000
 	var wg sync.WaitGroup
 
 	for w := 0; w < numWorkers; w++ {
@@ -351,7 +354,7 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 					continue
 				}
 
-				// Identify protocol
+				// 1. Identify protocol quickly
 				var currentProtocol string
 				for _, protocol := range protocols {
 					prefix := protocol
@@ -363,14 +366,12 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 						break
 					}
 				}
-
 				if currentProtocol == "" {
 					continue
 				}
 
-				// Smart Deduplication: Parse core identity (Address + Port)
+				// 2. Identity Deduplication (Local)
 				identity := parseCoreIdentity(line, currentProtocol)
-
 				mu.Lock()
 				if seen[identity] {
 					mu.Unlock()
@@ -379,26 +380,24 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 				seen[identity] = true
 				mu.Unlock()
 
-				// Life Guard: Port Checker (TCP Connectivity Test)
+				// 3. Port Check (Using Global Turbo Cache)
 				host, port := getHostPort(line, currentProtocol)
 				if !checkPort(host, port) {
 					continue
 				}
 
-				// Country Lookup (Parallelized as it involves DNS)
-				country := getCountryInfo(line, currentProtocol)
+				// 4. Country Lookup (Using DNS + IP Geo Cache)
+				country := getCountryInfo(host)
 
 				results <- configRes{line: line, country: country, proto: currentProtocol}
 			}
 		}()
 	}
 
-	go func() {
-		for _, line := range data {
-			jobs <- line
-		}
-		close(jobs)
-	}()
+	for _, line := range data {
+		jobs <- line
+	}
+	close(jobs)
 
 	go func() {
 		wg.Wait()
@@ -406,7 +405,6 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 	}()
 
 	for res := range results {
-		// Standardize the name sequentially to have correct indexing
 		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country)
 		filtered = append(filtered, cleanLine)
 
@@ -551,70 +549,52 @@ func parseCoreIdentity(config string, protocol string) string {
 	}
 }
 
-func getCountryInfo(config, protocol string) string {
-	if geoDB == nil {
+func getCountryInfo(host string) string {
+	if geoDB == nil || host == "" {
 		return ""
 	}
 
-	host := ""
-	switch protocol {
-	case "vmess":
-		trimmed := strings.TrimPrefix(config, "vmess://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err == nil {
-			var data struct {
-				Add string `json:"add"`
-			}
-			json.Unmarshal([]byte(decoded), &data)
-			host = data.Add
-		}
-	case "ssr":
-		trimmed := strings.TrimPrefix(config, "ssr://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err == nil {
-			parts := strings.Split(decoded, ":")
-			if len(parts) > 0 {
-				host = parts[0]
-			}
-		}
-	default:
-		u, err := url.Parse(config)
-		if err == nil {
-			host = u.Hostname()
-		}
-	}
-
-	if host == "" {
-		return ""
-	}
-
-	// Check cache
-	if val, ok := geoCache.Load(host); ok {
+	// 1. Check IP Geo Cache
+	if val, ok := ipGeoCache.Load(host); ok {
 		return val.(string)
 	}
 
-	// Resolve IP if it's a domain
-	ip := net.ParseIP(host)
-	if ip == nil {
-		ips, err := net.LookupIP(host)
-		if err == nil && len(ips) > 0 {
-			ip = ips[0]
+	// 2. Resolve IP (using DNS Cache)
+	var targetIP net.IP
+	if ip := net.ParseIP(host); ip != nil {
+		targetIP = ip
+	} else {
+		if val, ok := dnsCache.Load(host); ok {
+			targetIP = val.(net.IP)
+		} else {
+			ips, err := net.LookupIP(host)
+			if err != nil || len(ips) == 0 {
+				dnsCache.Store(host, net.IP{})
+				return ""
+			}
+			targetIP = ips[0]
+			dnsCache.Store(host, targetIP)
 		}
 	}
 
-	if ip == nil {
-		geoCache.Store(host, "")
+	if targetIP == nil {
 		return ""
 	}
 
-	record, err := geoDB.Country(ip)
+	// 3. Get Country (IP Based)
+	ipStr := targetIP.String()
+	if val, ok := ipGeoCache.Load(ipStr); ok {
+		return val.(string)
+	}
+
+	record, err := geoDB.Country(targetIP)
 	if err != nil {
-		geoCache.Store(host, "")
 		return ""
 	}
 
 	code := record.Country.IsoCode
-	geoCache.Store(host, code)
+	ipGeoCache.Store(ipStr, code)
+	ipGeoCache.Store(host, code)
 	return code
 }
 
@@ -851,11 +831,19 @@ func checkPort(host, port string) bool {
 		return false
 	}
 	address := net.JoinHostPort(host, port)
-	conn, err := net.DialTimeout("tcp", address, 2*time.Second)
+
+	// Check Port Cache
+	if val, ok := portCache.Load(address); ok {
+		return val.(bool)
+	}
+
+	conn, err := net.DialTimeout("tcp", address, 1*time.Second)
 	if err != nil {
+		portCache.Store(address, false)
 		return false
 	}
 	conn.Close()
+	portCache.Store(address, true)
 	return true
 }
 
