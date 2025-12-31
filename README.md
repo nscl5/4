@@ -214,22 +214,28 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
 
 ## 📱 Compatible V2Ray Clients
 
+> ** Most Recommended App:** [HAP (Happ)](https://www.happ.su/main/) — Blazingly fast, smooth, and perfect for these high-speed configurations.
+
 ### Android
+- **HAP (Happ)** (Highly Recommended)
 - **v2rayNG** (Recommended)
 - **Clash for Android**
 
 ### iOS  
+- **HAP (Happ)** (Highly Recommended)
 - **Fair VPN**
 - **Streisand**
 - **Shadowrocket**
 
 ### Windows & Linux
+- **HAP (Happ)** (Highly Recommended)
 - **Hiddify Next** (Recommended)
 - **Nekoray**
 - **v2rayN**
 - **Clash Verge**
 
 ### macOS
+- **HAP (Happ)** (Highly Recommended)
 - **V2rayU**
 - **ClashX**
 
