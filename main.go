@@ -12,6 +12,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -75,10 +76,20 @@ type Result struct {
 	Error      error
 }
 
+type FinalConfig struct {
+	Line    string
+	Latency time.Duration
+}
+
+type portResult struct {
+	active  bool
+	latency time.Duration
+}
+
 var (
 	geoDB      *geoip2.Reader
 	dnsCache   sync.Map // host -> IP
-	portCache  sync.Map // addr -> bool
+	portCache  sync.Map // addr -> portResult
 	ipGeoCache sync.Map // IP -> country code
 	geoCache   sync.Map // legacy host -> country code
 )
@@ -124,10 +135,10 @@ func main() {
 	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
 	originalCount := len(allConfigs)
-	filteredConfigs, configsByCountry := filterForProtocols(allConfigs, protocols)
+	filteredConfigs, configsByCountry, allFinalConfigs := filterForProtocols(allConfigs, protocols)
 
 	fmt.Printf("Found %d unique valid configurations\n", len(filteredConfigs))
-	fmt.Printf("Removed %d duplicates\n", originalCount-len(filteredConfigs))
+	fmt.Printf("Removed %d duplicates/dead nodes\n", originalCount-len(filteredConfigs))
 
 	// Clean existing files
 	cleanExistingFiles(base64Folder)
@@ -154,6 +165,10 @@ func main() {
 	// Write country-specific files
 	fmt.Println("Writing country-specific files...")
 	writeCountryFiles(configsByCountry)
+
+	// Create Fastest_Premium.txt (Top 100 by Latency)
+	fmt.Println("Generating Fastest_Premium.txt...")
+	writeFastestPremiumFile(allFinalConfigs)
 
 	// Write summary to UPDATE_SUMMARY.md
 	processingTime := time.Since(start).Seconds()
@@ -325,8 +340,9 @@ func decodeBase64(encoded []byte) (string, error) {
 	return string(decoded), nil
 }
 
-func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string) {
+func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string, []FinalConfig) {
 	var filtered []string
+	var allFinal []FinalConfig
 	configsByCountry := make(map[string][]string)
 	seen := make(map[string]bool)
 	var mu sync.Mutex
@@ -335,6 +351,7 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 		line    string
 		country string
 		proto   string
+		latency time.Duration
 	}
 
 	// Turbo Engine: Massive parallel pipeline with buffering
@@ -382,14 +399,15 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 
 				// 3. Port Check (Using Global Turbo Cache)
 				host, port := getHostPort(line, currentProtocol)
-				if !checkPort(host, port) {
+				active, latency := checkPort(host, port)
+				if !active {
 					continue
 				}
 
 				// 4. Country Lookup (Using DNS + IP Geo Cache)
 				country := getCountryInfo(host)
 
-				results <- configRes{line: line, country: country, proto: currentProtocol}
+				results <- configRes{line: line, country: country, proto: currentProtocol, latency: latency}
 			}
 		}()
 	}
@@ -405,8 +423,9 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 	}()
 
 	for res := range results {
-		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country)
+		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country, res.latency)
 		filtered = append(filtered, cleanLine)
+		allFinal = append(allFinal, FinalConfig{Line: cleanLine, Latency: res.latency})
 
 		countryKey := res.country
 		if countryKey == "" {
@@ -415,11 +434,11 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 		configsByCountry[countryKey] = append(configsByCountry[countryKey], cleanLine)
 	}
 
-	return filtered, configsByCountry
+	return filtered, configsByCountry, allFinal
 }
 
-// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID
-func standardizeName(config string, protocol string, index int, country string) string {
+// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID | Latency
+func standardizeName(config string, protocol string, index int, country string, latency time.Duration) string {
 	flag := getFlag(country)
 	countryDisplay := ""
 	if country != "" {
@@ -429,7 +448,13 @@ func standardizeName(config string, protocol string, index int, country string) 
 			countryDisplay = country + " | "
 		}
 	}
-	newName := fmt.Sprintf("v2go | %s%s | %d", countryDisplay, strings.ToUpper(protocol), index)
+
+	latencyDisplay := ""
+	if latency > 0 {
+		latencyDisplay = fmt.Sprintf(" | ⚡ %dms", latency.Milliseconds())
+	}
+
+	newName := fmt.Sprintf("v2go | %s%s | %d%s", countryDisplay, strings.ToUpper(protocol), index, latencyDisplay)
 
 	switch protocol {
 	case "vmess":
@@ -826,25 +851,29 @@ func writeUpdateSummary(total int, stats map[string]int, duration float64, origi
 	}
 }
 
-func checkPort(host, port string) bool {
+func checkPort(host, port string) (bool, time.Duration) {
 	if host == "" || port == "" {
-		return false
+		return false, 0
 	}
 	address := net.JoinHostPort(host, port)
 
 	// Check Port Cache
 	if val, ok := portCache.Load(address); ok {
-		return val.(bool)
+		res := val.(portResult)
+		return res.active, res.latency
 	}
 
+	start := time.Now()
 	conn, err := net.DialTimeout("tcp", address, 1*time.Second)
+	latency := time.Since(start)
+
 	if err != nil {
-		portCache.Store(address, false)
-		return false
+		portCache.Store(address, portResult{active: false, latency: 0})
+		return false, 0
 	}
 	conn.Close()
-	portCache.Store(address, true)
-	return true
+	portCache.Store(address, portResult{active: true, latency: latency})
+	return true, latency
 }
 
 func getHostPort(config, protocol string) (string, string) {
@@ -876,4 +905,34 @@ func getHostPort(config, protocol string) (string, string) {
 		}
 	}
 	return "", ""
+}
+
+func writeFastestPremiumFile(configs []FinalConfig) {
+	if len(configs) == 0 {
+		return
+	}
+
+	// Sort by latency
+	sort.Slice(configs, func(i, j int) bool {
+		return configs[i].Latency < configs[j].Latency
+	})
+
+	// Take top 100
+	limit := 100
+	if len(configs) < 100 {
+		limit = len(configs)
+	}
+	topList := configs[:limit]
+
+	file, err := os.Create("Fastest_Premium.txt")
+	if err != nil {
+		return
+	}
+	defer file.Close()
+
+	writer := bufio.NewWriter(file)
+	for _, c := range topList {
+		writer.WriteString(c.Line + "\n")
+	}
+	writer.Flush()
 }

@@ -6,9 +6,10 @@
 
 ## 🔥 Performance Highlights
 
-- **⚡ 99.7% Faster**: Reduced processing time from ~2 hours to ~1 minute (including connection testing)
+- **⚡ 99.7% Faster**: Reduced processing time from ~2 hours to ~40 seconds
 - **🎯 Smart Deduplication**: Identity-based parsing (Host + Port) removes true duplicates even with different names
 - **🏥 Life Guard**: Integrated high-speed TCP port checker ensures only active servers are included
+- **⚡ Speedster**: Automatically ranks and exports the Top 100 lowest-latency nodes to `Fastest_Premium.txt`
 - **🌍 Globalist Support**: Automatic GeoIP tagging with country flags (e.g., 🇩🇪 DE, 🇺🇸 US)
 - **🏷️ Clean Namer**: Standardizes all config names to a professional format (e.g., `v2go | 🇩🇪 DE | VLESS | 1`)
 - **� Regional Sorting**: Automatically splits configurations by country into separate subscription files
@@ -81,6 +82,11 @@ v2go/
 **Main subscription (recommended):**
 ```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt
+```
+
+**⚡ Fastest Premium (Top 100 Low Latency):**
+```
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt
 ```
 
 ### 🌍 Country-Specific Subscriptions
