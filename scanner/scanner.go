@@ -98,7 +98,7 @@ func (s *Scanner) ScanDirectoryInteractive(dirPath string, quiet bool) error {
 			spinner := s.getSpinnerChar(i)
 			fmt.Printf("\r%s📁 Scanning file: %s (%d/%d)", spinner, filepath.Base(filePath), i+1, len(matches))
 		}
-		
+
 		if err := s.scanFile(filePath); err != nil {
 			if !quiet {
 				fmt.Printf("\n⚠️ Error scanning %s: %v\n", filePath, err)
@@ -126,9 +126,9 @@ func (s *Scanner) scanFromGitHub(quiet bool) error {
 		fmt.Println("🌐 Fetching configurations from GitHub repository...")
 	}
 
-	// GitHub raw URL for the All_Configs_Sub.txt file
-	githubURL := "https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt"
-	
+	// GitHub raw URL for the AllConfigsSub.txt file
+	githubURL := "https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt"
+
 	// Create HTTP client with timeout
 	client := &http.Client{
 		Timeout: 30 * time.Second,
@@ -159,7 +159,7 @@ func (s *Scanner) scanFromGitHub(quiet bool) error {
 	// Process the content as if it were a file
 	content := string(body)
 	lines := strings.Split(content, "\n")
-	
+
 	configCount := 0
 	linkRegex := regexp.MustCompile(`(vmess://[^\s]+|vless://[^\s]+|trojan://[^\s]+|ss://[^\s]+)`)
 
@@ -426,12 +426,12 @@ func (s *Scanner) getSafeFilename(filename string) string {
 	filename = strings.ReplaceAll(filename, "<", "_")
 	filename = strings.ReplaceAll(filename, ">", "_")
 	filename = strings.ReplaceAll(filename, "|", "_")
-	
+
 	// Ensure the filename is not too long
 	if len(filename) > 200 {
 		filename = filename[:200]
 	}
-	
+
 	return filename
 }
 
@@ -477,10 +477,10 @@ func (s *Scanner) PrintSummary() {
 
 	fmt.Println("\n📊 Scan Summary:")
 	fmt.Println("═══════════════════════════════════════════════════════════════")
-	
+
 	total := 0
 	protocols := []string{"vmess", "vless", "trojan", "ss"}
-	
+
 	for _, protocol := range protocols {
 		configs, exists := s.results[protocol]
 		count := 0
@@ -488,15 +488,15 @@ func (s *Scanner) PrintSummary() {
 			count = len(configs)
 		}
 		total += count
-		
+
 		// Create a visual bar for the count
 		bar := s.createProgressBar(count, 20)
 		fmt.Printf("  %-8s: %3d configs %s\n", strings.ToUpper(protocol), count, bar)
 	}
-	
+
 	fmt.Println("═══════════════════════════════════════════════════════════════")
 	fmt.Printf("  %-8s: %3d configs\n", "TOTAL", total)
-	
+
 	// Show platform info
 	fmt.Printf("\n🖥️  Platform: %s/%s\n", runtime.GOOS, runtime.GOARCH)
 }
@@ -506,15 +506,15 @@ func (s *Scanner) createProgressBar(count, maxWidth int) string {
 	if count == 0 {
 		return strings.Repeat("░", maxWidth)
 	}
-	
+
 	// Simple bar representation
 	filled := count / 5 // Scale down for display
 	if filled > maxWidth {
 		filled = maxWidth
 	}
-	
+
 	bar := strings.Repeat("█", filled)
 	bar += strings.Repeat("░", maxWidth-filled)
-	
+
 	return "[" + bar + "]"
 }

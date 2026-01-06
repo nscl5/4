@@ -42,8 +42,8 @@ func sortConfigs() {
 	}
 
 	// Process local file
-	fmt.Println("Processing local All_Configs_Sub.txt...")
-	localFile, err := os.Open("All_Configs_Sub.txt")
+	fmt.Println("Processing local AllConfigsSub.txt...")
+	localFile, err := os.Open("AllConfigsSub.txt")
 	if err != nil {
 		fmt.Printf("Error opening local config file: %v\n", err)
 		return

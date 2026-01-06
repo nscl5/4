@@ -51,7 +51,7 @@ The following links are automatically updated every **6 hours** via GitHub Actio
 
 ### 🏆 Premium Collections
 *   **[⚡ Fastest Premium (Top 100 Low Latency)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt)** — *Recommended for Gaming & Streaming*
-*   **[🌎 All Verified Configs (Main Sub)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt)** — *The complete set of live servers*
+*   **[🌎 All Verified Configs (Main Sub)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt)** — *The complete set of live servers*
 
 ### 🌍 Regional Subscriptions (Top Countries)
 | Country | Subscription Link |
