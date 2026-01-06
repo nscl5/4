@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v2go | Guard Dashboard</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0a">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lucide-static@0.321.0/font/lucide.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+        body { font-family: 'Outfit', sans-serif; background: #050505; color: #e5e5e5; }
+        .glass { background: rgba(20, 20, 20, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .neon-text { text-shadow: 0 0 10px rgba(0, 210, 255, 0.5); }
+        .tab-button.active { background: rgba(0, 210, 255, 0.2); border-color: rgba(0, 210, 255, 0.5); color: #00d2ff; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #222; border-radius: 10px; }
+        .fa-font { font-family: sans-serif; direction: rtl; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <nav class="sticky top-0 z-50 glass px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center">
+                <i class="lucide-zap text-white w-5 h-5"></i>
+            </div>
+            <span class="text-2xl font-bold tracking-tighter neon-text">v2go</span>
+        </div>
+        <button id="install-btn" hidden class="flex items-center space-x-2 px-4 py-2 rounded-full bg-cyan-500 text-white text-sm font-bold">
+            <i class="lucide-download w-4 h-4"></i>
+            <span>نصب برنامه</span>
+        </button>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <!-- Tabs Navigation -->
+        <div class="flex p-1 bg-white/5 rounded-2xl mb-8">
+            <button class="tab-button active flex-1 py-3 rounded-xl text-sm font-bold transition-all" data-tab="fastest">Elite Top 100</button>
+            <button class="tab-button flex-1 py-3 rounded-xl text-sm font-bold transition-all" data-tab="all-configs">All Subscriptions</button>
+            <button class="tab-button flex-1 py-3 rounded-xl text-sm font-bold transition-all" data-tab="obfuscator">SMS Obfuscator</button>
+        </div>
+
+        <!-- Tab: Fastest -->
+        <div id="fastest" class="tab-content active space-y-4">
+            <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="glass p-6 rounded-2xl text-center">
+                    <div class="text-white/40 text-xs font-bold uppercase tracking-widest mb-1">Live Nodes</div>
+                    <div class="text-3xl font-bold">5698</div>
+                </div>
+                <div class="glass p-6 rounded-2xl text-center">
+                    <div class="text-white/40 text-xs font-bold uppercase tracking-widest mb-1">Elite Speed</div>
+                    <div class="text-3xl font-bold text-cyan-400">0ms</div>
+                </div>
+            </div>
+            <div id="eliteList" class="space-y-3"></div>
+        </div>
+
+        <!-- Tab: All Configs -->
+        <div id="all-configs" class="tab-content space-y-6">
+            <div class="glass p-6 rounded-3xl">
+                <h3 class="text-xl font-bold mb-4 flex items-center">
+                    <i class="lucide-link-2 mr-2 text-cyan-400"></i> Main Subscriptions
+                </h3>
+                <div class="space-y-4">
+                    <div class="p-4 bg-white/5 rounded-xl border border-white/10">
+                        <div class="text-xs font-bold text-white/40 mb-2">⚡ FASTEST PREMIUM</div>
+                        <div class="flex items-center gap-2">
+                            <input readonly value="https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt" class="flex-1 bg-transparent text-xs font-mono outline-none">
+                            <button onclick="copyRaw('https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt')" class="text-cyan-400 hover:text-white transition-colors">Copy</button>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-xl border border-white/10">
+                        <div class="text-xs font-bold text-white/40 mb-2">🌍 ALL CONFIGS</div>
+                        <div class="flex items-center gap-2">
+                            <input readonly value="https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt" class="flex-1 bg-transparent text-xs font-mono outline-none">
+                            <button onclick="copyRaw('https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt')" class="text-cyan-400 hover:text-white transition-colors">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: Obfuscator -->
+        <div id="obfuscator" class="tab-content space-y-6">
+            <div class="glass p-8 rounded-3xl">
+                <h2 class="text-2xl font-bold mb-6 text-center text-cyan-400">SMS-Safe Obfuscator</h2>
+                
+                <!-- Encode Section -->
+                <div class="space-y-4 mb-10">
+                    <label class="text-sm font-bold text-white/50">Link to Obfuscate (English)</label>
+                    <textarea id="encode-input" placeholder="vmess://..." class="w-full h-32 bg-black/40 border border-white/10 rounded-2xl p-4 outline-none focus:border-cyan-500 transition-all"></textarea>
+                    <div class="p-4 bg-black/60 rounded-xl border border-white/5 min-h-[60px] break-all fa-font text-cyan-300" id="encode-output"></div>
+                    <button id="encode-copy" class="w-full py-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold rounded-2xl transition-all">کپی متن فارسی</button>
+                </div>
+
+                <hr class="border-white/5 mb-10">
+
+                <!-- Decode Section -->
+                <div class="space-y-4">
+                    <label class="text-sm font-bold text-white/50"> متن رمزگذاری شده (Persian)</label>
+                    <textarea id="decode-input" placeholder="ش ل ض ب..." class="w-full h-32 bg-black/40 border border-white/10 rounded-2xl p-4 outline-none focus:border-cyan-500 transition-all fa-font text-right"></textarea>
+                    <div class="p-4 bg-black/60 rounded-xl border border-white/5 min-h-[60px] break-all text-sm font-mono text-white/70" id="decode-output"></div>
+                    <button id="decode-copy" class="w-full py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-2xl transition-all">Copy Original Link</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-12 border-t border-white/10 text-center text-white/30 text-xs">
+        <p>Generated in 0.00 seconds &bull; Premium v2go Cluster</p>
+    </footer>
+
+    <script>
+        const nodes = [{"l":"trojan://bcacaab-baca-baca-dbac-accaabbcbacb@127.0.0.1:8080?security=tls\u0026type=tcp #v2go%20%7C%20TROJAN%20%7C%202242%20%7C%20%E2%9A%A1%200ms","p":0},{"l":"ss://bm9uZTpiY2FhYWNiLWNhYmEtYWNiYS1jYWJkLWFhY2JiYWFiY2NiYw==@127.0.0.1:8080#v2go%20%7C%20SS%20%7C%205638%20%7C%20%E2%9A%A1%200ms","p":0},{"l":"vless://abbaacc-aacb-cbaa-dabc-cabacbcaabbc@127.0.0.1:8080?security=tls\u0026type=tcp #v2go%20%7C%20VLESS%20%7C%205113%20%7C%20%E2%9A%A1%200ms","p":0},{"l":"vmess://eyJhZGQiOiIxMjcuMC4wLjEiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiYmNhYWFjYi1jYWJhLWFjYmEtY2FiZC1hYWNiYmFhYmNjYmMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6ODA4MCwicHMiOiJ2MmdvIHwgVk1FU1MgfCA1MjU1IHwg4pqhIDBtcyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==","p":0},{"l":"vless://47e9a0db-50c6-4522-8819-502c55b06dde@159.112.235.174:2082/?type=ws\u0026encryption=none\u0026host=workerr.schodog1.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%204088%20%7C%20%E2%9A%A1%2015ms","p":15},{"l":"vless://12345678-1234-1234-1234-123456789123@185.176.24.61:2096?path=🔒 [By EbraSha]\u0026security=tls\u0026encryption=none\u0026insecure=0\u0026type=ws\u0026allowInsecure=0\u0026sni=🔒 [By EbraSha] {@IRAN_V2RAY1}ğŸ’˜ #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20VLESS%20%7C%203293%20%7C%20%E2%9A%A1%2015ms","p":15},{"l":"ss://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.122.107:80?security=\u0026amp;sni=🔒 [By EbraSha]\u0026amp;type=ws\u0026amp;path=🔒 [By EbraSha]\u0026amp;host=a.mifeng.us.kg\u0026amp;encryption=none #v2go%20%7C%20SS%20%7C%20947%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.122.107:80?security=\u0026amp;sni=🔒 [By EbraSha]\u0026amp;type=ws\u0026amp;path=🔒 [By EbraSha]\u0026amp;host=a.mifeng.us.kg\u0026amp;encryption=none #v2go%20%7C%20VLESS%20%7C%205157%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://709c5fb0-aa81-417a-a503-d3139bc4d801@104.26.15.16:2096/?type=ws\u0026encryption=none\u0026host=rEDzOnE.MirAcLehEaRTbIt.ICu\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha]\u0026alpn=h2%2Chttp%2F1.1\u0026fp=randomized #v2go%20%7C%20VLESS%20%7C%204871%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://19be7308-1f67-4f47-a09a-48543a741f12@194.76.18.109:2082/?type=httpupgrade\u0026encryption=none\u0026host=Join-bede-CONFIGT.wordperessweb.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20VLESS%20%7C%203402%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://708bb7c1-473c-4f06-9f29-69e6ea006f66@104.16.213.98:80/?type=ws\u0026encryption=none\u0026host=withered-rice-1167.vafey30295.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204872%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://121610b9-74a8-4988-ace2-bafb3013fde1@104.18.27.90:80?type=ws\u0026host=fin.channel.digicyber.click\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203294%20%7C%20%E2%9A%A1%2016ms","p":16},{"l":"vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@162.120.94.23:2087/?type=ws\u0026encryption=none\u0026host=edcch.ambercc.filegear-sg.me\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%205205%20%7C%20%E2%9A%A1%2017ms","p":17},{"l":"trojan://Aimer@162.120.94.23:2087/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201516%20%7C%20%E2%9A%A1%2017ms","p":17},{"l":"trojan://49699004-a1ba-4621-9744-3d41e98040a9@92.118.190.131:80?security=none\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026host=vkvd127.mycdn.me #v2go%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20TROJAN%20%7C%201146%20%7C%20%E2%9A%A1%2018ms","p":18},{"l":"vless://3ba7797d-e4ed-4512-b186-330b1b9ae3bd@103.153.254.231:80?encryption=none\u0026security=none\u0026type=ws\u0026host=vn1.v2vless.xyz\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20VLESS%20%7C%203821%20%7C%20%E2%9A%A1%2018ms","p":18},{"l":"vless://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.54:2096?encryption=none\u0026amp;security=tls\u0026amp;sni=🔒 [By EbraSha]\u0026amp;type=ws\u0026amp;host=vle.amclubsapp.dpdns.org #v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20VLESS%20%7C%205162%20%7C%20%E2%9A%A1%2018ms","p":18},{"l":"ss://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.54:2096?encryption=none\u0026amp;security=tls\u0026amp;sni=🔒 [By EbraSha]\u0026amp;type=ws\u0026amp;host=vle.amclubsapp.dpdns.org #v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20SS%20%7C%20953%20%7C%20%E2%9A%A1%2018ms","p":18},{"l":"trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@154.83.2.54:2096/?type=ws\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20TROJAN%20%7C%202549%20%7C%20%E2%9A%A1%2018ms","p":18},{"l":"trojan://Aimer@162.120.94.232:8443/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201517%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://Aimer@103.116.7.67:2083/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201392%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://1e7eaa27-ff66-428d-f86c-7e39855b1637@104.16.1.106:80?encryption=none\u0026security=none\u0026type=ws\u0026host=eng.vinamarketcenter.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203408%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"ss://de7e69b8-c4e7-4461-f061-12f42115b51b@104.16.1.106:80?path=🔒 [By EbraSha]\u0026amp;security=\u0026amp;encryption=none\u0026amp;host=eng.vinamarketcenter.ir\u0026amp;type=ws #v2go%20%7C%20SS%20%7C%20963%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://11f0eadd-9a8d-4791-ada3-4789ac3ff7ca@104.17.16.171:8080/?type=ws\u0026encryption=none\u0026host=empty-tree-6008.jobaf49186.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203295%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@159.246.55.178:8880/?type=ws\u0026encryption=none\u0026host=reedfree8mahsang2.redorg.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%204333%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://43f3f527-af58-4fc3-9233-678bcffbd0f7@104.25.40.6:443?encryption=none\u0026security=tls\u0026sni=🔒 [By EbraSha]\u0026alpn=http%2F1.1\u0026fp=randomized\u0026type=ws\u0026host=v2rayngghaviv2rayngghaviv2rayngghaviv2rayngghaviv2rayng.pages.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204059%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://51d22c42-5342-4715-a927-1b76226dd4cf@104.17.2.183:8443?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=grpc\u0026serviceName=@vipv2rey@vipv2rey@vipv2rey\u0026encryption=none #v2go%20%7C%20VLESS%20%7C%204272%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://3c1eef35-015b-48cd-9f0a-23d9ef5816cc@103.21.244.75:80?encryption=none\u0026security=none\u0026type=ws\u0026host=little-haze-1600-ppal03.gabonim122.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203826%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://590dfbde-f8c8-429b-b947-39bb767ddd9c@104.24.87.230:80/?type=ws\u0026encryption=none\u0026host=square-moon-bc81-ppal03.tivere6418.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204681%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://531caad7-3533-405d-af03-7c01c3afdf32@151.101.2.168:80/?type=ws\u0026encryption=none\u0026host=het5h2.moi\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%204297%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://590dfbde-f8c8-429b-b947-39bb767ddd9c@172.64.92.243:80?encryption=none\u0026security=none\u0026type=ws\u0026host=square-moon-bc81-ppal03.tivere6418.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204686%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://16b63755-3171-4623-8960-a112f4490333@162.159.9.106:8880?path=🔒 [By EbraSha]\u0026security=none\u0026encryption=none\u0026host=www.speedtest.net.speedtest24.ir\u0026type=httpupgrade #v2go%20%7C%20VLESS%20%7C%203346%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://ttfang@45.40.148.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202820%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://16d7a04d-e6f4-479f-8914-80d3817317f9@104.21.17.92:443?path=🔒 [By EbraSha]\u0026security=tls\u0026encryption=none\u0026host=ed19-dc7.pages.dev\u0026type=ws\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203348%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://ttfang@45.85.119.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20TROJAN%20%7C%202830%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://16d7a04d-e6f4-479f-8914-80d3817317f9@172.67.175.106:443?path=🔒 [By EbraSha]\u0026security=tls\u0026encryption=none\u0026host=ed19-dc7.pages.dev\u0026fp=chrome\u0026type=ws\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203350%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://ttfang@5.10.244.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20TROJAN%20%7C%202836%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://ttfang@5.10.246.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20TROJAN%20%7C%202841%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"vless://3ab1e793-7cd7-49a1-bb14-b68043888482@104.21.4.8:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026fp=randomized\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026host=nl25.vlessx.us\u0026encryption=none #v2go%20%7C%20VLESS%20%7C%203811%20%7C%20%E2%9A%A1%2019ms","p":19},{"l":"trojan://ttfang@5.10.215.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20TROJAN%20%7C%202838%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"ss://d342d11e-d424-4583-b36e-524ab1f0afa4@104.26.14.85:80?path=🔒 [By EbraSha]\u0026amp;security=none\u0026amp;encryption=none\u0026amp;host=a.xn--i-sx6a60i.us.kg.\u0026amp;type=ws #v2go%20%7C%20SS%20%7C%20946%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.26.14.85:80/?type=ws\u0026encryption=none\u0026host=a.xn--i-sx6a60i.us.kg.\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%205155%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://3afb7da5-73f7-47c5-99f1-c16e0b4db45e@173.245.58.100:2095/?type=ws\u0026encryption=none\u0026host=xpntEamfree.sockSchangert.ir.\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%203815%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@5.10.245.216:2096?allowInsecure=1\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026host=ttfang.fange.me\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20TROJAN%20%7C%202842%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.85.118.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20TROJAN%20%7C%202837%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://3ae45315-8caa-4f1e-84fe-2d8ac8937f9c@162.159.194.75:2095/?type=tcp\u0026encryption=none #v2go%20%7C%20VLESS%20%7C%203817%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://1696dbdc-43f3-4493-a1f4-31dd26761648@104.18.61.189:2052?host=%E7%A9%86%E7%BD%95%E9%BB%98%E5%BE%B7%E4%BE%AF%E8%B5%9B%E5%9B%A0freeforiran.net.v2rayng.8.8.8.8.free.skullbasher.wex.wex.wex.wex.mf.ssd.youcantplayinvoker.tech.\u0026path=🔒 [By EbraSha]\u0026security=none\u0026type=ws #v2go%20%7C%20VLESS%20%7C%203347%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://575d2e5e-e7a4-48b8-a55e-aa38e16a3106@104.16.59.70:80?encryption=none\u0026security=none\u0026type=ws\u0026host=flat-bird-3aa7-ppal03.hesiwap437.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204549%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://19be7308-1f67-4f47-a09a-48543a741f12@194.76.18.253:2082/?type=httpupgrade\u0026encryption=none\u0026host=Join-bede-CONFIGT.wordperessweb.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20VLESS%20%7C%203404%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://1949f066-bcb0-49be-88e9-74abd940f80e@51.75.30.8:80/?type=ws\u0026encryption=none\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20VLESS%20%7C%203389%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@108.165.152.80:2083?security=tls\u0026sni=🔒 [By EbraSha]\u0026alpn=h3\u0026fp=randomized\u0026allowInsecure=1\u0026type=ws\u0026host=epgc.aimercc.dpdns.org\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201448%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@5.10.247.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20TROJAN%20%7C%202847%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://572d1cbe-1c26-4765-8865-7ee3ad737c5a@104.18.27.94:80/?type=ws\u0026encryption=none\u0026host=esetsecuritylicense.mikon76654.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204548%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://47994c30-bd6e-4045-9e1c-1841a4acab30@85.9.214.105:80?type=tcp\u0026path=🔒 [By EbraSha]\u0026host=zula.ir\u0026headerType=http\u0026security=none #v2go%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20VLESS%20%7C%204085%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://43f3f527-af58-4fc3-9233-678bcffbd0f7@104.20.31.81:443?encryption=none\u0026security=tls\u0026sni=🔒 [By EbraSha]\u0026alpn=http%2F1.1\u0026fp=randomized\u0026type=ws\u0026host=v2rayngghaviv2rayngghaviv2rayngghaviv2rayngghaviv2rayng.pages.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204058%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.154.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202828%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@103.116.7.152:2096/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201384%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.8.211.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20TROJAN%20%7C%202833%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://51d22c42-5342-4715-a927-1b76226dd4cf@162.159.44.200:8443?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=grpc\u0026serviceName=@vipv2rey@vipv2rey@vipv2rey\u0026encryption=none #v2go%20%7C%20VLESS%20%7C%204273%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.80.108.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20TROJAN%20%7C%202839%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443/?type=ws\u0026encryption=none\u0026host=gghdfa.pages.dev\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%205096%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"ss://a396b860-11b7-4af3-9950-146caf79735e@172.66.47.61:8443?path=🔒 [By EbraSha]\u0026amp;security=tls\u0026amp;encryption=none\u0026amp;host=gghdfa.pages.dev\u0026amp;type=ws\u0026amp;sni=🔒 [By EbraSha] #v2go%20%7C%20SS%20%7C%20861%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.153.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202831%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@213.241.198.189:2053/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20TROJAN%20%7C%201635%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@108.165.152.78:2083/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201450%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@103.116.7.133:2083/?type=ws\u0026host=epmo.ambercc.filegear-sg.me\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201386%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@5.10.214.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20TROJAN%20%7C%202852%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.80.111.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20TROJAN%20%7C%202848%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.67.215.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20TROJAN%20%7C%202843%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.150.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202834%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@161.145.150.29:2083?security=tls\u0026sni=edccr.aimercc.filegear-sg.me\u0026type=ws\u0026host=edccr.aimercc.filegear-sg.me\u0026path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%205598%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://Aimer@161.145.150.29:2083/?type=tcp\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201513%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@45.142.120.254:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20VLESS%20%7C%203758%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.149.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202835%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.80.110.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20TROJAN%20%7C%202860%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.152.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202844%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?encryption=none\u0026amp;security=tls\u0026amp;sni=🔒 [By EbraSha]\u0026amp;fp=randomized\u0026amp;type=ws\u0026amp;host=vle.amclubsapp.dpdns.org\u0026amp;path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%205161%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://d0298536-d670-4045-bbb1-ddd5ea68683e@104.25.254.4:2087?path=🔒 [By EbraSha]\u0026PROT_TYPE=trojan\u0026security=tls\u0026host=azadnet-bdr.pages.dev\u0026type=ws\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20TROJAN%20%7C%202524%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"ss://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?encryption=none\u0026amp;security=tls\u0026amp;sni=🔒 [By EbraSha]\u0026amp;fp=randomized\u0026amp;type=ws\u0026amp;host=vle.amclubsapp.dpdns.org\u0026amp;path=🔒 [By EbraSha] #v2go%20%7C%20SS%20%7C%20952%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@45.131.211.254:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20VLESS%20%7C%203759%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://4751adcd-064b-493e-979b-b1c56c133cb4@188.114.98.6:80?encryption=none\u0026security=none\u0026type=ws\u0026host=steep-water-754d-ppal0333333333333333.finisal307.workers.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204082%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.155.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202851%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://535c22af-c632-434e-9cff-33df14ed8f2a@104.16.29.8:80?security=\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026host=gdaf0Z.PrE-loAD.SiTe\u0026encryption=none #v2go%20%7C%20VLESS%20%7C%204299%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.146.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202832%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.147.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202840%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@172.67.173.29:443?security=tls\u0026sni=cdn-nodes.maviks.eu\u0026type=ws\u0026host=cdn-nodes.maviks.eu\u0026path=%2FpLmdwS3fSrE9WwdgE3LdG2%3Fed%3D2560%3F%2F%40JOKERRVPNJoin_Bade_Channel@JOKERRVPN\u0026fp=chrome#v2go%20%7C%20VLESS%20%7C%205338%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@86.38.214.254:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%203769%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://43f3f527-af58-4fc3-9233-678bcffbd0f7@104.19.146.112:443?encryption=none\u0026security=tls\u0026sni=🔒 [By EbraSha]\u0026alpn=http%2F1.1\u0026fp=randomized\u0026type=ws\u0026host=v2rayngghaviv2rayngghaviv2rayngghaviv2rayngghaviv2rayng.pages.dev\u0026path=🔒 [By EbraSha] #v2go%20%7C%20VLESS%20%7C%204057%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@46.202.30.254:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%203763%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://ttfang@45.40.145.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202829%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"vless://1688039e-a45f-499e-b9f4-c098c87d3b32@104.24.222.73:443/?type=ws\u0026encryption=none\u0026host=cr7.rayan.dpdns.org\u0026path=🔒 [By EbraSha]\u0026security=tls\u0026sni=🔒 [By EbraSha]\u0026fp=chrome #v2go%20%7C%20VLESS%20%7C%203345%20%7C%20%E2%9A%A1%2020ms","p":20},{"l":"trojan://89b3cbba-e6ac-485a-9481-976a0415eab9@199.232.197.231:80/?type=ws\u0026host=aliii.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201313%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://89b3cbba-e6ac-485a-9481-976a0415eab9@199.232.197.231:80/?type=ws\u0026encryption=none\u0026host=aliii.ir\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%205073%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@92.53.188.254:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%AE%20SI%20%7C%20VLESS%20%7C%203774%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"trojan://89b3cbba-e6ac-485a-9481-976a0415eab9@199.232.95.123:80/?type=ws\u0026host=sara193.ir\u0026security=tls\u0026sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%201318%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://504fa227-6493-4c4b-983c-4661c96a0e11@213.166.71.40:80/?type=ws\u0026encryption=none\u0026host=vv.cscfwoker.fun\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20VLESS%20%7C%204256%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@62.72.166.143:8880/?type=ws\u0026encryption=none\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%AF%F0%9F%87%B4%20JO%20%7C%20VLESS%20%7C%203773%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@66.45.118.143:8880?allowInsecure=0\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026host=yg.bantony199.top\u0026path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%203775%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"trojan://ttfang@45.142.120.216:2096?security=tls\u0026sni=🔒 [By EbraSha]\u0026type=ws\u0026path=🔒 [By EbraSha]\u0026Host=ttfang.fange.me #v2go%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20TROJAN%20%7C%202819%20%7C%20%E2%9A%A1%2021ms","p":21},{"l":"vless://47d2ef41-bb32-4923-cfee-adb10df57f3c@69.84.182.2:80?path=🔒 [By EbraSha]\u0026security=none\u0026encryption=none\u0026host=join-to-Vmessorg.sabadyt.ir\u0026type=ws #v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20VLESS%20%7C%204087%20%7C%20%E2%9A%A1%2021ms","p":21}];
+        
+        function renderElite() {
+            const container = document.getElementById('eliteList');
+            nodes.forEach(n => {
+                const div = document.createElement('div');
+                div.className = 'glass p-4 rounded-xl flex justify-between items-center group hover:border-cyan-500/30 transition-all';
+                let pColor = 'text-purple-400';
+                if(n.l.includes('VMESS')) pColor = 'text-blue-400';
+                if(n.l.includes('TROJAN')) pColor = 'text-red-400';
+
+                div.innerHTML = `
+                    <div class="truncate mr-4">
+                        <div class="text-[10px] font-bold uppercase tracking-widest ${pColor}">${n.l.split('|')[2] || 'V2RAY'}</div>
+                        <div class="text-sm font-medium text-white/80 group-hover:text-white truncate">${n.l}</div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="text-right">
+                            <div class="text-xs font-bold text-cyan-400">${n.p}ms</div>
+                        </div>
+                        <button onclick="copyRaw('${n.l}')" class="p-2 hover:text-cyan-400"><i class="lucide-copy w-4 h-4"></i></button>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function copyRaw(text) {
+            navigator.clipboard.writeText(text);
+            alert('Copied!');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderElite();
+            const tabs = document.querySelectorAll('.tab-button');
+            const contents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach((tab) => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach((t) => t.classList.remove('active'));
+                    tab.classList.add('active');
+
+                    const target = tab.getAttribute('data-tab');
+                    contents.forEach((content) => {
+                        if (content.id === target) {
+                            content.classList.add('active');
+                        } else {
+                            content.classList.remove('active');
+                        }
+                    });
+                });
+            });
+
+            // --- Obfuscator Logic ---
+            function isUpperCase(char) { return char >= 'A' && char <= 'Z'; }
+            const capitalIndicator = 'ه';
+			const toFaMapper = {
+				"a": "ش", "b": "ل", "c": "ض", "d": "ب", "e": "ع", "f": "گ", "g": "و", "h": "ظ", "i": "س", "j": "ژ", "k": "ک", "l": "م", "n": "ن", "p": "پ", "o": "غ", "p": "ح", "q": "ز", "r": "ط", "s": "ر", "t": "ق", "u": "ث", "v": "ف", "w": "ی", "x": "د", "y": "ذ", "z": "خ",
+				"0": "۰", "1": "۱", "2": "۲", "3": "۳", "4": "۴", "5": "۵", "6": "۶", "7": "۷", "8": "۸", "9": "۹",
+				" ": " ", ":": ":", "/": "ت", "!": "!", "@": "@", "#": "#", "$": "$", "%": "ص", "^": "^", "&": "ا", "*": "*", "(": "(", ")": ")", "-": "-", "_": "_", "+": "+", "?": "?", "=": "چ", ".": ".", ",": ",", ";": ";", "|": "|", "~": "~"
+			};
+            const toEnMapper = Object.fromEntries(Object.entries(toFaMapper).map(([k, v]) => [v, k]));
+
+            // Encode
+            const encodeCopyButton = document.getElementById('encode-copy');
+            const encodeInput = document.getElementById('encode-input');
+            const encodeOutput = document.getElementById('encode-output');
+
+            encodeInput.addEventListener('input', () => {
+                try {
+                    const encoded = encodeInput.value.split('').map(l => {
+                        if(!toFaMapper[l.toLowerCase()]) return l;
+                        const prefix = isUpperCase(l) ? capitalIndicator : '';
+                        return prefix + toFaMapper[l.toLowerCase()];
+                    }).join('');
+                    encodeOutput.textContent = encoded;
+                } catch (e) { encodeOutput.textContent = 'Error'; }
+            });
+
+            encodeCopyButton.addEventListener('click', () => {
+                navigator.clipboard.writeText(encodeOutput.textContent).then(() => {
+                    encodeCopyButton.textContent = 'کپی شد !';
+                    setTimeout(() => encodeCopyButton.textContent = 'کپی متن فارسی', 2000);
+                });
+            });
+
+            // Decode
+            const decodeCopyButton = document.getElementById('decode-copy');
+            const decodeInput = document.getElementById('decode-input');
+            const decodeOutput = document.getElementById('decode-output');
+
+            decodeInput.addEventListener('input', () => {
+                try {
+                    let input = decodeInput.value;
+                    let isNextCapital = false;
+                    const decoded = input.split('').map(l => {
+                        if (l === capitalIndicator) { isNextCapital = true; return ''; }
+                        const mapped = toEnMapper[l];
+                        if(!mapped) return l;
+                        const res = isNextCapital ? mapped.toUpperCase() : mapped;
+                        isNextCapital = false;
+                        return res;
+                    }).join('');
+                    decodeOutput.textContent = decoded;
+                } catch (e) { decodeOutput.textContent = 'Error'; }
+            });
+
+            decodeCopyButton.addEventListener('click', () => {
+                navigator.clipboard.writeText(decodeOutput.textContent).then(() => {
+                    decodeCopyButton.textContent = 'کپی شد !';
+                    setTimeout(() => decodeCopyButton.textContent = 'Copy Original Link', 2000);
+                });
+            });
+
+            // --- PWA Install ---
+            const installBtn = document.getElementById('install-btn');
+            let deferredPrompt;
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+                installBtn.hidden = false;
+            });
+            installBtn.addEventListener('click', async () => {
+                if (!deferredPrompt) return;
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                if (outcome === 'accepted') installBtn.hidden = true;
+                deferredPrompt = null;
+            });
+        });
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>

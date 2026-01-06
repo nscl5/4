@@ -131,7 +131,7 @@ func main() {
 	cleanExistingFiles(base64Folder)
 
 	// Write main config file (in current directory)
-	mainOutputFile := "All_Configs_Sub.txt"
+	mainOutputFile := "AllConfigsSub.txt"
 	err = writeMainConfigFile(mainOutputFile, filteredConfigs)
 	if err != nil {
 		fmt.Printf("Error writing main config file: %v\n", err)
@@ -655,7 +655,7 @@ func downloadGeoIPDB() error {
 
 func cleanExistingFiles(base64Folder string) {
 	// Remove main files
-	os.Remove("All_Configs_Sub.txt")
+	os.Remove("AllConfigsSub.txt")
 	os.Remove("All_Configs_base64_Sub.txt")
 
 	// Remove split files

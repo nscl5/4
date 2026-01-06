@@ -53,11 +53,15 @@ go build -o aggregator *.go
 ### Automated Updates
 The repository includes a GitHub Actions workflow that automatically updates configurations every 6 hours, performing fresh deduplication and regional sorting.
 
+### 🏆 Premium Collections
+*   **[⚡ Fastest Premium (Top 100 Low Latency)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt)** — *Recommended for Gaming & Streaming*
+*   **[🌎 All Verified Configs (Main Sub)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt)** — *The complete set of live servers*
+
 ## 📁 Output Structure
 
 ```
 v2go/
-├── All_Configs_Sub.txt              # All unique configs (plain text)
+├── AllConfigsSub.txt              # All unique configs (plain text)
 ├── All_Configs_base64_Sub.txt       # All unique configs (base64 encoded)
 ├── Splitted-By-Protocol/            # Organized by protocol
 │   ├── vless.txt
@@ -80,7 +84,7 @@ v2go/
 
 **Main subscription (recommended):**
 ```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/All_Configs_Sub.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt
 ```
 
 ### 🌍 Country-Specific Subscriptions
