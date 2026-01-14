@@ -1,21 +1,14 @@
-trojan://a13820c547fa34c5c45515c12f0cd576@117.149.198.190:10051?security=tls&sni=zz6.91js.pw&allowInsecure=1&fp=chrome&type=tcp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204195%20%7C%20%E2%9A%A1%20167ms
-trojan://bpb-trojan@101.69.122.104:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204234%20%7C%20%E2%9A%A1%20185ms
-trojan://bpb-trojan@119.188.204.76:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204250%20%7C%20%E2%9A%A1%20197ms
-trojan://bpb-trojan@27.36.125.2:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204258%20%7C%20%E2%9A%A1%20207ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8761#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204265%20%7C%20%E2%9A%A1%20437ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8773#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204266%20%7C%20%E2%9A%A1%20430ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8764#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204267%20%7C%20%E2%9A%A1%20431ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8771#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204268%20%7C%20%E2%9A%A1%20430ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204269%20%7C%20%E2%9A%A1%20434ms
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8766#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%204270%20%7C%20%E2%9A%A1%20430ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@36.153.95.129:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&path=%2F%3Fed%3D2560&fp=randomized#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2010862%20%7C%20%E2%9A%A1%20144ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@116.162.25.43:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2011013%20%7C%20%E2%9A%A1%20197ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@123.138.202.49:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2011016%20%7C%20%E2%9A%A1%20198ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@101.69.122.102:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2011035%20%7C%20%E2%9A%A1%20205ms
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.chernigov.ua:2053/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012420%20%7C%20%E2%9A%A1%20283ms
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.ivano-frankivsk.ua:2053/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012614%20%7C%20%E2%9A%A1%20311ms
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.kharkov.ua:2053/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012778%20%7C%20%E2%9A%A1%20344ms
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.tokyometropolis.kiev.ua:2053/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012834%20%7C%20%E2%9A%A1%20481ms
-trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012844%20%7C%20%E2%9A%A1%20303ms
-trojan://fuck@42.236.73.72:443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012944%20%7C%20%E2%9A%A1%20193ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@117.187.185.76:443/?type=ws&encryption=none&host=vlee.amclubs.nyc.mn&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha]&fp=randomized #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2014768%20%7C%20%E2%9A%A1%20205ms
+vless://d6b8011a-c725-435a-9fec-bf6d3530392c@116.162.25.43:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%208369%20%7C%20%E2%9A%A1%20153ms
+vless://d6b8011a-c725-435a-9fec-bf6d3530392c@101.69.122.102:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%208380%20%7C%20%E2%9A%A1%20159ms
+vless://d6b8011a-c725-435a-9fec-bf6d3530392c@36.153.95.129:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&path=%2F%3Fed%3D2560&fp=randomized#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%208399%20%7C%20%E2%9A%A1%20166ms
+vless://d6b8011a-c725-435a-9fec-bf6d3530392c@123.138.202.49:443?security=tls&sni=vlee.amclubs.nyc.mn&type=ws&host=vlee.amclubs.nyc.mn&fp=chrome#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%208466%20%7C%20%E2%9A%A1%20196ms
+trojan://bpb-trojan@119.188.204.76:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2011483%20%7C%20%E2%9A%A1%20146ms
+trojan://bpb-trojan@101.69.122.104:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2011504%20%7C%20%E2%9A%A1%20159ms
+trojan://bpb-trojan@27.36.125.2:443?security=tls&sni=zamim340.ggff.net&type=ws&host=zamim340.ggff.net#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2011515%20%7C%20%E2%9A%A1%20187ms
+ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8773#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%2011563%20%7C%20%E2%9A%A1%20475ms
+ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8766#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%2011564%20%7C%20%E2%9A%A1%20480ms
+ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8771#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%2011565%20%7C%20%E2%9A%A1%20482ms
+ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20SS%20%7C%2011566%20%7C%20%E2%9A%A1%20480ms
+trojan://fuck@42.236.73.72:443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2012818%20%7C%20%E2%9A%A1%20148ms
+vless://d6b8011a-c725-435a-9fec-bf6d3530392c@117.187.185.76:443/?type=ws&encryption=none&host=vlee.amclubs.nyc.mn&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha]&fp=randomized #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%2014877%20%7C%20%E2%9A%A1%20223ms
+trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%2015261%20%7C%20%E2%9A%A1%20291ms
