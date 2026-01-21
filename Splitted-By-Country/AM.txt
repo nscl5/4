@@ -1,37 +1,37 @@
-trojan://Aimer@188.164.159.107:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1 #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201172%20%7C%20%E2%9A%A1%209ms
-trojan://Aimer@188.164.159.171:443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201173%20%7C%20%E2%9A%A1%209ms
-trojan://Aimer@188.164.159.174:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1 #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201174%20%7C%20%E2%9A%A1%208ms
-trojan://Aimer@188.164.159.220:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201188%20%7C%20%E2%9A%A1%208ms
-trojan://Aimer@188.164.159.246:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201190%20%7C%20%E2%9A%A1%209ms
-trojan://Aimer@188.164.159.43:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201192%20%7C%20%E2%9A%A1%208ms
-trojan://Aimer@188.164.159.69:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201193%20%7C%20%E2%9A%A1%208ms
-trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=🔒 [By EbraSha]&type=ws&host=epgc.aimercc.dpdns.org&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201195%20%7C%20%E2%9A%A1%2011ms
-trojan://Aimer@188.164.159.18:443/?type=ws&host=epmk.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201201%20%7C%20%E2%9A%A1%2014ms
-trojan://Aimer@188.164.159.138:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201210%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.175:8443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201211%20%7C%20%E2%9A%A1%2015ms
-trojan://Aimer@188.164.159.22:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201217%20%7C%20%E2%9A%A1%2015ms
-trojan://Aimer@188.164.159.248:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201220%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.185:8443/?type=ws&host=epml.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201222%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.234:2083/?type=ws&host=epmk.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201228%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.98:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201234%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.45:8443?allowInsecure=1&sni=🔒 [By EbraSha]&type=ws&host=epgc.aimercc.dpdns.org&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201236%20%7C%20%E2%9A%A1%2017ms
-trojan://Aimer@188.164.159.25:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201241%20%7C%20%E2%9A%A1%2017ms
-trojan://Aimer@188.164.159.74:8443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201242%20%7C%20%E2%9A%A1%2017ms
-trojan://Aimer@188.164.159.55:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201243%20%7C%20%E2%9A%A1%2017ms
-trojan://Aimer@188.164.159.91:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201244%20%7C%20%E2%9A%A1%2016ms
-trojan://Aimer@188.164.159.49:2087/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201252%20%7C%20%E2%9A%A1%2019ms
-trojan://NISHIKUITAN111@188.164.158.111:443/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201677%20%7C%20%E2%9A%A1%2020ms
-vless://0132166f-e702-48ed-a9e7-b07af768faf8@77.105.163.251:8880?allowInsecure=0&sni=🔒 [By EbraSha]&type=ws&host=cf.d3z.net&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%202548%20%7C%20%E2%9A%A1%2010ms
-vless://583ceab3-4022-4553-9158-9bedc625ad4e@77.105.163.186:8880?allowInsecure=0&sni=🔒 [By EbraSha]&type=ws&host=ip.langmanshanxi.top&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%204083%20%7C%20%E2%9A%A1%208ms
-vless://9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0@77.105.163.13:8880/?type=ws&encryption=none&host=c.82313369.xyz&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%205051%20%7C%20%E2%9A%A1%208ms
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@188.164.158.168:8880/?type=ws&encryption=none&host=kjgx.laoyoutiao.link&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%206487%20%7C%20%E2%9A%A1%209ms
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=🔒 [By EbraSha]&fp=chrome&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%206862%20%7C%20%E2%9A%A1%20279ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@139.28.4.95:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%207532%20%7C%20%E2%9A%A1%20193ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@92.223.2.77:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%207535%20%7C%20%E2%9A%A1%20189ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@85.90.207.5:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%207537%20%7C%20%E2%9A%A1%20193ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@85.90.207.153:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%207538%20%7C%20%E2%9A%A1%20194ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYaXYySFM4aUVIRmE4UG9zc0o2a1dy@2.56.204.144:8443#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%207570%20%7C%20%E2%9A%A1%20269ms
-trojan://Aimer@188.164.159.3:2087?sni=epccf.ambercc.filegear-sg.me#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%208603%20%7C%20%E2%9A%A1%2015ms
-trojan://Aimer@188.164.159.214:2083?sni=epmq.ambercc.filegear-sg.me#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%208631%20%7C%20%E2%9A%A1%2021ms
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@188.164.159.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%2014571%20%7C%20%E2%9A%A1%209ms
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@77.105.163.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%2014619%20%7C%20%E2%9A%A1%208ms
+trojan://Aimer@188.164.159.171:443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201588%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.138:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201590%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.107:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1 #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201591%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.175:8443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201592%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.174:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1 #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201593%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.185:8443/?type=ws&host=epml.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201594%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.220:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201595%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.22:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201596%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.246:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201597%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.241:2096?allowInsecure=1&sni=🔒 [By EbraSha]&type=ws&host=epgc.aimercc.dpdns.org&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201598%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.18:443/?type=ws&host=epmk.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201599%20%7C%20%E2%9A%A1%203ms
+trojan://Aimer@188.164.159.234:2083/?type=ws&host=epmk.ambercc.filegear-sg.me&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201600%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.248:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201602%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.25:2053/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201603%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.49:2087/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201604%20%7C%20%E2%9A%A1%201ms
+trojan://Aimer@188.164.159.45:8443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201605%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.43:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201606%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.55:2096/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201607%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.69:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201608%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.91:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201610%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.98:2083/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201611%20%7C%20%E2%9A%A1%202ms
+trojan://Aimer@188.164.159.74:8443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201613%20%7C%20%E2%9A%A1%202ms
+trojan://NISHIKUITAN111@188.164.158.111:443/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%201977%20%7C%20%E2%9A%A1%202ms
+vless://0132166f-e702-48ed-a9e7-b07af768faf8@77.105.163.251:8880?allowInsecure=0&sni=🔒 [By EbraSha]&type=ws&host=cf.d3z.net&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%202980%20%7C%20%E2%9A%A1%202ms
+vless://583ceab3-4022-4553-9158-9bedc625ad4e@77.105.163.186:8880?allowInsecure=0&sni=🔒 [By EbraSha]&type=ws&host=ip.langmanshanxi.top&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%204387%20%7C%20%E2%9A%A1%202ms
+vless://9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0@77.105.163.13:8880/?type=ws&encryption=none&host=c.82313369.xyz&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%205342%20%7C%20%E2%9A%A1%202ms
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@188.164.158.168:8880/?type=ws&encryption=none&host=kjgx.laoyoutiao.link&path=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%206755%20%7C%20%E2%9A%A1%202ms
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=🔒 [By EbraSha]&fp=chrome&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e #v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%206938%20%7C%20%E2%9A%A1%20170ms
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@188.164.159.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%2013141%20%7C%20%E2%9A%A1%201ms
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@77.105.163.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20VLESS%20%7C%2013199%20%7C%20%E2%9A%A1%202ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYaXYySFM4aUVIRmE4UG9zc0o2a1dy@2.56.204.144:8443#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%2013496%20%7C%20%E2%9A%A1%20164ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@139.28.4.95:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%2013502%20%7C%20%E2%9A%A1%20154ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@85.90.207.153:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%2013503%20%7C%20%E2%9A%A1%20154ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@92.223.2.77:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%2013507%20%7C%20%E2%9A%A1%20154ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMGZhM2E5Yi0yMTE1LTRjYzAtYThmNS03ZjRmN2NhZjZlYzE=@85.90.207.5:8080#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20SS%20%7C%2013508%20%7C%20%E2%9A%A1%20157ms
+trojan://Aimer@188.164.159.3:2087?sni=epccf.ambercc.filegear-sg.me#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%2014559%20%7C%20%E2%9A%A1%2011ms
+trojan://Aimer@188.164.159.214:2083?sni=epmq.ambercc.filegear-sg.me#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%B2%20AM%20%7C%20TROJAN%20%7C%2014565%20%7C%20%E2%9A%A1%2011ms
