@@ -1,2 +1,2 @@
-vless://1149be91-5a4f-47de-995f-66f8d7d64498@77.74.228.96:2096?security=tls&type=ws&headerType=&path=&host=De05.SiMaNsAnAt.Ir.&sni=De05.SiMaNsAnAt.Ir.&fp=chrome&alpn=h2#v2go%20%7C%20%F0%9F%87%A7%F0%9F%87%A6%20BA%20%7C%20VLESS%20%7C%2099%20%7C%20%E2%9A%A1%2078ms
-vless://75e1fde7-6bf6-48ef-ba43-400e960e185b@45.15.178.124:80?path=%2Fvless%2F&security=&encryption=none&type=ws#v2go%20%7C%20%F0%9F%87%A7%F0%9F%87%A6%20BA%20%7C%20VLESS%20%7C%20563%20%7C%20%E2%9A%A1%20112ms
+vless://1149be91-5a4f-47de-995f-66f8d7d64498@77.74.228.96:2096?security=tls&type=ws&headerType=&path=&host=De05.SiMaNsAnAt.Ir.&sni=De05.SiMaNsAnAt.Ir.&fp=chrome&alpn=h2#v2go%20%7C%20%F0%9F%87%A7%F0%9F%87%A6%20BA%20%7C%20VLESS%20%7C%20368%20%7C%20%E2%9A%A1%2015ms
+vless://75e1fde7-6bf6-48ef-ba43-400e960e185b@45.15.178.124:80?path=%2Fvless%2F&security=&encryption=none&type=ws#v2go%20%7C%20%F0%9F%87%A7%F0%9F%87%A6%20BA%20%7C%20VLESS%20%7C%20741%20%7C%20%E2%9A%A1%20134ms
