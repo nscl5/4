@@ -1,5 +1,5 @@
-trojan://wp9IsiY82uQhcmgNC1eoBM@80.173.231.254:12420?security=tls&sni=www.semanticstaplegun.click#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20613%20%7C%20%E2%9A%A1%20124ms
-trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?allowInsecure=0&sni=83.143.87.9#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20772%20%7C%20%E2%9A%A1%2094ms
-trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20788%20%7C%20%E2%9A%A1%2094ms
-vless://157448af-8ecf-4075-a9e9-b23a6a94899b@95.173.205.70:8443/?type=tcp&encryption=none&security=tls&sni=🔒 [By EbraSha]&alpn=h2 #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20VLESS%20%7C%204557%20%7C%20%E2%9A%A1%20110ms
-vless://a09373e2-e120-457d-9ec9-ea7fe8bedb52@185.125.171.13:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20VLESS%20%7C%206351%20%7C%20%E2%9A%A1%2095ms
+trojan://RPyW62_b9aH.ztJKeArou@83.143.87.9:18581?allowInsecure=0&sni=83.143.87.9#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20400%20%7C%20%E2%9A%A1%20158ms
+trojan://a5inYFE=JGV89+hjxIqgDp1tcWBd6@80.173.230.196:26279?#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20434%20%7C%20%E2%9A%A1%20156ms
+trojan://wp9IsiY82uQhcmgNC1eoBM@80.173.231.254:12420?security=tls&sni=www.semanticstaplegun.click#v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20TROJAN%20%7C%20619%20%7C%20%E2%9A%A1%20155ms
+vless://157448af-8ecf-4075-a9e9-b23a6a94899b@95.173.205.70:8443/?type=tcp&encryption=none&security=tls&sni=🔒 [By EbraSha]&alpn=h2 #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20VLESS%20%7C%204395%20%7C%20%E2%9A%A1%20163ms
+vless://a09373e2-e120-457d-9ec9-ea7fe8bedb52@185.125.171.13:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20VLESS%20%7C%206347%20%7C%20%E2%9A%A1%20152ms
