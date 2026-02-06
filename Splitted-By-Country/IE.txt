@@ -1,3 +1,4 @@
-vless://d811ecf9-4029-4794-a43e-3611c3575b9e@34.254.224.37:48056/?type=grpc&encryption=none&flow=&serviceName=www.bing.com&security=tls&sni=34.254.224.37&allowInsecure=1&fp=chrome#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20326%20%7C%20%E2%9A%A1%20120ms
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@34.242.133.144:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20SS%20%7C%20379%20%7C%20%E2%9A%A1%2079ms
-ss://d811ecf9-4029-4794-a43e-3611c3575b9e@34.254.224.37:48056/?type=grpc&encryption=none&flow=&serviceName=www.bing.com&security=tls&sni=34.254.224.37&allowInsecure=1&fp=chrome#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20SS%20%7C%201212%20%7C%20%E2%9A%A1%20120ms
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@34.245.190.123:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20SS%20%7C%20436%20%7C%20%E2%9A%A1%20139ms
+vless://d811ecf9-4029-4794-a43e-3611c3575b9e@34.254.224.37:48056/?type=grpc&encryption=none&flow=&serviceName=www.bing.com&security=tls&sni=34.254.224.37&allowInsecure=1&fp=chrome#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20690%20%7C%20%E2%9A%A1%20203ms
+ss://d811ecf9-4029-4794-a43e-3611c3575b9e@34.254.224.37:48056/?type=grpc&encryption=none&flow=&serviceName=www.bing.com&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1&fp=chrome #v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20SS%20%7C%201209%20%7C%20%E2%9A%A1%20203ms
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@34.242.133.144:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20SS%20%7C%207796%20%7C%20%E2%9A%A1%20189ms
