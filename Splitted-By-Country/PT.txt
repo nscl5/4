@@ -1,1 +1,1 @@
-trojan://tunnel-astrovpn_pt@pt-1.stunnel.cc:8441?path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha]&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=pt-1.stunnel.cc #v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B9%20PT%20%7C%20TROJAN%20%7C%204788%20%7C%20%E2%9A%A1%20192ms
+trojan://tunnel-astrovpn_pt@pt-1.stunnel.cc:8441?path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha]&alpn=http/1.1&allowInsecure=1&type=tcp&headerType=none&host=pt-1.stunnel.cc #v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B9%20PT%20%7C%20TROJAN%20%7C%203819%20%7C%20%E2%9A%A1%20208ms
