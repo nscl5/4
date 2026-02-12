@@ -1,6 +1,0 @@
-trojan://a13820c547fa34c5c45515c12f0cd576@117.149.198.190:10051/?type=tcp&security=tls&sni=🔒 [By EbraSha]&allowInsecure=1 #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204256%20%7C%20%E2%9A%A1%20206ms
-trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.36:30534/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204317%20%7C%20%E2%9A%A1%20212ms
-trojan://fuck@42.236.73.72:443/?type=tcp&security=tls&sni=🔒 [By EbraSha] #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204337%20%7C%20%E2%9A%A1%20253ms
-trojan://a13820c547fa34c5c45515c12f0cd576@zz6.91js.pw:10051/?type=tcp&security=tls #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20TROJAN%20%7C%204339%20%7C%20%E2%9A%A1%20414ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@123.138.202.49:443/?type=ws&encryption=none&host=vlee.amclubs.nyc.mn&security=tls&sni=🔒 [By EbraSha]&fp=chrome #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%207971%20%7C%20%E2%9A%A1%20259ms
-vless://d6b8011a-c725-435a-9fec-bf6d3530392c@117.187.185.76:443/?type=ws&encryption=none&host=vlee.amclubs.nyc.mn&path=🔒 [By EbraSha]&security=tls&sni=🔒 [By EbraSha]&fp=randomized #v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%207996%20%7C%20%E2%9A%A1%20272ms
