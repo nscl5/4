@@ -12,7 +12,6 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
-	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -77,22 +76,9 @@ type Result struct {
 	Error      error
 }
 
-type FinalConfig struct {
-	Line    string
-	Latency time.Duration
-}
-
-type portResult struct {
-	active  bool
-	latency time.Duration
-}
-
 var (
-	geoDB      *geoip2.Reader
-	dnsCache   sync.Map // host -> IP
-	portCache  sync.Map // addr -> portResult
-	ipGeoCache sync.Map // IP -> country code
-	geoCache   sync.Map // legacy host -> country code
+	geoDB    *geoip2.Reader
+	geoCache sync.Map // cache for host -> country code
 )
 
 func main() {
@@ -136,10 +122,10 @@ func main() {
 	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
 	originalCount := len(allConfigs)
-	filteredConfigs, configsByCountry, allFinalConfigs := filterForProtocols(allConfigs, protocols)
+	filteredConfigs, configsByCountry := filterForProtocols(allConfigs, protocols)
 
 	fmt.Printf("Found %d unique valid configurations\n", len(filteredConfigs))
-	fmt.Printf("Removed %d duplicates/dead nodes\n", originalCount-len(filteredConfigs))
+	fmt.Printf("Removed %d duplicates\n", originalCount-len(filteredConfigs))
 
 	// Clean existing files
 	cleanExistingFiles(base64Folder)
@@ -166,10 +152,6 @@ func main() {
 	// Write country-specific files
 	fmt.Println("Writing country-specific files...")
 	writeCountryFiles(configsByCountry)
-
-	// Create Fastest_Premium.txt (Top 100 by Latency)
-	fmt.Println("Generating Fastest_Premium.txt...")
-	writeFastestPremiumFile(allFinalConfigs)
 
 	// Write summary to UPDATE_SUMMARY.md
 	processingTime := time.Since(start).Seconds()
@@ -341,9 +323,8 @@ func decodeBase64(encoded []byte) (string, error) {
 	return string(decoded), nil
 }
 
-func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string, []FinalConfig) {
+func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string) {
 	var filtered []string
-	var allFinal []FinalConfig
 	configsByCountry := make(map[string][]string)
 	seen := make(map[string]bool)
 	var mu sync.Mutex
@@ -352,14 +333,13 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 		line    string
 		country string
 		proto   string
-		latency time.Duration
 	}
 
-	// Turbo Engine: Massive parallel pipeline with buffering
-	jobs := make(chan string, len(data))
-	results := make(chan configRes, len(data))
+	// Use a worker pool for parallel country lookup and deduplication
+	jobs := make(chan string, 100)
+	results := make(chan configRes, 100)
 
-	const numWorkers = 1000
+	const numWorkers = 300
 	var wg sync.WaitGroup
 
 	for w := 0; w < numWorkers; w++ {
@@ -372,7 +352,7 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 					continue
 				}
 
-				// 1. Identify protocol quickly
+				// Identify protocol
 				var currentProtocol string
 				for _, protocol := range protocols {
 					prefix := protocol
@@ -384,12 +364,14 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 						break
 					}
 				}
+
 				if currentProtocol == "" {
 					continue
 				}
 
-				// 2. Identity Deduplication (Local)
+				// Smart Deduplication: Parse core identity (Address + Port)
 				identity := parseCoreIdentity(line, currentProtocol)
+
 				mu.Lock()
 				if seen[identity] {
 					mu.Unlock()
@@ -398,25 +380,26 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 				seen[identity] = true
 				mu.Unlock()
 
-				// 3. Port Check (Using Global Turbo Cache)
+				// Life Guard: Port Checker (TCP Connectivity Test)
 				host, port := getHostPort(line, currentProtocol)
-				active, latency := checkPort(host, port)
-				if !active {
+				if !checkPort(host, port) {
 					continue
 				}
 
-				// 4. Country Lookup (Using DNS + IP Geo Cache)
-				country := getCountryInfo(host)
+				// Country Lookup (Parallelized as it involves DNS)
+				country := getCountryInfo(line, currentProtocol)
 
-				results <- configRes{line: line, country: country, proto: currentProtocol, latency: latency}
+				results <- configRes{line: line, country: country, proto: currentProtocol}
 			}
 		}()
 	}
 
-	for _, line := range data {
-		jobs <- line
-	}
-	close(jobs)
+	go func() {
+		for _, line := range data {
+			jobs <- line
+		}
+		close(jobs)
+	}()
 
 	go func() {
 		wg.Wait()
@@ -424,9 +407,9 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 	}()
 
 	for res := range results {
-		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country, res.latency)
+		// Standardize the name sequentially to have correct indexing
+		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country)
 		filtered = append(filtered, cleanLine)
-		allFinal = append(allFinal, FinalConfig{Line: cleanLine, Latency: res.latency})
 
 		countryKey := res.country
 		if countryKey == "" {
@@ -435,11 +418,11 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 		configsByCountry[countryKey] = append(configsByCountry[countryKey], cleanLine)
 	}
 
-	return filtered, configsByCountry, allFinal
+	return filtered, configsByCountry
 }
 
-// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID | Latency
-func standardizeName(config string, protocol string, index int, country string, latency time.Duration) string {
+// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID
+func standardizeName(config string, protocol string, index int, country string) string {
 	flag := getFlag(country)
 	countryDisplay := ""
 	if country != "" {
@@ -449,13 +432,7 @@ func standardizeName(config string, protocol string, index int, country string, 
 			countryDisplay = country + " | "
 		}
 	}
-
-	latencyDisplay := ""
-	if latency > 0 {
-		latencyDisplay = fmt.Sprintf(" | ⚡ %dms", latency.Milliseconds())
-	}
-
-	newName := fmt.Sprintf("v2go | %s%s | %d%s", countryDisplay, strings.ToUpper(protocol), index, latencyDisplay)
+	newName := fmt.Sprintf("v2go | %s%s | %d", countryDisplay, strings.ToUpper(protocol), index)
 
 	switch protocol {
 	case "vmess":
@@ -575,52 +552,70 @@ func parseCoreIdentity(config string, protocol string) string {
 	}
 }
 
-func getCountryInfo(host string) string {
-	if geoDB == nil || host == "" {
+func getCountryInfo(config, protocol string) string {
+	if geoDB == nil {
 		return ""
 	}
 
-	// 1. Check IP Geo Cache
-	if val, ok := ipGeoCache.Load(host); ok {
-		return val.(string)
-	}
-
-	// 2. Resolve IP (using DNS Cache)
-	var targetIP net.IP
-	if ip := net.ParseIP(host); ip != nil {
-		targetIP = ip
-	} else {
-		if val, ok := dnsCache.Load(host); ok {
-			targetIP = val.(net.IP)
-		} else {
-			ips, err := net.LookupIP(host)
-			if err != nil || len(ips) == 0 {
-				dnsCache.Store(host, net.IP{})
-				return ""
+	host := ""
+	switch protocol {
+	case "vmess":
+		trimmed := strings.TrimPrefix(config, "vmess://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			var data struct {
+				Add string `json:"add"`
 			}
-			targetIP = ips[0]
-			dnsCache.Store(host, targetIP)
+			json.Unmarshal([]byte(decoded), &data)
+			host = data.Add
+		}
+	case "ssr":
+		trimmed := strings.TrimPrefix(config, "ssr://")
+		decoded, err := decodeBase64([]byte(trimmed))
+		if err == nil {
+			parts := strings.Split(decoded, ":")
+			if len(parts) > 0 {
+				host = parts[0]
+			}
+		}
+	default:
+		u, err := url.Parse(config)
+		if err == nil {
+			host = u.Hostname()
 		}
 	}
 
-	if targetIP == nil {
+	if host == "" {
 		return ""
 	}
 
-	// 3. Get Country (IP Based)
-	ipStr := targetIP.String()
-	if val, ok := ipGeoCache.Load(ipStr); ok {
+	// Check cache
+	if val, ok := geoCache.Load(host); ok {
 		return val.(string)
 	}
 
-	record, err := geoDB.Country(targetIP)
+	// Resolve IP if it's a domain
+	ip := net.ParseIP(host)
+	if ip == nil {
+		ips, err := net.LookupIP(host)
+		if err == nil && len(ips) > 0 {
+			ip = ips[0]
+		}
+	}
+
+	if ip == nil {
+		geoCache.Store(host, "")
+		return ""
+	}
+
+	record, err := geoDB.Country(ip)
 	if err != nil {
+		geoCache.Store(host, "")
 		return ""
 	}
 
 	code := record.Country.IsoCode
-	ipGeoCache.Store(ipStr, code)
-	ipGeoCache.Store(host, code)
+	geoCache.Store(host, code)
 	return code
 }
 
@@ -852,29 +847,17 @@ func writeUpdateSummary(total int, stats map[string]int, duration float64, origi
 	}
 }
 
-func checkPort(host, port string) (bool, time.Duration) {
+func checkPort(host, port string) bool {
 	if host == "" || port == "" {
-		return false, 0
+		return false
 	}
 	address := net.JoinHostPort(host, port)
-
-	// Check Port Cache
-	if val, ok := portCache.Load(address); ok {
-		res := val.(portResult)
-		return res.active, res.latency
-	}
-
-	start := time.Now()
-	conn, err := net.DialTimeout("tcp", address, 1*time.Second)
-	latency := time.Since(start)
-
+	conn, err := net.DialTimeout("tcp", address, 2*time.Second)
 	if err != nil {
-		portCache.Store(address, portResult{active: false, latency: 0})
-		return false, 0
+		return false
 	}
 	conn.Close()
-	portCache.Store(address, portResult{active: true, latency: latency})
-	return true, latency
+	return true
 }
 
 func getHostPort(config, protocol string) (string, string) {
@@ -906,34 +889,4 @@ func getHostPort(config, protocol string) (string, string) {
 		}
 	}
 	return "", ""
-}
-
-func writeFastestPremiumFile(configs []FinalConfig) {
-	if len(configs) == 0 {
-		return
-	}
-
-	// Sort by latency
-	sort.Slice(configs, func(i, j int) bool {
-		return configs[i].Latency < configs[j].Latency
-	})
-
-	// Take top 100
-	limit := 100
-	if len(configs) < 100 {
-		limit = len(configs)
-	}
-	topList := configs[:limit]
-
-	file, err := os.Create("Fastest_Premium.txt")
-	if err != nil {
-		return
-	}
-	defer file.Close()
-
-	writer := bufio.NewWriter(file)
-	for _, c := range topList {
-		writer.WriteString(c.Line + "\n")
-	}
-	writer.Flush()
 }
