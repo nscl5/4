@@ -53,6 +53,9 @@ go build -o aggregator *.go
 ### Automated Updates
 The repository includes a GitHub Actions workflow that automatically updates configurations every 6 hours, performing fresh deduplication and regional sorting.
 
+### 🧹 Auto-Cleanup
+Stale subscription files (Sub*.txt, Base64/*, Splitted-By-Country/*, Splitted-By-Protocol/*) that haven't been updated in over 24 hours are automatically removed to keep the repository clean and ensure only active configurations remain.
+
 ### 🏆 Premium Collections
 *   **[⚡ Fastest Premium (Top 100 Low Latency)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt)** — *Recommended for Gaming & Streaming*
 *   **[🌎 All Verified Configs (Main Sub)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt)** — *The complete set of live servers*
