@@ -66,6 +66,12 @@ var dirLinks = []string{
 	"https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/Vmess.txt",
 	"https://raw.githubusercontent.com/miladtahanian/V2ray-Config/main/All_Configs_Sub.txt",
 	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt",
+	"https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/config.txt",
+	"https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt",
+	"https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vmess.txt",
+	"https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/trojan.txt",
+	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/refs/heads/main/configtg.txt",
+	"https://raw.githubusercontent.com/shabane/kamaji/refs/heads/master/hub/merged.txt",
 }
 
 type Result struct {
