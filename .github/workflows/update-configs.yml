@@ -184,6 +184,8 @@ jobs:
             git config --global user.name "GitHub Actions"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "🧹 Cleanup: Remove sub files older than 24 hours"
+            # Pull latest changes (update-configs may have pushed) then push
+            git pull --rebase "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" main
             git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
           fi
         env:
