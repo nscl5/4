@@ -329,6 +329,50 @@ func decodeBase64(encoded []byte) (string, error) {
 	return string(decoded), nil
 }
 
+// sanitizeConfig fixes common issues in config strings from upstream sources.
+func sanitizeConfig(config string) string {
+	// Fix HTML entities: &amp; → &
+	config = strings.ReplaceAll(config, "&amp;", "&")
+	return config
+}
+
+// isValidConfig checks whether a config has parameters that would crash V2Ray clients.
+// Returns false if the config should be skipped.
+func isValidConfig(config string) bool {
+	// Extract query string (between ? and #)
+	qStart := strings.Index(config, "?")
+	if qStart < 0 {
+		return true // no query params, nothing to validate
+	}
+	qEnd := strings.Index(config[qStart:], "#")
+	var query string
+	if qEnd >= 0 {
+		query = config[qStart+1 : qStart+qEnd]
+	} else {
+		query = config[qStart+1:]
+	}
+
+	// Parse query params and validate sni and path
+	for _, param := range strings.Split(query, "&") {
+		kv := strings.SplitN(param, "=", 2)
+		if len(kv) != 2 {
+			continue
+		}
+		key := strings.TrimSpace(kv[0])
+		val := strings.TrimSpace(kv[1])
+
+		if key == "sni" || key == "path" {
+			// Reject if value contains non-ASCII chars (emojis, CJK, etc.) or raw brackets
+			for _, r := range val {
+				if r > 127 || r == '[' || r == ']' {
+					return false
+				}
+			}
+		}
+	}
+	return true
+}
+
 func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string) {
 	var filtered []string
 	configsByCountry := make(map[string][]string)
@@ -371,11 +415,16 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 					}
 				}
 
-				if currentProtocol == "" {
-					continue
-				}
+			if currentProtocol == "" {
+				continue
+			}
 
-				// Smart Deduplication: Parse core identity (Address + Port)
+			// Validate config: reject configs with invalid SNI/path that crash clients
+			if !isValidConfig(line) {
+				continue
+			}
+
+			// Smart Deduplication: Parse core identity (Address + Port)
 				identity := parseCoreIdentity(line, currentProtocol)
 
 				mu.Lock()
@@ -402,7 +451,8 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 
 	go func() {
 		for _, line := range data {
-			jobs <- line
+			// Sanitize before processing (fix &amp; HTML entities, etc.)
+			jobs <- sanitizeConfig(line)
 		}
 		close(jobs)
 	}()
@@ -496,16 +546,17 @@ func standardizeName(config string, protocol string, index int, country string) 
 
 	default:
 		// Standard URL protocols: vless, trojan, ss, hy2, tuic
-		u, err := url.Parse(config)
-		if err != nil {
-			// Fallback: if url.Parse fails, try to replace existing fragment
-			if strings.Contains(config, "#") {
-				return config[:strings.Index(config, "#")] + "#" + url.PathEscape(newName)
-			}
-			return config + "#" + url.PathEscape(newName)
+		// Use simple string manipulation to avoid url.Parse re-encoding userinfo/query
+		var body string
+		if hi := strings.Index(config, "#"); hi >= 0 {
+			body = config[:hi]
+		} else {
+			body = config
 		}
-		u.Fragment = newName
-		return u.String()
+		// Trim trailing whitespace from body (some sources have trailing spaces before #)
+		body = strings.TrimRight(body, " \t")
+		result := body + "#" + url.PathEscape(newName)
+		return result
 	}
 }
 
