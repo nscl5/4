@@ -1,3 +1,3 @@
 module v2go-scanner
 
-go 1.21
+go 1.26

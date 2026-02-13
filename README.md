@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg) ![GitHub Stars](https://img.shields.io/github/stars/Danialsamadi/v2go?style=flat&logo=github&color=yellow) ![Last Commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go?style=flat&logo=github&color=green)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.26+-blue.svg) ![GitHub Stars](https://img.shields.io/github/stars/Danialsamadi/v2go?style=flat&logo=github&color=yellow) ![Last Commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go?style=flat&logo=github&color=green)
 
 # High-Performance V2Ray Config Aggregator (Go Edition) 🚀
 
@@ -33,7 +33,7 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Go 1.21 or higher
+- Go 1.26 or higher
 - Git
 
 ### Installation & Usage
