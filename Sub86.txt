@@ -1,0 +1,8 @@
+#profile-title: base64:8J+GkyBHaXQ6RGFuaWFsU2FtYWRpIHwgU3ViODYg8J+UpQ==
+#profile-update-interval: 1
+#support-url: https://github.com/Danialsamadi/v2go
+#profile-web-page-url: https://github.com/Danialsamadi/v2go
+trojan://humanity@104.17.121.43:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#v2go%20%7C%20TROJAN%20%7C%204
+trojan://humanity@104.18.115.61:443?type=ws&security=tls&host=www.gossipglove.com&path=/assignment&sni=www.gossipglove.com&alpn=h2,http/1.1#v2go%20%7C%20TROJAN%20%7C%203
+trojan://4aFbwy5BHa@151.101.34.144:443?mode=auto&path=%2Fdb&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=edgezvx.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=global.fastly.com#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20TROJAN%20%7C%202
+trojan://humanity@104.26.14.137:443?host=www.ignitelimit.com&path=%2Fassignment&sni=www.ignitelimit.com&type=ws#v2go%20%7C%20TROJAN%20%7C%201
