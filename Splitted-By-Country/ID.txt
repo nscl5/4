@@ -1,5 +1,6 @@
-trojan://788f2b96-47e2-4302-a417-511b6fd7d09c@172.232.250.160:443?type=tcp&security=tls&fp=chrome&alpn=http%2F1.1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%203217
-trojan://idc117okt@103.176.78.153:443?type=tcp&security=tls&fp=chrome&alpn=http%2F1.1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%203242
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20SS%20%7C%204623
-trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&headerType=none&security=tls&sni=node-id-1.v2sv.top#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%2014256
-vless://852c2816-0cc5-4dd0-893c-5653b1121afb@103.157.27.139:80?path=%2Fvless&security=none&encryption=none&host=id1.v2vless.xyz&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20VLESS%20%7C%2029693
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20SS%20%7C%201086
+trojan://idc117okt@103.176.78.153:443/?type=tcp&security=tls#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%203681
+trojan://788f2b96-47e2-4302-a417-511b6fd7d09c@172.232.250.160:443?type=tcp&security=tls&fp=chrome&alpn=http%2F1.1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%2011503
+trojan://M7v%25w11Se%2A@qfdfsg.wsone.icu:443?allowInsecure=1&type=tcp&security=tls&sni=qfdfsg.wsone.icu#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%2015440
+trojan://nodes-b211f28a@node-id-1.v2sv.top:2083?type=tcp&headerType=none&security=tls&sni=node-id-1.v2sv.top#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20TROJAN%20%7C%2017712
+vless://852c2816-0cc5-4dd0-893c-5653b1121afb@103.157.27.139:80?path=%2Fvless&security=none&encryption=none&host=id1.v2vless.xyz&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20VLESS%20%7C%2031442
