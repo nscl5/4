@@ -342,7 +342,13 @@ See `scanner/README.md` for complete documentation.
 ---
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Danialsamadi/v2go&type=Date)](https://www.star-history.com/#Danialsamadi/v2go&Date&LogScale)
+<a href="https://www.star-history.com/?repos=Danialsamadi%2Fv2go&type=timeline&logscale=&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&theme=dark&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+ </picture>
+</a>
 
 ---
 **Dani Samadi** · If you find this project useful, consider giving it a star on GitHub.
