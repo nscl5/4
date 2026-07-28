@@ -1,3 +1,5 @@
-trojan://MiTiVPN@199.232.177.242:80?host=www.f6r.ir&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=none&type=ws#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20TROJAN%20%7C%2016023
-vless://394f6981-a782-4779-9a85-e6cf22935d93@169.150.228.24:8443?encryption=none&security=tls&sni=bog-co-01.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2023585
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.123.142:62145?&security=false&fp=chrome&type=tcp&headerType=none&path=%2F#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2034187
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.233.228:62145?&type=tcp&headerType=none&path=/#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%203003
+trojan://MiTiVPN@199.232.177.242:80?host=www.f6r.ir&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=none&type=ws#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20TROJAN%20%7C%2012269
+vless://394f6981-a782-4779-9a85-e6cf22935d93@169.150.228.24:8443?encryption=none&security=tls&sni=bog-co-01.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2021414
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.211.248:62145?encryption=none&security=none&type=tcp&headerType=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2033499
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.247.123.142:62145?&security=false&fp=chrome&type=tcp&headerType=none&path=%2F#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2033503
