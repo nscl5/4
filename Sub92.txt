@@ -1,6 +1,0 @@
-#profile-title: base64:8J+GkyBHaXQ6RGFuaWFsU2FtYWRpIHwgU3ViOTIg8J+UpQ==
-#profile-update-interval: 1
-#support-url: https://github.com/Danialsamadi/v2go
-#profile-web-page-url: https://github.com/Danialsamadi/v2go
-trojan://humanity@104.16.174.12:443/?type=ws&host=www.ignitelimit.com&path=%2Fassignment&security=tls&sni=www.ignitelimit.com#v2go%20%7C%20TROJAN%20%7C%202
-vmess://eyJhZGQiOiI2OS44NC4xODIuNDkiLCJhaWQiOjAsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS56dWxhLnVwbGFvZC1tdXNpYy5pci4iLCJpZCI6ImY4OTc1ODcxLWE3YTAtNDkwNi04ODM1LWEyM2MxMjU4Y2ExZSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0Ijo4MCwicHMiOiJ2MmdvIHwg8J+HuvCfh7ggVVMgfCBWTUVTUyB8IDEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjpmYWxzZSwidHlwZSI6bnVsbCwidiI6Mn0=
