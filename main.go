@@ -28,17 +28,30 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"runtime/debug"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
 
 	"github.com/oschwald/geoip2-golang"
+
+	"v2ray-config-aggregator/internal/tester"
 )
 
 const (
 	timeout         = 20 * time.Second
 	maxWorkers      = 10
 	maxLinesPerFile = 500
+
+	// Live-test stage: one embedded xray-core instance per config.
+	// Measured on 17,213 real configs: ~40s at 1000 concurrent, ~1.1GB peak RSS.
+	// Going higher does NOT get faster (the network saturates) and costs accuracy —
+	// 3000 concurrent took the same 39s but found 530 working instead of 1288.
+	// Override with V2GO_TEST_CONCURRENCY / V2GO_TEST_TIMEOUT if the runner differs.
+	testConcurrency = 1000
+	testTimeoutSec  = 5
+	testURL         = "http://gstatic.com/generate_204"
 )
 
 var fixedText = `#profile-title: base64:8J+GkyBHaXRodWIgfCBEYW5pYWwgU2FtYWRpIPCfkI0=
@@ -152,6 +165,13 @@ func main() {
 
 	fmt.Printf("Found %d unique valid configurations\n", len(filteredConfigs))
 	fmt.Printf("Removed %d duplicates\n", originalCount-len(filteredConfigs))
+
+	// Live test: the TCP dial above only proves something answers on the port.
+	// This runs each config through an embedded xray-core instance and fetches
+	// a 204 endpoint through it, so only configs that actually pass traffic survive.
+	screenedCount := len(filteredConfigs)
+	filteredConfigs, configsByCountry = liveTest(filteredConfigs, configsByCountry)
+	fmt.Printf("%d/%d configurations passed the live test\n", len(filteredConfigs), screenedCount)
 
 	// Clean existing files
 	cleanExistingFiles(base64Folder)
@@ -435,16 +455,16 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 					}
 				}
 
-			if currentProtocol == "" {
-				continue
-			}
+				if currentProtocol == "" {
+					continue
+				}
 
-			// Validate config: reject configs with invalid SNI/path that crash clients
-			if !isValidConfig(line) {
-				continue
-			}
+				// Validate config: reject configs with invalid SNI/path that crash clients
+				if !isValidConfig(line) {
+					continue
+				}
 
-			// Smart Deduplication: Parse core identity (Address + Port)
+				// Smart Deduplication: Parse core identity (Address + Port)
 				identity := parseCoreIdentity(line, currentProtocol)
 
 				mu.Lock()
@@ -586,6 +606,18 @@ func parseCoreIdentity(config string, protocol string) string {
 	config = strings.TrimSpace(config)
 
 	switch protocol {
+	case "vless":
+		trimmed := strings.TrimPrefix(config, "vless://")
+		atIdx := strings.Index(trimmed, "@")
+		if atIdx < 0 {
+			return config
+		}
+		uuid := trimmed[:atIdx]
+		if uuid != "" {
+			return "vless://" + uuid
+		}
+		return config
+
 	case "vmess":
 		trimmed := strings.TrimPrefix(config, "vmess://")
 		decoded, err := decodeBase64([]byte(trimmed))
@@ -935,6 +967,49 @@ func checkPort(host, port string) bool {
 	}
 	conn.Close()
 	return true
+}
+
+func envInt(key string, fallback int) int {
+	if v, err := strconv.Atoi(os.Getenv(key)); err == nil && v > 0 {
+		return v
+	}
+	return fallback
+}
+
+// liveTest keeps only the configs that actually carry traffic, and prunes the
+// per-country map with the same survivor set so country files stay in sync.
+func liveTest(configs []string, byCountry map[string][]string) ([]string, map[string][]string) {
+	if len(configs) == 0 {
+		return configs, byCountry
+	}
+
+	concurrent := envInt("V2GO_TEST_CONCURRENCY", testConcurrency)
+	timeoutSec := envInt("V2GO_TEST_TIMEOUT", testTimeoutSec)
+
+	// Each in-flight xray instance parks goroutines in syscalls, which become OS
+	// threads. Go's default cap is 10000 and blowing it is a hard crash
+	// ("runtime: failed to create new OS thread"), not a slowdown.
+	debug.SetMaxThreads(10000 + 10*concurrent)
+
+	alive := make(map[string]bool, len(configs))
+	kept := make([]string, 0, len(configs))
+	for _, r := range tester.TestAll(configs, testURL, timeoutSec, concurrent) {
+		if r.DelayMs >= 0 {
+			alive[r.Link] = true
+			kept = append(kept, r.Link)
+		}
+	}
+
+	prunedByCountry := make(map[string][]string, len(byCountry))
+	for country, list := range byCountry {
+		for _, c := range list {
+			if alive[c] {
+				prunedByCountry[country] = append(prunedByCountry[country], c)
+			}
+		}
+	}
+
+	return kept, prunedByCountry
 }
 
 func getHostPort(config, protocol string) (string, string) {

@@ -7,7 +7,13 @@ on:
   schedule:
     - cron: "0 * * * *"  # Every 1 hour
   workflow_dispatch:  # Allow manual trigger
-    
+
+# The live test makes a run take minutes, not seconds. Without this, an hourly
+# schedule plus the push-to-main this workflow itself creates would stack runs.
+concurrency:
+  group: update-configs
+  cancel-in-progress: true
+
 jobs:
   update-configs:
     runs-on: ubuntu-latest
@@ -41,6 +47,11 @@ jobs:
         ulimit -n 65535
         ./aggregator
         echo "Config processing completed successfully!"
+      env:
+        # Each live test runs an embedded xray-core instance. 1000 is the measured
+        # sweet spot: higher is no faster (the network saturates) and finds fewer
+        # working configs. Bump here if the runner turns out to have more headroom.
+        V2GO_TEST_CONCURRENCY: "1000"
       
     - name: Verify output files
       run: |
@@ -58,9 +69,9 @@ jobs:
         ls -la Base64/ 2>/dev/null || echo "No Base64 directory found"
         
         # Count total configs and show file sizes
-        if [ -f "All_Configs_Sub.txt" ]; then
-          TOTAL_CONFIGS=$(wc -l < All_Configs_Sub.txt)
-          FILE_SIZE=$(du -h All_Configs_Sub.txt | cut -f1)
+        if [ -f "AllConfigsSub.txt" ]; then
+          TOTAL_CONFIGS=$(wc -l < AllConfigsSub.txt)
+          FILE_SIZE=$(du -h AllConfigsSub.txt | cut -f1)
           echo "\nMain config file: $TOTAL_CONFIGS configurations ($FILE_SIZE)"
         else
           echo "\nMain config file not found - checking if it was split..."
@@ -103,8 +114,7 @@ jobs:
         }
         
         # Handle potentially large files
-        handle_large_file "All_Configs_Sub.txt" "All_Configs_Sub"
-        handle_large_file "All_Configs_base64_Sub.txt" "All_Configs_base64_Sub"
+        handle_large_file "AllConfigsSub.txt" "AllConfigsSub"
         
         # Handle protocol files
         if [ -d "Splitted-By-Protocol" ]; then
@@ -136,7 +146,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.7
         with:
+          # Needs full history for `git log -1 --format=%ct -- <file>`, but not the
+          # blobs — this repo's history is ~14GB. Partial clone fetches commits only.
           fetch-depth: 0
+          filter: blob:none
 
       - name: Delete sub files older than 24 hours
         run: |
