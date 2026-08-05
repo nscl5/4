@@ -207,6 +207,9 @@ func main() {
 
 	// Now sort configurations by protocol
 	sortConfigs(filteredConfigs)
+
+	// Separate configs sitting behind Cloudflare IPs (like v2ray-tester's cfcheck)
+	writeCloudflareFile(filteredConfigs)
 }
 
 func ensureDirectoriesExist() (string, error) {
