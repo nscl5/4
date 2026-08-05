@@ -1,2 +1,2 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.181.254:62145?security=none&encryption=none&headerType=none&type=tcp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%201253
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.218.11:62145?security=none&type=tcp&packetEncoding=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2010648
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.181.254:62145?encryption=none&headerType=none&type=tcp&security=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%20875
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.218.11:62145?security=none&type=tcp&packetEncoding=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B4%20CO%20%7C%20VLESS%20%7C%2010432
