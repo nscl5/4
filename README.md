@@ -1,345 +1,179 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.26+-blue.svg) ![GitHub Stars](https://img.shields.io/github/stars/Danialsamadi/v2go?style=flat&logo=github&color=yellow) ![Last Commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go?style=flat&logo=github&color=green)
 
-# High-Performance V2Ray Config Aggregator (Go Edition)
+# v2go — V2Ray Config Aggregator and Live Tester
 
-A high-performance Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) with **dramatic performance improvements** and enhanced features. This Go-based V2Ray configuration aggregator collects, processes, and organizes thousands of V2Ray configs with 99.7% better performance than the original Python implementation.
+A high-performance Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs). v2go collects V2Ray configurations from public subscription sources, verifies that each one actually carries traffic through an embedded Xray-core instance, and publishes only the working configs as subscription files.
 
-## Performance Highlights
+## How It Works
 
-- **99.7% faster** — Processing time reduced from ~2 hours to ~1 minute (including connection testing)
-- **Smart deduplication** — Identity-based parsing (Host + Port) removes true duplicates even with different names
-- **Port checker** — Integrated TCP connectivity check ensures only reachable servers are included
-- **GeoIP tagging** — Automatic country detection with country codes (e.g. DE, US)
-- **Standardized naming** — Config names in a consistent format (e.g. `v2go | DE | VLESS | 1`)
-- **Regional sorting** — Configurations split by country into separate subscription files
-- **Concurrent processing** — Worker pool (300+ workers) for parallel DNS and GeoIP resolution
+Every configuration passes through a five-stage pipeline:
 
-### Performance Comparison
-| Version | Runtime | Success Rate | Unique Servers |
-|---------|---------|--------------|-------------------|
-| Python  | ~2 hours | Frequent failures | ~21k (approx) |
-| **Go (v2go)** | **~1 minute** | **100% reliable** | **~37k (Cleaned)** |
+1. **Fetch** — Roughly 35 public subscription sources are downloaded concurrently (base64 and plain-text formats).
+2. **Screen** — A fast TCP connectivity check filters out unreachable servers, invalid parameters that crash clients are rejected, and identity-based deduplication (protocol, credentials, host, port) removes duplicates even when names differ.
+3. **Live test** — Each surviving config is converted into an outbound-only Xray configuration and run in an embedded [Xray-core](https://github.com/XTLS/Xray-core) instance in memory. An HTTP request to a 204 test endpoint is made through the proxy. Only configs that successfully pass real traffic are kept. No external binaries, no subprocesses, no open ports.
+4. **Publish** — Working configs are renamed to a consistent format (`v2go | DE | VLESS | 1`), tagged by GeoIP country, and written into the subscription files listed below. Configs whose server address is a Cloudflare IP are additionally collected into a dedicated file.
+5. **Clean up** — Subscription files that have not been refreshed within 24 hours are removed automatically.
+
+The pipeline runs hourly via GitHub Actions. A typical run fetches around 50,000 raw configs, deduplicates them to roughly 10,000-15,000 candidates, live-tests all of them in about two minutes, and publishes the several hundred that demonstrably work.
+
+### Why Live Testing Matters
+
+A TCP port check only proves that something answers on the server's port; it says nothing about whether the proxy behind it works. Testing through a real Xray instance eliminates dead configs that would otherwise pass a port scan, so subscription lists contain only servers that carried actual traffic at test time.
 
 ## Supported Protocols
 
-- **VLESS** (Primary)
-- **Shadowsocks (SS)**
-- **VMess**
-- **Trojan**
-- **Hysteria2 (HY2)**
-- **TUIC**
-- **ShadowsocksR (SSR)**
+- VLESS (primary)
+- VMess
+- Trojan
+- Shadowsocks (SS)
+- Hysteria2 (HY2)
+- TUIC
+- ShadowsocksR (SSR)
+
+The live-test stage covers VLESS, VMess, Trojan, Shadowsocks, and Hysteria2, including TLS, REALITY, WebSocket, and gRPC transports.
 
 ## Quick Start
 
 ### Prerequisites
+
 - Go 1.26 or higher
 - Git
 
-### Installation & Usage
+### Build and Run
 
 ```bash
-# Clone the repository
-git clone https://github.com/Danialsamadi/v2go.git
+git clone --depth=1 https://github.com/Danialsamadi/v2go.git
 cd v2go
 
-# Build the aggregator
-go build -o aggregator *.go
+go build -o aggregator .
 
-# Run the aggregator (downloads GeoIP DB automatically)
+ulimit -n 65535
 ./aggregator
 ```
 
-### Automated Updates
-The repository includes a GitHub Actions workflow that automatically updates configurations every 6 hours, performing fresh deduplication and regional sorting.
+The GeoIP database is downloaded automatically on first run.
 
-### Auto-Cleanup
-Stale subscription files (Sub*.txt, Base64/*, Splitted-By-Country/*, Splitted-By-Protocol/*) that haven't been updated in over 24 hours are automatically removed to keep the repository clean and ensure only active configurations remain.
+### Configuration
+
+The live-test stage can be tuned through environment variables:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `V2GO_TEST_CONCURRENCY` | 500 | Number of configs tested in parallel. Values above ~500 saturate the network and produce worse results, not faster ones. |
+| `V2GO_TEST_TIMEOUT` | 5 | Per-config test timeout in seconds. |
+
+### Tests
+
+```bash
+go test ./...
+```
 
 ## Output Structure
 
 ```
 v2go/
-├── AllConfigsSub.txt              # All unique configs (plain text)
-├── All_Configs_base64_Sub.txt       # All unique configs (base64 encoded)
-├── Splitted-By-Protocol/            # Organized by protocol
+├── AllConfigsSub.txt              # All working configs (plain text)
+├── Sub1.txt ... SubN.txt          # Split into 500-config chunks
+├── Base64/                        # Base64-encoded variants of the Sub files
+├── Splitted-By-Protocol/          # Organized by protocol
 │   ├── vless.txt
-│   ├── vmess.txt  
+│   ├── vmess.txt
 │   ├── ss.txt
 │   ├── trojan.txt
 │   ├── hy2.txt
-│   └── tuic.txt
-├── Splitted-By-Country/             # Organized by GeoIP location
-│   ├── US.txt (United States)
-│   ├── DE.txt (Germany)
-│   ├── GB.txt (United Kingdom)
-│   └── ... (over 100+ countries)
-└── Sub1.txt - Sub20.txt            # Split into 500-config chunks
+│   ├── tuic.txt
+│   └── cloudflare.txt             # Configs behind Cloudflare IPs (any protocol)
+└── Splitted-By-Country/           # Organized by GeoIP location (US.txt, DE.txt, ...)
 ```
+
+Note on encoding: `vmess.txt` is plain text; every other file in `Splitted-By-Protocol/` is base64-encoded.
 
 ## Subscription Links
 
-### All Configurations
+### Main subscription (recommended)
 
-**Main subscription (recommended):**
 ```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt
 ```
 
 ### Country-specific subscriptions
 
-Get configurations only for the countries you need. Replace `XX` with any 2-letter country code (e.g., US, DE, GB).
+Replace `XX` with any two-letter country code (US, DE, GB, ...):
 
-**United States (US):**
 ```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/US.txt
-```
-
-**Germany (DE):**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/DE.txt
-```
-
-**United Kingdom (GB):**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/GB.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/XX.txt
 ```
 
 ### Protocol-specific subscriptions
 
-**VLESS:**
 ```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/vless.txt
-```
-
-**VMess:**
-```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/vmess.txt
-```
-
-**Shadowsocks:**
-```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/ss.txt
-```
-
-**Trojan:**
-```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/trojan.txt
-```
-
-**Hysteria2:**
-```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/hy2.txt
+https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Protocol/cloudflare.txt
 ```
 
-### Split Subscriptions (500 configs each)
+### Split subscriptions (500 configs each)
 
-<details>
-<summary>Click to expand all split subscription links</summary>
-
-**Config List 1:**
 ```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub1.txt
-```
-
-**Config List 2:**
-```
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub2.txt
+...
 ```
 
-**Config List 3:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub3.txt
-```
+Higher-numbered files exist when enough working configs are available; stale files are removed automatically after 24 hours.
 
-**Config List 4:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub4.txt
-```
+## Compatible Clients
 
-**Config List 5:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub5.txt
-```
+| Platform | Clients |
+|----------|---------|
+| Android | v2rayNG (recommended), Clash for Android |
+| iOS | Streisand, Shadowrocket, Fair VPN |
+| Windows / Linux | Hiddify Next (recommended), Nekoray, v2rayN, Clash Verge |
+| macOS | V2rayU, ClashX |
 
-**Config List 6:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub6.txt
-```
+### Usage
 
-**Config List 7:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub7.txt
-```
+1. Copy one of the subscription links above.
+2. Open your client's subscription settings and paste the link.
+3. Update the subscription regularly; the lists are refreshed hourly.
 
-**Config List 8:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub8.txt
-```
+## Architecture
 
-**Config List 9:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub9.txt
-```
+| Component | Purpose |
+|-----------|---------|
+| `main.go` | Pipeline orchestration: fetch, screen, deduplicate, rename, GeoIP tagging, output |
+| `internal/converter` | Converts share links (`vless://`, `vmess://`, `ss://`, `trojan://`, `hysteria2://`) into Xray outbound JSON, including TLS, REALITY, and transport settings |
+| `internal/tester` | Runs each config in an embedded in-memory Xray-core instance and probes a 204 endpoint through it |
+| `cloudflare.go` | Matches server IPs against Cloudflare CIDR ranges and writes `cloudflare.txt` |
+| `sort.go` | Splits the working set into per-protocol files |
+| `.github/workflows/update-configs.yml` | Hourly automated pipeline runs and 24-hour stale-file cleanup |
 
-**Config List 10:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub10.txt
-```
+### Design Notes
 
-**Config List 11:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub11.txt
-```
-
-**Config List 12:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub12.txt
-```
-
-**Config List 13:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub13.txt
-```
-
-**Config List 14:**
-```
-https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
-```
-
-</details>
-
-## Compatible V2Ray Clients
-
-### Android
-- **v2rayNG** (Recommended)
-- **Clash for Android**
-
-### iOS  
-- **Fair VPN**
-- **Streisand**
-- **Shadowrocket**
-
-### Windows & Linux
-- **Hiddify Next** (Recommended)
-- **Nekoray**
-- **v2rayN**
-- **Clash Verge**
-
-### macOS
-- **V2rayU**
-- **ClashX**
-
-## Usage
-
-### Mobile & Desktop Clients
-
-1. **Copy** one of the subscription links above
-2. **Open** your V2Ray client's subscription settings
-3. **Paste** the link and save the subscription
-4. **Update** subscriptions regularly to get fresh configs
-5. **Test** different configs to find the best performance for your location
-
-### System-Wide Proxy Setup
-
-#### Method 1: Using Proxifier (Recommended)
-
-1. **Download** and install [Proxifier](https://proxifier.com/download/)
-
-2. **Activate** with one of these keys:
-   - Portable: `L6Z8A-XY2J4-BTZ3P-ZZ7DF-A2Q9C`
-   - Standard: `5EZ8G-C3WL5-B56YG-SCXM9-6QZAP`  
-   - macOS: `P427L-9Y552-5433E-8DSR3-58Z68`
-
-3. **Configure** proxy server:
-   - IP: `127.0.0.1`
-   - Port: `10808` (v2rayN) / `2801` (Netch) / `1080` (SSR) / `1086` (V2rayU)
-   - Protocol: `SOCKS5`
-
-#### Method 2: System Proxy Settings
-
-1. **Open** your OS network/proxy settings
-2. **Configure** SOCKS5 proxy:
-   - IP: `127.0.0.1`
-   - Port: `10809`
-   - Bypass: `localhost;127.*;10.*;172.16.*-172.31.*;192.168.*`
-3. **Enable** system proxy in your V2Ray client
-
-## Architecture & features
-
-### Core Components
-
-- **`main.go`**: High-performance config aggregator with concurrent processing
-- **`sort.go`**: Protocol-based config sorter with deduplication
-- **GitHub Actions**: Automated config updates every 6 hours
-
-### Key Optimizations
-
-- **Concurrent HTTP Requests**: 10 parallel workers vs sequential processing
-- **Connection Pooling**: Reuses HTTP connections for better performance  
-- **Streaming I/O**: Memory-efficient file operations
-- **Smart Deduplication**: Hash-based duplicate detection (95%+ reduction)
-- **Native Base64**: Go's optimized encoding vs Python libraries
-
-### Statistics Example
-```
-Configuration aggregation completed!
-Total time: 13.854 seconds
-Configurations processed: 451,408
-After deduplication: 21,980 unique configs
-Duplicates removed: 429,428 (95.1% reduction)
-
-Protocol breakdown:
-- vless: 335,247 configs
-- ss: 69,158 configs  
-- vmess: 25,891 configs
-- trojan: 17,112 configs
-- ssr: 86 configs
-```
+- Xray-core is embedded as a Go library. Testing a config requires no subprocess, no temporary files, and no listening ports; cleanup is a single in-memory close.
+- Live-test concurrency defaults to 500. Measurements on real config sets showed accuracy degrades above that point: network saturation causes working configs to time out and be reported dead.
+- Per-config CPU cost is approximately 40 microseconds; the test stage is bounded almost entirely by network round-trips.
+- CI uses shallow and blob-filtered checkouts. Because generated output is committed hourly, repository history is large; partial clones keep workflow runs to a few minutes.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome. Please open an issue first for major changes.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-## VPN Configuration Scanner
-
-The project now includes a powerful **VPN Configuration Scanner** in the `scanner/` directory:
-
-### Features
-- **Multi-Protocol Support**: VMess, VLess, Trojan, Shadowsocks
-- **Lightning Fast**: Processes 15,795+ configs in ~100ms
-- **Smart Filtering**: Optional latency measurement and speed categorization
-- **Comprehensive Testing**: 84.1% test coverage with benchmarks
-
-### Quick Start
-```bash
-# Navigate to scanner directory
-cd scanner/
-
-# Fast scanning (no latency measurement)
-go run scanner_main.go scanner.go -dir=.. -timeout=1s
-
-# With latency measurement (slower but more accurate)
-go run scanner_main.go scanner.go -dir=.. -timeout=1s -latency
-
-# Run tests
-go test -v
-```
-
-See `scanner/README.md` for complete documentation.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- **Original Repository**: This project is a Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) - all credit for the original concept and Python implementation goes to the original authors
-- **V2Ray Community**: For protocol specifications and documentation
-- **Go Community**: For the excellent performance and concurrency features that made this optimization possible
-- **Contributors and Testers**: For feedback and improvements
+- [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) — the original concept and Python implementation
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — the proxy core used for live testing
+- The V2Ray community for protocol specifications and documentation
 
 ---
+
 ## Star History
 
 <a href="https://www.star-history.com/?repos=Danialsamadi%2Fv2go&type=timeline&logscale=&legend=bottom-right">
@@ -351,4 +185,5 @@ See `scanner/README.md` for complete documentation.
 </a>
 
 ---
-**Dani Samadi** · If you find this project useful, consider giving it a star on GitHub.
+
+**Dani Samadi** — If you find this project useful, consider giving it a star on GitHub.
