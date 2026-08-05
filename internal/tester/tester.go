@@ -4,9 +4,11 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"io"
 	"log"
 	"net"
 	"net/http"
+	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
@@ -23,7 +25,20 @@ import (
 type Result struct {
 	Link    string
 	DelayMs int
+	// ExitIP is the address traffic actually emerges from, as reported by a
+	// probe sent through the proxy. It is the only trustworthy basis for
+	// geolocation: the entry host is frequently a CDN edge or a relay in a
+	// different country. Empty if the probe failed.
+	ExitIP string
 }
+
+// exitIPURL returns the caller's apparent address. Fetched only for configs
+// that already passed the connectivity check, so it costs one extra request
+// per working config rather than one per candidate.
+const (
+	exitIPURL     = "http://www.cloudflare.com/cdn-cgi/trace"
+	exitIPTimeout = 4 * time.Second
+)
 
 func TestAll(links []string, testURL string, timeoutSec, concurrent int) []Result {
 	timeout := time.Duration(timeoutSec) * time.Second
@@ -52,8 +67,9 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int) []Resul
 				}
 			}()
 
-			delay := testOne(l, testURL, timeout)
+			delay, exitIP := testOne(l, testURL, timeout)
 			results[idx].DelayMs = delay
+			results[idx].ExitIP = exitIP
 
 			d := done.Add(1)
 			if delay > 0 {
@@ -69,10 +85,10 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int) []Resul
 	return results
 }
 
-func testOne(link, testURL string, timeout time.Duration) int {
+func testOne(link, testURL string, timeout time.Duration) (int, string) {
 	outbound, err := converter.ConvertLink(link)
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 
 	fullConfig := converter.M{
@@ -85,20 +101,20 @@ func testOne(link, testURL string, timeout time.Duration) int {
 
 	jsonBytes, err := json.Marshal(fullConfig)
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 
 	cfg, err := xserial.LoadJSONConfig(bytes.NewReader(jsonBytes))
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 
 	instance, err := xcore.New(cfg)
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 	if err := instance.Start(); err != nil {
-		return -1
+		return -1, ""
 	}
 	defer instance.Close()
 
@@ -131,18 +147,54 @@ func testOne(link, testURL string, timeout time.Duration) int {
 
 	req, err := http.NewRequestWithContext(ctx, "GET", testURL, nil)
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 
 	start := time.Now()
 	resp, err := client.Do(req)
 	if err != nil {
-		return -1
+		return -1, ""
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusOK || resp.StatusCode == http.StatusNoContent {
-		return int(time.Since(start).Milliseconds())
+		return int(time.Since(start).Milliseconds()), fetchExitIP(client)
 	}
-	return -1
+	return -1, ""
+}
+
+// fetchExitIP asks, through the already-running proxy, which address the
+// traffic appears to come from. The response is attacker-controlled — the
+// proxy operator can return anything — so it is size-limited and the result
+// must parse as an IP before it is used.
+func fetchExitIP(client *http.Client) string {
+	ctx, cancel := context.WithTimeout(context.Background(), exitIPTimeout)
+	defer cancel()
+
+	req, err := http.NewRequestWithContext(ctx, "GET", exitIPURL, nil)
+	if err != nil {
+		return ""
+	}
+	resp, err := client.Do(req)
+	if err != nil {
+		return ""
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		return ""
+	}
+
+	body, err := io.ReadAll(io.LimitReader(resp.Body, 4096))
+	if err != nil {
+		return ""
+	}
+	for _, line := range strings.Split(string(body), "\n") {
+		if v, ok := strings.CutPrefix(line, "ip="); ok {
+			if ip := net.ParseIP(strings.TrimSpace(v)); ip != nil {
+				return ip.String()
+			}
+			return ""
+		}
+	}
+	return ""
 }

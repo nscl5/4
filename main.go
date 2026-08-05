@@ -163,17 +163,21 @@ func main() {
 	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
 	originalCount := len(allConfigs)
-	filteredConfigs, configsByCountry := filterForProtocols(allConfigs, protocols)
+	candidates := filterForProtocols(allConfigs, protocols)
 
-	fmt.Printf("Found %d unique valid configurations\n", len(filteredConfigs))
-	fmt.Printf("Removed %d duplicates\n", originalCount-len(filteredConfigs))
+	fmt.Printf("Found %d unique valid configurations\n", len(candidates))
+	fmt.Printf("Removed %d duplicates\n", originalCount-len(candidates))
 
 	// Live test: the TCP dial above only proves something answers on the port.
 	// This runs each config through an embedded xray-core instance and fetches
-	// a 204 endpoint through it, so only configs that actually pass traffic survive.
-	screenedCount := len(filteredConfigs)
-	filteredConfigs, configsByCountry = liveTest(filteredConfigs, configsByCountry)
-	fmt.Printf("%d/%d configurations passed the live test\n", len(filteredConfigs), screenedCount)
+	// a 204 endpoint through it, so only configs that actually pass traffic
+	// survive. Passing configs also report the IP they exit from, which is what
+	// the country tagging below is based on.
+	working := liveTest(candidates)
+	fmt.Printf("%d/%d configurations passed the live test\n", len(working), len(candidates))
+
+	// Name and group by the country of the measured exit IP
+	filteredConfigs, configsByCountry := nameAndGroup(working)
 
 	// Clean existing files
 	cleanExistingFiles(base64Folder)
@@ -399,16 +403,17 @@ func isValidConfig(config string) bool {
 	return true
 }
 
-func filterForProtocols(data []string, protocols []string) ([]string, map[string][]string) {
+// filterForProtocols screens raw configs down to unique, reachable candidates.
+// Naming and country assignment happen later, once the live test has revealed
+// each config's real exit IP.
+func filterForProtocols(data []string, protocols []string) []string {
 	var filtered []string
-	configsByCountry := make(map[string][]string)
 	seen := make(map[string]bool)
 	var mu sync.Mutex
 
 	type configRes struct {
-		line    string
-		country string
-		proto   string
+		line  string
+		proto string
 	}
 
 	// Use a worker pool for parallel country lookup and deduplication
@@ -467,10 +472,11 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 					continue
 				}
 
-				// Country Lookup (Parallelized as it involves DNS)
-				country := getCountryInfo(line, currentProtocol)
-
-				results <- configRes{line: line, country: country, proto: currentProtocol}
+				// Country is deliberately NOT resolved here. GeoIP on the entry
+				// host is wrong for CDN-fronted and relaying servers, and doing
+				// it now would cost a DNS lookup per candidate. It is derived
+				// from the live test's exit IP instead, after testing.
+				results <- configRes{line: line, proto: currentProtocol}
 			}
 		}()
 	}
@@ -489,18 +495,57 @@ func filterForProtocols(data []string, protocols []string) ([]string, map[string
 	}()
 
 	for res := range results {
-		// Standardize the name sequentially to have correct indexing
-		cleanLine := standardizeName(res.line, res.proto, len(filtered)+1, res.country)
-		filtered = append(filtered, cleanLine)
-
-		countryKey := res.country
-		if countryKey == "" {
-			countryKey = "Unknown"
-		}
-		configsByCountry[countryKey] = append(configsByCountry[countryKey], cleanLine)
+		filtered = append(filtered, res.line)
 	}
 
-	return filtered, configsByCountry
+	return filtered
+}
+
+// nameAndGroup assigns each working config its country, standardized name and
+// index, and groups the renamed configs by country.
+//
+// Country comes from the exit IP measured through the proxy during the live
+// test. That is the address traffic actually emerges from; the entry host is
+// often a Cloudflare edge (anycast, so GeoIP is meaningless) or a relay that
+// forwards to a different country. Entry-host GeoIP is used only as a fallback
+// when the exit probe returned nothing.
+func nameAndGroup(results []tester.Result) ([]string, map[string][]string) {
+	var named []string
+	byCountry := make(map[string][]string)
+
+	for _, r := range results {
+		protocol := protocolOf(r.Link)
+		country := countryOfIP(net.ParseIP(r.ExitIP))
+		if country == "" {
+			host, _ := getHostPort(r.Link, protocol)
+			country = countryOfHost(host)
+		}
+
+		line := standardizeName(r.Link, protocol, len(named)+1, country)
+		named = append(named, line)
+
+		key := country
+		if key == "" {
+			key = "Unknown"
+		}
+		byCountry[key] = append(byCountry[key], line)
+	}
+
+	return named, byCountry
+}
+
+// protocolOf reports which entry of `protocols` a config line starts with.
+func protocolOf(line string) string {
+	for _, protocol := range protocols {
+		prefix := protocol
+		if !strings.HasSuffix(prefix, "://") && protocol != "warp://" {
+			prefix += "://"
+		}
+		if strings.HasPrefix(line, prefix) {
+			return protocol
+		}
+	}
+	return ""
 }
 
 // standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID
@@ -613,42 +658,37 @@ func parseCoreIdentity(config string, protocol string) string {
 	}
 }
 
-func getCountryInfo(config, protocol string) string {
-	if geoDB == nil {
+// countryOfIP looks up an IP in the GeoLite2 database. Handles IPv4 and IPv6.
+func countryOfIP(ip net.IP) string {
+	if geoDB == nil || ip == nil {
 		return ""
 	}
-
-	host, _ := getHostPort(config, protocol)
-	if host == "" {
+	record, err := geoDB.Country(ip)
+	if err != nil {
 		return ""
 	}
+	return record.Country.IsoCode
+}
 
-	// Check cache
+// countryOfHost resolves a host (IP literal or domain) and geolocates it.
+// Fallback only — the entry host is an unreliable indicator of where a proxy
+// actually exits, so this is used when the live test yielded no exit IP.
+func countryOfHost(host string) string {
+	if geoDB == nil || host == "" {
+		return ""
+	}
 	if val, ok := geoCache.Load(host); ok {
 		return val.(string)
 	}
 
-	// Resolve IP if it's a domain
 	ip := net.ParseIP(host)
 	if ip == nil {
-		ips, err := net.LookupIP(host)
-		if err == nil && len(ips) > 0 {
+		if ips, err := net.LookupIP(host); err == nil && len(ips) > 0 {
 			ip = ips[0]
 		}
 	}
 
-	if ip == nil {
-		geoCache.Store(host, "")
-		return ""
-	}
-
-	record, err := geoDB.Country(ip)
-	if err != nil {
-		geoCache.Store(host, "")
-		return ""
-	}
-
-	code := record.Country.IsoCode
+	code := countryOfIP(ip)
 	geoCache.Store(host, code)
 	return code
 }
@@ -901,11 +941,11 @@ func envInt(key string, fallback int) int {
 	return fallback
 }
 
-// liveTest keeps only the configs that actually carry traffic, and prunes the
-// per-country map with the same survivor set so country files stay in sync.
-func liveTest(configs []string, byCountry map[string][]string) ([]string, map[string][]string) {
+// liveTest returns the results for configs that actually carried traffic,
+// each carrying the exit IP observed through the proxy.
+func liveTest(configs []string) []tester.Result {
 	if len(configs) == 0 {
-		return configs, byCountry
+		return nil
 	}
 
 	concurrent := envInt("V2GO_TEST_CONCURRENCY", testConcurrency)
@@ -916,25 +956,13 @@ func liveTest(configs []string, byCountry map[string][]string) ([]string, map[st
 	// ("runtime: failed to create new OS thread"), not a slowdown.
 	debug.SetMaxThreads(10000 + 10*concurrent)
 
-	alive := make(map[string]bool, len(configs))
-	kept := make([]string, 0, len(configs))
+	kept := make([]tester.Result, 0, len(configs))
 	for _, r := range tester.TestAll(configs, testURL, timeoutSec, concurrent) {
 		if r.DelayMs >= 0 {
-			alive[r.Link] = true
-			kept = append(kept, r.Link)
+			kept = append(kept, r)
 		}
 	}
-
-	prunedByCountry := make(map[string][]string, len(byCountry))
-	for country, list := range byCountry {
-		for _, c := range list {
-			if alive[c] {
-				prunedByCountry[country] = append(prunedByCountry[country], c)
-			}
-		}
-	}
-
-	return kept, prunedByCountry
+	return kept
 }
 
 func getHostPort(config, protocol string) (string, string) {
