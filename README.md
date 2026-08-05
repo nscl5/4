@@ -1,18 +1,18 @@
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.26+-blue.svg) ![GitHub Stars](https://img.shields.io/github/stars/Danialsamadi/v2go?style=flat&logo=github&color=yellow) ![Last Commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go?style=flat&logo=github&color=green)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![Update Configs](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml/badge.svg)](https://github.com/Danialsamadi/v2go/actions/workflows/update-configs.yml) ![Go Version](https://img.shields.io/badge/Go-1.26+-blue.svg) ![GitHub Stars](https://img.shields.io/github/stars/Danialsamadi/v2go?style=flat&logo=github&color=yellow) ![Last Commit](https://img.shields.io/github/last-commit/Danialsamadi/v2go?style=flat&logo=github&color=green)
 
-# High-Performance V2Ray Config Aggregator (Go Edition) 🚀
+# High-Performance V2Ray Config Aggregator (Go Edition)
 
-💻 A blazingly fast Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) with **dramatic performance improvements** and enhanced features. This Go-based V2Ray configuration aggregator collects, processes, and organizes thousands of V2Ray configs with 99.7% better performance than the original Python implementation.
+A high-performance Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) with **dramatic performance improvements** and enhanced features. This Go-based V2Ray configuration aggregator collects, processes, and organizes thousands of V2Ray configs with 99.7% better performance than the original Python implementation.
 
-## 🔥 Performance Highlights
+## Performance Highlights
 
-- **⚡ 99.7% Faster**: Reduced processing time from ~2 hours to ~1 minute (including connection testing)
-- **🎯 Smart Deduplication**: Identity-based parsing (Host + Port) removes true duplicates even with different names
-- **🏥 Life Guard**: Integrated high-speed TCP port checker ensures only active servers are included
-- **🌍 Globalist Support**: Automatic GeoIP tagging with country flags (e.g., 🇩🇪 DE, 🇺🇸 US)
-- **🏷️ Clean Namer**: Standardizes all config names to a professional format (e.g., `v2go | 🇩🇪 DE | VLESS | 1`)
-- **� Regional Sorting**: Automatically splits configurations by country into separate subscription files
-- **� Concurrent Processing**: High-performance worker pool (300+ workers) for lightning-fast DNS and GeoIP resolution
+- **99.7% faster** — Processing time reduced from ~2 hours to ~1 minute (including connection testing)
+- **Smart deduplication** — Identity-based parsing (Host + Port) removes true duplicates even with different names
+- **Port checker** — Integrated TCP connectivity check ensures only reachable servers are included
+- **GeoIP tagging** — Automatic country detection with country codes (e.g. DE, US)
+- **Standardized naming** — Config names in a consistent format (e.g. `v2go | DE | VLESS | 1`)
+- **Regional sorting** — Configurations split by country into separate subscription files
+- **Concurrent processing** — Worker pool (300+ workers) for parallel DNS and GeoIP resolution
 
 ### Performance Comparison
 | Version | Runtime | Success Rate | Unique Servers |
@@ -20,7 +20,7 @@
 | Python  | ~2 hours | Frequent failures | ~21k (approx) |
 | **Go (v2go)** | **~1 minute** | **100% reliable** | **~37k (Cleaned)** |
 
-## 🛠️ Supported Protocols
+## Supported Protocols
 
 - **VLESS** (Primary)
 - **Shadowsocks (SS)**
@@ -30,7 +30,7 @@
 - **TUIC**
 - **ShadowsocksR (SSR)**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Go 1.26 or higher
@@ -53,14 +53,10 @@ go build -o aggregator *.go
 ### Automated Updates
 The repository includes a GitHub Actions workflow that automatically updates configurations every 6 hours, performing fresh deduplication and regional sorting.
 
-### 🧹 Auto-Cleanup
+### Auto-Cleanup
 Stale subscription files (Sub*.txt, Base64/*, Splitted-By-Country/*, Splitted-By-Protocol/*) that haven't been updated in over 24 hours are automatically removed to keep the repository clean and ensure only active configurations remain.
 
-### 🏆 Premium Collections
-*   **[⚡ Fastest Premium (Top 100 Low Latency)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/Fastest_Premium.txt)** — *Recommended for Gaming & Streaming*
-*   **[🌎 All Verified Configs (Main Sub)](https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt)** — *The complete set of live servers*
-
-## 📁 Output Structure
+## Output Structure
 
 ```
 v2go/
@@ -81,7 +77,7 @@ v2go/
 └── Sub1.txt - Sub20.txt            # Split into 500-config chunks
 ```
 
-## 🔗 Subscription Links
+## Subscription Links
 
 ### All Configurations
 
@@ -90,7 +86,7 @@ v2go/
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/AllConfigsSub.txt
 ```
 
-### 🌍 Country-Specific Subscriptions
+### Country-specific subscriptions
 
 Get configurations only for the countries you need. Replace `XX` with any 2-letter country code (e.g., US, DE, GB).
 
@@ -109,7 +105,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/DE.
 https://raw.githubusercontent.com/Danialsamadi/v2go/main/Splitted-By-Country/GB.txt
 ```
 
-### 🛰️ Protocol-Specific Subscriptions
+### Protocol-specific subscriptions
 
 **VLESS:**
 ```
@@ -213,7 +209,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
 
 </details>
 
-## 📱 Compatible V2Ray Clients
+## Compatible V2Ray Clients
 
 ### Android
 - **v2rayNG** (Recommended)
@@ -234,7 +230,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
 - **V2rayU**
 - **ClashX**
 
-## 📖 Usage Instructions
+## Usage
 
 ### Mobile & Desktop Clients
 
@@ -269,7 +265,7 @@ https://raw.githubusercontent.com/Danialsamadi/v2go/main/Sub14.txt
    - Bypass: `localhost;127.*;10.*;172.16.*-172.31.*;192.168.*`
 3. **Enable** system proxy in your V2Ray client
 
-## 🏗️ Architecture & Features
+## Architecture & features
 
 ### Core Components
 
@@ -301,15 +297,15 @@ Protocol breakdown:
 - ssr: 86 configs
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🔍 VPN Configuration Scanner
+## VPN Configuration Scanner
 
 The project now includes a powerful **VPN Configuration Scanner** in the `scanner/` directory:
 
@@ -336,7 +332,7 @@ go test -v
 
 See `scanner/README.md` for complete documentation.
 
-## ⭐ Acknowledgments
+## Acknowledgments
 
 - **Original Repository**: This project is a Go rewrite of [Epodonios/v2ray-configs](https://github.com/Epodonios/v2ray-configs) - all credit for the original concept and Python implementation goes to the original authors
 - **V2Ray Community**: For protocol specifications and documentation
@@ -346,9 +342,13 @@ See `scanner/README.md` for complete documentation.
 ---
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Danialsamadi/v2go&type=Date)](https://www.star-history.com/#Danialsamadi/v2go&Date&LogScale)
+<a href="https://www.star-history.com/?repos=Danialsamadi%2Fv2go&type=timeline&logscale=&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&theme=dark&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Danialsamadi/v2go&type=timeline&logscale&legend=bottom-right&sealed_token=KgAALd0q2tbc6r9QJE69DWvs8y_WKaOYEpmrWVgGo31_C7YVwki4kX560bOtfpIsuigTP8jdgGhPZieAJtWcVdL9TZdrf-FweVuizeY9cK32vRXyghnG30kVYD1nvkvxrxxJ5PHtS5VBrNZRqAiAqUtzNO2fTtybBxo2_U82-3oovbb6thocZ3axbgK3" />
+ </picture>
+</a>
 
 ---
-**Made with ❤️ by Dani Samadi**
-
-*If you find this project useful, please consider giving it a ⭐ star!*
+**Dani Samadi** · If you find this project useful, consider giving it a star on GitHub.
