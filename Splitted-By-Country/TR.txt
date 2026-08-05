@@ -1,5 +1,4 @@
-vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?mode=auto&security=reality&encryption=none&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&fp=chrome&type=xhttp&sni=www.google.com&sid=44#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%20244
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443/?type=grpc&encryption=none&flow=&serviceName=grpc#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%20247
-vless://06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96@45.92.219.204:8088?security=reality&encryption=none&pbk=6m_clJWpXHndi176bB428JqroczCuJVMyhfMGuI9wRI&headerType=none&fp=chrome&spx=/da033db9ffa4104&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=11e9#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%201850
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@185.123.101.64:2376#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20SS%20%7C%202423
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.113.194:8119#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20SS%20%7C%203686
+vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&fp=chrome&spx=%2F&type=xhttp&sni=www.google.com&sid=44#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%20416
+vless://06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96@45.92.219.204:8088?security=reality&encryption=none&pbk=6m_clJWpXHndi176bB428JqroczCuJVMyhfMGuI9wRI&headerType=none&fp=ios&spx=%2Fda033db9ffa4104&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=11e9#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%20931
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.113.194:8119#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20SS%20%7C%201973
+vless://7bc4db21-b14c-43e1-9493-e2a1ba8d4772@helixgaming.ir:80?encryption=none&host=play.google.com&path=/&security=none&type=ws#v2go%20%7C%20%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20VLESS%20%7C%207507
