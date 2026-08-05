@@ -21,8 +21,6 @@ var protocolPrefixes = []struct {
 	{"trojan://", "trojan"},
 	{"hysteria2://", "hysteria2"},
 	{"hy2://", "hysteria2"},
-	{"wireguard://", "wireguard"},
-	{"wg://", "wireguard"},
 }
 
 func GetProtocol(link string) string {
@@ -48,8 +46,6 @@ func ConvertLink(link string) (M, error) {
 		return parseTrojan(link)
 	case "hysteria2":
 		return parseHysteria2(link)
-	case "wireguard":
-		return parseWireGuard(link)
 	default:
 		return nil, fmt.Errorf("unsupported protocol")
 	}
@@ -382,80 +378,6 @@ func parseHysteria2(link string) (M, error) {
 	}, nil
 }
 
-func parseWireGuard(link string) (M, error) {
-	u, err := url.Parse(link)
-	if err != nil {
-		return nil, err
-	}
-	params, _ := url.ParseQuery(u.RawQuery)
-	port, err := parsePort(u.Port())
-	if err != nil {
-		return nil, err
-	}
-
-	secret := ""
-	if u.User != nil {
-		secret, _ = url.QueryUnescape(u.User.Username())
-	}
-	if secret == "" {
-		return nil, fmt.Errorf("missing secret key")
-	}
-
-	pubKey := first(params, "publickey", "publicKey")
-	if pubKey == "" {
-		return nil, fmt.Errorf("missing peer public key")
-	}
-
-	addresses := params["address"]
-	if len(addresses) == 0 {
-		addresses = []string{"10.0.0.1", "fd59:7153:2388:b5fd:0000:0000:0000:0001"}
-	}
-
-	peer := M{
-		"publicKey":  pubKey,
-		"endpoint":   fmt.Sprintf("%s:%d", u.Hostname(), port),
-		"allowedIPs": []string{"0.0.0.0/0", "::0/0"},
-	}
-	if psk := first(params, "presharedkey", "preSharedKey"); psk != "" {
-		peer["preSharedKey"] = psk
-	}
-	if ka := first(params, "keepalive", "keepAlive"); ka != "" {
-		if n, err := strconv.Atoi(ka); err == nil {
-			peer["keepAlive"] = n
-		}
-	}
-
-	settings := M{
-		"secretKey": secret,
-		"address":   addresses,
-		"peers":     []M{peer},
-	}
-	if mtu := first(params, "mtu"); mtu != "" {
-		if n, err := strconv.Atoi(mtu); err == nil {
-			settings["mtu"] = n
-		}
-	} else {
-		settings["mtu"] = 1420
-	}
-	if res := first(params, "reserved"); res != "" {
-		var r []int
-		for _, s := range strings.Split(res, ",") {
-			if n, err := strconv.Atoi(strings.TrimSpace(s)); err == nil {
-				r = append(r, n)
-			}
-		}
-		if len(r) == 3 {
-			settings["reserved"] = r
-		}
-	}
-
-	return M{
-		"protocol": "wireguard",
-		"tag":      "proxy",
-		"settings": settings,
-	}, nil
-}
-
 func buildStreamSettings(params url.Values) M {
 	network := params.Get("type")
 	if network == "" {
@@ -577,69 +499,6 @@ func buildStreamSettings(params url.Values) M {
 	}
 
 	return stream
-}
-
-func Deduplicate(links []string) []string {
-	seen := make(map[string]struct{}, len(links))
-	out := make([]string, 0, len(links))
-	for _, l := range links {
-		k := dedupKey(l)
-		if _, ok := seen[k]; !ok {
-			seen[k] = struct{}{}
-			out = append(out, l)
-		}
-	}
-	return out
-}
-
-func dedupKey(link string) string {
-	link = strings.TrimSpace(link)
-	proto := GetProtocol(link)
-
-	switch proto {
-	case "vless", "trojan":
-		u, err := url.Parse(link)
-		if err == nil {
-			return fmt.Sprintf("%s|%s|%s|%s", proto, u.User.Username(), u.Hostname(), u.Port())
-		}
-	case "vmess":
-		raw := link[len("vmess://"):]
-		if b, err := b64DecodeSafe(raw); err == nil {
-			var m map[string]any
-			if json.Unmarshal(b, &m) == nil {
-				return fmt.Sprintf("vmess|%v|%v|%v", m["id"], m["add"], m["port"])
-			}
-		}
-	case "ss":
-		if cfg, err := parseSS(link); err == nil {
-			s := cfg["settings"].(M)["servers"].([]M)[0]
-			return fmt.Sprintf("ss|%v|%v|%v|%v", s["method"], s["password"], s["address"], s["port"])
-		}
-	case "hysteria2":
-		u, err := url.Parse(link)
-		if err == nil {
-			auth := ""
-			if u.User != nil {
-				auth = u.User.Username()
-			}
-			return fmt.Sprintf("hy2|%s|%s|%s", auth, u.Hostname(), u.Port())
-		}
-	case "wireguard":
-		u, err := url.Parse(link)
-		if err == nil {
-			p, _ := url.ParseQuery(u.RawQuery)
-			secret := ""
-			if u.User != nil {
-				secret = u.User.Username()
-			}
-			return fmt.Sprintf("wg|%s|%s|%s|%s", secret, first(p, "publickey", "publicKey"), u.Hostname(), u.Port())
-		}
-	}
-
-	if i := strings.Index(link, "#"); i >= 0 {
-		return link[:i]
-	}
-	return link
 }
 
 func b64DecodeSafe(s string) ([]byte, error) {

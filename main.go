@@ -45,11 +45,14 @@ const (
 	maxLinesPerFile = 500
 
 	// Live-test stage: one embedded xray-core instance per config.
-	// Measured on 17,213 real configs: ~40s at 1000 concurrent, ~1.1GB peak RSS.
-	// Going higher does NOT get faster (the network saturates) and costs accuracy —
-	// 3000 concurrent took the same 39s but found 530 working instead of 1288.
+	// Measured on 17,213 real configs (concurrency -> working found / wall clock):
+	//   250 -> 1283 / 2m04s,  400 -> 1207 / 1m16s,  500 -> 1256 / 1m00s,
+	//   1000 -> 837-1288 / ~40s (unstable),  3000 -> 530 (network saturates,
+	//   live configs time out and read as dead).
+	// 500 is the accuracy plateau's fast edge. Per-config CPU is ~40us, so
+	// concurrency is purely a network knob — RAM and CPU never mattered.
 	// Override with V2GO_TEST_CONCURRENCY / V2GO_TEST_TIMEOUT if the runner differs.
-	testConcurrency = 1000
+	testConcurrency = 500
 	testTimeoutSec  = 5
 	testURL         = "http://gstatic.com/generate_204"
 )
@@ -110,7 +113,6 @@ var dirLinks = []string{
 type Result struct {
 	URL        string
 	Content    string
-	IsBase64   bool
 	StatusCode int
 	Error      error
 }
@@ -204,7 +206,7 @@ func main() {
 	writeUpdateSummary(len(filteredConfigs), stats, processingTime, originalCount, failedLinks)
 
 	// Now sort configurations by protocol
-	sortConfigs()
+	sortConfigs(filteredConfigs)
 }
 
 func ensureDirectoriesExist() (string, error) {
@@ -282,7 +284,7 @@ func fetchAllConfigs(client *http.Client, base64Links, textLinks []string) ([]st
 }
 
 func fetchAndDecodeBase64(client *http.Client, url string) Result {
-	res := Result{URL: url, IsBase64: true}
+	res := Result{URL: url}
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
 
@@ -322,7 +324,7 @@ func fetchAndDecodeBase64(client *http.Client, url string) Result {
 }
 
 func fetchText(client *http.Client, url string) Result {
-	res := Result{URL: url, IsBase64: false}
+	res := Result{URL: url}
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
 
@@ -379,34 +381,15 @@ func sanitizeConfig(config string) string {
 // isValidConfig checks whether a config has parameters that would crash V2Ray clients.
 // Returns false if the config should be skipped.
 func isValidConfig(config string) bool {
-	// Extract query string (between ? and #)
-	qStart := strings.Index(config, "?")
-	if qStart < 0 {
-		return true // no query params, nothing to validate
+	u, err := url.Parse(config)
+	if err != nil {
+		return true // unparseable here doesn't mean unusable; later stages decide
 	}
-	qEnd := strings.Index(config[qStart:], "#")
-	var query string
-	if qEnd >= 0 {
-		query = config[qStart+1 : qStart+qEnd]
-	} else {
-		query = config[qStart+1:]
-	}
-
-	// Parse query params and validate sni and path
-	for _, param := range strings.Split(query, "&") {
-		kv := strings.SplitN(param, "=", 2)
-		if len(kv) != 2 {
-			continue
-		}
-		key := strings.TrimSpace(kv[0])
-		val := strings.TrimSpace(kv[1])
-
-		if key == "sni" || key == "path" {
-			// Reject if value contains non-ASCII chars (emojis, CJK, etc.) or raw brackets
-			for _, r := range val {
-				if r > 127 || r == '[' || r == ']' {
-					return false
-				}
+	for _, key := range []string{"sni", "path"} {
+		// Reject if value contains non-ASCII chars (emojis, CJK, etc.) or raw brackets
+		for _, r := range u.Query().Get(key) {
+			if r > 127 || r == '[' || r == ']' {
+				return false
 			}
 		}
 	}
@@ -618,44 +601,10 @@ func parseCoreIdentity(config string, protocol string) string {
 		}
 		return config
 
-	case "vmess":
-		trimmed := strings.TrimPrefix(config, "vmess://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err != nil {
-			return config // Fallback to full string if decoding fails
-		}
-		var data struct {
-			Add  string      `json:"add"`
-			Port interface{} `json:"port"` // Use interface because port can be string or int
-		}
-		if err := json.Unmarshal([]byte(decoded), &data); err != nil {
-			return config
-		}
-		return fmt.Sprintf("vmess://%s:%v", data.Add, data.Port)
-
-	case "ssr":
-		trimmed := strings.TrimPrefix(config, "ssr://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err != nil {
-			// SSR padding is often weird, try simple trim if padding fails
-			return config
-		}
-		// SSR format: host:port:protocol:method:obfs:base64pass/?obfsparam=...
-		parts := strings.Split(decoded, ":")
-		if len(parts) >= 2 {
-			return fmt.Sprintf("ssr://%s:%s", parts[0], parts[1])
-		}
-		return config
-
 	default:
-		u, err := url.Parse(config)
-		if err != nil {
-			return config
-		}
-		host := u.Hostname()
-		port := u.Port()
+		host, port := getHostPort(config, protocol)
 		if host == "" {
-			return config
+			return config // Fallback to full string if the config can't be parsed
 		}
 		return fmt.Sprintf("%s://%s:%s", protocol, host, port)
 	}
@@ -666,34 +615,7 @@ func getCountryInfo(config, protocol string) string {
 		return ""
 	}
 
-	host := ""
-	switch protocol {
-	case "vmess":
-		trimmed := strings.TrimPrefix(config, "vmess://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err == nil {
-			var data struct {
-				Add string `json:"add"`
-			}
-			json.Unmarshal([]byte(decoded), &data)
-			host = data.Add
-		}
-	case "ssr":
-		trimmed := strings.TrimPrefix(config, "ssr://")
-		decoded, err := decodeBase64([]byte(trimmed))
-		if err == nil {
-			parts := strings.Split(decoded, ":")
-			if len(parts) > 0 {
-				host = parts[0]
-			}
-		}
-	default:
-		u, err := url.Parse(config)
-		if err == nil {
-			host = u.Hostname()
-		}
-	}
-
+	host, _ := getHostPort(config, protocol)
 	if host == "" {
 		return ""
 	}

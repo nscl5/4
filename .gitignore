@@ -10,3 +10,6 @@
 .env.development
 .env.test
 .env.production
+
+# CI-built binary
+aggregator

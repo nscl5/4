@@ -48,10 +48,10 @@ jobs:
         ./aggregator
         echo "Config processing completed successfully!"
       env:
-        # Each live test runs an embedded xray-core instance. 1000 is the measured
-        # sweet spot: higher is no faster (the network saturates) and finds fewer
-        # working configs. Bump here if the runner turns out to have more headroom.
-        V2GO_TEST_CONCURRENCY: "1000"
+        # Each live test runs an embedded xray-core instance. Accuracy degrades
+        # above ~500 concurrent (network saturates, live configs time out and
+        # read as dead) — raising this makes results WORSE, not faster.
+        V2GO_TEST_CONCURRENCY: "500"
       
     - name: Verify output files
       run: |
