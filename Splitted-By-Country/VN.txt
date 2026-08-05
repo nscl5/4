@@ -1,2 +1,2 @@
-vless://376dc930-a905-4e75-a2d5-bb801a6adc25@103.118.29.142:35730?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#v2go%20%7C%20%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20VLESS%20%7C%20272
-vless://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@103.173.155.212:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome&sni=b67c99c6s591.csgfw.top#v2go%20%7C%20%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20VLESS%20%7C%201022
+vless://376dc930-a905-4e75-a2d5-bb801a6adc25@103.118.29.142:35730?security=&encryption=none&host=varzesh3.com&headerType=http&type=tcp#v2go%20%7C%20%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20VLESS%20%7C%201334
+vless://5d02517f-63d5-3e9f-b467-1bcf4d4e25d3@103.173.155.212:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome&sni=b67c99c6s591.csgfw.top#v2go%20%7C%20%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20VLESS%20%7C%202752
