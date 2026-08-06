@@ -1,2 +1,2 @@
-vless://2a77a470-315c-493d-b690-59b814a804cb@178.83.226.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20VLESS%20%7C%20132
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.26.156:1080#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20SS%20%7C%20469
+trojan://humanity@185.18.250.245:443?path=%2Fassignment&security=tls&insecure=1&host=www.calmlunch.com&type=ws&allowInsecure=1&sni=www.calmlunch.com#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20TROJAN%20%7C%20190
+vless://2a77a470-315c-493d-b690-59b814a804cb@178.83.226.55:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org&type=tcp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20VLESS%20%7C%20219
