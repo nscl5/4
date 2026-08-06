@@ -76,3 +76,69 @@ func TestConvertLinkRejectsGarbage(t *testing.T) {
 		}
 	}
 }
+
+// Xray's XHTTP transport builds a request URL from the config's host (falling
+// back to the SNI) and ignores the error from http.NewRequest. A value that
+// url.Parse rejects therefore crashes the entire process with a nil
+// dereference in splithttp/config.go, taking down a whole aggregation run
+// rather than failing one config. Such values must never reach the outbound.
+func TestXHTTPHostAndSNIAreURLSafe(t *testing.T) {
+	const base = "vless://11111111-2222-3333-4444-555555555555@104.16.0.1:443" +
+		"?type=xhttp&security=tls"
+
+	unusable := map[string]string{
+		"brackets":     base + "&sni=example.com&host=%5Bbad%5D",
+		"space":        base + "&sni=example.com&host=ex%20ample.com",
+		"newline":      base + "&sni=example.com&host=a%0Ab.com",
+		"control char": base + "&sni=example.com&host=a%01b.com",
+		"bare bracket": base + "&sni=example.com&host=%5B",
+		"bad sni":      base + "&sni=%5Bbad%5D",
+	}
+	for name, link := range unusable {
+		t.Run(name, func(t *testing.T) {
+			ob, err := ConvertLink(link)
+			if err != nil {
+				return // rejecting the config outright is fine too
+			}
+			for _, got := range urlHostsIn(ob) {
+				if !validURLHost(got) {
+					t.Fatalf("unusable host %q reached the outbound config", got)
+				}
+			}
+		})
+	}
+
+	keep := map[string]string{
+		"ipv6 literal": base + "&sni=example.com&host=%5B2001%3Adb8%3A%3A1%5D",
+		"normal host":  base + "&sni=example.com&host=example.com",
+	}
+	for name, link := range keep {
+		t.Run(name, func(t *testing.T) {
+			ob, err := ConvertLink(link)
+			if err != nil {
+				t.Fatalf("ConvertLink: %v", err)
+			}
+			if len(urlHostsIn(ob)) == 0 {
+				t.Fatal("valid host was dropped")
+			}
+		})
+	}
+}
+
+// urlHostsIn collects the values xray would use as an XHTTP request-URL host.
+func urlHostsIn(ob M) []string {
+	stream, _ := ob["streamSettings"].(M)
+	var out []string
+	for _, path := range [][2]string{
+		{"xhttpSettings", "host"},
+		{"tlsSettings", "serverName"},
+		{"realitySettings", "serverName"},
+	} {
+		if sub, ok := stream[path[0]].(M); ok {
+			if v, ok := sub[path[1]].(string); ok && v != "" {
+				out = append(out, v)
+			}
+		}
+	}
+	return out
+}

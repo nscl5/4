@@ -392,12 +392,25 @@ func isValidConfig(config string) bool {
 	if err != nil {
 		return true // unparseable here doesn't mean unusable; later stages decide
 	}
+	q := u.Query()
 	for _, key := range []string{"sni", "path"} {
 		// Reject if value contains non-ASCII chars (emojis, CJK, etc.) or raw brackets
-		for _, r := range u.Query().Get(key) {
+		for _, r := range q.Get(key) {
 			if r > 127 || r == '[' || r == ']' {
 				return false
 			}
+		}
+	}
+
+	// The host parameter must be usable as a URL host. Xray's XHTTP transport
+	// builds a request URL from it and ignores the error from http.NewRequest,
+	// so an unparseable host crashes the whole process with a nil dereference
+	// (splithttp/config.go:296) rather than failing that one config.
+	// Checked by parsing rather than by rejecting characters, so that valid
+	// bracketed IPv6 hosts like [2001:db8::1] still pass.
+	if host := q.Get("host"); host != "" {
+		if _, err := url.Parse("https://" + host + "/"); err != nil {
+			return false
 		}
 	}
 	return true

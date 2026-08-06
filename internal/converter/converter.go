@@ -23,6 +23,14 @@ var protocolPrefixes = []struct {
 	{"hy2://", "hysteria2"},
 }
 
+// validURLHost reports whether h can be used as the host of a URL. Checked by
+// parsing rather than by rejecting characters, so bracketed IPv6 literals such
+// as [2001:db8::1] remain valid.
+func validURLHost(h string) bool {
+	u, err := url.Parse("https://" + h + "/")
+	return err == nil && u.Host == h
+}
+
 func GetProtocol(link string) string {
 	link = strings.TrimSpace(link)
 	for _, p := range protocolPrefixes {
@@ -330,7 +338,7 @@ func parseHysteria2(link string) (M, error) {
 	}
 
 	tlsSettings := M{}
-	if sni := first(params, "sni"); sni != "" {
+	if sni := first(params, "sni"); sni != "" && validURLHost(sni) {
 		tlsSettings["serverName"] = sni
 	}
 	if fp := first(params, "fp", "fingerprint"); fp != "" {
@@ -393,7 +401,9 @@ func buildStreamSettings(params url.Values) M {
 	switch security {
 	case "tls":
 		tls := M{}
-		if v := params.Get("sni"); v != "" {
+		// An SNI that url.Parse rejects is not a usable server name, and the
+		// XHTTP transport will use it as a request-URL host and crash on it.
+		if v := params.Get("sni"); v != "" && validURLHost(v) {
 			tls["serverName"] = v
 		}
 		if v := params.Get("fp"); v != "" {
@@ -413,7 +423,7 @@ func buildStreamSettings(params url.Values) M {
 		}
 	case "reality":
 		r := M{}
-		if v := params.Get("sni"); v != "" {
+		if v := params.Get("sni"); v != "" && validURLHost(v) {
 			r["serverName"] = v
 		}
 		if v := params.Get("fp"); v != "" {
@@ -475,7 +485,12 @@ func buildStreamSettings(params url.Values) M {
 		if v := params.Get("path"); v != "" {
 			x["path"], _ = url.QueryUnescape(v)
 		}
-		if v := params.Get("host"); v != "" {
+		// Xray builds the XHTTP request URL from this host and ignores the
+		// error from http.NewRequest, so a host that url.Parse rejects takes
+		// the whole process down with a nil dereference rather than failing
+		// this one config. Drop it instead; xray then falls back to the SNI or
+		// the destination address.
+		if v := params.Get("host"); v != "" && validURLHost(v) {
 			x["host"] = v
 		}
 		if v := params.Get("mode"); v != "" {

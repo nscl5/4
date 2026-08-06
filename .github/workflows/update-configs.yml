@@ -8,11 +8,12 @@ on:
     - cron: "0 * * * *"  # Every 1 hour
   workflow_dispatch:  # Allow manual trigger
 
-# The live test makes a run take minutes, not seconds. Without this, an hourly
-# schedule plus the push-to-main this workflow itself creates would stack runs.
+# The live test makes a run take minutes, not seconds, so runs must not stack.
+# Queue rather than cancel: this workflow pushes to the branch it watches, so
+# cancel-in-progress kills a run at the very moment it is committing its results.
 concurrency:
   group: update-configs
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-configs:
