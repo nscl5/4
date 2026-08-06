@@ -21,6 +21,7 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io"
 	"net"
@@ -55,7 +56,17 @@ const (
 	testConcurrency = 500
 	testTimeoutSec  = 5
 	testURL         = "http://gstatic.com/generate_204"
+
+	// Working configs are written here as soon as they pass, so an interrupted
+	// run still leaves behind everything found up to that point.
+	liveOutputFile = "working-live.txt"
 )
+
+// Results depend on where you run from: a config that works from a US
+// datacenter may not work from a restrictive ISP, and vice versa. -input lets
+// you test your own list from your own network.
+var inputFile = flag.String("input", "",
+	"read configs from this file (one per line) instead of fetching the built-in sources")
 
 var fixedText = `#profile-title: base64:8J+GkyBHaXRodWIgfCBEYW5pYWwgU2FtYWRpIPCfkI0=
 #profile-update-interval: 1
@@ -123,6 +134,7 @@ var (
 )
 
 func main() {
+	flag.Parse()
 	start := time.Now()
 	fmt.Println("Starting V2Ray config aggregator...")
 
@@ -156,9 +168,19 @@ func main() {
 		}
 	}
 
-	// Fetch all URLs concurrently
-	fmt.Println("Fetching configurations from sources...")
-	allConfigs, failedLinks := fetchAllConfigs(client, links, dirLinks)
+	// Gather configs, either from a local file or from the built-in sources
+	var allConfigs, failedLinks []string
+	if *inputFile != "" {
+		allConfigs, err = readConfigsFromFile(*inputFile)
+		if err != nil {
+			fmt.Printf("Error reading %s: %v\n", *inputFile, err)
+			return
+		}
+		fmt.Printf("Read %d configurations from %s\n", len(allConfigs), *inputFile)
+	} else {
+		fmt.Println("Fetching configurations from sources...")
+		allConfigs, failedLinks = fetchAllConfigs(client, links, dirLinks)
+	}
 
 	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
@@ -214,6 +236,32 @@ func main() {
 
 	// Separate configs sitting behind Cloudflare IPs (like v2ray-tester's cfcheck)
 	writeCloudflareFile(filteredConfigs)
+}
+
+// readConfigsFromFile reads share links, one per line. Accepts either a plain
+// list or a base64-encoded subscription, which is what most sources hand out.
+func readConfigsFromFile(path string) ([]string, error) {
+	raw, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	content := string(raw)
+	if !strings.Contains(content, "://") {
+		decoded, err := decodeBase64(raw)
+		if err != nil {
+			return nil, fmt.Errorf("file is neither plain config links nor valid base64")
+		}
+		content = decoded
+	}
+
+	var configs []string
+	for _, line := range strings.Split(content, "\n") {
+		line = strings.TrimSpace(line)
+		if line != "" && !strings.HasPrefix(line, "#") {
+			configs = append(configs, line)
+		}
+	}
+	return configs, nil
 }
 
 func ensureDirectoriesExist() (string, error) {
@@ -969,8 +1017,25 @@ func liveTest(configs []string) []tester.Result {
 	// ("runtime: failed to create new OS thread"), not a slowdown.
 	debug.SetMaxThreads(10000 + 10*concurrent)
 
+	// Stream each working config to disk the moment it passes, so stopping the
+	// run part-way (or a crash) still leaves everything found so far. Written
+	// unbuffered and unmodified, in the order they passed.
+	var liveMu sync.Mutex
+	onPass := func(r tester.Result) {}
+	if f, err := os.Create(liveOutputFile); err != nil {
+		fmt.Printf("Warning: could not open %s: %v\n", liveOutputFile, err)
+	} else {
+		defer f.Close()
+		fmt.Printf("Streaming working configs to %s as they are found\n", liveOutputFile)
+		onPass = func(r tester.Result) {
+			liveMu.Lock()
+			defer liveMu.Unlock()
+			fmt.Fprintln(f, r.Link)
+		}
+	}
+
 	kept := make([]tester.Result, 0, len(configs))
-	for _, r := range tester.TestAll(configs, testURL, timeoutSec, concurrent) {
+	for _, r := range tester.TestAll(configs, testURL, timeoutSec, concurrent, onPass) {
 		if r.DelayMs >= 0 {
 			kept = append(kept, r)
 		}

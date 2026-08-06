@@ -13,3 +13,6 @@
 
 # CI-built binary
 aggregator
+
+# Streamed live-test results (local scanning output)
+working-live.txt

@@ -53,6 +53,26 @@ ulimit -n 65535
 
 The GeoIP database is downloaded automatically on first run.
 
+### Scanning your own list
+
+Test results depend on where you run from. A config that works from a datacenter
+in the United States may be unreachable from a restrictive ISP, and a config that
+CI discards may work perfectly from your network. To test your own list from your
+own connection:
+
+```bash
+./aggregator -input my-configs.txt
+```
+
+The file may be either a plain list of share links, one per line, or a
+base64-encoded subscription. Everything else in the pipeline is unchanged, so the
+usual output files are produced from your list.
+
+Working configs are streamed to `working-live.txt` the moment they pass, before
+the run completes. Stopping the run part-way — or a crash — therefore still
+leaves every config verified up to that point, unmodified and with its original
+name. This happens on every run, including the automated one.
+
 ### Configuration
 
 The live-test stage can be tuned through environment variables:
@@ -83,7 +103,8 @@ v2go/
 │   ├── hy2.txt
 │   ├── tuic.txt
 │   └── cloudflare.txt             # Configs behind Cloudflare IPs (any protocol)
-└── Splitted-By-Country/           # Organized by GeoIP location (US.txt, DE.txt, ...)
+├── Splitted-By-Country/           # Organized by GeoIP location (US.txt, DE.txt, ...)
+└── working-live.txt               # Working configs, written as they pass (see below)
 ```
 
 Note on encoding: `vmess.txt` is plain text; every other file in `Splitted-By-Protocol/` is base64-encoded.

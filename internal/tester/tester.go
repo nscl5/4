@@ -40,7 +40,13 @@ const (
 	exitIPTimeout = 4 * time.Second
 )
 
-func TestAll(links []string, testURL string, timeoutSec, concurrent int) []Result {
+// TestAll tests every link and returns a result per link, in input order.
+//
+// onPass, if non-nil, is called with each result the moment it passes, before
+// the run finishes. It is called from many goroutines at once, so it must do
+// its own locking. Its purpose is to let callers persist working configs as
+// they are found, so an interrupted or crashed run still yields something.
+func TestAll(links []string, testURL string, timeoutSec, concurrent int, onPass func(Result)) []Result {
 	timeout := time.Duration(timeoutSec) * time.Second
 
 	results := make([]Result, len(links))
@@ -74,6 +80,9 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int) []Resul
 			d := done.Add(1)
 			if delay > 0 {
 				working.Add(1)
+				if onPass != nil {
+					onPass(results[idx])
+				}
 			}
 			if d%500 == 0 || d == total {
 				log.Printf("  Progress: %d/%d tested, %d working", d, total, working.Load())
