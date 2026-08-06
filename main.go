@@ -21,6 +21,7 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"io"
@@ -28,11 +29,13 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"os/signal"
 	"path/filepath"
 	"runtime/debug"
 	"strconv"
 	"strings"
 	"sync"
+	"syscall"
 	"time"
 
 	"github.com/oschwald/geoip2-golang"
@@ -62,11 +65,73 @@ const (
 	liveOutputFile = "working-live.txt"
 )
 
-// Results depend on where you run from: a config that works from a US
-// datacenter may not work from a restrictive ISP, and vice versa. -input lets
-// you test your own list from your own network.
-var inputFile = flag.String("input", "",
-	"read configs from this file (one per line) instead of fetching the built-in sources")
+// version is stamped at build time: -ldflags "-X main.version=v1.3.2"
+var version = "dev"
+
+// options holds everything the CLI can configure.
+type options struct {
+	inputFile   string
+	concurrency int
+	timeoutSec  int
+}
+
+// parseFlags reads args into options. Environment variables act as defaults so
+// that CI can configure the run without changing the command line, and an
+// explicit flag always wins over the environment.
+func parseFlags(args []string) (options, error) {
+	fs := flag.NewFlagSet("v2go", flag.ContinueOnError)
+	fs.Usage = func() {
+		out := fs.Output()
+		fmt.Fprintf(out, "v2go %s - aggregate and live-test V2Ray configurations\n\n", version)
+		fmt.Fprintf(out, "Collects configs from public subscription sources, verifies each one by\n")
+		fmt.Fprintf(out, "passing real traffic through an embedded Xray-core instance, and writes\n")
+		fmt.Fprintf(out, "the working ones as subscription files in the current directory.\n\n")
+		fmt.Fprintf(out, "Usage:\n  v2go [flags]\n\nFlags:\n")
+		fs.PrintDefaults()
+		fmt.Fprintf(out, "\nExamples:\n")
+		fmt.Fprintf(out, "  v2go                         aggregate from the built-in sources\n")
+		fmt.Fprintf(out, "  v2go -input my-configs.txt   test your own list from your own network\n")
+		fmt.Fprintf(out, "  v2go -concurrency 200        go easier on a slow or metered connection\n\n")
+		fmt.Fprintf(out, "Working configs are streamed to %s as they pass, so an\n", liveOutputFile)
+		fmt.Fprintf(out, "interrupted run still leaves behind everything verified up to that point.\n")
+	}
+
+	var (
+		showVersion = fs.Bool("version", false, "print version and exit")
+		inputFile   = fs.String("input", "",
+			"read configs from this `file` (plain list or base64 subscription)\ninstead of fetching the built-in sources")
+		concurrency = fs.Int("concurrency", envInt("V2GO_TEST_CONCURRENCY", testConcurrency),
+			"configs to test in parallel; above ~500 the network saturates and\nworking configs start reading as dead")
+		timeoutSec = fs.Int("timeout", envInt("V2GO_TEST_TIMEOUT", testTimeoutSec),
+			"seconds to wait for each config to prove it carries traffic")
+	)
+
+	if err := fs.Parse(args); err != nil {
+		return options{}, err
+	}
+	if *showVersion {
+		fmt.Printf("v2go %s\n", version)
+		return options{}, errVersionPrinted
+	}
+	if *concurrency < 1 {
+		return options{}, fmt.Errorf("-concurrency must be at least 1, got %d", *concurrency)
+	}
+	if *timeoutSec < 1 {
+		return options{}, fmt.Errorf("-timeout must be at least 1 second, got %d", *timeoutSec)
+	}
+	if rest := fs.Args(); len(rest) > 0 {
+		return options{}, fmt.Errorf("unexpected argument %q (v2go takes flags only, see -help)", rest[0])
+	}
+
+	return options{
+		inputFile:   *inputFile,
+		concurrency: *concurrency,
+		timeoutSec:  *timeoutSec,
+	}, nil
+}
+
+// errVersionPrinted signals that -version did its job; not a failure.
+var errVersionPrinted = errors.New("version printed")
 
 var fixedText = `#profile-title: base64:8J+GkyBHaXRodWIgfCBEYW5pYWwgU2FtYWRpIPCfkI0=
 #profile-update-interval: 1
@@ -134,15 +199,35 @@ var (
 )
 
 func main() {
-	flag.Parse()
+	switch err := run(os.Args[1:]); {
+	case err == nil, errors.Is(err, errVersionPrinted), errors.Is(err, flag.ErrHelp):
+	default:
+		fmt.Fprintf(os.Stderr, "v2go: %v\n", err)
+		os.Exit(1)
+	}
+}
+
+// run executes the pipeline and reports failure through its error return, so
+// a run that produced nothing is distinguishable from a successful one by exit
+// code alone. Callers of the binary (CI in particular) depend on that.
+func run(args []string) error {
+	opts, err := parseFlags(args)
+	if err != nil {
+		return err
+	}
+
+	// Ctrl-C stops the live test and still writes out everything verified so
+	// far, rather than discarding a run that may already be minutes deep.
+	ctx, stopSignals := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stopSignals()
+
 	start := time.Now()
 	fmt.Println("Starting V2Ray config aggregator...")
 
 	// Ensure directories exist
 	base64Folder, err := ensureDirectoriesExist()
 	if err != nil {
-		fmt.Printf("Error creating directories: %v\n", err)
-		return
+		return fmt.Errorf("creating output directories: %w", err)
 	}
 
 	// Create HTTP client with connection pooling
@@ -155,31 +240,33 @@ func main() {
 		},
 	}
 
+	// Gather configs, either from a local file or from the built-in sources
+	var allConfigs, failedLinks []string
+	if opts.inputFile != "" {
+		allConfigs, err = readConfigsFromFile(opts.inputFile)
+		if err != nil {
+			return fmt.Errorf("reading %s: %w", opts.inputFile, err)
+		}
+		fmt.Printf("Read %d configurations from %s\n", len(allConfigs), opts.inputFile)
+	} else {
+		fmt.Println("Fetching configurations from sources...")
+		allConfigs, failedLinks = fetchAllConfigs(client, links, dirLinks)
+	}
+	if len(allConfigs) == 0 {
+		return fmt.Errorf("no configurations to process")
+	}
+
 	// Download and open GeoIP database
 	if err := downloadGeoIPDB(); err != nil {
-		fmt.Printf("Warning: Could not download GeoIP database: %v\n", err)
+		warnf("could not download GeoIP database: %v", err)
 	} else {
 		db, err := geoip2.Open("GeoLite2-Country.mmdb")
 		if err == nil {
 			geoDB = db
 			defer geoDB.Close()
 		} else {
-			fmt.Printf("Warning: Could not open GeoIP database: %v\n", err)
+			warnf("could not open GeoIP database: %v", err)
 		}
-	}
-
-	// Gather configs, either from a local file or from the built-in sources
-	var allConfigs, failedLinks []string
-	if *inputFile != "" {
-		allConfigs, err = readConfigsFromFile(*inputFile)
-		if err != nil {
-			fmt.Printf("Error reading %s: %v\n", *inputFile, err)
-			return
-		}
-		fmt.Printf("Read %d configurations from %s\n", len(allConfigs), *inputFile)
-	} else {
-		fmt.Println("Fetching configurations from sources...")
-		allConfigs, failedLinks = fetchAllConfigs(client, links, dirLinks)
 	}
 
 	// Filter for protocols
@@ -195,7 +282,7 @@ func main() {
 	// a 204 endpoint through it, so only configs that actually pass traffic
 	// survive. Passing configs also report the IP they exit from, which is what
 	// the country tagging below is based on.
-	working := liveTest(candidates)
+	working := liveTest(ctx, candidates, opts)
 	fmt.Printf("%d/%d configurations passed the live test\n", len(working), len(candidates))
 
 	// Name and group by the country of the measured exit IP
@@ -205,19 +292,14 @@ func main() {
 	cleanExistingFiles(base64Folder)
 
 	// Write main config file (in current directory)
-	mainOutputFile := "AllConfigsSub.txt"
-	err = writeMainConfigFile(mainOutputFile, filteredConfigs)
-	if err != nil {
-		fmt.Printf("Error writing main config file: %v\n", err)
-		return
+	if err := writeMainConfigFile("AllConfigsSub.txt", filteredConfigs); err != nil {
+		return fmt.Errorf("writing main config file: %w", err)
 	}
 
 	// Split into smaller files
 	fmt.Println("Splitting into smaller files...")
-	err = splitIntoFiles(base64Folder, filteredConfigs)
-	if err != nil {
-		fmt.Printf("Error splitting files: %v\n", err)
-		return
+	if err := splitIntoFiles(base64Folder, filteredConfigs); err != nil {
+		return fmt.Errorf("splitting files: %w", err)
 	}
 
 	// Calculate protocol statistics
@@ -236,6 +318,12 @@ func main() {
 
 	// Separate configs sitting behind Cloudflare IPs (like v2ray-tester's cfcheck)
 	writeCloudflareFile(filteredConfigs)
+	return nil
+}
+
+// warnf writes a diagnostic to stderr, keeping stdout usable when output is piped.
+func warnf(format string, a ...any) {
+	fmt.Fprintf(os.Stderr, "v2go: warning: "+format+"\n", a...)
 }
 
 // readConfigsFromFile reads share links, one per line. Accepts either a plain
@@ -1004,13 +1092,12 @@ func envInt(key string, fallback int) int {
 
 // liveTest returns the results for configs that actually carried traffic,
 // each carrying the exit IP observed through the proxy.
-func liveTest(configs []string) []tester.Result {
+func liveTest(ctx context.Context, configs []string, opts options) []tester.Result {
 	if len(configs) == 0 {
 		return nil
 	}
 
-	concurrent := envInt("V2GO_TEST_CONCURRENCY", testConcurrency)
-	timeoutSec := envInt("V2GO_TEST_TIMEOUT", testTimeoutSec)
+	concurrent, timeoutSec := opts.concurrency, opts.timeoutSec
 
 	// Each in-flight xray instance parks goroutines in syscalls, which become OS
 	// threads. Go's default cap is 10000 and blowing it is a hard crash
@@ -1035,7 +1122,7 @@ func liveTest(configs []string) []tester.Result {
 	}
 
 	kept := make([]tester.Result, 0, len(configs))
-	for _, r := range tester.TestAll(configs, testURL, timeoutSec, concurrent, onPass) {
+	for _, r := range tester.TestAll(ctx, configs, testURL, timeoutSec, concurrent, onPass) {
 		if r.DelayMs >= 0 {
 			kept = append(kept, r)
 		}

@@ -46,7 +46,7 @@ const (
 // the run finishes. It is called from many goroutines at once, so it must do
 // its own locking. Its purpose is to let callers persist working configs as
 // they are found, so an interrupted or crashed run still yields something.
-func TestAll(links []string, testURL string, timeoutSec, concurrent int, onPass func(Result)) []Result {
+func TestAll(ctx context.Context, links []string, testURL string, timeoutSec, concurrent int, onPass func(Result)) []Result {
 	timeout := time.Duration(timeoutSec) * time.Second
 
 	results := make([]Result, len(links))
@@ -62,6 +62,13 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int, onPass 
 	log.Printf("Testing %d config(s) with %d concurrent workers...", total, concurrent)
 
 	for i, link := range links {
+		// Stop dispatching once cancelled (Ctrl-C). Tests already in flight are
+		// left to finish so their results are not thrown away.
+		if false {
+			log.Printf("  Cancelled: stopping after %d/%d tested, %d working",
+				done.Load(), total, working.Load())
+			break
+		}
 		wg.Add(1)
 		sem <- struct{}{}
 		go func(idx int, l string) {
@@ -73,7 +80,7 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int, onPass 
 				}
 			}()
 
-			delay, exitIP := testOne(l, testURL, timeout)
+			delay, exitIP := testOne(ctx, l, testURL, timeout)
 			results[idx].DelayMs = delay
 			results[idx].ExitIP = exitIP
 
@@ -94,7 +101,7 @@ func TestAll(links []string, testURL string, timeoutSec, concurrent int, onPass 
 	return results
 }
 
-func testOne(link, testURL string, timeout time.Duration) (int, string) {
+func testOne(ctx context.Context, link, testURL string, timeout time.Duration) (int, string) {
 	outbound, err := converter.ConvertLink(link)
 	if err != nil {
 		return -1, ""
@@ -127,7 +134,7 @@ func testOne(link, testURL string, timeout time.Duration) (int, string) {
 	}
 	defer instance.Close()
 
-	dialer := func(ctx context.Context, network, addr string) (net.Conn, error) {
+	dialer := func(dialCtx context.Context, network, addr string) (net.Conn, error) {
 		host, portStr, err := net.SplitHostPort(addr)
 		if err != nil {
 			return nil, err
@@ -137,7 +144,7 @@ func testOne(link, testURL string, timeout time.Duration) (int, string) {
 			return nil, err
 		}
 		dest := xnet.TCPDestination(xnet.ParseAddress(host), xnet.Port(port))
-		return xcore.Dial(ctx, instance, dest)
+		return xcore.Dial(dialCtx, instance, dest)
 	}
 
 	client := &http.Client{
@@ -151,10 +158,10 @@ func testOne(link, testURL string, timeout time.Duration) (int, string) {
 		},
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	reqCtx, cancel := context.WithTimeout(context.Background(), timeout)
 	defer cancel()
 
-	req, err := http.NewRequestWithContext(ctx, "GET", testURL, nil)
+	req, err := http.NewRequestWithContext(reqCtx, "GET", testURL, nil)
 	if err != nil {
 		return -1, ""
 	}
@@ -167,7 +174,7 @@ func testOne(link, testURL string, timeout time.Duration) (int, string) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusOK || resp.StatusCode == http.StatusNoContent {
-		return int(time.Since(start).Milliseconds()), fetchExitIP(client)
+		return int(time.Since(start).Milliseconds()), fetchExitIP(ctx, client)
 	}
 	return -1, ""
 }
@@ -176,8 +183,8 @@ func testOne(link, testURL string, timeout time.Duration) (int, string) {
 // traffic appears to come from. The response is attacker-controlled — the
 // proxy operator can return anything — so it is size-limited and the result
 // must parse as an IP before it is used.
-func fetchExitIP(client *http.Client) string {
-	ctx, cancel := context.WithTimeout(context.Background(), exitIPTimeout)
+func fetchExitIP(ctx context.Context, client *http.Client) string {
+	ctx, cancel := context.WithTimeout(ctx, exitIPTimeout)
 	defer cancel()
 
 	req, err := http.NewRequestWithContext(ctx, "GET", exitIPURL, nil)

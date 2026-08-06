@@ -1,0 +1,72 @@
+name: Test
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+  workflow_dispatch:
+
+# Superseded runs are pointless; keep only the newest per branch.
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.26.5'
+          cache: true
+
+      - name: Check formatting
+        run: |
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "These files are not gofmt'd:"
+            echo "$unformatted"
+            exit 1
+          fi
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Test
+        run: go test ./... -timeout 10m
+
+      - name: Build
+        run: go build -ldflags="-s -w" -o aggregator .
+
+      - name: Smoke test the CLI
+        run: |
+          set -e
+          ./aggregator -version
+
+          # A failed run must exit non-zero, or CI cannot tell that a run
+          # produced nothing.
+          if ./aggregator -input /nonexistent-file.txt >/dev/null 2>&1; then
+            echo "FAIL: unreadable input should exit non-zero"
+            exit 1
+          fi
+
+          # A stray positional argument must not be silently ignored and run
+          # against the built-in sources instead of the user's file.
+          if ./aggregator some-file.txt >/dev/null 2>&1; then
+            echo "FAIL: positional argument should be rejected"
+            exit 1
+          fi
+
+          if ./aggregator -concurrency 0 >/dev/null 2>&1; then
+            echo "FAIL: -concurrency 0 should be rejected"
+            exit 1
+          fi
+
+          echo "CLI smoke tests passed"
