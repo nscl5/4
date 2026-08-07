@@ -1,1 +1,1 @@
-vless://cd1673b3-7cec-4fe6-bedf-b534eb54e647@46.166.167.222:443?type=tcp&security=tls&encryption=none&fp=firefox&sni=ddc-chr-lt2.astralweb.tech#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%20660
+vless://cd1673b3-7cec-4fe6-bedf-b534eb54e647@ddc-chr-lt2.astralweb.tech:443/?type=tcp&encryption=none&flow=&security=tls&sni=ddc-chr-lt2.astralweb.tech&allowInsecure=1&fp=chrome#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%20458
