@@ -1,1 +1,1 @@
-vless://05d9de8a-5cc1-4906-b8a0-e813fca5a45b@212.24.107.219:37801?encryption=mlkem768x25519plus.native.0rtt.IiGsoDr-_kzB_Q070YWKe1YVWwgdZCUpD5QG6-590Dg&type=tcp&headerType=http&host=play.google.com#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%20242
+vless://cd1673b3-7cec-4fe6-bedf-b534eb54e647@ddc-chr-lt2.astralweb.tech:443/?type=tcp&encryption=none&flow=&security=tls&sni=ddc-chr-lt2.astralweb.tech&allowInsecure=1&fp=chrome#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%20452
