@@ -1,5 +1,4 @@
-trojan://ND91608427@discrete-basilisk.rooster465.autos:443?allowInsecure=1&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20172
-trojan://ND91608427@relaxed-gull.rooster465.autos:443?security=tls&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20317
-trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20414
-trojan://ND91608427@202.78.163.148:443?allowInsecure=1&fp=chrome&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20563
-vless://59526af1-b075-4db9-b029-f54be5217a21@108.162.198.124:443?path=%2F----MXGRiD----&security=tls&encryption=none&insecure=0&host=telegram.mxgrid.shop&type=ws&allowInsecure=0&sni=telegram.mxgrid.shop#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20VLESS%20%7C%20667
+trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20221
+trojan://ND91608427@discrete-basilisk.rooster465.autos:443?allowInsecure=1&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20367
+trojan://ND91608427@relaxed-gull.rooster465.autos:443?security=tls&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20415
+trojan://ND91608427@202.78.163.148:443?allowInsecure=1&fp=chrome&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20547
