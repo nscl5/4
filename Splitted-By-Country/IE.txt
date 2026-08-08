@@ -1,6 +1,6 @@
-trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20233
-trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20274
-trojan://UO36402987@54.216.124.178:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=warm-bass.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20340
-trojan://UO36402987@warm-bass.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20346
-trojan://ND91608427@willing-beagle.rooster465.autos:443?allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20347
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20460
+trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%2040
+trojan://UO36402987@54.216.124.178:443?fp=chrome&sni=warm-bass.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%2042
+trojan://UO36402987@definite-ladybird.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20112
+trojan://UO36402987@warm-bass.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20120
+trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20152
+trojan://ND91608427@willing-beagle.rooster465.autos:443?allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20181
