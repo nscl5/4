@@ -1,1 +1,2 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=/#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20482
+vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999?type=tcp&security=none&encryption=none#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20477
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&host=uae.unixzone.us&path=%2F#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20629
