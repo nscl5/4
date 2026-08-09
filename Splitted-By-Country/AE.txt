@@ -1,3 +1,4 @@
-vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999?type=tcp&security=none&encryption=none#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20384
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUHMrcHVDdTdMWFBxSVRDSml0bXQ0Tk9CbG5vc3pSR3JwdlVXdHRncU93PQ@e1.cover20.ir:51570?type=tcp#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20SS%20%7C%20497
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=&type=ws#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20642
+vless://5dc56757-458e-4df2-9e71-2a14ce47e8af@31.56.185.20:443?encryption=none&fp=firefox&security=tls&sni=nl2-akn.astralweb.tech&type=tcp#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%2070
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUHMrcHVDdTdMWFBxSVRDSml0bXQ0Tk9CbG5vc3pSR3JwdlVXdHRncU93PQ@e1.cover20.ir:51570?type=tcp#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20SS%20%7C%20405
+vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999?type=tcp&security=none&encryption=none#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20505
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=&type=ws#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20719
