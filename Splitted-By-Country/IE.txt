@@ -1,9 +1,8 @@
-vless://3f02f5cd-3e03-436c-a151-02a9b9ac5966@78.17.150.127:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%2032
-trojan://UO36402987@54.216.124.178:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=warm-bass.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20246
-trojan://ND91608427@willing-beagle.rooster465.autos:443?type=tcp&security=tls&sni=willing-beagle.rooster465.autos&allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20273
-trojan://UO36402987@warm-bass.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20287
-trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20303
-trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20344
-vless://14927bde-0fc8-447c-8c5f-e7fd1bfc6698@78.17.159.71:8443/?type=grpc&encryption=none&flow=&serviceName=tab.cf.v1&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=wjwbbmCr0pjMb6Qvvcf7KMrE-w92jsqJbrNQy8g5EDg&sid=617a11ec485b2d90#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20435
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20448
-vless://bd33c069-8f8c-4da3-9d14-9f539597ab66@188.68.218.41:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk&security=reality&sid=a9c4f17e3b62d8&sni=api-maps.yandex.ru&type=raw#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20713
+trojan://ND91608427@54.217.133.71:443?security=tls&sni=willing-beagle.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%2024
+trojan://UO36402987@definite-ladybird.rooster465.autos:443?security=tls&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%2080
+vless://3f02f5cd-3e03-436c-a151-02a9b9ac5966@78.17.150.127:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20246
+trojan://UO36402987@54.216.124.178:443?fp=chrome&sni=warm-bass.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20281
+trojan://UO36402987@warm-bass.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20282
+trojan://ND91608427@willing-beagle.rooster465.autos:443?allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20283
+trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20TROJAN%20%7C%20290
+vless://14927bde-0fc8-447c-8c5f-e7fd1bfc6698@78.17.159.71:8443?encryption=none&fp=firefox&pbk=wjwbbmCr0pjMb6Qvvcf7KMrE-w92jsqJbrNQy8g5EDg&security=reality&serviceName=tab.cf.v1&sid=617a11ec485b2d90&sni=www.cloudflare.com&type=grpc#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20VLESS%20%7C%20355
