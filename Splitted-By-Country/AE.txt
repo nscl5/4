@@ -1,3 +1,4 @@
-vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999?encryption=none&security=none&type=tcp#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%2099
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=%2F#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20328
-vless://6dd8b02a-47dd-4e84-b938-dc4dde0e81e2@cdn.devmixa.ir:8880?path=/?ed=2082&security=none&encryption=none&host=So.3.chreum98.xyz&type=httpupgrade#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20454
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?encryption=none&security=none&type=ws&host=uae.unixzone.us&path=%2F#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20258
+vless://6dd8b02a-47dd-4e84-b938-dc4dde0e81e2@cdn.devmixa.ir:8880?path=/?ed=2082&security=none&encryption=none&host=So.3.chreum98.xyz&type=httpupgrade#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20376
+vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999/?type=tcp&encryption=none&flow=#v2go%20%7C%20%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20VLESS%20%7C%20426
+vmess://eyJhZGQiOiIzNjYtMTA5NS5yYWJiaXRwcm8taW4tMy5jb20iLCJhaWQiOiIwIiwiaG9zdCI6IjM2Ni0xMDk1LnJhYmJpdHByby1pbi0zLmNvbSIsImlkIjoiZTM1MWQ2ZDgtYzE2Ny0zZTA3LThmZGEtM2YyZjRlYzA3NjBiIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjkwOTciLCJwcyI6InYyZ28gfCDwn4em8J+HqiBBRSB8IFZNRVNTIHwgNjg0IiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
