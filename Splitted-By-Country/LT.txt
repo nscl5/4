@@ -1,2 +1,0 @@
-trojan://f18d6149-e214-8554-e737-f7523c8b2eea@89.116.180.49:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20TROJAN%20%7C%20507
-vless://a6d1460a-3bf6-4feb-8b64-40671c60b53f@45.11.26.216:8443?type=raw&security=reality&encryption=none&sni=wl-7-2.nodes.ac&fp=edge&pbk=XcKsq814Eci-OL3RwNbjvTMn73QzoczITlTSmnY-syI&sid=ba4ce2cb1029b0dd&flow=xtls-rprx-vision&headerType=none#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20VLESS%20%7C%20838
