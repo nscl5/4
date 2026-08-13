@@ -1,2 +1,2 @@
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=&encryption=none&host=parsi.parsi.sbs&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20174
-vless://19f54e37-5fae-47f6-bc10-e71ccbc58389@estproxy2.lockdwn.com:443?encryption=none&host=estproxy2.lockdwn.com&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20327
+vless://19f54e37-5fae-47f6-bc10-e71ccbc58389@estproxy2.lockdwn.com:443?encryption=none&host=estproxy2.lockdwn.com&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20106
+trojan://humanity@2.144.21.112:40443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=/assignment&allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20TROJAN%20%7C%20606
