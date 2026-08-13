@@ -1,1 +1,2 @@
-vless://19f54e37-5fae-47f6-bc10-e71ccbc58389@94.183.170.231:443?encryption=none&host=estproxy2.lockdwn.com&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20681
+vless://19f54e37-5fae-47f6-bc10-e71ccbc58389@estproxy2.lockdwn.com:443?encryption=none&host=estproxy2.lockdwn.com&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20204
+vless://24cce45a-4516-43c1-b8c3-68c4a5c3073c@b.pxui.ir:30051?security=reality&encryption=none&pbk=8smLHkjNzf2aWWr5MHrdq3DZRq-w8T9U2ulaeV_bnBc&headerType=none&fp=chrome&type=tcp&sni=www.speedtest.net&sid=100645b1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20838
