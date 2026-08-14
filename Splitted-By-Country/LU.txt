@@ -1,8 +1,8 @@
-trojan://AE62539071@relative-locust.rooster465.autos:443?security=tls#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20225
-trojan://ND91608427@202.78.163.148:443?security=tls&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20227
-trojan://ND91608427@discrete-basilisk.rooster465.autos:443?security=tls&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20228
-trojan://AE62539071@tolerant-mosquito.rooster465.autos:443?security=tls&sni=tolerant-mosquito.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20230
-trojan://ND91608427@202.78.163.248:443?security=tls&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20231
-trojan://ND91608427@relaxed-gull.rooster465.autos:443?security=tls&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20233
-trojan://AE62539071@game-firefly.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20305
-trojan://AE62539071@enough-basilisk.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20306
+trojan://ND91608427@202.78.163.148:443?allowInsecure=1&fp=chrome&sni=discrete-basilisk.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20159
+trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20160
+trojan://AE62539071@tolerant-mosquito.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20176
+trojan://ND91608427@discrete-basilisk.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20178
+trojan://ND91608427@relaxed-gull.rooster465.autos:443?allowInsecure=1#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20185
+trojan://AE62539071@game-firefly.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20193
+trojan://AE62539071@relative-locust.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20227
+trojan://AE62539071@enough-basilisk.rooster465.autos:443#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20TROJAN%20%7C%20231
