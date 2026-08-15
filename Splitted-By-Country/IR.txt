@@ -1,1 +1,2 @@
-vless://a4aba0ef-0929-4a34-89bd-5ee96fe968da@estproxy3.lockdwn.com:8443?type=tcp&security=tls&alpn=h2%2Chttp%2F1.1&sni=estproxy3.lockdwn.com&fp=edge&encryption=none#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20472
+vless://19f54e37-5fae-47f6-bc10-e71ccbc58389@94.183.170.231:443?encryption=none&type=ws&path=%2F&security=none#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20810
+vless://a4aba0ef-0929-4a34-89bd-5ee96fe968da@estproxy3.lockdwn.com:8443?type=tcp&security=tls&alpn=h2%2Chttp%2F1.1&sni=estproxy3.lockdwn.com&fp=edge&encryption=none#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%201090
