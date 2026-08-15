@@ -1,1 +1,1 @@
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%20116
+vless://a4aba0ef-0929-4a34-89bd-5ee96fe968da@estproxy3.lockdwn.com:8443?type=tcp&security=tls&alpn=h2%2Chttp%2F1.1&sni=estproxy3.lockdwn.com&fp=edge&encryption=none#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20VLESS%20%7C%201159
