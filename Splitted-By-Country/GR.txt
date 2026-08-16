@@ -1,3 +1,1 @@
-vless://2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a@85.90.197.147:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8&security=reality&sid=5629431325884ff0&sni=grek.o4ka-internet.com&type=tcp#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%2036
-vless://b1cf484e-651f-432b-b086-f148e010669e@45.80.111.175:8880?security=none&type=ws&path=%2Frutube&host=rutube.ummapeople.online&encryption=none#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201113
-vless://fd22ad82-2d89-4338-b72c-5092ae699c7d@8.47.69.0:8880?encryption=none&security=none&type=ws&host=rutube.ummapeople.online&path=/rutube#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201178
+vless://6ccb5e10-5758-4e08-aa7e-290b887f458b@94.241.171.229:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%20433
