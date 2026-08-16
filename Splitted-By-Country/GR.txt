@@ -1,1 +1,3 @@
-vless://6ccb5e10-5758-4e08-aa7e-290b887f458b@94.241.171.229:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201136
+vless://fd22ad82-2d89-4338-b72c-5092ae699c7d@8.47.69.0:8880?security=none&type=ws&path=/rutube&host=rutube.ummapeople.online&sni=rutube.ummapeople.online#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%20720
+vless://b1cf484e-651f-432b-b086-f148e010669e@45.80.111.175:8880?security=none&type=ws&path=%2Frutube&host=rutube.ummapeople.online&encryption=none#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%20789
+vless://6ccb5e10-5758-4e08-aa7e-290b887f458b@94.241.171.229:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201425
