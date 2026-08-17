@@ -1,1 +1,1 @@
-vless://ccad147b-06f9-43f6-81cf-a0007094b373@66.90.93.74:8445?type=ws&security=tls&encryption=none&path=%2Fapi%2Fv2%2Fconnect&sni=gateway-v1.bosx.net&fp=firefox&headerType=none#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%201199
+vless://40cfbd0a-f133-4174-8e03-ab0e587e1099@193.238.153.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=dzknsuwujuOacNHTXzdPxBLNUEJfEImiwLinPPNFmwU&sid=1ea21a140beaecc5&sni=www.cloudflare.com#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%20566
