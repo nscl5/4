@@ -1,1 +1,1 @@
-trojan://humanity@45.130.125.112:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20TROJAN%20%7C%20415
+vless://46241b75-e38e-4772-8996-e21a202c7e06@135.106.140.18:443?encryption=none&extra=null&fp=edge&mode=auto&path=/assets/build/_app/immutable/chunks/stream-one/&security=tls&sni=russia1.denverpresents.top&type=xhttp#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201210
