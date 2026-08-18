@@ -1,4 +1,1 @@
-vless://4c8c4763-d69a-44d0-bb77-ae22c6b9e150@141.193.213.21:8443?host=zero.csmaster.ggff.net&path=%2F&security=tls&sni=zero.csmaster.ggff.net&type=ws&fp=qq#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B0%20LK%20%7C%20VLESS%20%7C%206
-vless://3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08@support.zoom.us:8080?type=ws&encryption=none&path=%2F&host=zero.csmaster.ggff.net&security=none#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B0%20LK%20%7C%20VLESS%20%7C%201268
-vless://63360c4f-875f-4c1a-a44c-3cfe4543a0de@zero.csmaster.ggff.net:443?type=ws&encryption=none&path=%2F&host=zero.csmaster.ggff.net&security=tls&fp=chrome&alpn…#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B0%20LK%20%7C%20VLESS%20%7C%201430
-vless://840476ec-64a2-496e-b406-c5a0ca1e4a13@104.64.207.134:443?type=ws&security=tls&fp=firefox&sni=zero.csmaster.ggff.net#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B0%20LK%20%7C%20VLESS%20%7C%201544
+vless://63360c4f-875f-4c1a-a44c-3cfe4543a0de@zero.csmaster.ggff.net:443?type=ws&encryption=none&path=%2F&host=zero.csmaster.ggff.net&security=tls&fp=chrome&alpn…#v2go%20%7C%20%F0%9F%87%B1%F0%9F%87%B0%20LK%20%7C%20VLESS%20%7C%201692

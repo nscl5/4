@@ -1,1 +1,1 @@
-vless://2e79f3ca-b8db-4d4d-a96e-8f7313480696@168.222.203.14:4100?&sni=live.ok.ru&type=ws&headerType=none&path=%2Fv1#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%201242
+vless://d31aefb3-775b-4e87-a093-a4677addf10a@103.27.157.209:443?security=reality&encryption=none&pbk=3EwukQs0ows0H4l2atTgz_Mo5SV-v5p14D4zfA41tU4&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=c010293d0bafac#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%201725
