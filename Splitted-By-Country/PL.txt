@@ -1,5 +1,5 @@
-vless://f6da8274-44be-4599-a8d8-66929c980677@185.241.208.89:2054?type=grpc&security=reality&fp=firefox&pbk=OyptJTnaUSyaiYY3_iB-Lrst04EoVetdB1ZMoHDViyI&sid=e5fe88d9c232c341&sni=www.ibm.com&serviceName=grpc#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%2045
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVOVlBb3FCZ2c1VnlHQmM2dlF2MXNO@194.61.121.93:7538#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20SS%20%7C%2077
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@92.118.205.211:5600#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20SS%20%7C%20143
-vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.21.35.235:2053?path=/&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=music1000.melobitmusic1.ir#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%20408
-vless://23f2fcb8-3b1c-4246-9751-0888f703e9ad@82.26.91.166:26391?type=grpc&security=reality&fp=firefox&pbk=dxuGa3gRo3CPwx1TcaAM9GLkgVBnGcUpDjUfrX8CuiU&sid=09e67e78ad6bf369&sni=proxy11.h1guro.ovh#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%201245
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.18.1.1:2053?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=music1000.melobitmusic1.ir&fp=ios&type=ws&allowInsecure=0&sni=music1000.melobitmusic1.ir#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%2062
+vless://31d1f5ce-e5b5-4fdc-af07-4b343a0622b9@185.70.199.217:33651?security=none&encryption=none&headerType=none&type=tcp#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%2065
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVOVlBb3FCZ2c1VnlHQmM2dlF2MXNO@194.61.121.93:7538#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20SS%20%7C%20121
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@92.118.205.211:5600#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20SS%20%7C%20551
+vless://23f2fcb8-3b1c-4246-9751-0888f703e9ad@82.26.91.166:26391?type=grpc&security=reality&fp=firefox&pbk=dxuGa3gRo3CPwx1TcaAM9GLkgVBnGcUpDjUfrX8CuiU&sid=09e67e78ad6bf369&sni=proxy11.h1guro.ovh#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%201132
