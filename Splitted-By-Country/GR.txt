@@ -1,1 +1,2 @@
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deepl.com&fp=firefox&security=reality&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&sid=beb4#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201546
+vless://6ccb5e10-5758-4e08-aa7e-290b887f458b@94.241.171.229:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%20720
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deepl.com&fp=firefox&security=reality&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&sid=beb4#v2go%20%7C%20%F0%9F%87%AC%F0%9F%87%B7%20GR%20%7C%20VLESS%20%7C%201966
