@@ -1,2 +1,2 @@
-vless://f82332b2-dc8c-eac4-ac12-f276e37e278a@s1.test.anti-zapret.com:8443/?type=tcp&encryption=none&flow=&sni=s1.test.anti-zapret.com&security=reality&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=58fbcddfaae3ade9#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%20192
-vless://2b622609-bb92-49e8-9631-4ada00324f47@45.155.68.9:443?encryption=none&security=tls&sni=it2ws.wba-pn.ru&type=ws&path=/#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201209
+vless://2b622609-bb92-49e8-9631-4ada00324f47@45.155.68.9:443?encryption=none&security=tls&sni=it2ws.wba-pn.ru&type=ws&path=/#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201065
+vless://f82332b2-dc8c-eac4-ac12-f276e37e278a@45.155.70.123:8443?type=tcp&security=reality&encryption=none&fp=firefox&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=58fbcddfaae3ade9&sni=s1.test.anti-zapret.com#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201392
