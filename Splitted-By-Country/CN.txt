@@ -1,1 +1,1 @@
-vless://a8b1d666-d3ba-4b17-90c4-ba7514c74f78@104.16.72.30:443?path=/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=xstack.mahanfixe.workers.dev#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%20697
+vless://813cd228-ebf6-0e21-481a-ba4af8f85b82@104.18.1.1:443?path=/sync&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=odd-disk-98c5.assassincreed4048.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=odd-disk-98c5.assassincreed4048.workers.dev#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%B3%20CN%20%7C%20VLESS%20%7C%20262
