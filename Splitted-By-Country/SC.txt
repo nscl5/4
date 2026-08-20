@@ -1,2 +1,4 @@
-vless://2b622609-bb92-49e8-9631-4ada00324f47@45.155.68.9:443?encryption=none&security=tls&sni=it2ws.wba-pn.ru&type=ws&path=/#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%20873
-vless://f82332b2-dc8c-eac4-ac12-f276e37e278a@45.155.70.123:8443?encryption=none&flow=&fp=firefox&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&security=reality&sid=58fbcddfaae3ade9&sni=s1.test.anti-zapret.com&type=tcp#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201296
+trojan://humanity@45.130.125.112:443/?type=ws&path=%2Fassignment&security=tls&sni=www.calmlunch.com&fp=chrome#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20TROJAN%20%7C%20829
+trojan://humanity@45.130.125.75:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20TROJAN%20%7C%20831
+vless://2b622609-bb92-49e8-9631-4ada00324f47@45.155.68.9:443?encryption=none&security=tls&sni=it2ws.wba-pn.ru&type=ws&path=/#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%20912
+vless://f82332b2-dc8c-eac4-ac12-f276e37e278a@45.155.70.123:8443?encryption=none&flow=&fp=firefox&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&security=reality&sid=58fbcddfaae3ade9&sni=s1.test.anti-zapret.com&type=tcp#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%201269
