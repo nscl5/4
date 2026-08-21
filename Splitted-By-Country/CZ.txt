@@ -1,1 +1,2 @@
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=grpc#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20VLESS%20%7C%20401
+vless://92bc1b12-7cc8-437e-bbcf-76fd4306cec2@95.85.228.142:8443?encryption=none&extra={"xPaddingBytes":"100-1500"}&fp=firefox&host=www.samsung.com&mode=auto&path=/api/v1/updates&pbk=lboVrRvRMlfyVreGHB6U4daP0J9A1bDeGM4TNfbnf2A&security=reality&sid=40261175cbec3e0c&sni=www.samsung.com&type=xhttp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20VLESS%20%7C%20296
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=grpc#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20VLESS%20%7C%20526
