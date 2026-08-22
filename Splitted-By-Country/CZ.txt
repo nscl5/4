@@ -1,2 +1,2 @@
-trojan://CJ4fBUazRDFd62OxsdClTw%3D%3D@212.192.210.192:14078?host=&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20TROJAN%20%7C%20224
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?mode=gun&security=none&serviceName=grpc&type=grpc&encryption=none#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20VLESS%20%7C%20335
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?encryption=none&security=none&serviceName=grpc&type=grpc#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20VLESS%20%7C%20327
+trojan://CJ4fBUazRDFd62OxsdClTw%3D%3D@212.192.210.192:14078?host=&path=%2F&security=none&type=ws#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20TROJAN%20%7C%20541
