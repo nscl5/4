@@ -1,1 +1,1 @@
-vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.18.1.1:2053?encryption=none&type=ws&security=tls&path=%2F&host=music1000.melobitmusic1.ir&sni=music1000.melobitmusic1.ir&alpn=h3%2Ch2%2Chttp%2F1.1&fp=ios&insecure=0&allowInsecure=0#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%20105
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@172.67.180.173:2053?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=music1000.melobitmusic1.ir#v2go%20%7C%20%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20VLESS%20%7C%20311
