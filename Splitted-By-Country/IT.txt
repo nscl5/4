@@ -1,3 +1,4 @@
-trojan://7e70223b-f331-41d5-9313-02b8d2df2885@45.67.201.210:20065/?type=tcp&security=tls&sni=hk.catxstar.com&allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20TROJAN%20%7C%20254
-trojan://7e70223b-f331-41d5-9313-02b8d2df2885@kkvlvvq-a.catcat321.com:20065?sni=hk.catxstar.com#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20TROJAN%20%7C%20255
-vless://699ce9a1-abbb-4525-988e-b940381352e8@151.241.215.109:8443?type=tcp&security=reality&fp=firefox&pbk=UQ6dyuQKvCZjFH3BiGswrecUsrptDXQ67dvKFuQC5DA&sid=74933f39a9693c&sni=yandex.ru#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20VLESS%20%7C%20460
+trojan://7e70223b-f331-41d5-9313-02b8d2df2885@kkvlvvq-a.catcat321.com:20065?allowInsecure=0&sni=hk.catxstar.com#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20TROJAN%20%7C%20307
+trojan://7e70223b-f331-41d5-9313-02b8d2df2885@45.67.201.210:20065/?type=tcp&security=tls&sni=hk.catxstar.com&allowInsecure=1#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20TROJAN%20%7C%20308
+vless://0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5@ser-dashboard-6a8c523b-1534-83eb-afd0-19a157913d5f.iramkemaxyu.ir:443?encryption=none&security=reality&type=xhttp&headerType=none&path=%2F&mode=stream-up&sni=us.demonware.net&fp=chrome&pbk=pfPkmGdr3k9jKAov3mjdc_DXROO9fl4jK1FpBsJqujk&sid=e9518e9cb0754976&spx=%2Fstore#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20VLESS%20%7C%20400
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086/?type=raw&encryption=none#v2go%20%7C%20%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20VLESS%20%7C%20579
