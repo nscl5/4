@@ -1,2 +1,2 @@
-vless://004194c6-8f81-4e64-ad0d-55cb1bfb92a9@50.7.249.218:8443?alpn=http/1.1&encryption=none&fp=firefox&path=/api/connect&security=tls&sni=apkav-5.bosx.net&type=ws#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%20667
-vless://d77e6df9-5c27-4f1c-bb9e-1948ae14d317@50.7.249.218:8443?alpn=http/1.1&encryption=none&fp=firefox&path=/api/connect&security=tls&sni=apkav-5.bosx.net&type=ws#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%201190
+vless://004194c6-8f81-4e64-ad0d-55cb1bfb92a9@50.7.249.218:8443?alpn=http/1.1&encryption=none&fp=firefox&path=/api/connect&security=tls&sni=apkav-5.bosx.net&type=ws#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%201161
+vless://d77e6df9-5c27-4f1c-bb9e-1948ae14d317@50.7.249.218:8443?alpn=http/1.1&encryption=none&fp=firefox&path=/api/connect&security=tls&sni=apkav-5.bosx.net&type=ws#v2go%20%7C%20%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20VLESS%20%7C%201307
