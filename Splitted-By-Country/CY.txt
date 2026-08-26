@@ -1,2 +1,2 @@
-vless://167610e4-bcaf-4074-bc2d-0c08dc4ea294@45.9.2.171:8443?type=grpc&security=tls&fp=firefox&sni=torr.wlrus.cfd#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%20561
-vless://440f3c08-7599-406e-8ba3-7dbc6324c5ed@45.9.16.165:6443?encryption=none&extra=null&fp=qq&mode=auto&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&security=reality&sid=844352756c1fabba&sni=api.vkimages.io&type=xhttp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%20627
+vless://167610e4-bcaf-4074-bc2d-0c08dc4ea294@45.9.2.171:8443?type=grpc&security=tls&fp=firefox&sni=torr.wlrus.cfd#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%20524
+vless://440f3c08-7599-406e-8ba3-7dbc6324c5ed@45.9.16.165:6443?encryption=none&extra=null&fp=qq&mode=auto&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&security=reality&sid=844352756c1fabba&sni=api.vkimages.io&type=xhttp#v2go%20%7C%20%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20VLESS%20%7C%20583
