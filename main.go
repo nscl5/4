@@ -1,5 +1,5 @@
 // v2go - High-Performance V2Ray Config Aggregator (Go Edition)
-// Copyright (C) 2025  Danialsamadi
+// Copyright (C) 2026  Danialsamadi
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -56,9 +56,9 @@ const (
 	// 500 is the accuracy plateau's fast edge. Per-config CPU is ~40us, so
 	// concurrency is purely a network knob — RAM and CPU never mattered.
 	// Override with V2GO_TEST_CONCURRENCY / V2GO_TEST_TIMEOUT if the runner differs.
-	testConcurrency = 500
+	testConcurrency = 400
 	testTimeoutSec  = 5
-	testURL         = "http://gstatic.com/generate_204"
+	testURL         = "http://www.google.com/generate_204"
 
 	// Working configs are written here as soon as they pass, so an interrupted
 	// run still leaves behind everything found up to that point.
@@ -133,46 +133,102 @@ func parseFlags(args []string) (options, error) {
 // errVersionPrinted signals that -version did its job; not a failure.
 var errVersionPrinted = errors.New("version printed")
 
-var fixedText = `#profile-title: base64:8J+GkyBHaXRodWIgfCBEYW5pYWwgU2FtYWRpIPCfkI0=
-#profile-update-interval: 1
-#support-url: https://github.com/Danialsamadi/v2go
-#profile-web-page-url: https://github.com/Danialsamadi/v2go
+var fixedText = `#profile-title: base64:RnJlZWRvbSBUbyBEcmVhbQ==
+#profile-update-interval: 7
+#support-url: https://github.com/NiREvil/vless
+#profile-web-page-url: https://t.me/s/NiREvil_GP
 `
-
 var protocols = []string{"vmess", "vless", "trojan", "ss", "ssr", "hy2", "tuic", "warp://"}
 
-var links = []string{
-	"https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
-	"https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
-	"https://raw.githubusercontent.com/ts-sf/fly/main/v2",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_2.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_3.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/app/sub.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_2.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_3.txt",
-	"https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_4.txt",
-	"https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link",
+var links = []string{ // Base64
+	"https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt",
+	"https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt",
+	"https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/protocols/vmess_base64.txt",
+	"https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/protocols/shadowsocks_base64.txt",
+	"https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/protocols/vless_base64.txt",
+	"https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/refs/heads/main/protocols/hysteria2_base64.txt",
+	"https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/Best-Results/sub.txt",
+	"https://raw.githubusercontent.com/JavidnamanIran-at-Telegram/x-ray_sub/refs/heads/main/x-ray_sub.txt",
+	"https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all",
+	"https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray",
+	"http://www.xrayvip.com/free.txt",
+	"https://raw.githubusercontent.com/nscl5/4/refs/heads/main/Splitted-By-Protocol/ss.txt",
+	"https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/super-sub.txt",
+	"https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vless.txt",
+	"https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/vmess.txt",
+	"https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_en",
+	"https://shadowmere.xyz/api/b64sub",
+	"https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt",
+	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/ss",
+	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/trojan",
+	"https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt",
+	"https://raw.githubusercontent.com/10ium/V2Hub3/main/merged_base64",
+	"https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_mixed_iran.txt",
 }
 
-var dirLinks = []string{
-	"https://v2.alicivil.workers.dev",
-	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
-	"https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/normal/mix",
+var dirLinks = []string{ // Plain Text
+	"https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt",
+	"https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",
+	"https://raw.githubusercontent.com/NiREvil/vless/refs/heads/main/sub/SSTime",
+	"https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Hysteria2.txt",
+	"https://raw.githubusercontent.com/ShadowException/VPN/refs/heads/main/configs/VPN-cat",
+	"https://etoneya.su/1",
+	"https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/refs/heads/main/output/base64/mix-uri",
+	"https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/servers.txt",
+	"https://gh-proxy.com/raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
+	"https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Reality",
+	"https://raw.githubusercontent.com/hamedp-71/Sub_Checker_Creator/refs/heads/main/final.txt",
+	"https://raw.githubusercontent.com/rango-cfs/NewCollector/refs/heads/main/v2ray_links.txt",
+	"https://raw.githubusercontent.com/MrBihal/Hddify/refs/heads/main/HDDIFY",
+	"https://rahi-eq3.pages.dev/api/configs?limit=all",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/ss.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vmess.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt",
+	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/trojan.txt",
+	"https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/refs/heads/main/Best-Results/proxies.txt",
+	"https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vless.txt",
+	"https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/shadowsocks.txt",
+	"https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
+	"https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/httpupgrade.txt",
+	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/ss.txt",
+	"https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/vless.html",
+	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vmess.txt",
+	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt",
+	"https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
+	"https://raw.githubusercontent.com/DarknessShade/Sub/main/Ss",
+	"https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",
+	"https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/ss_iran.txt",
+	"https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/vless_iran.txt",
+	"https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt",
+	"https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/vless_iran.txt",
+	"https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/ss_iran.txt",
+	"https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Vmess.txt",
+	"https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Hysteria2.txt",
+	"https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Germany.txt",
+	"https://raw.githubusercontent.com/Stinsonysm/GO_V2rayCollector/refs/heads/main/trojan_iran.txt",
+	"https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/refs/heads/main/sub/Mix/mix.txt",
+	"https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub_all.txt",
+	"https://raw.githubusercontent.com/10ium/V2Hub3/refs/heads/main/Split/Normal/reality",
+	"https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Vless.txt",
+	"https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub2.txt",
+	"https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub1.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub4.txt",
+	"https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/speed.txt",
+	"https://raw.githubusercontent.com/ndsphonemy/proxy-sub/refs/heads/main/hys-tuic.txt",
+	"https://raw.githubusercontent.com/Proxydaemitelegram/Proxydaemi44/refs/heads/main/Proxydaemi44",
+	"https://raw.githubusercontent.com/Created-By/Telegram-Eag1e_YT/refs/heads/main/%40Eag1e_YT",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub6.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub7.txt",
+	"https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub8.txt",
 	"https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt",
 	"https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
-	"https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt",
 	"https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
-	"https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt",
-	"https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
 	"https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",
 	"https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 	"https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vmess.txt",
 	"https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/all_extracted_configs.txt",
-	"https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/Vless.txt",
-	"https://raw.githubusercontent.com/miladtahanian/V2RayScrapeByCountry/refs/heads/main/output_configs/Vmess.txt",
-	"https://raw.githubusercontent.com/miladtahanian/V2ray-Config/main/All_Configs_Sub.txt",
 	"https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt",
 	"https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/config.txt",
 	"https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt",
@@ -184,6 +240,10 @@ var dirLinks = []string{
 	"https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt",
 	"https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt",
 	"https://raw.githubusercontent.com/frank-vpl/servers/refs/heads/main/irbox",
+	"https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
+	"https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+	"https://raw.githubusercontent.com/ts-sf/fly/main/v2",
+	"https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link",
 }
 
 type Result struct {
