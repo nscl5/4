@@ -1,7 +1,5 @@
-vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.145.166:2087?security=tls&type=ws&path=/&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&ed=2560&packetEncoding=xudp&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&fp=chrome&encryption=none#v2go%20%7C%20VLESS%20%7C%202
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@108.162.198.178:80?security=none&type=ws&path=%2F&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&eh=Sec-WebSocket-Protocol&encryption=none#v2go%20%7C%20VLESS%20%7C%203
-vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.28:2082?encryption=none&security=none&sni=hhlfy.twiladaphne.ndjp.net&fp=chrome&type=ws&host=hhlfy.twiladaphne.ndjp.net&path=/fp#v2go%20%7C%20VLESS%20%7C%204
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.3.186:2095?security=none&type=ws&path=%2F&host=update.asshole.eu.cc&encryption=none#v2go%20%7C%20VLESS%20%7C%208
-vless://903bb12e-ac86-414c-adf1-b9c41e213da8@whatismyipaddress.com:443?encryption=none&type=xhttp&mode=auto&path=%2F&security=tls&alpn=h2&fp=chrome&sni=Brackhollow.lacicasa.website#v2go%20%7C%20VLESS%20%7C%20645
-trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@104.18.35.15:443?type=ws&sni=_acme-challenge.sb.cloudns.biz#v2go%20%7C%20TROJAN%20%7C%201073
-trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443?allowInsecure=0&type=ws&sni=_acme-challenge.sb.cloudns.biz#v2go%20%7C%20TROJAN%20%7C%201086
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@162.159.43.187:2082?&type=ws&headerType=none&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=%2F%3Fed%3D2560security%3Dtls#v2go%20%7C%20VLESS%20%7C%205
+vless://e5cc16a6-ea42-46b2-82ae-ad2157e1641b@172.64.150.28:2082?encryption=none&security=none&sni=hhlfy.twiladaphne.ndjp.net&fp=chrome&type=ws&host=hhlfy.twiladaphne.ndjp.net&path=/fp#v2go%20%7C%20VLESS%20%7C%2029
+vless://903bb12e-ac86-414c-adf1-b9c41e213da8@whatismyipaddress.com:443?&security=tls&fp=chrome&alpn=h2&sni=Brackhollow.lacicasa.website&type=xhttp#v2go%20%7C%20VLESS%20%7C%20652
+trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@104.18.35.15:443?type=ws&sni=_acme-challenge.sb.cloudns.biz#v2go%20%7C%20TROJAN%20%7C%201268
+trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz:443?allowInsecure=0&type=ws&sni=_acme-challenge.sb.cloudns.biz#v2go%20%7C%20TROJAN%20%7C%201290
