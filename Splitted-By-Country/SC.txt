@@ -1,2 +1,1 @@
-vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?security=none&type=ws&path=%2F5021201ef53f&encryption=none#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%20334
-trojan://humanity@45.130.125.75:443?type=ws&security=tls&path=%2Fassignment&host=www.calmlunch.com&sni=www.calmlunch.com&insecure=0&allowInsecure=0#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20TROJAN%20%7C%201112
+vless://e6d369db-22be-4f30-8685-455c717aaa8c@157.22.133.130:2087?path=/5021201ef53f&security=&encryption=none&type=ws#v2go%20%7C%20%F0%9F%87%B8%F0%9F%87%A8%20SC%20%7C%20VLESS%20%7C%20676
