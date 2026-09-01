@@ -23,9 +23,6 @@ var protocolPrefixes = []struct {
 	{"hy2://", "hysteria2"},
 }
 
-// validURLHost reports whether h can be used as the host of a URL. Checked by
-// parsing rather than by rejecting characters, so bracketed IPv6 literals such
-// as [2001:db8::1] remain valid.
 func validURLHost(h string) bool {
 	u, err := url.Parse("https://" + h + "/")
 	return err == nil && u.Host == h
@@ -373,7 +370,7 @@ func parseHysteria2(link string) (M, error) {
 	}
 
 	return M{
-		"protocol": "trojan",
+		"protocol": "hysteria2",
 		"tag":      "proxy",
 		"settings": M{
 			"servers": []M{{
@@ -401,8 +398,6 @@ func buildStreamSettings(params url.Values) M {
 	switch security {
 	case "tls":
 		tls := M{}
-		// An SNI that url.Parse rejects is not a usable server name, and the
-		// XHTTP transport will use it as a request-URL host and crash on it.
 		if v := params.Get("sni"); v != "" && validURLHost(v) {
 			tls["serverName"] = v
 		}
@@ -485,11 +480,6 @@ func buildStreamSettings(params url.Values) M {
 		if v := params.Get("path"); v != "" {
 			x["path"], _ = url.QueryUnescape(v)
 		}
-		// Xray builds the XHTTP request URL from this host and ignores the
-		// error from http.NewRequest, so a host that url.Parse rejects takes
-		// the whole process down with a nil dereference rather than failing
-		// this one config. Drop it instead; xray then falls back to the SNI or
-		// the destination address.
 		if v := params.Get("host"); v != "" && validURLHost(v) {
 			x["host"] = v
 		}
