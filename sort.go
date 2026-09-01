@@ -1,19 +1,3 @@
-// v2go - High-Performance V2Ray Config Aggregator (Go Edition)
-// Copyright (C) 2025  Danialsamadi
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 package main
 
 import (
@@ -26,13 +10,10 @@ import (
 
 var sortProtocols = []string{"vmess", "vless", "trojan", "ss", "ssr", "hy2", "tuic", "warp"}
 
-// sortConfigs splits the already-deduplicated config list into per-protocol
-// files. vmess stays plain text; every other protocol file is base64-encoded
-// (that asymmetry is what existing subscribers expect).
 func sortConfigs(configs []string) {
 	fmt.Println("Starting protocol-based config sorting...")
 
-	protocolDir := "Splitted-By-Protocol"
+	protocolDir := "By-protocol"
 	if err := os.MkdirAll(protocolDir, 0755); err != nil {
 		fmt.Printf("Error creating protocol directory: %v\n", err)
 		return
