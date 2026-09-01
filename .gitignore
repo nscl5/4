@@ -1,20 +1,58 @@
-.cursor
-.claude
-.agents
-.vscode
-.idea
-.DS_Store
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+aggregator
+aggregator.exe
+*.exe
+*.exe~
+*.tar.gz
+*.log
+*.db
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# IP Geo location databases
+*.mmdb
+GeoLite2-Country.mmdb
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories
+**/node_modules/
+package-lock.json
+yarn.lock
+vendor/
+dist/
+build/
+target/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.development
-.env.test
-.env.production
 
-# CI-built binary
-aggregator
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Streamed live-test results (local scanning output)
+# Temporary cache files
+cloudflare-ips.txt
+*.tmp
 working-live.txt
