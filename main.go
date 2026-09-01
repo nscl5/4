@@ -1,19 +1,3 @@
-// v2go - High-Performance V2Ray Config Aggregator (Go Edition)
-// Copyright (C) 2026  Danialsamadi
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 package main
 
 import (
@@ -40,58 +24,41 @@ import (
 
 	"github.com/oschwald/geoip2-golang"
 
-	"v2ray-config-aggregator/internal/tester"
+	"github.com/nscl5/4/internal/tester"
 )
 
 const (
 	timeout         = 20 * time.Second
 	maxWorkers      = 10
 	maxLinesPerFile = 500
-
-	// Live-test stage: one embedded xray-core instance per config.
-	// Measured on 17,213 real configs (concurrency -> working found / wall clock):
-	//   250 -> 1283 / 2m04s,  400 -> 1207 / 1m16s,  500 -> 1256 / 1m00s,
-	//   1000 -> 837-1288 / ~40s (unstable),  3000 -> 530 (network saturates,
-	//   live configs time out and read as dead).
-	// 500 is the accuracy plateau's fast edge. Per-config CPU is ~40us, so
-	// concurrency is purely a network knob — RAM and CPU never mattered.
-	// Override with V2GO_TEST_CONCURRENCY / V2GO_TEST_TIMEOUT if the runner differs.
 	testConcurrency = 400
 	testTimeoutSec  = 5
-	testURL         = "http://www.google.com/generate_204"
-
-	// Working configs are written here as soon as they pass, so an interrupted
-	// run still leaves behind everything found up to that point.
+	testURL         = "https://www.gstatic.com/generate_204"
 	liveOutputFile = "working-live.txt"
 )
 
-// version is stamped at build time: -ldflags "-X main.version=v1.3.2"
 var version = "dev"
 
-// options holds everything the CLI can configure.
 type options struct {
 	inputFile   string
 	concurrency int
 	timeoutSec  int
 }
 
-// parseFlags reads args into options. Environment variables act as defaults so
-// that CI can configure the run without changing the command line, and an
-// explicit flag always wins over the environment.
 func parseFlags(args []string) (options, error) {
-	fs := flag.NewFlagSet("v2go", flag.ContinueOnError)
+	fs := flag.NewFlagSet("Rose", flag.ContinueOnError)
 	fs.Usage = func() {
 		out := fs.Output()
-		fmt.Fprintf(out, "v2go %s - aggregate and live-test V2Ray configurations\n\n", version)
+		fmt.Fprintf(out, "Rose %s - aggregate and live-test V2Ray configurations\n\n", version)
 		fmt.Fprintf(out, "Collects configs from public subscription sources, verifies each one by\n")
 		fmt.Fprintf(out, "passing real traffic through an embedded Xray-core instance, and writes\n")
 		fmt.Fprintf(out, "the working ones as subscription files in the current directory.\n\n")
-		fmt.Fprintf(out, "Usage:\n  v2go [flags]\n\nFlags:\n")
+		fmt.Fprintf(out, "Usage:\n  Rose [flags]\n\nFlags:\n")
 		fs.PrintDefaults()
 		fmt.Fprintf(out, "\nExamples:\n")
-		fmt.Fprintf(out, "  v2go                         aggregate from the built-in sources\n")
-		fmt.Fprintf(out, "  v2go -input my-configs.txt   test your own list from your own network\n")
-		fmt.Fprintf(out, "  v2go -concurrency 200        go easier on a slow or metered connection\n\n")
+		fmt.Fprintf(out, "  Rose                         aggregate from the built-in sources\n")
+		fmt.Fprintf(out, "  Rose -input my-configs.txt   test your own list from your own network\n")
+		fmt.Fprintf(out, "  Rose -concurrency 200        go easier on a slow or metered connection\n\n")
 		fmt.Fprintf(out, "Working configs are streamed to %s as they pass, so an\n", liveOutputFile)
 		fmt.Fprintf(out, "interrupted run still leaves behind everything verified up to that point.\n")
 	}
@@ -100,9 +67,9 @@ func parseFlags(args []string) (options, error) {
 		showVersion = fs.Bool("version", false, "print version and exit")
 		inputFile   = fs.String("input", "",
 			"read configs from this `file` (plain list or base64 subscription)\ninstead of fetching the built-in sources")
-		concurrency = fs.Int("concurrency", envInt("V2GO_TEST_CONCURRENCY", testConcurrency),
+		concurrency = fs.Int("concurrency", envInt("ROSE_TEST_CONCURRENCY", testConcurrency),
 			"configs to test in parallel; above ~500 the network saturates and\nworking configs start reading as dead")
-		timeoutSec = fs.Int("timeout", envInt("V2GO_TEST_TIMEOUT", testTimeoutSec),
+		timeoutSec = fs.Int("timeout", envInt("ROSE_TEST_TIMEOUT", testTimeoutSec),
 			"seconds to wait for each config to prove it carries traffic")
 	)
 
@@ -110,7 +77,7 @@ func parseFlags(args []string) (options, error) {
 		return options{}, err
 	}
 	if *showVersion {
-		fmt.Printf("v2go %s\n", version)
+		fmt.Printf("Rose %s\n", version)
 		return options{}, errVersionPrinted
 	}
 	if *concurrency < 1 {
@@ -120,7 +87,7 @@ func parseFlags(args []string) (options, error) {
 		return options{}, fmt.Errorf("-timeout must be at least 1 second, got %d", *timeoutSec)
 	}
 	if rest := fs.Args(); len(rest) > 0 {
-		return options{}, fmt.Errorf("unexpected argument %q (v2go takes flags only, see -help)", rest[0])
+		return options{}, fmt.Errorf("unexpected argument %q (Rose takes flags only, see -help)", rest[0])
 	}
 
 	return options{
@@ -130,11 +97,10 @@ func parseFlags(args []string) (options, error) {
 	}, nil
 }
 
-// errVersionPrinted signals that -version did its job; not a failure.
 var errVersionPrinted = errors.New("version printed")
 
-var fixedText = `#profile-title: base64:RnJlZWRvbSBUbyBEcmVhbQ==
-#profile-update-interval: 7
+var fixedText = `#profile-title: base64:Um9zZSBDb25maWdz
+#profile-update-interval: 6
 #support-url: https://github.com/NiREvil/vless
 #profile-web-page-url: https://t.me/s/NiREvil_GP
 `
@@ -262,42 +228,35 @@ type Result struct {
 
 var (
 	geoDB    *geoip2.Reader
-	geoCache sync.Map // cache for host -> country code
+	geoCache sync.Map
 )
 
 func main() {
 	switch err := run(os.Args[1:]); {
 	case err == nil, errors.Is(err, errVersionPrinted), errors.Is(err, flag.ErrHelp):
 	default:
-		fmt.Fprintf(os.Stderr, "v2go: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Rose: %v\n", err)
 		os.Exit(1)
 	}
 }
 
-// run executes the pipeline and reports failure through its error return, so
-// a run that produced nothing is distinguishable from a successful one by exit
-// code alone. Callers of the binary (CI in particular) depend on that.
 func run(args []string) error {
 	opts, err := parseFlags(args)
 	if err != nil {
 		return err
 	}
 
-	// Ctrl-C stops the live test and still writes out everything verified so
-	// far, rather than discarding a run that may already be minutes deep.
 	ctx, stopSignals := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stopSignals()
 
 	start := time.Now()
 	fmt.Println("Starting V2Ray config aggregator...")
 
-	// Ensure directories exist
 	base64Folder, err := ensureDirectoriesExist()
 	if err != nil {
 		return fmt.Errorf("creating output directories: %w", err)
 	}
 
-	// Create HTTP client with connection pooling
 	client := &http.Client{
 		Timeout: timeout,
 		Transport: &http.Transport{
@@ -307,7 +266,6 @@ func run(args []string) error {
 		},
 	}
 
-	// Gather configs, either from a local file or from the built-in sources
 	var allConfigs, failedLinks []string
 	if opts.inputFile != "" {
 		allConfigs, err = readConfigsFromFile(opts.inputFile)
@@ -323,7 +281,6 @@ func run(args []string) error {
 		return fmt.Errorf("no configurations to process")
 	}
 
-	// Download and open GeoIP database
 	if err := downloadGeoIPDB(); err != nil {
 		warnf("could not download GeoIP database: %v", err)
 	} else {
@@ -336,65 +293,43 @@ func run(args []string) error {
 		}
 	}
 
-	// Filter for protocols
 	fmt.Println("Filtering configurations and removing duplicates...")
 	originalCount := len(allConfigs)
 	candidates := filterForProtocols(allConfigs, protocols)
 
 	fmt.Printf("Found %d unique valid configurations\n", len(candidates))
 	fmt.Printf("Removed %d duplicates\n", originalCount-len(candidates))
-
-	// Live test: the TCP dial above only proves something answers on the port.
-	// This runs each config through an embedded xray-core instance and fetches
-	// a 204 endpoint through it, so only configs that actually pass traffic
-	// survive. Passing configs also report the IP they exit from, which is what
-	// the country tagging below is based on.
 	working := liveTest(ctx, candidates, opts)
 	fmt.Printf("%d/%d configurations passed the live test\n", len(working), len(candidates))
 
-	// Name and group by the country of the measured exit IP
 	filteredConfigs, configsByCountry := nameAndGroup(working)
 
-	// Clean existing files
 	cleanExistingFiles(base64Folder)
 
-	// Write main config file (in current directory)
 	if err := writeMainConfigFile("AllConfigsSub.txt", filteredConfigs); err != nil {
 		return fmt.Errorf("writing main config file: %w", err)
 	}
 
-	// Split into smaller files
 	fmt.Println("Splitting into smaller files...")
 	if err := splitIntoFiles(base64Folder, filteredConfigs); err != nil {
 		return fmt.Errorf("splitting files: %w", err)
 	}
 
-	// Calculate protocol statistics
 	stats := calculateStats(filteredConfigs)
-
-	// Write country-specific files
 	fmt.Println("Writing country-specific files...")
 	writeCountryFiles(configsByCountry)
 
-	// Write summary to UPDATE_SUMMARY.md
 	processingTime := time.Since(start).Seconds()
 	writeUpdateSummary(len(filteredConfigs), stats, processingTime, originalCount, failedLinks)
-
-	// Now sort configurations by protocol
 	sortConfigs(filteredConfigs)
-
-	// Separate configs sitting behind Cloudflare IPs (like v2ray-tester's cfcheck)
 	writeCloudflareFile(filteredConfigs)
 	return nil
 }
 
-// warnf writes a diagnostic to stderr, keeping stdout usable when output is piped.
 func warnf(format string, a ...any) {
-	fmt.Fprintf(os.Stderr, "v2go: warning: "+format+"\n", a...)
+	fmt.Fprintf(os.Stderr, "Rose: warning: "+format+"\n", a...)
 }
 
-// readConfigsFromFile reads share links, one per line. Accepts either a plain
-// list or a base64-encoded subscription, which is what most sources hand out.
 func readConfigsFromFile(path string) ([]string, error) {
 	raw, err := os.ReadFile(path)
 	if err != nil {
@@ -420,14 +355,12 @@ func readConfigsFromFile(path string) ([]string, error) {
 }
 
 func ensureDirectoriesExist() (string, error) {
-	// Create Base64 directory
 	base64Folder := "Base64"
 	if err := os.MkdirAll(base64Folder, 0755); err != nil {
 		return "", err
 	}
 
-	// Create Splitted-By-Country directory
-	if err := os.MkdirAll("Splitted-By-Country", 0755); err != nil {
+	if err := os.MkdirAll("By-country", 0755); err != nil {
 		return "", err
 	}
 
@@ -439,10 +372,8 @@ func fetchAllConfigs(client *http.Client, base64Links, textLinks []string) ([]st
 	resultChan := make(chan Result, len(base64Links)+len(textLinks))
 	var failedLinks []string
 
-	// Worker pool for concurrent requests
 	semaphore := make(chan struct{}, maxWorkers)
 
-	// Fetch base64-encoded links
 	for _, link := range base64Links {
 		wg.Add(1)
 		go func(url string) {
@@ -455,7 +386,6 @@ func fetchAllConfigs(client *http.Client, base64Links, textLinks []string) ([]st
 		}(link)
 	}
 
-	// Fetch text links
 	for _, link := range textLinks {
 		wg.Add(1)
 		go func(url string) {
@@ -468,13 +398,11 @@ func fetchAllConfigs(client *http.Client, base64Links, textLinks []string) ([]st
 		}(link)
 	}
 
-	// Close channel when all goroutines are done
 	go func() {
 		wg.Wait()
 		close(resultChan)
 	}()
 
-	// Collect results
 	var allConfigs []string
 	for result := range resultChan {
 		if result.StatusCode != http.StatusOK || result.Error != nil {
@@ -522,7 +450,6 @@ func fetchAndDecodeBase64(client *http.Client, url string) Result {
 		return res
 	}
 
-	// Try to decode base64
 	decoded, err := decodeBase64(body)
 	if err != nil {
 		res.Error = err
@@ -567,37 +494,35 @@ func fetchText(client *http.Client, url string) Result {
 }
 
 func decodeBase64(encoded []byte) (string, error) {
-	// Add padding if necessary
-	encodedStr := string(encoded)
-	if len(encodedStr)%4 != 0 {
-		encodedStr += strings.Repeat("=", 4-len(encodedStr)%4)
+	s := strings.TrimSpace(string(encoded))
+	padLen := (4 - len(s)%4) % 4
+	padded := s + strings.Repeat("=", padLen)
+	
+	for _, enc := range []*base64.Encoding{
+		base64.StdEncoding, 
+		base64.URLEncoding,
+		base64.RawStdEncoding, 
+		base64.RawURLEncoding,
+	} {
+		if b, err := enc.DecodeString(padded); err == nil {
+			return string(b), nil
+		}
 	}
-
-	decoded, err := base64.StdEncoding.DecodeString(encodedStr)
-	if err != nil {
-		return "", err
-	}
-
-	return string(decoded), nil
+	return "", fmt.Errorf("invalid base64")
 }
 
-// sanitizeConfig fixes common issues in config strings from upstream sources.
 func sanitizeConfig(config string) string {
-	// Fix HTML entities: &amp; → &
 	config = strings.ReplaceAll(config, "&amp;", "&")
 	return config
 }
 
-// isValidConfig checks whether a config has parameters that would crash V2Ray clients.
-// Returns false if the config should be skipped.
 func isValidConfig(config string) bool {
 	u, err := url.Parse(config)
 	if err != nil {
-		return true // unparseable here doesn't mean unusable; later stages decide
+		return true
 	}
 	q := u.Query()
 	for _, key := range []string{"sni", "path"} {
-		// Reject if value contains non-ASCII chars (emojis, CJK, etc.) or raw brackets
 		for _, r := range q.Get(key) {
 			if r > 127 || r == '[' || r == ']' {
 				return false
@@ -605,12 +530,6 @@ func isValidConfig(config string) bool {
 		}
 	}
 
-	// The host parameter must be usable as a URL host. Xray's XHTTP transport
-	// builds a request URL from it and ignores the error from http.NewRequest,
-	// so an unparseable host crashes the whole process with a nil dereference
-	// (splithttp/config.go:296) rather than failing that one config.
-	// Checked by parsing rather than by rejecting characters, so that valid
-	// bracketed IPv6 hosts like [2001:db8::1] still pass.
 	if host := q.Get("host"); host != "" {
 		if _, err := url.Parse("https://" + host + "/"); err != nil {
 			return false
@@ -619,9 +538,6 @@ func isValidConfig(config string) bool {
 	return true
 }
 
-// filterForProtocols screens raw configs down to unique, reachable candidates.
-// Naming and country assignment happen later, once the live test has revealed
-// each config's real exit IP.
 func filterForProtocols(data []string, protocols []string) []string {
 	var filtered []string
 	seen := make(map[string]bool)
@@ -632,7 +548,6 @@ func filterForProtocols(data []string, protocols []string) []string {
 		proto string
 	}
 
-	// Use a worker pool for parallel country lookup and deduplication
 	jobs := make(chan string, 100)
 	results := make(chan configRes, 100)
 
@@ -648,8 +563,7 @@ func filterForProtocols(data []string, protocols []string) []string {
 				if line == "" {
 					continue
 				}
-
-				// Identify protocol
+				
 				var currentProtocol string
 				for _, protocol := range protocols {
 					prefix := protocol
@@ -665,13 +579,11 @@ func filterForProtocols(data []string, protocols []string) []string {
 				if currentProtocol == "" {
 					continue
 				}
-
-				// Validate config: reject configs with invalid SNI/path that crash clients
+				
 				if !isValidConfig(line) {
 					continue
 				}
 
-				// Smart Deduplication: Parse core identity (Address + Port)
 				identity := parseCoreIdentity(line, currentProtocol)
 
 				mu.Lock()
@@ -682,16 +594,14 @@ func filterForProtocols(data []string, protocols []string) []string {
 				seen[identity] = true
 				mu.Unlock()
 
-				// Life Guard: Port Checker (TCP Connectivity Test)
-				host, port := getHostPort(line, currentProtocol)
-				if !checkPort(host, port) {
-					continue
-				}
+	  		isUDP := currentProtocol == "hy2" || currentProtocol == "tuic" || strings.HasPrefix(currentProtocol, "warp")
+  			if !isUDP {
+	  			host, port := getHostPort(line, currentProtocol)
+	  			if !checkPort(host, port) {
+				  	continue
+	  			}
+	  		}
 
-				// Country is deliberately NOT resolved here. GeoIP on the entry
-				// host is wrong for CDN-fronted and relaying servers, and doing
-				// it now would cost a DNS lookup per candidate. It is derived
-				// from the live test's exit IP instead, after testing.
 				results <- configRes{line: line, proto: currentProtocol}
 			}
 		}()
@@ -699,7 +609,6 @@ func filterForProtocols(data []string, protocols []string) []string {
 
 	go func() {
 		for _, line := range data {
-			// Sanitize before processing (fix &amp; HTML entities, etc.)
 			jobs <- sanitizeConfig(line)
 		}
 		close(jobs)
@@ -717,14 +626,6 @@ func filterForProtocols(data []string, protocols []string) []string {
 	return filtered
 }
 
-// nameAndGroup assigns each working config its country, standardized name and
-// index, and groups the renamed configs by country.
-//
-// Country comes from the exit IP measured through the proxy during the live
-// test. That is the address traffic actually emerges from; the entry host is
-// often a Cloudflare edge (anycast, so GeoIP is meaningless) or a relay that
-// forwards to a different country. Entry-host GeoIP is used only as a fallback
-// when the exit probe returned nothing.
 func nameAndGroup(results []tester.Result) ([]string, map[string][]string) {
 	var named []string
 	byCountry := make(map[string][]string)
@@ -750,7 +651,6 @@ func nameAndGroup(results []tester.Result) ([]string, map[string][]string) {
 	return named, byCountry
 }
 
-// protocolOf reports which entry of `protocols` a config line starts with.
 func protocolOf(line string) string {
 	for _, protocol := range protocols {
 		prefix := protocol
@@ -764,7 +664,6 @@ func protocolOf(line string) string {
 	return ""
 }
 
-// standardizeName renames a configuration to a professional format: v2go | 🇩🇪 DE | Protocol | ID
 func standardizeName(config string, protocol string, index int, country string) string {
 	flag := getFlag(country)
 	countryDisplay := ""
@@ -775,7 +674,7 @@ func standardizeName(config string, protocol string, index int, country string) 
 			countryDisplay = country + " | "
 		}
 	}
-	newName := fmt.Sprintf("v2go | %s%s | %d", countryDisplay, strings.ToUpper(protocol), index)
+	newName := fmt.Sprintf("Rose | %s%s | %d", countryDisplay, strings.ToUpper(protocol), index)
 
 	switch protocol {
 	case "vmess":
@@ -798,7 +697,7 @@ func standardizeName(config string, protocol string, index int, country string) 
 		if err != nil {
 			return config
 		}
-		// SSR format: host:port:protocol:method:obfs:base64pass/?obfsparam=...&remarks=base64remarks&...
+		
 		parts := strings.Split(decoded, "/?")
 		if len(parts) < 1 {
 			return config
@@ -810,7 +709,6 @@ func standardizeName(config string, protocol string, index int, country string) 
 			params = parts[1]
 		}
 
-		// Handle remarks in params
 		paramList := strings.Split(params, "&")
 		newParamList := []string{}
 		remarksFound := false
@@ -832,49 +730,39 @@ func standardizeName(config string, protocol string, index int, country string) 
 		return "ssr://" + strings.ReplaceAll(base64.StdEncoding.EncodeToString([]byte(updatedDecoded)), "=", "")
 
 	default:
-		// Standard URL protocols: vless, trojan, ss, hy2, tuic
-		// Use simple string manipulation to avoid url.Parse re-encoding userinfo/query
 		var body string
 		if hi := strings.Index(config, "#"); hi >= 0 {
 			body = config[:hi]
 		} else {
 			body = config
 		}
-		// Trim trailing whitespace from body (some sources have trailing spaces before #)
 		body = strings.TrimRight(body, " \t")
 		result := body + "#" + url.PathEscape(newName)
 		return result
 	}
 }
 
-// parseCoreIdentity extracts the Protocol + Host + Port from a config line.
-// This allows us to find duplicates that have different names or parameters but point to the same server.
 func parseCoreIdentity(config string, protocol string) string {
 	config = strings.TrimSpace(config)
 
 	switch protocol {
 	case "vless":
-		trimmed := strings.TrimPrefix(config, "vless://")
-		atIdx := strings.Index(trimmed, "@")
-		if atIdx < 0 {
-			return config
-		}
-		uuid := trimmed[:atIdx]
-		if uuid != "" {
-			return "vless://" + uuid
-		}
-		return config
+    u, err := url.Parse(config)
+    if err != nil || u.User == nil {
+        return config
+    }
+    uuid := u.User.Username()
+    return fmt.Sprintf("vless://%s@%s", uuid, u.Host)
 
 	default:
 		host, port := getHostPort(config, protocol)
 		if host == "" {
-			return config // Fallback to full string if the config can't be parsed
+			return config 
 		}
 		return fmt.Sprintf("%s://%s:%s", protocol, host, port)
 	}
 }
 
-// countryOfIP looks up an IP in the GeoLite2 database. Handles IPv4 and IPv6.
 func countryOfIP(ip net.IP) string {
 	if geoDB == nil || ip == nil {
 		return ""
@@ -886,9 +774,6 @@ func countryOfIP(ip net.IP) string {
 	return record.Country.IsoCode
 }
 
-// countryOfHost resolves a host (IP literal or domain) and geolocates it.
-// Fallback only — the entry host is an unreliable indicator of where a proxy
-// actually exits, so this is used when the live test yielded no exit IP.
 func countryOfHost(host string) string {
 	if geoDB == nil || host == "" {
 		return ""
@@ -924,7 +809,6 @@ func downloadGeoIPDB() error {
 	}
 
 	fmt.Println("Downloading GeoIP database...")
-	// Using a reliable mirror
 	url := "https://raw.githubusercontent.com/6Kmfi6HP/maxmind/main/GeoLite2-Country.mmdb"
 
 	resp, err := http.Get(url)
@@ -944,27 +828,24 @@ func downloadGeoIPDB() error {
 }
 
 func cleanExistingFiles(base64Folder string) {
-	// Remove main files
 	os.Remove("AllConfigsSub.txt")
 	os.Remove("All_Configs_base64_Sub.txt")
 
-	// Remove split files
 	for i := 0; i < 20; i++ {
 		os.Remove(fmt.Sprintf("Sub%d.txt", i))
 		os.Remove(filepath.Join(base64Folder, fmt.Sprintf("Sub%d_base64.txt", i)))
 	}
 
-	// Clean Splitted-By-Country directory
-	files, err := os.ReadDir("Splitted-By-Country")
+	files, err := os.ReadDir("By-country")
 	if err == nil {
 		for _, f := range files {
-			os.Remove(filepath.Join("Splitted-By-Country", f.Name()))
+			os.Remove(filepath.Join("By-country", f.Name()))
 		}
 	}
 }
 
 func writeCountryFiles(configsByCountry map[string][]string) {
-	countryDir := "Splitted-By-Country"
+	countryDir := "By-country"
 	for country, configs := range configsByCountry {
 		filename := filepath.Join(countryDir, country+".txt")
 		file, err := os.Create(filename)
@@ -991,12 +872,10 @@ func writeMainConfigFile(filename string, configs []string) error {
 	writer := bufio.NewWriter(file)
 	defer writer.Flush()
 
-	// Write fixed text
 	if _, err := writer.WriteString(fixedText); err != nil {
 		return err
 	}
 
-	// Write configs
 	for _, config := range configs {
 		if _, err := writer.WriteString(config + "\n"); err != nil {
 			return err
@@ -1009,36 +888,31 @@ func writeMainConfigFile(filename string, configs []string) error {
 func splitIntoFiles(base64Folder string, configs []string) error {
 	numFiles := (len(configs) + maxLinesPerFile - 1) / maxLinesPerFile
 
-	// Reverse configs so newest go into Sub1, Sub2, etc.
 	reversedConfigs := make([]string, len(configs))
 	for i, config := range configs {
 		reversedConfigs[len(configs)-1-i] = config
 	}
 
 	for i := 0; i < numFiles; i++ {
-		// Create custom header for this file
-		profileTitle := fmt.Sprintf("🆓 Git:DanialSamadi | Sub%d 🔥", i+1)
+		profileTitle := fmt.Sprintf("GitHub:NiREvil| Sub%d 🩶", i+1)
 		encodedTitle := base64.StdEncoding.EncodeToString([]byte(profileTitle))
-		customFixedText := fmt.Sprintf(`#profile-title: base64:%s
-#profile-update-interval: 1
-#support-url: https://github.com/Danialsamadi/v2go
-#profile-web-page-url: https://github.com/Danialsamadi/v2go
+		customFixedText := fmt.Sprintf(`#profile-title: base64:Um9zZSBDb25maWdz
+#profile-update-interval: 6
+#support-url: https://github.com/NiREvil/vless
+#profile-web-page-url: https://t.me/s/NiREvil_GP
 `, encodedTitle)
 
-		// Calculate slice bounds (using reversed configs)
 		start := i * maxLinesPerFile
 		end := start + maxLinesPerFile
 		if end > len(reversedConfigs) {
 			end = len(reversedConfigs)
 		}
 
-		// Write regular file (in current directory)
 		filename := fmt.Sprintf("Sub%d.txt", i+1)
 		if err := writeSubFile(filename, customFixedText, reversedConfigs[start:end]); err != nil {
 			return err
 		}
 
-		// Read the file and create base64 version
 		content, err := os.ReadFile(filename)
 		if err != nil {
 			return err
@@ -1064,12 +938,10 @@ func writeSubFile(filename, header string, configs []string) error {
 	writer := bufio.NewWriter(file)
 	defer writer.Flush()
 
-	// Write header
 	if _, err := writer.WriteString(header); err != nil {
 		return err
 	}
-
-	// Write configs
+	
 	for _, config := range configs {
 		if _, err := writer.WriteString(config + "\n"); err != nil {
 			return err
@@ -1112,7 +984,6 @@ func writeUpdateSummary(total int, stats map[string]int, duration float64, origi
 	writer.WriteString(fmt.Sprintf("- Total unique configurations: %d\n", total))
 	writer.WriteString("- Protocol breakdown:\n")
 
-	// Sort protocols for consistent output
 	for _, p := range protocols {
 		count := stats[p]
 		writer.WriteString(fmt.Sprintf("  - %s: %d configs\n", p, count))
@@ -1132,7 +1003,7 @@ func writeUpdateSummary(total int, stats map[string]int, duration float64, origi
 			writer.WriteString(fmt.Sprintf("- %s\n", link))
 		}
 	} else {
-		writer.WriteString("\n## ✅ All Sources Successful\n")
+		writer.WriteString("\n##✔️ All Sources Successful\n")
 		writer.WriteString("All configured sources were reached successfully.\n")
 	}
 }
@@ -1157,8 +1028,6 @@ func envInt(key string, fallback int) int {
 	return fallback
 }
 
-// liveTest returns the results for configs that actually carried traffic,
-// each carrying the exit IP observed through the proxy.
 func liveTest(ctx context.Context, configs []string, opts options) []tester.Result {
 	if len(configs) == 0 {
 		return nil
@@ -1166,14 +1035,8 @@ func liveTest(ctx context.Context, configs []string, opts options) []tester.Resu
 
 	concurrent, timeoutSec := opts.concurrency, opts.timeoutSec
 
-	// Each in-flight xray instance parks goroutines in syscalls, which become OS
-	// threads. Go's default cap is 10000 and blowing it is a hard crash
-	// ("runtime: failed to create new OS thread"), not a slowdown.
 	debug.SetMaxThreads(10000 + 10*concurrent)
 
-	// Stream each working config to disk the moment it passes, so stopping the
-	// run part-way (or a crash) still leaves everything found so far. Written
-	// unbuffered and unmodified, in the order they passed.
 	var liveMu sync.Mutex
 	onPass := func(r tester.Result) {}
 	if f, err := os.Create(liveOutputFile); err != nil {
