@@ -1,16 +1,14 @@
 name: Update V2Ray Configs
-permissions: write-all
+permissions:
+  contents: write
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: "0 * * * *"  # Every 1 hour
-  workflow_dispatch:  # Allow manual trigger
+    - cron: "0 6 * * *"
+  workflow_dispatch: 
 
-# The live test makes a run take minutes, not seconds, so runs must not stack.
-# Queue rather than cancel: this workflow pushes to the branch it watches, so
-# cancel-in-progress kills a run at the very moment it is committing its results.
 concurrency:
   group: update-configs
   cancel-in-progress: false
@@ -21,15 +19,14 @@ jobs:
     timeout-minutes: 30
     steps:
     - name: Checkout code
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
-        fetch-depth: 1  # Shallow clone: only latest commit needed for build + aggregator
+        fetch-depth: 1
 
     - name: Configure Git and sync with latest main
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        # Rebase onto latest main (handles concurrent schedule/push runs)
+        git config --global user.name "NET-Sentinel Bot"
+        git config --global user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
         git pull --rebase origin main
       
     - name: Set up Go
@@ -42,16 +39,12 @@ jobs:
       run: |
         echo "Building Go application..."
         go mod tidy
-        # Build both files together since main.go depends on sort.go
         go build -ldflags="-s -w" -o aggregator *.go
         echo "Starting config aggregation and sorting..."
         ulimit -n 65535
         ./aggregator
         echo "Config processing completed successfully!"
       env:
-        # Each live test runs an embedded xray-core instance. Accuracy degrades
-        # above ~500 concurrent (network saturates, live configs time out and
-        # read as dead) — raising this makes results WORSE, not faster.
         V2GO_TEST_CONCURRENCY: "500"
       
     - name: Verify output files
@@ -61,15 +54,14 @@ jobs:
         ls -la *.txt 2>/dev/null || echo "No .txt files found in root"
         
         echo "\nProtocol directory contents:"
-        ls -la Splitted-By-Protocol/ 2>/dev/null || echo "No protocol directory found"
+        ls -la By-protocol/ 2>/dev/null || echo "No protocol directory found"
         
         echo "\nSub files:"
         ls -la Sub*.txt 2>/dev/null || echo "No Sub files found"
         
         echo "\nBase64 directory:"
         ls -la Base64/ 2>/dev/null || echo "No Base64 directory found"
-        
-        # Count total configs and show file sizes
+
         if [ -f "AllConfigsSub.txt" ]; then
           TOTAL_CONFIGS=$(wc -l < AllConfigsSub.txt)
           FILE_SIZE=$(du -h AllConfigsSub.txt | cut -f1)
@@ -77,11 +69,10 @@ jobs:
         else
           echo "\nMain config file not found - checking if it was split..."
         fi
-        
-        # Check protocol files
-        if [ -d "Splitted-By-Protocol" ]; then
+
+        if [ -d "By-protocol" ]; then
           echo "\nProtocol file statistics:"
-          for file in Splitted-By-Protocol/*.txt; do
+          for file in By-protocol/*.txt; do
             if [ -f "$file" ]; then
               count=$(wc -l < "$file")
               size=$(du -h "$file" | cut -f1)
@@ -94,8 +85,7 @@ jobs:
     - name: Handle large files and prepare for commit
       run: |
         echo "Checking file sizes and handling large files..."
-        
-        # Function to check file size and split if needed
+
         handle_large_file() {
           local file="$1"
           local prefix="$2"
@@ -114,30 +104,29 @@ jobs:
           fi
         }
         
-        # Handle potentially large files
         handle_large_file "AllConfigsSub.txt" "AllConfigsSub"
         
-        # Handle protocol files
-        if [ -d "Splitted-By-Protocol" ]; then
-          for protocol_file in Splitted-By-Protocol/*.txt; do
+        if [ -d "By-protocol" ]; then
+          for protocol_file in By-protocol/*.txt; do
             if [ -f "$protocol_file" ]; then
               filename=$(basename "$protocol_file" .txt)
-              handle_large_file "$protocol_file" "Splitted-By-Protocol/${filename}"
+              handle_large_file "$protocol_file" "By-protocol/${filename}"
             fi
           done
         fi
         
     - name: Commit and push changes
-      uses: EndBug/add-and-commit@v10
-      with:
-        author_name: "GitHub Actions"
-        author_email: "github-actions[bot]@users.noreply.github.com"
-        message: "Fresh update"
-        add: "."
-        default_author: github_actor
-        # The run takes minutes between checkout and push; if anything landed on
-        # main in that window, rebase onto it instead of failing with "fetch first".
-        pull: "--rebase --autostash"
+      run: |
+        git config --global user.name "NET-Sentinel Bot"
+        git config --global user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
+        git add .
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "Fresh update"
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
+        else
+          echo "No changes to commit."
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -148,10 +137,8 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
-          # Needs full history for `git log -1 --format=%ct -- <file>`, but not the
-          # blobs — this repo's history is ~14GB. Partial clone fetches commits only.
           fetch-depth: 0
           filter: blob:none
 
@@ -159,11 +146,10 @@ jobs:
         run: |
           echo "🧹 Checking for .txt sub files older than 24 hours..."
           shopt -s nullglob 2>/dev/null || true
-          THRESHOLD=$(($(date +%s) - 86400))  # 24 hours ago in seconds
+          THRESHOLD=$(($(date +%s) - 86400))
           DELETED=0
 
-          # Find all relevant .txt files (Sub*.txt, Base64/Sub*_base64.txt, Splitted-By-Country/*.txt, Splitted-By-Protocol/*.txt)
-          for file in Sub*.txt Base64/Sub*_base64.txt Splitted-By-Country/*.txt Splitted-By-Protocol/*.txt; do
+          for file in Sub*.txt Base64/Sub*_base64.txt By-country/*.txt By-protocol/*.txt; do
             [ -f "$file" ] || continue
             last_commit=$(git log -1 --format=%ct -- "$file" 2>/dev/null)
             if [ -n "$last_commit" ] && [ "$last_commit" -lt "$THRESHOLD" ]; then
@@ -184,10 +170,9 @@ jobs:
           if git diff --staged --quiet 2>/dev/null; then
             echo "No cleanup changes to commit."
           else
-            git config --global user.name "GitHub Actions"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "NET-Sentinel Bot"
+            git config --global user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
             git commit -m "🧹 Cleanup: Remove sub files older than 24 hours"
-            # Pull latest changes (update-configs may have pushed) then push
             git pull --rebase "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" main
             git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
           fi
