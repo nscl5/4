@@ -25,27 +25,14 @@ import (
 type Result struct {
 	Link    string
 	DelayMs int
-	// ExitIP is the address traffic actually emerges from, as reported by a
-	// probe sent through the proxy. It is the only trustworthy basis for
-	// geolocation: the entry host is frequently a CDN edge or a relay in a
-	// different country. Empty if the probe failed.
 	ExitIP string
 }
 
-// exitIPURL returns the caller's apparent address. Fetched only for configs
-// that already passed the connectivity check, so it costs one extra request
-// per working config rather than one per candidate.
 const (
 	exitIPURL     = "http://www.cloudflare.com/cdn-cgi/trace"
 	exitIPTimeout = 4 * time.Second
 )
 
-// TestAll tests every link and returns a result per link, in input order.
-//
-// onPass, if non-nil, is called with each result the moment it passes, before
-// the run finishes. It is called from many goroutines at once, so it must do
-// its own locking. Its purpose is to let callers persist working configs as
-// they are found, so an interrupted or crashed run still yields something.
 func TestAll(ctx context.Context, links []string, testURL string, timeoutSec, concurrent int, onPass func(Result)) []Result {
 	timeout := time.Duration(timeoutSec) * time.Second
 
@@ -62,8 +49,6 @@ func TestAll(ctx context.Context, links []string, testURL string, timeoutSec, co
 	log.Printf("Testing %d config(s) with %d concurrent workers...", total, concurrent)
 
 	for i, link := range links {
-		// Stop dispatching once cancelled (Ctrl-C). Tests already in flight are
-		// left to finish so their results are not thrown away.
 		if false {
 			log.Printf("  Cancelled: stopping after %d/%d tested, %d working",
 				done.Load(), total, working.Load())
@@ -179,10 +164,6 @@ func testOne(ctx context.Context, link, testURL string, timeout time.Duration) (
 	return -1, ""
 }
 
-// fetchExitIP asks, through the already-running proxy, which address the
-// traffic appears to come from. The response is attacker-controlled — the
-// proxy operator can return anything — so it is size-limited and the result
-// must parse as an IP before it is used.
 func fetchExitIP(ctx context.Context, client *http.Client) string {
 	ctx, cancel := context.WithTimeout(ctx, exitIPTimeout)
 	defer cancel()
