@@ -1,2 +1,3 @@
-trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&sni=hu2.vpnjantit.com&fp=android&type=tcp&headerType=none&path=%2f&allow_insecure=0#Rose%20%7C%20%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20TROJAN%20%7C%20966
-trojan://C0ldyfh-vpnjantit.com@46.29.142.57:4443?type=tcp&security=tls&fp=android&sni=hu2.vpnjantit.com&allow_insecure=0#Rose%20%7C%20%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20TROJAN%20%7C%201829
+trojan://C0ldyfh-vpnjantit.com@46.29.142.57:4443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hu2.vpnjantit.com&fp=android#Rose%20%7C%20%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20TROJAN%20%7C%201488
+trojan://C0ldyfh-vpnjantit.com@hu2.vpnjantit.com:4443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=hu2.vpnjantit.com&fp=android#Rose%20%7C%20%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20TROJAN%20%7C%201489
+trojan://humanity@185.225.68.232:443?sni=www.calmlunch.com&type=ws&path=/assignment&fp=chrome#Rose%20%7C%20%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20TROJAN%20%7C%201534
